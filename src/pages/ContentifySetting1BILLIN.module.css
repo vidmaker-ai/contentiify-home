@@ -1,0 +1,540 @@
+.contentify1Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+  background-color: var(--black);
+  width: 328px;
+  height: 900px;
+}
+.c,
+.vectorIcon {
+  position: absolute;
+}
+.vectorIcon {
+  height: 2.9%;
+  width: 1.81%;
+  top: 91%;
+  right: 94.23%;
+  bottom: 6.1%;
+  left: 3.96%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.c {
+  top: 25px;
+  left: 150px;
+  font-size: 64px;
+  font-family: var(--heading);
+}
+.contentify1Item {
+  position: absolute;
+  top: 0;
+  left: 257px;
+  background-color: var(--black);
+  width: 81px;
+  height: 900px;
+}
+.logOut {
+  position: absolute;
+  top: 823px;
+  left: 100px;
+  font-size: var(--b1-size);
+}
+.rickSan,
+.rickSanchez {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rickSan {
+  top: 34px;
+  font-size: var(--b1-size);
+  line-height: 24px;
+  font-family: var(--b1);
+}
+.frameChild,
+.rickSanchezParent {
+  position: absolute;
+  top: 3px;
+  left: 100px;
+  width: 143px;
+  height: 58px;
+}
+.frameChild {
+  top: -4px;
+  left: -4px;
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+}
+.frameParent {
+  position: absolute;
+  top: 160px;
+  left: 50px;
+  width: 243px;
+  height: 68px;
+  font-size: var(--heading-size);
+  font-family: var(--heading);
+}
+.password,
+.profile,
+.team {
+  position: absolute;
+  top: 275px;
+  left: 50px;
+}
+.password,
+.team {
+  top: 339px;
+}
+.team {
+  top: 403px;
+}
+.billing,
+.integrations,
+.notifications {
+  position: absolute;
+  top: 548px;
+  left: 50px;
+}
+.billing,
+.integrations {
+  top: 612px;
+}
+.billing {
+  top: 8px;
+  left: 18px;
+}
+.billingParent,
+.frameItem {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 8px;
+  height: 48px;
+}
+.billingParent {
+  top: 467px;
+  left: 55px;
+  width: 75px;
+  height: 40px;
+}
+.contentify1Inner {
+  position: absolute;
+  top: 120px;
+  left: 403px;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  box-shadow: -10px 10px 70px rgba(0, 0, 0, 0.07);
+  width: 565px;
+  height: 780px;
+}
+.checkout,
+.whatsYourContact {
+  position: absolute;
+  font-weight: 500;
+}
+.checkout {
+  top: 51px;
+  left: 405px;
+  font-size: 30px;
+  color: var(--black);
+}
+.whatsYourContact {
+  top: 140px;
+  left: 433px;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+}
+.email1 {
+  position: relative;
+}
+.divplaceholder {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 351px 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aConfirmationEmail,
+.email {
+  position: absolute;
+  font-family: var(--font-inter);
+}
+.email {
+  width: calc(100% - 937px);
+  top: 192px;
+  right: 504px;
+  left: 433px;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  box-shadow: 0 0 0 1px #ccc;
+  height: 56px;
+  overflow: hidden;
+  font-size: var(--b1-size);
+  color: var(--color-gray-100);
+}
+.aConfirmationEmail {
+  top: 248px;
+  left: 449px;
+  font-size: var(--font-size-2xs);
+  line-height: 24px;
+  color: var(--color-gray-200);
+}
+.divplaceholder1,
+.phoneNumber {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divplaceholder1 {
+  padding: 0 286px 0 0;
+}
+.phoneNumber {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  box-shadow: 0 0 0 1px #ccc;
+  width: 503px;
+  padding: var(--padding-lgi) 32px var(--padding-lgi) 16px;
+  box-sizing: border-box;
+}
+.aCarrierMight {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  font-size: var(--font-size-2xs);
+  line-height: 24px;
+  color: var(--color-gray-200);
+}
+.phoneNumberParent {
+  position: absolute;
+  top: 280px;
+  left: 433px;
+  width: 503px;
+  height: 80px;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+.enterYourPayment {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-gray-300);
+  display: flex;
+  align-items: center;
+  width: 293.8px;
+}
+.divplaceholder2,
+.nameCard {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  width: 457px;
+  height: 19px;
+  overflow: hidden;
+}
+.nameCard {
+  width: 100%;
+  top: 41px;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  box-shadow: 0 0 0 1px #ccc;
+  height: 56px;
+  font-size: var(--b1-size);
+}
+.cardNumber,
+.cardnum {
+  position: absolute;
+  top: 19px;
+  left: 16px;
+}
+.cardnum {
+  width: 100%;
+  top: 110px;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  box-shadow: 0 0 0 1px #ccc;
+  height: 56px;
+  overflow: hidden;
+  font-size: var(--font-size-mini);
+}
+.paymentDetail {
+  position: absolute;
+  top: 717px;
+  left: 433px;
+  width: 503px;
+  height: 166px;
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+.div,
+.total1 {
+  position: absolute;
+  top: 21px;
+  left: 0;
+  line-height: 16px;
+  font-weight: 500;
+}
+.div {
+  top: 20px;
+  left: 239.17px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  width: 81.03px;
+  height: 17px;
+}
+.totalChild {
+  position: absolute;
+  top: -0.5px;
+  left: 0.5px;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 320px;
+  height: 1px;
+}
+.total {
+  position: absolute;
+  top: 141px;
+  left: 25px;
+  width: 320.2px;
+  height: 37px;
+}
+.discount1 {
+  top: 9px;
+  left: 0;
+  line-height: 16px;
+}
+.discount,
+.discount1,
+.div1 {
+  position: absolute;
+}
+.div1 {
+  top: 9px;
+  left: 255.52px;
+  font-size: var(--font-size-sm);
+  line-height: 16px;
+  text-align: right;
+}
+.discount {
+  top: 97px;
+  left: 25px;
+  width: 320px;
+  height: 34px;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+}
+.subtotal {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  line-height: 16px;
+}
+.whatIsSubtotal {
+  top: 9px;
+  left: 66.72px;
+  width: 20px;
+  height: 20px;
+}
+.div2,
+.subTotal,
+.whatIsSubtotal {
+  position: absolute;
+}
+.div2 {
+  top: 11px;
+  left: 242.17px;
+  line-height: 16px;
+  text-align: right;
+}
+.subTotal {
+  top: 59px;
+  left: 25px;
+  width: 320px;
+  height: 38px;
+  color: var(--color-gray-100);
+}
+.orderSummary1 {
+  position: absolute;
+  top: 17px;
+  left: 28px;
+  font-size: var(--font-size-xl);
+  line-height: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 156.68px;
+  height: 25px;
+}
+.orderSummary {
+  position: absolute;
+  top: 120px;
+  left: 1012px;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  box-shadow: -10px 10px 70px rgba(0, 0, 0, 0.07);
+  width: 359px;
+  height: 196px;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+  font-family: var(--font-inter);
+}
+.email2,
+.vectorIcon1 {
+  position: absolute;
+  overflow: hidden;
+}
+.email2 {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  box-shadow: 0 0 0 1px #ccc;
+  height: 56px;
+}
+.vectorIcon1 {
+  height: 40.18%;
+  width: 5.96%;
+  top: 30.36%;
+  right: 90.06%;
+  bottom: 29.46%;
+  left: 3.98%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.creditOfDebit {
+  position: absolute;
+  top: 18px;
+  left: 76px;
+  line-height: 24px;
+}
+.card {
+  position: absolute;
+  width: 100%;
+  top: 42px;
+  right: 0;
+  left: 0;
+  height: 56px;
+}
+.momoIcon,
+.phoneNumber2 {
+  position: absolute;
+  overflow: hidden;
+}
+.momoIcon {
+  width: calc(100% + 2px);
+  top: 107px;
+  right: -1px;
+  left: -1px;
+  max-width: 100%;
+  height: 58px;
+}
+.phoneNumber2 {
+  top: 3px;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  box-shadow: 0 0 0 1px #ccc;
+  width: 503px;
+  height: 56px;
+}
+.zalopayIcon {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 76px;
+  height: 59px;
+  object-fit: cover;
+}
+.phoneNumber3,
+.zalopay {
+  position: absolute;
+  left: 0;
+}
+.zalopay {
+  top: 172px;
+  width: 503px;
+  height: 59px;
+}
+.phoneNumber3 {
+  top: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  box-shadow: 0 0 0 1px #ccc;
+  overflow: hidden;
+}
+.paypalIcon {
+  position: absolute;
+  top: 19px;
+  left: 20px;
+  width: 80px;
+  height: 21px;
+  object-fit: cover;
+}
+.howWouldYou,
+.paypal {
+  position: absolute;
+  left: 0;
+}
+.paypal {
+  top: 242px;
+  width: 503px;
+  height: 56px;
+}
+.howWouldYou {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-gray-300);
+}
+.methods {
+  position: absolute;
+  top: 396px;
+  left: 433px;
+  width: 503px;
+  height: 298px;
+  font-size: var(--font-size-mini);
+  color: #949494;
+  font-family: var(--font-inter);
+}
+.contentify1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  width: 1440px;
+  height: 900px;
+  overflow: hidden;
+}
+.contentifySetting1Billin {
+  position: relative;
+  width: 100%;
+  height: 1186px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  font-family: var(--b1);
+}
