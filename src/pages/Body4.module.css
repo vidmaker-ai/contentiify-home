@@ -1,0 +1,195 @@
+.bodyChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  width: 1920px;
+  height: 643px;
+}
+.websitemessagingpngIcon {
+  position: absolute;
+  top: calc(50% - 245px);
+  left: calc(50% - 530px);
+  width: 496px;
+  height: 472.67px;
+  object-fit: cover;
+}
+.messagingLive {
+  position: absolute;
+  top: 81.5px;
+  left: 970px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.6px;
+  line-height: 28px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 182.72px;
+  height: 18px;
+}
+.messageYourCustomers {
+  margin: 0;
+}
+.messageYourCustomersContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.messageYourCustomersContainer {
+  position: absolute;
+  top: 102.5px;
+  left: 970px;
+  font-size: var(--font-size-17xl);
+  line-height: 48.6px;
+  display: flex;
+  font-family: var(--font-poppins);
+  align-items: center;
+  width: 466.76px;
+  height: 99.59px;
+}
+.makeMeaningfulConnectionsContainer {
+  position: absolute;
+  top: 223.69px;
+  left: 970px;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 518.45px;
+  height: 79px;
+}
+.spanelementorDividerSeparat {
+  position: absolute;
+  top: 345.69px;
+  left: 970px;
+  border-top: 2px solid var(--color-mediumblue);
+  box-sizing: border-box;
+  width: 30px;
+  height: 2px;
+}
+.ofBusinessesGrowContainer,
+.siteMessaging {
+  position: absolute;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.ofBusinessesGrowContainer {
+  top: 373.69px;
+  left: 970px;
+  font-weight: 600;
+  width: 400.11px;
+  height: 68px;
+}
+.siteMessaging {
+  top: 465.69px;
+  left: 992.5px;
+  width: 108.39px;
+  height: 20px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 1.65%;
+  width: 0.69%;
+  top: 73.13%;
+  right: 48.77%;
+  bottom: 25.22%;
+  left: 50.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.engagementTracking {
+  position: absolute;
+  top: 494.69px;
+  left: 992.5px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 151.92px;
+  height: 20px;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 1.65%;
+  width: 0.69%;
+  top: 77.64%;
+  right: 48.77%;
+  bottom: 20.71%;
+  left: 50.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sms {
+  position: absolute;
+  top: 465.69px;
+  left: 1200.5px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 31.79px;
+  height: 20px;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 1.65%;
+  width: 0.69%;
+  top: 73.13%;
+  right: 37.93%;
+  bottom: 25.22%;
+  left: 61.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.segmentation {
+  position: absolute;
+  top: 494.69px;
+  left: 1200.5px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 100.4px;
+  height: 20px;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 1.65%;
+  width: 0.69%;
+  top: 77.64%;
+  right: 37.93%;
+  bottom: 20.71%;
+  left: 61.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.messageCustomers {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.aelementorButtonLink {
+  position: absolute;
+  top: 540.69px;
+  left: 970px;
+  border-radius: var(--br-10xs);
+  border: 2px solid var(--color-mediumblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) 25.919998168945312px var(--padding-sm)
+    var(--padding-7xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--color-mediumblue);
+}
+.body {
+  position: relative;
+  width: 100%;
+  height: 643px;
+  text-align: left;
+  font-size: var(--b1-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-ibm-plex-sans);
+}

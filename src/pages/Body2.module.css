@@ -1,0 +1,435 @@
+.bodyChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-600);
+  width: 1920px;
+  height: 821px;
+}
+.div,
+.svgIcon {
+  position: absolute;
+  height: 24px;
+}
+.div {
+  top: 202px;
+  left: 109.7px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+}
+.svgIcon {
+  top: 0;
+  left: 0;
+  width: 24px;
+  overflow: hidden;
+}
+.freeHelpCourses {
+  margin: 0;
+}
+.freeHelpCoursesContainer {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.h3elementorFlipBoxLayer {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-53xl) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.getStarted {
+  position: absolute;
+  top: 178px;
+  left: 0;
+  line-height: 24px;
+}
+.divelementorFlipBoxLayer1 {
+  position: absolute;
+  height: calc(100% - 48px);
+  top: 24px;
+  bottom: 24px;
+  left: 24px;
+  width: 202px;
+  font-size: var(--b1-size);
+  font-family: var(--font-ibm-plex-sans);
+}
+.divelementorFlipBoxLayer {
+  position: absolute;
+  height: calc(100% - 571px);
+  width: calc(100% - 1670px);
+  top: 464px;
+  right: 430px;
+  bottom: 107px;
+  left: 1240px;
+  background-color: var(--color-mediumturquoise);
+}
+.div1 {
+  position: absolute;
+  top: 202px;
+  left: 126.2px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+  height: 24px;
+}
+.h3elementorFlipBoxLayer1 {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-32xl) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divelementorFlipBoxLayer2 {
+  position: absolute;
+  height: calc(100% - 571px);
+  width: calc(100% - 1670px);
+  top: 464px;
+  right: 700px;
+  bottom: 107px;
+  left: 970px;
+  background-color: var(--color-mediumturquoise);
+}
+.div2 {
+  position: absolute;
+  top: 202px;
+  left: 112.97px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+  height: 24px;
+}
+.h3elementorFlipBoxLayer2 {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-70xl) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divelementorFlipBoxLayer4 {
+  position: absolute;
+  height: calc(100% - 571px);
+  width: calc(100% - 1670px);
+  top: 464px;
+  right: 970px;
+  bottom: 107px;
+  left: 700px;
+  background-color: var(--color-mediumturquoise);
+}
+.div3 {
+  position: absolute;
+  top: 202px;
+  left: 128.34px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+  height: 24px;
+}
+.h3elementorFlipBoxLayer3 {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-2xl) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divelementorFlipBoxLayer6 {
+  position: absolute;
+  height: calc(100% - 571px);
+  width: calc(100% - 1670px);
+  top: 464px;
+  right: 1240px;
+  bottom: 107px;
+  left: 430px;
+  background-color: var(--color-mediumturquoise);
+}
+.createLandingPagesContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.createLandingPagesContainer {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 142.04px;
+  flex-shrink: 0;
+}
+.h3elementorFlipBoxLayer4 {
+  display: flex;
+  flex-direction: row;
+  padding: 0 59.95599365234375px 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.startBuilding {
+  position: relative;
+  line-height: 24px;
+  color: var(--color-mediumblue);
+  text-align: center;
+}
+.divelementorFlipBoxLayer9 {
+  position: absolute;
+  height: calc(100% - 12px);
+  top: -12px;
+  bottom: 24px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 44px;
+}
+.div4 {
+  position: absolute;
+  top: 200px;
+  left: 125.33px;
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-family: var(--font-font-awesome-5-free);
+  color: var(--color-mediumblue);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8.95px;
+  height: 24px;
+}
+.divelementorFlipBoxLayer8 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: -250px;
+  bottom: 0;
+  left: 250px;
+  background-color: var(--white);
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.div5,
+.landingPages {
+  position: absolute;
+  line-height: 24px;
+}
+.div5 {
+  top: 202px;
+  left: 125.33px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+  height: 24px;
+}
+.landingPages {
+  top: 48px;
+  left: 0;
+  font-weight: 500;
+}
+.divelementorFlipBoxLayer10 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-mediumturquoise);
+  font-size: var(--font-size-sm);
+  color: var(--white);
+  font-family: var(--font-font-awesome-5-free);
+}
+.divelementorFlipBox {
+  position: absolute;
+  top: 194px;
+  left: 1240px;
+  width: 250px;
+  height: 250px;
+  font-size: var(--b1-size);
+  color: var(--color-gray-700);
+  font-family: var(--font-ibm-plex-sans);
+}
+.preBuiltAutomationRecipesContainer {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 171.1px;
+  flex-shrink: 0;
+}
+.divelementorFlipBoxLayer13,
+.h3elementorFlipBoxLayer5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.h3elementorFlipBoxLayer5 {
+  flex-direction: row;
+  padding: 0 30.904006958007812px 0 0;
+}
+.divelementorFlipBoxLayer13 {
+  position: absolute;
+  height: calc(100% - 24px);
+  top: 0;
+  bottom: 24px;
+  left: 24px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  gap: var(--gap-37xl);
+}
+.div6,
+.div7 {
+  position: absolute;
+  left: 139.23px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+  height: 24px;
+}
+.div6 {
+  top: 200px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-font-awesome-5-free);
+  color: var(--color-mediumblue);
+  text-align: center;
+  justify-content: center;
+}
+.div7 {
+  top: 202px;
+}
+.divelementorFlipBox1 {
+  position: absolute;
+  top: 194px;
+  left: 970px;
+  width: 250px;
+  height: 250px;
+  font-size: var(--b1-size);
+  color: var(--color-gray-700);
+  font-family: var(--font-ibm-plex-sans);
+}
+.driveMoreLeadsContainer {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 195.77px;
+  flex-shrink: 0;
+}
+.divelementorFlipBoxLayer17,
+.h3elementorFlipBoxLayer6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.h3elementorFlipBoxLayer6 {
+  flex-direction: row;
+  padding: 0 6.23199462890625px 0 0;
+}
+.divelementorFlipBoxLayer17 {
+  position: absolute;
+  height: calc(100% - 36px);
+  top: 12px;
+  bottom: 24px;
+  left: 24px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  gap: var(--gap-49xl);
+}
+.div8 {
+  position: absolute;
+  top: 200px;
+  left: 112.97px;
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-family: var(--font-font-awesome-5-free);
+  color: var(--color-mediumblue);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8.95px;
+  height: 24px;
+}
+.h3elementorFlipBoxLayer7 {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-44xl) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divelementorFlipBox2 {
+  position: absolute;
+  top: 194px;
+  left: 700px;
+  width: 250px;
+  height: 250px;
+  font-size: var(--b1-size);
+  color: var(--color-gray-700);
+  font-family: var(--font-ibm-plex-sans);
+}
+.div10 {
+  position: absolute;
+  top: 202px;
+  left: 140.75px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+  height: 24px;
+}
+.divelementorFlipBoxLayer20 {
+  position: absolute;
+  height: calc(100% - 571px);
+  width: calc(100% - 1670px);
+  top: 194px;
+  right: 1240px;
+  bottom: 377px;
+  left: 430px;
+  background-color: var(--color-mediumturquoise);
+}
+.everythingYouNeedContainer {
+  position: absolute;
+  top: 42px;
+  left: 622.59px;
+  font-size: var(--font-size-21xl);
+  line-height: 48px;
+  font-family: var(--font-poppins);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 675.02px;
+  height: 104px;
+}
+.body {
+  position: relative;
+  background-color: var(--color-gray-600);
+  width: 100%;
+  height: 821px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--white);
+  font-family: var(--font-font-awesome-5-free);
+}

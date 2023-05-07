@@ -1,0 +1,89 @@
+.ourCustomersLove {
+  position: absolute;
+  top: 0;
+  left: 287.63px;
+  line-height: 61.6px;
+  display: flex;
+  font-family: var(--font-poppins);
+  align-items: center;
+  justify-content: center;
+  width: 504.93px;
+  height: 61px;
+}
+.divelementorContainerIcon {
+  position: absolute;
+  top: 93.59px;
+  left: calc(50% - 540px);
+  width: 1080px;
+  height: 142px;
+}
+.dontJustTake {
+  margin: 0;
+}
+.dontJustTakeContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.dontJustTakeContainer {
+  position: absolute;
+  top: 34px;
+  left: 242.28px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 595.64px;
+  height: 51px;
+}
+.divelementorWidgetContainer {
+  position: absolute;
+  top: 235.59px;
+  left: 0;
+  width: 1080px;
+  height: 88px;
+  font-size: var(--font-size-lg);
+}
+.seeReviews {
+  top: 0;
+  left: -1px;
+  line-height: 32px;
+  font-weight: 500;
+}
+.a,
+.div,
+.seeReviews {
+  position: absolute;
+}
+.div {
+  top: 10px;
+  left: 113.79px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  font-family: var(--font-font-awesome-5-free);
+  text-align: right;
+}
+.a {
+  top: calc(50% + 155.79px);
+  left: calc(50% - 62.77px);
+  width: 125.53px;
+  height: 32px;
+  font-size: var(--font-size-xl);
+  color: var(--color-mediumblue);
+}
+.divelementorWidgetWrap {
+  position: absolute;
+  width: calc(100% - 840px);
+  top: 48px;
+  right: 420px;
+  left: 420px;
+  height: 375.59px;
+}
+.testimonial {
+  position: relative;
+  background-color: var(--color-aliceblue-200);
+  width: 100%;
+  height: 423.59px;
+  text-align: center;
+  font-size: var(--font-size-25xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-ibm-plex-sans);
+}

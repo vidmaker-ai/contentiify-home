@@ -1,0 +1,93 @@
+.bodyChild,
+.bodyItem {
+  position: absolute;
+  left: 0;
+  width: 1920px;
+}
+.bodyChild {
+  top: 0;
+  background-color: var(--color-gray-600);
+  height: 1020px;
+}
+.bodyItem {
+  top: 656px;
+  height: 372px;
+}
+.growYourBusiness {
+  margin: 0;
+}
+.growYourBusinessContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.growYourBusinessContainer {
+  position: absolute;
+  top: 82px;
+  left: calc(50% - 802px);
+  line-height: 81.1px;
+  display: flex;
+  font-family: var(--font-poppins);
+  align-items: center;
+  width: 852.1px;
+  height: 124.59px;
+}
+.theEmailMarketingContainer {
+  position: absolute;
+  top: 265px;
+  left: 158px;
+  font-size: var(--font-size-xl);
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  width: 641.11px;
+  height: 59px;
+}
+.getStarted {
+  position: relative;
+  line-height: 32px;
+  font-weight: 500;
+}
+.buttonactButton,
+.tryItFree {
+  position: absolute;
+  left: 158px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonactButton {
+  top: 400px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-mediumturquoise);
+  flex-direction: row;
+  padding: var(--padding-5xs) 44.51000213623047px var(--padding-5xs)
+    43.81999969482422px;
+  font-size: var(--b1-size);
+  color: var(--white);
+}
+.tryItFree {
+  top: 481px;
+  font-size: var(--font-size-sm);
+  line-height: 17.5px;
+  width: 306.51px;
+  height: 18px;
+}
+.icon {
+  position: absolute;
+  top: -9px;
+  left: 826px;
+  width: 1094px;
+  height: 1094px;
+  object-fit: cover;
+}
+.body {
+  position: relative;
+  background-color: var(--color-gray-900);
+  width: 100%;
+  height: 1020px;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-ibm-plex-sans);
+}

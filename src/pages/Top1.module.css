@@ -1,0 +1,261 @@
+.topChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-600);
+  width: 1920px;
+  height: 121px;
+}
+.divelementorWidgetWrap {
+  position: absolute;
+  width: calc(100% - 540px);
+  top: 0;
+  right: 0;
+  left: 540px;
+  height: 40px;
+}
+.divelementorContainer {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 540px);
+  width: 1080px;
+  height: 40px;
+}
+.sectionelementorSection {
+  background-color: var(--color-gray-600);
+}
+.annoucement,
+.sectionelementorSection {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 40px;
+}
+.activeCampaignLogoWhitesvgIcon {
+  position: absolute;
+  top: calc(50% - 9.14px);
+  left: 0;
+  width: 200px;
+  height: 21px;
+}
+.i,
+.products1 {
+  position: absolute;
+}
+.products1 {
+  top: 29px;
+  left: 12px;
+  line-height: 14px;
+}
+.i {
+  top: calc(50% - 2px);
+  left: calc(50% + 28.53px);
+  border-radius: var(--br-11xs);
+  border-top: 4px solid var(--white);
+  border-right: 4px solid var(--white);
+  border-left: 4px solid var(--white);
+  box-sizing: border-box;
+  width: 8px;
+  height: 4px;
+}
+.products {
+  width: calc(100% - 292.01px);
+  top: 0;
+  right: 292.01px;
+  left: 0;
+  height: 72px;
+}
+.i1,
+.platform,
+.products {
+  position: absolute;
+}
+.i1 {
+  top: calc(50% - 2px);
+  left: calc(50% + 27.87px);
+  border-radius: var(--br-11xs);
+  border-top: 4px solid var(--white);
+  border-right: 4px solid var(--white);
+  border-left: 4px solid var(--white);
+  box-sizing: border-box;
+  width: 8px;
+  height: 4px;
+}
+.platform {
+  width: calc(100% - 293.31px);
+  top: 0;
+  right: 196.26px;
+  left: 97.05px;
+  height: 72px;
+}
+.pricing,
+.requestDemo {
+  position: absolute;
+  top: 29px;
+  left: 204.8px;
+  line-height: 14px;
+}
+.requestDemo {
+  left: 274.83px;
+}
+.emailAddress,
+.ulemm4 {
+  position: absolute;
+  top: 0;
+}
+.ulemm4 {
+  right: 291.61px;
+  width: 389.06px;
+  height: 72px;
+}
+.emailAddress {
+  left: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 92.22px;
+  height: 18px;
+}
+.divplaceholder {
+  position: absolute;
+  top: 11px;
+  left: 17px;
+  width: 138.23px;
+  height: 18px;
+  overflow: hidden;
+}
+.inputacInput {
+  position: absolute;
+  width: calc(100% - 119.36px);
+  top: 0;
+  right: 119.36px;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--white);
+  box-shadow: 0 12px 26px rgba(54, 141, 255, 0.1);
+  border: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+  height: 40px;
+}
+.div,
+.tryItFree {
+  position: relative;
+  line-height: 32px;
+}
+.div {
+  line-height: 14px;
+  font-family: var(--font-font-awesome-5-free);
+}
+.buttonactButton {
+  position: absolute;
+  top: 0;
+  left: 180.24px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-mediumaquamarine);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs) 20.26000213623047px var(--padding-9xs)
+    var(--padding-2xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-1);
+  text-align: center;
+  color: var(--white);
+}
+.formactFreeTrialSignup {
+  position: absolute;
+  top: 16px;
+  left: 788.39px;
+  width: 291.59px;
+  height: 40px;
+  color: var(--color-lightslategray);
+}
+.divelementorContainer1 {
+  position: absolute;
+  top: 44px;
+  left: calc(50% - 540px);
+  width: 1080px;
+  height: 72px;
+}
+.svgIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.divelementorWidgetContainer {
+  position: absolute;
+  top: 68px;
+  left: 1718px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 5px 0 var(--padding-7xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact {
+  position: relative;
+  line-height: 28px;
+}
+.ulmenu1Beb966d {
+  position: absolute;
+  top: 60px;
+  right: 41.64px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) 2.7700042724609375px var(--padding-7xs) 18px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 21.59px;
+}
+.svgicon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+  opacity: 0.7;
+}
+.div1,
+.english {
+  position: relative;
+  line-height: 20px;
+}
+.div1 {
+  line-height: 14px;
+  font-family: var(--font-font-awesome-5-free);
+  opacity: 0.7;
+}
+.buttonwpmlTriggerWrap,
+.spanwpmlSubmenuToggle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.buttonwpmlTriggerWrap {
+  align-items: center;
+  gap: 5.47px;
+}
+.spanwpmlSubmenuToggle {
+  position: absolute;
+  top: 60px;
+  left: 1606px;
+  padding: 10px 0;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+}
+.top {
+  position: relative;
+  background-color: var(--color-gray-600);
+  width: 100%;
+  height: 121px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--white);
+  font-family: var(--font-ibm-plex-sans);
+}

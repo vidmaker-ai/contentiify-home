@@ -1,0 +1,196 @@
+.bodyChild,
+.crm {
+  position: absolute;
+}
+.bodyChild {
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  width: 1920px;
+  height: 643px;
+}
+.crm {
+  top: 96.31px;
+  left: 430px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.6px;
+  line-height: 28px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 32.03px;
+  height: 18px;
+}
+.salesAutomationHelps {
+  margin: 0;
+}
+.salesAutomationHelpsContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.aCrmWithContainer,
+.salesAutomationHelpsContainer {
+  position: absolute;
+  left: 430px;
+  display: flex;
+  align-items: center;
+}
+.salesAutomationHelpsContainer {
+  top: 117.31px;
+  font-size: var(--font-size-17xl);
+  line-height: 48.6px;
+  font-family: var(--font-poppins);
+  width: 515.37px;
+  height: 99.6px;
+}
+.aCrmWithContainer {
+  top: 238.5px;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  width: 515.53px;
+  height: 79px;
+}
+.spanelementorDividerSeparat {
+  position: absolute;
+  top: 360.5px;
+  left: 430px;
+  border-top: 2px solid var(--color-mediumblue);
+  box-sizing: border-box;
+  width: 30px;
+  height: 2px;
+}
+.crm1,
+.salesAutomationIncreasesContainer {
+  position: absolute;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.salesAutomationIncreasesContainer {
+  top: 388.5px;
+  left: 430px;
+  font-weight: 600;
+  width: 387.72px;
+  height: 44px;
+}
+.crm1 {
+  top: 472.5px;
+  left: 452.5px;
+  width: 33.37px;
+  height: 20px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 1.65%;
+  width: 0.69%;
+  top: 74.18%;
+  right: 76.89%;
+  bottom: 24.16%;
+  left: 22.41%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.winProbability {
+  position: absolute;
+  top: 501.5px;
+  left: 452.5px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 108.42px;
+  height: 20px;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 1.65%;
+  width: 0.69%;
+  top: 78.69%;
+  right: 76.89%;
+  bottom: 19.65%;
+  left: 22.41%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.leadMagnets {
+  position: absolute;
+  top: 472.5px;
+  left: 639.69px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 161.06px;
+  height: 20px;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 1.65%;
+  width: 0.69%;
+  top: 74.18%;
+  right: 67.14%;
+  bottom: 24.16%;
+  left: 32.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.salesEngagement {
+  position: absolute;
+  top: 501.5px;
+  left: 639.69px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 132.15px;
+  height: 20px;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 1.65%;
+  width: 0.69%;
+  top: 78.69%;
+  right: 67.14%;
+  bottom: 19.65%;
+  left: 32.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sellMore1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.aelementorButtonLink {
+  position: absolute;
+  top: 547.5px;
+  left: 430px;
+  border-radius: var(--br-10xs);
+  border: 2px solid var(--color-mediumblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) 25.139999389648438px var(--padding-sm)
+    var(--padding-7xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--color-mediumblue);
+}
+.crmpngIcon {
+  position: absolute;
+  top: calc(50% - 230.19px);
+  left: calc(50% + 34px);
+  width: 496px;
+  height: 403.81px;
+  object-fit: cover;
+}
+.body {
+  position: relative;
+  width: 100%;
+  height: 643px;
+  text-align: left;
+  font-size: var(--b1-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-ibm-plex-sans);
+}

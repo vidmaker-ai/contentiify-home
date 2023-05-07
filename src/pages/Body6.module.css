@@ -1,0 +1,197 @@
+.bodyChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 1920px;
+  height: 623px;
+}
+.personalizedEmailMarketing {
+  position: absolute;
+  top: 71.81px;
+  left: 430px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.6px;
+  line-height: 28px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 255.54px;
+  height: 18px;
+}
+.sendExactlyWhat {
+  margin: 0;
+}
+.sendExactlyWhatContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.craftEmailNewslettersContainer,
+.sendExactlyWhatContainer {
+  position: absolute;
+  left: 430px;
+  display: flex;
+  align-items: center;
+}
+.sendExactlyWhatContainer {
+  top: 92.81px;
+  font-size: var(--font-size-17xl);
+  line-height: 48.6px;
+  font-family: var(--font-poppins);
+  width: 433.54px;
+  height: 99.6px;
+}
+.craftEmailNewslettersContainer {
+  top: 214px;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  width: 517.31px;
+  height: 79px;
+}
+.spanelementorDividerSeparat {
+  position: absolute;
+  top: 336px;
+  left: 430px;
+  border-top: 2px solid var(--color-mediumblue);
+  box-sizing: border-box;
+  width: 30px;
+  height: 2px;
+}
+.readTheReport {
+  color: var(--color-mediumblue);
+}
+.contactListSizesContainer,
+.emailMarketing {
+  position: absolute;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.contactListSizesContainer {
+  top: 364px;
+  left: 430px;
+  font-weight: 600;
+  width: 376.56px;
+  height: 44px;
+}
+.emailMarketing {
+  top: 432px;
+  left: 452.5px;
+  width: 116.65px;
+  height: 20px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 1.71%;
+  width: 0.69%;
+  top: 70.07%;
+  right: 76.89%;
+  bottom: 28.23%;
+  left: 22.41%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.dynamicContent {
+  position: absolute;
+  top: 461px;
+  left: 452.5px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 121.39px;
+  height: 20px;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 1.71%;
+  width: 0.69%;
+  top: 74.72%;
+  right: 76.89%;
+  bottom: 23.57%;
+  left: 22.41%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.segmentation {
+  position: absolute;
+  top: 432px;
+  left: 639.69px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 100.4px;
+  height: 20px;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 1.71%;
+  width: 0.69%;
+  top: 70.07%;
+  right: 67.14%;
+  bottom: 28.23%;
+  left: 32.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.successfulDeliverability {
+  position: absolute;
+  top: 461px;
+  left: 639.69px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 173.62px;
+  height: 20px;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 1.71%;
+  width: 0.69%;
+  top: 74.72%;
+  right: 67.14%;
+  bottom: 23.57%;
+  left: 32.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.personalizeYourEmail {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.aelementorButtonLink {
+  position: absolute;
+  top: 507px;
+  left: 430px;
+  border-radius: var(--br-10xs);
+  border: 2px solid var(--color-mediumblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) 25.139999389648438px var(--padding-sm)
+    var(--padding-7xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--color-mediumblue);
+}
+.emailmarketingpngIcon {
+  position: absolute;
+  top: calc(50% - 251.92px);
+  left: calc(50% + 34px);
+  width: 496px;
+  height: 506.67px;
+  object-fit: cover;
+}
+.body {
+  position: relative;
+  width: 100%;
+  height: 623px;
+  text-align: left;
+  font-size: var(--b1-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-ibm-plex-sans);
+}

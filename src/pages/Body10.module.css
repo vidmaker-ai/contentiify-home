@@ -1,0 +1,63 @@
+.teamUpWith {
+  margin: 0;
+}
+.teamUpWithContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.teamUpWithContainer,
+.with870IntegrationsContainer {
+  position: absolute;
+  left: 450px;
+  display: flex;
+  align-items: center;
+}
+.teamUpWithContainer {
+  top: 43px;
+  line-height: 40px;
+  font-family: var(--font-poppins);
+  width: 305.68px;
+  height: 85px;
+}
+.with870IntegrationsContainer {
+  top: 144px;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  width: 336.62px;
+  height: 107px;
+}
+.viewAllApps {
+  position: absolute;
+  top: 274px;
+  left: 455px;
+  font-size: var(--b1-size);
+  line-height: 24px;
+  font-weight: 500;
+}
+.div {
+  position: absolute;
+  top: 280px;
+  left: 555.89px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  font-family: var(--font-font-awesome-5-free);
+  text-align: right;
+}
+.appsGroup768x366pngIcon {
+  position: absolute;
+  top: calc(50% - 147.24px);
+  left: calc(50% - 78px);
+  width: 584.38px;
+  height: 278.48px;
+  object-fit: cover;
+}
+.body {
+  position: relative;
+  background-color: var(--color-gray-600);
+  width: 100%;
+  height: 386.48px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--white);
+  font-family: var(--font-ibm-plex-sans);
+}

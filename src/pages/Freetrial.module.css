@@ -1,0 +1,78 @@
+.tryItNow {
+  top: 60px;
+  left: 420px;
+  font-size: var(--font-size-21xl);
+  line-height: 48px;
+  font-family: var(--font-poppins);
+  width: 364.58px;
+  height: 56px;
+}
+.emailAddress,
+.noCreditCard,
+.tryItNow {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.noCreditCard {
+  top: 130px;
+  left: 420px;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  width: 308.56px;
+  height: 23px;
+}
+.emailAddress {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  width: 126.31px;
+  height: 25px;
+}
+.divplaceholder {
+  position: absolute;
+  top: 19.5px;
+  left: 16px;
+  width: 274.47px;
+  height: 25px;
+  overflow: hidden;
+}
+.inputacInput {
+  position: absolute;
+  width: calc(100% - 1613.53px);
+  top: 86px;
+  right: 653.53px;
+  left: 960px;
+  border-radius: var(--br-8xs) 0 0 var(--br-8xs);
+  background-color: var(--white);
+  height: 64px;
+  color: var(--color-lightslategray);
+}
+.startYourFree {
+  position: relative;
+  line-height: 32px;
+}
+.buttonactButton {
+  position: absolute;
+  top: 86px;
+  left: 1266.47px;
+  border-radius: 0 var(--br-8xs) var(--br-8xs) 0;
+  background-color: var(--color-mediumblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) 35.47999954223633px var(--padding-base)
+    35.04999923706055px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+}
+.freetrial {
+  position: relative;
+  background-color: var(--color-gray-900);
+  width: 100%;
+  height: 236px;
+  text-align: left;
+  font-size: var(--font-size-lgi-2);
+  color: var(--white);
+  font-family: var(--font-ibm-plex-sans);
+}

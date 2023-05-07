@@ -1,0 +1,269 @@
+.bodyChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-aliceblue-200);
+  width: 1920px;
+  height: 738px;
+}
+.customerSpotlights {
+  position: absolute;
+  top: 56.95px;
+  left: 749.22px;
+  font-size: var(--font-size-21xl);
+  line-height: 54px;
+  display: flex;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-900);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 421.76px;
+  height: 56px;
+}
+.bodyItem,
+.hipcookspngIcon {
+  position: absolute;
+  width: 251px;
+}
+.bodyItem {
+  top: 160px;
+  left: 442px;
+  background-color: var(--white);
+  height: 444px;
+}
+.hipcookspngIcon {
+  top: calc(50% - 209.05px);
+  left: calc(50% - 518px);
+  height: 192.33px;
+  object-fit: cover;
+}
+.hipcooks {
+  position: absolute;
+  top: 370.33px;
+  left: 458px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 69.47px;
+  height: 20px;
+}
+.localizingOurContent {
+  margin: 0;
+}
+.localizingOurContentContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.localizingOurContentContainer {
+  position: absolute;
+  top: 410.38px;
+  left: 458px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 204.01px;
+  height: 116px;
+}
+.seeMore {
+  top: 564.42px;
+  left: 463px;
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-mediumblue);
+}
+.bodyInner,
+.div,
+.seeMore {
+  position: absolute;
+}
+.div {
+  top: 570.42px;
+  left: 536.22px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  font-family: var(--font-font-awesome-5-free);
+  color: var(--color-mediumblue);
+  text-align: right;
+}
+.bodyInner {
+  top: 160px;
+  left: 701px;
+  background-color: var(--white);
+  width: 251px;
+  height: 444px;
+}
+.msi768x589pngIcon {
+  position: absolute;
+  top: calc(50% - 209.05px);
+  left: calc(50% - 259px);
+  width: 251px;
+  height: 192.48px;
+  object-fit: cover;
+}
+.activecampaignLetsUsContainer,
+.museumOfScienceContainer {
+  position: absolute;
+  top: 370.44px;
+  left: 717px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 144.54px;
+  height: 44px;
+}
+.activecampaignLetsUsContainer {
+  top: 434.44px;
+  width: 206.15px;
+  height: 92px;
+}
+.div1,
+.seeMore1 {
+  position: absolute;
+  color: var(--color-mediumblue);
+}
+.seeMore1 {
+  top: 564.44px;
+  left: 722px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div1 {
+  top: 570.44px;
+  left: 795.22px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  font-family: var(--font-font-awesome-5-free);
+  text-align: right;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 160px;
+  left: 960px;
+  background-color: var(--white);
+  width: 251px;
+  height: 444px;
+}
+.morrowaudio768x589pngIcon {
+  position: absolute;
+  top: calc(50% - 209.05px);
+  left: calc(50% - 0px);
+  width: 251px;
+  height: 192.48px;
+  object-fit: cover;
+}
+.evenThoughImContainer,
+.marrowAudio {
+  position: absolute;
+  top: 370.44px;
+  left: 976px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 105.18px;
+  height: 20px;
+}
+.evenThoughImContainer {
+  top: 410.44px;
+  width: 207.43px;
+  height: 116px;
+}
+.div2,
+.seeMore2 {
+  position: absolute;
+  color: var(--color-mediumblue);
+}
+.seeMore2 {
+  top: 564.44px;
+  left: 981px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div2 {
+  top: 570.44px;
+  left: 1054.22px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  font-family: var(--font-font-awesome-5-free);
+  text-align: right;
+}
+.bodyChild1 {
+  position: absolute;
+  top: 160px;
+  left: 1219px;
+  background-color: var(--white);
+  width: 251px;
+  height: 444px;
+}
+.beefy768x589pngIcon {
+  position: absolute;
+  top: calc(50% - 209.05px);
+  left: calc(50% + 259px);
+  width: 251px;
+  height: 192.48px;
+  object-fit: cover;
+}
+.activecampaignHadTheContainer,
+.beefyMarketing {
+  position: absolute;
+  top: 375.77px;
+  left: 1235px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 122.65px;
+  height: 20px;
+}
+.activecampaignHadTheContainer {
+  top: 421.09px;
+  width: 218.98px;
+  height: 116px;
+}
+.div3,
+.seeMore3 {
+  position: absolute;
+  color: var(--color-mediumblue);
+}
+.seeMore3 {
+  top: 564.42px;
+  left: 1240px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div3 {
+  top: 570.42px;
+  left: 1313.22px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  font-family: var(--font-font-awesome-5-free);
+  text-align: right;
+}
+.div4,
+.seeAllCustomer {
+  position: absolute;
+  color: var(--color-gray-900);
+}
+.seeAllCustomer {
+  top: 656.44px;
+  left: 843.81px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.div4 {
+  top: 662.44px;
+  left: 1064.42px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  font-family: var(--font-font-awesome-5-free);
+  text-align: right;
+}
+.body {
+  position: relative;
+  width: 100%;
+  height: 738px;
+  text-align: left;
+  font-size: var(--b1-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-ibm-plex-sans);
+}

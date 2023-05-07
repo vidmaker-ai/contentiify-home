@@ -5,7 +5,7 @@ const ContentifySetting1BILLIN: FunctionComponent = () => {
     <div className={styles.contentifySetting1Billin}>
       <div className={styles.contentify1}>
         <div className={styles.contentify1Child} />
-        <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+        <img className={styles.vectorIcon} alt="" src="/vector17.svg" />
         <div className={styles.c}>C.</div>
         <div className={styles.contentify1Item} />
         <div className={styles.logOut}>Log out</div>
@@ -85,7 +85,7 @@ const ContentifySetting1BILLIN: FunctionComponent = () => {
         <div className={styles.methods}>
           <div className={styles.card}>
             <div className={styles.email2} />
-            <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
+            <img className={styles.vectorIcon1} alt="" src="/vector18.svg" />
             <div className={styles.creditOfDebit}>Credit of Debit Card</div>
           </div>
           <img className={styles.momoIcon} alt="" src="/momo.svg" />

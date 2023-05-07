@@ -1,0 +1,404 @@
+.bodyChild,
+.bodyItem {
+  position: absolute;
+  left: 0;
+  width: 1920px;
+}
+.bodyChild {
+  top: 160.42px;
+  background-color: var(--color-gray-400);
+  height: 532px;
+}
+.bodyItem {
+  top: 158.42px;
+  height: 444px;
+}
+.builtForEach {
+  top: 241px;
+  left: 601.89px;
+  font-size: var(--font-size-13xl);
+  line-height: 40px;
+  display: flex;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-600);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 716.4px;
+  height: 45px;
+}
+.builtForEach,
+.pseudo,
+.reach {
+  position: absolute;
+}
+.pseudo {
+  top: -11px;
+  left: 1px;
+  background-color: var(--color-mediumblue);
+  width: 248px;
+  height: 11px;
+}
+.reach {
+  top: 14px;
+  left: 17px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  width: 46.65px;
+  height: 20px;
+}
+.usePreciseTargeting {
+  margin: 0;
+}
+.usePreciseTargetingContainer {
+  position: relative;
+  line-height: 20px;
+}
+.span {
+  position: absolute;
+  top: 48px;
+  left: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+}
+.deliverability,
+.emailMarketing,
+.emailSegmentation,
+.subscriptionForms,
+.websiteTracking {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  line-height: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 107.08px;
+  height: 18px;
+}
+.deliverability,
+.emailMarketing,
+.emailSegmentation,
+.subscriptionForms {
+  top: 42px;
+  width: 100.59px;
+}
+.deliverability,
+.emailSegmentation,
+.subscriptionForms {
+  top: 78px;
+  width: 125.33px;
+}
+.deliverability,
+.subscriptionForms {
+  top: 114px;
+  width: 120.97px;
+}
+.deliverability {
+  top: 150px;
+  width: 82.58px;
+}
+.ulelementorIconListItems {
+  position: absolute;
+  top: 136px;
+  left: 17px;
+  width: 216px;
+  height: 174px;
+  font-size: var(--font-size-sm-6);
+  color: var(--color-mediumblue);
+}
+.divelementorWidgetWrap {
+  position: absolute;
+  width: calc(100% - 1670px);
+  top: 334px;
+  right: 1240px;
+  left: 430px;
+  background-color: var(--white);
+  border-right: 1px solid var(--color-lavender);
+  border-bottom: 1px solid var(--color-lavender);
+  border-left: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  height: 327px;
+}
+.pseudo1 {
+  position: absolute;
+  top: -11px;
+  left: 1px;
+  background-color: var(--color-darkorange);
+  width: 248px;
+  height: 11px;
+}
+.nurture {
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  width: 58.9px;
+  height: 20px;
+}
+.growYourRelationshipContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.growYourRelationshipContainer {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 173.04px;
+  height: 58px;
+}
+.p {
+  position: absolute;
+  top: 48px;
+  left: 17px;
+  width: 184px;
+  height: 60px;
+  font-size: var(--font-size-sm);
+}
+.dynamicContent,
+.eventTracking,
+.facebookCustomAudiences,
+.marketingAutomation,
+.messagingText {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  line-height: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 138.59px;
+  height: 18px;
+}
+.dynamicContent,
+.eventTracking,
+.facebookCustomAudiences,
+.messagingText {
+  top: 42px;
+  width: 108.25px;
+}
+.dynamicContent,
+.eventTracking,
+.facebookCustomAudiences {
+  top: 78px;
+  width: 91.68px;
+}
+.dynamicContent,
+.facebookCustomAudiences {
+  top: 114px;
+  width: 107.04px;
+}
+.facebookCustomAudiences {
+  top: 150px;
+  width: 179.31px;
+}
+.ulelementorIconListItems1 {
+  position: absolute;
+  top: 136px;
+  left: 17px;
+  width: 216px;
+  height: 174px;
+  font-size: var(--font-size-sm-6);
+  color: var(--color-darkorange);
+}
+.divelementorWidgetWrap1 {
+  position: absolute;
+  width: calc(100% - 1670px);
+  top: 334px;
+  right: 970px;
+  left: 700px;
+  background-color: var(--white);
+  border-right: 1px solid var(--color-lavender);
+  border-bottom: 1px solid var(--color-lavender);
+  border-left: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  height: 327px;
+}
+.pseudo2 {
+  position: absolute;
+  top: -11px;
+  left: 1px;
+  background-color: var(--color-gray-900);
+  width: 248px;
+  height: 11px;
+}
+.convert,
+.provideIndividualAudienceContainer {
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  width: 59.18px;
+  height: 20px;
+}
+.provideIndividualAudienceContainer {
+  top: 1px;
+  left: 0;
+  line-height: 20px;
+  width: 172.29px;
+  height: 58px;
+}
+.attribution,
+.crmSales,
+.landingPages,
+.leadScoring,
+.pipelineAutomation {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  line-height: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 89.9px;
+  height: 18px;
+}
+.attribution,
+.crmSales,
+.leadScoring,
+.pipelineAutomation {
+  top: 42px;
+  width: 161.47px;
+}
+.attribution,
+.leadScoring,
+.pipelineAutomation {
+  top: 78px;
+  width: 79.97px;
+}
+.attribution,
+.pipelineAutomation {
+  top: 114px;
+  width: 127.04px;
+}
+.attribution {
+  top: 150px;
+  width: 67.75px;
+}
+.ulelementorIconListItems2 {
+  position: absolute;
+  top: 136px;
+  left: 17px;
+  width: 216px;
+  height: 174px;
+  font-size: var(--font-size-sm-6);
+  color: var(--color-gray-900);
+}
+.divelementorWidgetWrap2 {
+  position: absolute;
+  width: calc(100% - 1670px);
+  top: 334px;
+  right: 700px;
+  left: 970px;
+  background-color: var(--white);
+  border-right: 1px solid var(--color-lavender);
+  border-bottom: 1px solid var(--color-lavender);
+  border-left: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  height: 327px;
+}
+.pseudo3 {
+  position: absolute;
+  top: -11px;
+  left: 1px;
+  background-color: var(--color-mediumaquamarine);
+  width: 248px;
+  height: 11px;
+}
+.delightEachCustomerContainer,
+.grow {
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  width: 40.42px;
+  height: 20px;
+}
+.delightEachCustomerContainer {
+  top: 1px;
+  left: 0;
+  line-height: 20px;
+  width: 159.42px;
+  height: 58px;
+}
+.conversations,
+.predictiveContent,
+.predictiveSending,
+.splitTesting,
+.webPersonalization {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  line-height: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 88.86px;
+  height: 18px;
+}
+.predictiveContent,
+.predictiveSending,
+.splitTesting,
+.webPersonalization {
+  top: 42px;
+  width: 76.92px;
+}
+.predictiveContent,
+.predictiveSending,
+.webPersonalization {
+  top: 78px;
+  width: 116.47px;
+}
+.predictiveContent,
+.webPersonalization {
+  top: 114px;
+  width: 115.54px;
+}
+.webPersonalization {
+  top: 150px;
+  width: 127.73px;
+}
+.ulelementorIconListItems3 {
+  position: absolute;
+  top: 136px;
+  left: 17px;
+  width: 216px;
+  height: 174px;
+  font-size: var(--font-size-sm-6);
+  color: var(--color-mediumaquamarine);
+}
+.divelementorWidgetWrap3 {
+  position: absolute;
+  width: calc(100% - 1670px);
+  top: 334px;
+  right: 430px;
+  left: 1240px;
+  background-color: var(--white);
+  border-right: 1px solid var(--color-lavender);
+  border-bottom: 1px solid var(--color-lavender);
+  border-left: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  height: 327px;
+}
+.body {
+  position: relative;
+  width: 100%;
+  height: 691px;
+  text-align: left;
+  font-size: var(--b1-size);
+  color: var(--color-gray-700);
+  font-family: var(--font-ibm-plex-sans);
+}

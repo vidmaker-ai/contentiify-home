@@ -1,0 +1,347 @@
+.bodyChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-mediumturquoise);
+  width: 1920px;
+  height: 557px;
+}
+.the1Automation {
+  position: absolute;
+  top: 32.69px;
+  left: 641.23px;
+  font-size: var(--font-size-25xl);
+  line-height: 52px;
+  display: flex;
+  color: var(--color-gray-600);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 637.72px;
+  height: 61px;
+}
+.agency,
+.ecommerce,
+.marketing,
+.sales {
+  position: absolute;
+  top: 255.63px;
+  left: 420px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  width: 81.98px;
+  height: 41px;
+}
+.agency,
+.ecommerce,
+.marketing {
+  top: 319.63px;
+  width: 182.68px;
+}
+.agency,
+.marketing {
+  top: 383.63px;
+  width: 116.9px;
+}
+.marketing {
+  top: 191.63px;
+  width: 157.43px;
+}
+.sectionelementorSection {
+  position: absolute;
+  width: calc(100% - 1657.61px);
+  top: calc(50% - 89.37px);
+  right: 1237.61px;
+  left: 420px;
+  border-bottom: 1px solid var(--color-slategray);
+  box-sizing: border-box;
+  height: 56px;
+}
+.divelementorWidgetContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 262.39px;
+  height: 47px;
+  overflow: hidden;
+}
+.sectionelementorSection1,
+.sectionelementorSection2,
+.sectionelementorSection3 {
+  position: absolute;
+  width: calc(100% - 1657.61px);
+  top: calc(50% - 25.37px);
+  right: 1237.61px;
+  left: 420px;
+  border-bottom: 1px solid var(--color-slategray);
+  box-sizing: border-box;
+  height: 56px;
+}
+.sectionelementorSection2,
+.sectionelementorSection3 {
+  top: calc(50% + 38.63px);
+}
+.sectionelementorSection3 {
+  top: calc(50% + 102.63px);
+}
+.divytpCuedThumbnailOverlayIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.divytpCuedThumbnailOverlayIcon,
+.divytpGradientTopIcon,
+.svgIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.divytpGradientTopIcon {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  height: 99px;
+  object-fit: cover;
+}
+.svgIcon {
+  top: 337px;
+  left: 548px;
+  width: 110px;
+  height: 26px;
+  opacity: 0.9;
+}
+.marketingAndSales {
+  position: relative;
+  line-height: 23.4px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.aytpTitleLink,
+.divytpTitleText {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xs) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divytpTitleText {
+  flex: 1;
+  padding: var(--padding-2xl) 0 15.189998626708984px var(--padding-31xl);
+}
+.divytpTitle,
+.svgIcon1 {
+  position: absolute;
+  overflow: hidden;
+}
+.divytpTitle {
+  top: 0;
+  right: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.svgIcon1 {
+  top: 6px;
+  left: 22px;
+  width: 36px;
+  height: 36px;
+}
+.div1 {
+  position: relative;
+  line-height: 18.2px;
+  font-weight: 500;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.div,
+.divytpCopylinkTitle {
+  position: absolute;
+  overflow: hidden;
+}
+.divytpCopylinkTitle {
+  top: 41px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs) 0.1900005340576172px var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  top: 0;
+  left: 560px;
+  width: 80px;
+  height: 60.19px;
+  opacity: 0.9;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.activecampaignIcon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: var(--br-xl);
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.divytpTitleChannel {
+  position: absolute;
+  top: 7px;
+  left: -5px;
+  border-radius: var(--br-6xl);
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.divytpChromeTop {
+  position: absolute;
+  height: calc(100% - 318.81px);
+  width: calc(100% - 24px);
+  top: 0;
+  right: 12px;
+  bottom: 318.81px;
+  left: 12px;
+}
+.iframe,
+.youtube {
+  position: absolute;
+  overflow: hidden;
+}
+.youtube {
+  height: calc(100% + 0.11px);
+  width: calc(100% + 0.41px);
+  top: 0;
+  right: -0.41px;
+  bottom: -0.11px;
+  left: 0;
+  background-color: var(--black);
+}
+.iframe {
+  height: calc(100% - 178.11px);
+  width: calc(100% - 1246.41px);
+  top: 127.69px;
+  right: 420.02px;
+  bottom: 50.42px;
+  left: 826.39px;
+  font-size: var(--font-size-lg);
+  color: var(--color-whitesmoke-200);
+  font-family: var(--b1);
+}
+.thanksForChatting {
+  margin: 0;
+}
+.thanksForChattingContainer {
+  position: relative;
+  line-height: 20px;
+}
+.chatMessageFromActivecampai,
+.span {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.span {
+  padding: var(--padding-xs) var(--padding-7xl) var(--padding-xs)
+    var(--padding-xs);
+}
+.chatMessageFromActivecampai {
+  position: absolute;
+  top: calc(50% + 1.5px);
+  left: 1568px;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.16);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-800);
+  font-family: var(--font-open-sans);
+}
+.closeDriftWidgetMessengerP {
+  position: absolute;
+  top: 273px;
+  right: 348px;
+  border-radius: var(--br-3xs);
+  width: 40px;
+  height: 40px;
+}
+.divdriftWidgetAvatarIcon {
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+.divdriftWidgetAvatarIcon,
+.divdriftWidgetControllerIc,
+.divdriftWidgetRecipientAva {
+  position: absolute;
+  border-radius: var(--br-9xl);
+  overflow: hidden;
+}
+.divdriftWidgetRecipientAva {
+  top: calc(50% - 28px);
+  left: calc(50% - 28px);
+  background-color: var(--white);
+  width: 56px;
+  height: 56px;
+}
+.divdriftWidgetControllerIc {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-mediumblue);
+}
+.div2 {
+  position: absolute;
+  top: 0;
+  left: 5.56px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  width: 7.08px;
+  height: 17px;
+}
+.divdriftControllerIconUnre {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-firebrick);
+  width: 18px;
+  height: 18px;
+}
+.openChatWithActivecampaign {
+  position: absolute;
+  top: 308px;
+  left: 1828px;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-gray-1000);
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.16);
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  font-size: var(--font-size-xs);
+  color: var(--white);
+  font-family: var(--font-open-sans);
+}
+.body {
+  position: relative;
+  width: 100%;
+  height: 557px;
+  text-align: left;
+  font-size: var(--font-size-10xl-6);
+  color: var(--color-gray-900);
+  font-family: var(--font-poppins);
+}

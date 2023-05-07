@@ -25,7 +25,7 @@
 .c {
   top: 25px;
   left: 150px;
-  font-size: 64px;
+  font-size: var(--font-size-45xl);
   font-family: var(--heading);
 }
 .contentify1Item {
@@ -207,7 +207,7 @@
   background-color: var(--white);
   box-shadow: 0 0 0 1px #ccc;
   width: 503px;
-  padding: var(--padding-lgi) 32px var(--padding-lgi) 16px;
+  padding: var(--padding-lgi) 32px var(--padding-lgi) var(--padding-base);
   box-sizing: border-box;
 }
 .aCarrierMight {
