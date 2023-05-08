@@ -293,7 +293,7 @@
   flex-direction: column;
   padding: 0 0 var(--padding-11xs);
   box-sizing: border-box;
-  gap: var(--gap-37xl);
+  gap: 56px;
 }
 .div6,
 .div7 {
@@ -353,7 +353,7 @@
   flex-direction: column;
   padding: 0 0 var(--padding-11xs);
   box-sizing: border-box;
-  gap: var(--gap-49xl);
+  gap: 68px;
 }
 .div8 {
   position: absolute;

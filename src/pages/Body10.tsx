@@ -26,7 +26,7 @@ const Body10: FunctionComponent = () => {
       <img
         className={styles.appsGroup768x366pngIcon}
         alt=""
-        src="/appsgroup768x366png@2x.png"
+        src="/appsgroup768x366png1@2x.png"
       />
     </div>
   );

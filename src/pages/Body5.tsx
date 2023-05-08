@@ -46,7 +46,7 @@ const Body5: FunctionComponent = () => {
       <div className={styles.aelementorButtonLink}>
         <div className={styles.sellMore1}>Sell more</div>
       </div>
-      <img className={styles.crmpngIcon} alt="" src="/crmpng@2x.png" />
+      <img className={styles.crmpngIcon} alt="" src="/crmpng1@2x.png" />
     </div>
   );
 };

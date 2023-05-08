@@ -1761,29 +1761,6 @@
 }
 .div23 {
   position: absolute;
-  top: 200px;
-  left: 125.33px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 8.95px;
-  height: 24px;
-}
-.divelementorFlipBoxLayer8 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: -250px;
-  bottom: 0;
-  left: 250px;
-  background-color: var(--white);
-  transform: rotate(180deg);
-  transform-origin: 0 0;
-}
-.div24 {
-  position: absolute;
   top: 202px;
   left: 125.33px;
   line-height: 24px;
@@ -1792,7 +1769,7 @@
   width: 8.95px;
   height: 24px;
 }
-.divelementorFlipBoxLayer9 {
+.divelementorFlipBoxLayer8 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1801,8 +1778,6 @@
   bottom: 0;
   left: 0;
   background-color: var(--color-mediumturquoise);
-  text-align: left;
-  color: var(--white);
 }
 .divelementorFlipBox {
   position: absolute;
@@ -1810,64 +1785,13 @@
   left: 1240px;
   width: 250px;
   height: 250px;
-  text-align: center;
-  color: var(--color-mediumblue);
 }
-.preBuiltAutomationRecipesContainer {
-  position: relative;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  width: 171.1px;
-  flex-shrink: 0;
-}
-.h3elementorFlipBoxLayer4 {
-  display: flex;
-  flex-direction: row;
-  padding: 0 30.904006958007812px 0 0;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.targetContacts {
-  position: relative;
-  line-height: 24px;
-  color: var(--color-mediumblue);
-  text-align: center;
-}
-.divelementorFlipBoxLayer12 {
-  position: absolute;
-  height: calc(100% - 24px);
-  top: 0;
-  bottom: 24px;
-  left: 24px;
-  display: flex;
-  flex-direction: column;
-  padding: 0 0 var(--padding-11xs);
-  box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-37xl);
-}
-.div25 {
-  top: 200px;
-  left: 139.23px;
-  font-size: var(--font-size-sm);
-  font-family: var(--font-font-awesome-5-free);
-  color: var(--color-mediumblue);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 8.95px;
-  height: 24px;
-}
-.div25,
-.div26,
+.div24,
 .preBuiltAutomations {
   position: absolute;
   line-height: 24px;
 }
-.div26 {
+.div24 {
   top: 202px;
   left: 139.23px;
   display: flex;
@@ -1880,74 +1804,14 @@
   left: 0;
   font-weight: 500;
 }
-.divelementorFlipBoxLayer13 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--color-mediumturquoise);
-  font-size: var(--font-size-sm);
-  color: var(--white);
-  font-family: var(--font-font-awesome-5-free);
-}
 .divelementorFlipBox1 {
   position: absolute;
   top: 234px;
   left: 970px;
   width: 250px;
   height: 250px;
-  font-size: var(--b1-size);
-  color: var(--color-gray-700);
-  font-family: var(--font-ibm-plex-sans);
 }
-.driveMoreLeadsContainer {
-  position: relative;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  width: 195.77px;
-  flex-shrink: 0;
-}
-.divelementorFlipBoxLayer16,
-.h3elementorFlipBoxLayer5 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.h3elementorFlipBoxLayer5 {
-  flex-direction: row;
-  padding: 0 6.23199462890625px 0 0;
-}
-.divelementorFlipBoxLayer16 {
-  position: absolute;
-  height: calc(100% - 36px);
-  top: 12px;
-  bottom: 24px;
-  left: 24px;
-  flex-direction: column;
-  padding: 0 0 var(--padding-11xs);
-  box-sizing: border-box;
-  gap: var(--gap-49xl);
-}
-.div27 {
-  position: absolute;
-  top: 200px;
-  left: 112.97px;
-  font-size: var(--font-size-sm);
-  line-height: 24px;
-  font-family: var(--font-font-awesome-5-free);
-  color: var(--color-mediumblue);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 8.95px;
-  height: 24px;
-}
-.h3elementorFlipBoxLayer6 {
+.h3elementorFlipBoxLayer4 {
   position: absolute;
   top: 48px;
   left: 0;
@@ -1957,18 +1821,15 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+.div26,
 .divelementorFlipBox2 {
   position: absolute;
   top: 234px;
   left: 700px;
   width: 250px;
   height: 250px;
-  font-size: var(--b1-size);
-  color: var(--color-gray-700);
-  font-family: var(--font-ibm-plex-sans);
 }
-.div29 {
-  position: absolute;
+.div26 {
   top: 202px;
   left: 140.75px;
   line-height: 24px;
@@ -1977,7 +1838,7 @@
   width: 8.95px;
   height: 24px;
 }
-.divelementorFlipBoxLayer19 {
+.divelementorFlipBoxLayer14 {
   position: absolute;
   height: calc(100% - 515px);
   width: calc(100% - 1670px);
@@ -2740,25 +2601,27 @@
   color: var(--color-mediumturquoise);
 }
 .body7 {
-  position: absolute;
   top: 2962px;
-  left: 0;
-  width: 1920px;
   height: 643px;
 }
-.bodyChild9 {
-  background-color: #f0f2f3;
-}
+.body7,
 .bodyChild10,
 .bodyChild9 {
   position: absolute;
-  top: 0;
   left: 0;
   width: 1920px;
+}
+.bodyChild9 {
+  top: 0;
+  background-color: #f0f2f3;
+  height: 763px;
+}
+.bodyChild10 {
+  top: 22px;
   height: 741px;
 }
 .personalizedEmailMarketing {
-  top: 223.81px;
+  top: 245.81px;
   font-size: var(--font-size-sm);
   letter-spacing: 0.6px;
   line-height: 28px;
@@ -2775,7 +2638,7 @@
   align-items: center;
 }
 .sendExactlyWhatContainer {
-  top: 244.81px;
+  top: 266.81px;
   font-size: var(--font-size-17xl);
   line-height: 48.6px;
   font-family: var(--font-poppins);
@@ -2783,7 +2646,7 @@
   height: 99.6px;
 }
 .craftEmailNewslettersContainer {
-  top: 366px;
+  top: 388px;
   font-size: var(--font-size-lg);
   line-height: 28px;
   width: 517.31px;
@@ -2791,7 +2654,7 @@
 }
 .spanelementorDividerSeparat4 {
   position: absolute;
-  top: 488px;
+  top: 510px;
   left: 430px;
   border-top: 2px solid var(--color-gray-400);
   box-sizing: border-box;
@@ -2809,7 +2672,7 @@
   align-items: center;
 }
 .contactListSizesContainer {
-  top: 516px;
+  top: 538px;
   left: 430px;
   font-weight: 600;
   width: 376.56px;
@@ -2901,14 +2764,14 @@
 }
 .emailMarketingParent {
   position: absolute;
-  top: 584px;
+  top: 606px;
   left: 430.34px;
   width: 382.97px;
   height: 49px;
 }
 .aelementorButtonLink4 {
   position: absolute;
-  top: 659px;
+  top: 681px;
   left: 430px;
   border-radius: var(--br-10xs);
   border: 2px solid var(--color-gray-400);
@@ -2923,15 +2786,15 @@
 }
 .emailmarketingpngIcon1 {
   position: absolute;
-  top: calc(50% - 176.92px);
+  top: calc(50% - 165.92px);
   left: calc(50% + 34px);
   width: 496px;
   height: 506.67px;
   object-fit: cover;
 }
 .body8 {
-  top: 2222px;
-  height: 741px;
+  top: 2200px;
+  height: 763px;
 }
 .body8,
 .bodyChild11,
@@ -3456,13 +3319,13 @@
   width: 36px;
   height: 36px;
 }
-.div31 {
+.div28 {
   position: relative;
   line-height: 18.2px;
   font-weight: 500;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
-.div30,
+.div27,
 .divytpCopylinkTitle {
   position: absolute;
   overflow: hidden;
@@ -3476,7 +3339,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.div30 {
+.div27 {
   top: 0;
   left: 560px;
   width: 80px;
@@ -3598,7 +3461,7 @@
   left: 0;
   background-color: var(--color-mediumblue);
 }
-.div32 {
+.div29 {
   position: absolute;
   top: 0;
   left: 5.56px;
@@ -3780,23 +3643,22 @@
 .startForFreeToday {
   color: inherit;
 }
-.accmounce,
-.heyThereFreeContainer {
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-}
 .heyThereFreeContainer {
   position: relative;
   line-height: 17.5px;
+  display: flex;
+  align-items: center;
   width: 661px;
   height: 18px;
+  flex-shrink: 0;
   z-index: 0;
 }
 .accmounce {
   width: 663px;
   height: 40px;
+  display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 .sectionelementorSection9 {
@@ -3807,29 +3669,27 @@
   align-items: center;
   justify-content: center;
 }
-.contentiify {
+.contentiify,
+.i {
   position: relative;
+}
+.contentiify {
   font-size: var(--font-size-17xl);
   font-family: var(--heading);
 }
-.i,
-.platform,
-.products {
-  flex-shrink: 0;
-  box-sizing: border-box;
-}
 .i {
-  position: relative;
   border-radius: var(--br-11xs);
   border-top: 4px solid var(--white);
   border-right: 4px solid var(--white);
   border-left: 4px solid var(--white);
+  box-sizing: border-box;
   width: 8px;
   height: 4px;
 }
 .platform,
 .products {
   height: 72px;
+  box-sizing: border-box;
 }
 .products {
   width: 97.05px;
@@ -3867,7 +3727,6 @@
 .emailAddress1 {
   display: flex;
   align-items: center;
-  flex-shrink: 0;
 }
 .catgory {
   width: 553px;
@@ -3881,6 +3740,7 @@
   font-weight: 500;
   width: 92.22px;
   height: 18px;
+  flex-shrink: 0;
 }
 .divplaceholder2,
 .inputacInput1 {
@@ -3901,10 +3761,9 @@
   box-sizing: border-box;
   width: 172.23px;
   height: 40px;
-  flex-shrink: 0;
   align-items: center;
 }
-.div33 {
+.div30 {
   position: relative;
   line-height: 14px;
   font-family: var(--font-font-awesome-5-free);
@@ -3924,7 +3783,6 @@
 .buttonactButton2,
 .formactFreeTrialSignup,
 .menu {
-  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -3960,7 +3818,7 @@
   line-height: 20px;
   font-weight: 500;
 }
-.div34 {
+.div31 {
   position: absolute;
   top: 3px;
   left: 79.47px;
@@ -3972,7 +3830,6 @@
   position: relative;
   width: 88.47px;
   height: 20px;
-  flex-shrink: 0;
   text-align: center;
 }
 .contact {

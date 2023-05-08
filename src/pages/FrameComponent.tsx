@@ -526,9 +526,6 @@ const FrameComponent: FunctionComponent = () => {
         <div className={styles.divelementorFlipBox}>
           <div className={styles.divelementorFlipBoxLayer8}>
             <div className={styles.div23}></div>
-          </div>
-          <div className={styles.divelementorFlipBoxLayer9}>
-            <div className={styles.div24}></div>
             <div className={styles.divelementorFlipBoxLayer1}>
               <img className={styles.svgIcon4} alt="" src="/svg8.svg" />
               <div className={styles.preBuiltAutomations}>Landing pages</div>
@@ -538,31 +535,7 @@ const FrameComponent: FunctionComponent = () => {
         </div>
         <div className={styles.divelementorFlipBox1}>
           <div className={styles.divelementorFlipBoxLayer8}>
-            <div className={styles.divelementorFlipBoxLayer12}>
-              <div className={styles.h3elementorFlipBoxLayer4}>
-                <div className={styles.preBuiltAutomationRecipesContainer}>
-                  <span className={styles.supportingYouAtContainer1}>
-                    <p className={styles.supportingYouAt}>
-                      Pre-built automation
-                    </p>
-                    <p className={styles.supportingYouAt}>
-                      "recipes" designed to save
-                    </p>
-                    <p className={styles.supportingYouAt}>
-                      you time and immediately
-                    </p>
-                    <p className={styles.supportingYouAt}>
-                      grow your business.
-                    </p>
-                  </span>
-                </div>
-              </div>
-              <div className={styles.targetContacts}>Target contacts</div>
-            </div>
-            <div className={styles.div25}></div>
-          </div>
-          <div className={styles.divelementorFlipBoxLayer13}>
-            <div className={styles.div26}></div>
+            <div className={styles.div24}></div>
             <div className={styles.divelementorFlipBoxLayer1}>
               <img className={styles.svgIcon4} alt="" src="/svg9.svg" />
               <div className={styles.preBuiltAutomations}>
@@ -574,34 +547,10 @@ const FrameComponent: FunctionComponent = () => {
         </div>
         <div className={styles.divelementorFlipBox2}>
           <div className={styles.divelementorFlipBoxLayer8}>
-            <div className={styles.divelementorFlipBoxLayer16}>
-              <div className={styles.h3elementorFlipBoxLayer5}>
-                <div className={styles.driveMoreLeadsContainer}>
-                  <span className={styles.supportingYouAtContainer1}>
-                    <p className={styles.supportingYouAt}>
-                      Drive more leads using
-                    </p>
-                    <p className={styles.supportingYouAt}>
-                      custom forms. Use forms to
-                    </p>
-                    <p className={styles.supportingYouAt}>
-                      seamlessly connect and
-                    </p>
-                    <p className={styles.supportingYouAt}>
-                      start your automations.
-                    </p>
-                  </span>
-                </div>
-              </div>
-              <div className={styles.targetContacts}>Make forms</div>
-            </div>
-            <div className={styles.div27}></div>
-          </div>
-          <div className={styles.divelementorFlipBoxLayer13}>
             <div className={styles.div21}></div>
             <div className={styles.divelementorFlipBoxLayer1}>
               <img className={styles.svgIcon4} alt="" src="/svg10.svg" />
-              <div className={styles.h3elementorFlipBoxLayer6}>
+              <div className={styles.h3elementorFlipBoxLayer4}>
                 <div className={styles.freeHelpCoursesContainer}>
                   <p className={styles.supportingYouAt}>Integrated and</p>
                   <p className={styles.supportingYouAt}>embeddable forms</p>
@@ -611,8 +560,8 @@ const FrameComponent: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className={styles.divelementorFlipBoxLayer19}>
-          <div className={styles.div29}></div>
+        <div className={styles.divelementorFlipBoxLayer14}>
+          <div className={styles.div26}></div>
           <div className={styles.divelementorFlipBoxLayer1}>
             <img className={styles.svgIcon4} alt="" src="/svg11.svg" />
             <div className={styles.preBuiltAutomations}>CRM</div>
@@ -1068,10 +1017,10 @@ const FrameComponent: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.div30}>
+              <div className={styles.div27}>
                 <img className={styles.svgIcon17} alt="" src="/svg14.svg" />
                 <div className={styles.divytpCopylinkTitle}>
-                  <div className={styles.div31}>Копирова</div>
+                  <div className={styles.div28}>Копирова</div>
                 </div>
               </div>
               <div className={styles.divytpTitleChannel}>
@@ -1113,7 +1062,7 @@ const FrameComponent: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.divdriftControllerIconUnre}>
-            <div className={styles.div32}>1</div>
+            <div className={styles.div29}>1</div>
           </div>
         </div>
       </div>
@@ -1201,7 +1150,7 @@ const FrameComponent: FunctionComponent = () => {
                 </div>
                 <div className={styles.buttonactButton2}>
                   <div className={styles.startYourFree}>Try it free</div>
-                  <div className={styles.div33}></div>
+                  <div className={styles.div30}></div>
                 </div>
               </div>
             </div>
@@ -1213,7 +1162,7 @@ const FrameComponent: FunctionComponent = () => {
                   src="/vector9.svg"
                 />
                 <div className={styles.english1}>English</div>
-                <div className={styles.div34}></div>
+                <div className={styles.div31}></div>
               </div>
               <div className={styles.contact}>Contact</div>
               <div className={styles.contact}>Login</div>
