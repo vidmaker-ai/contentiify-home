@@ -1,0 +1,138 @@
+.maskGroupIcon {
+  position: absolute;
+  width: 100%;
+  top: -8.03px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 767px;
+  object-fit: cover;
+}
+.builtForEach {
+  top: 0;
+  left: 171.89px;
+  font-size: var(--font-size-13xl);
+  line-height: 40px;
+  display: flex;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-300);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 716.4px;
+  height: 45px;
+}
+.builtForEach,
+.pseudo,
+.reach {
+  position: absolute;
+}
+.pseudo {
+  top: -11px;
+  left: 1px;
+  background-color: var(--color-mediumblue);
+  width: 248px;
+  height: 11px;
+}
+.reach {
+  top: 14px;
+  left: 17px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  width: 46.65px;
+  height: 20px;
+}
+.usePreciseTargeting {
+  margin: 0;
+}
+.usePreciseTargetingContainer {
+  position: relative;
+  line-height: 20px;
+}
+.span {
+  position: absolute;
+  top: 48px;
+  left: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+}
+.deliverability,
+.emailMarketing,
+.emailSegmentation,
+.subscriptionForms,
+.websiteTracking {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  line-height: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 107.08px;
+  height: 18px;
+}
+.deliverability,
+.emailMarketing,
+.emailSegmentation,
+.subscriptionForms {
+  top: 42px;
+  width: 100.59px;
+}
+.deliverability,
+.emailSegmentation,
+.subscriptionForms {
+  top: 78px;
+  width: 125.33px;
+}
+.deliverability,
+.subscriptionForms {
+  top: 114px;
+  width: 120.97px;
+}
+.deliverability {
+  top: 150px;
+  width: 82.58px;
+}
+.ulelementorIconListItems {
+  position: absolute;
+  top: 136px;
+  left: 17px;
+  width: 216px;
+  height: 174px;
+  font-size: var(--font-size-sm-6);
+  color: var(--color-gray-600);
+}
+.divelementorWidgetWrap {
+  position: absolute;
+  width: calc(100% - 810px);
+  top: 93px;
+  right: 810px;
+  left: 0;
+  background-color: var(--color-white);
+  border-right: 1px solid var(--color-lavender);
+  border-bottom: 1px solid var(--color-lavender);
+  border-left: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  height: 327px;
+}
+.stage {
+  position: absolute;
+  top: calc(50% - 264.63px);
+  left: calc(50% - 530px);
+  width: 1060px;
+  height: 420px;
+}
+.body {
+  align-self: stretch;
+  position: relative;
+  height: 550px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+  font-family: var(--font-ibm-plex-sans);
+}

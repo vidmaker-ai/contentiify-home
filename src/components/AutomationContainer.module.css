@@ -1,0 +1,223 @@
+.marketingautomationpngIcon {
+  position: absolute;
+  top: calc(50% - 285.53px);
+  left: calc(50% - 530px);
+  width: 496px;
+  height: 571.06px;
+  object-fit: cover;
+}
+.powerfulMarketingAutomation {
+  position: absolute;
+  top: 36.44px;
+  left: 540px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.6px;
+  line-height: 28px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 274.29px;
+  height: 18px;
+}
+.automationGivesTime {
+  margin: 0;
+}
+.automationGivesTimeContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.automationGivesTimeContainer {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  line-height: 48.6px;
+  display: flex;
+  align-items: center;
+  width: 424.22px;
+  height: 99.59px;
+}
+.h3elementorHeadingTitle {
+  position: absolute;
+  top: 59.44px;
+  left: 540px;
+  width: 520px;
+  height: 97.19px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-poppins);
+}
+.makeItEasyContainer {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 508.67px;
+  height: 79px;
+}
+.p {
+  position: absolute;
+  top: 176.63px;
+  left: 540px;
+  width: 520px;
+  height: 84px;
+  font-size: var(--font-size-lg);
+}
+.spanelementorDividerSeparat {
+  position: absolute;
+  top: 300.63px;
+  left: 540px;
+  border-top: 2px solid var(--color-mediumturquoise);
+  box-sizing: border-box;
+  width: 30px;
+  height: 2px;
+}
+.automationHelps95Container {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 376.39px;
+  height: 44px;
+}
+.p1 {
+  position: absolute;
+  top: 326.63px;
+  left: 540px;
+  width: 408px;
+  height: 48px;
+}
+.contactManagement {
+  position: absolute;
+  top: 2px;
+  left: 22.5px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 154.53px;
+  height: 20px;
+}
+.svgIcon {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+}
+.lielementorIconListItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 208px;
+  height: 26.5px;
+}
+.advancedReporting {
+  position: absolute;
+  top: 2px;
+  left: 22.5px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 140.79px;
+  height: 20px;
+}
+.lielementorIconListItem1,
+.ulelementorIconListItems {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  width: 208px;
+  height: 24px;
+}
+.ulelementorIconListItems {
+  top: 0;
+  height: 53px;
+}
+.automatedLeadNurturing {
+  position: absolute;
+  top: 2px;
+  left: 22.5px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 184.93px;
+  height: 20px;
+}
+.dynamicContent,
+.lielementorIconListItem2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 310.06px;
+  height: 26.5px;
+}
+.dynamicContent {
+  top: 2px;
+  left: 22.5px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 121.39px;
+  height: 20px;
+}
+.lielementorIconListItem3,
+.ulelementorIconListItems1 {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  width: 310.06px;
+  height: 24px;
+}
+.ulelementorIconListItems1 {
+  top: 0;
+  left: 208px;
+  height: 53px;
+}
+.divelementorContainer {
+  position: absolute;
+  top: 410.63px;
+  left: calc(50% + 10px);
+  width: 520px;
+  height: 53px;
+}
+.getBackTime {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.aelementorButtonLink {
+  position: absolute;
+  top: 487.63px;
+  left: 540px;
+  border-radius: var(--br-10xs);
+  border: 2px solid var(--color-mediumturquoise);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) 26.139999389648438px var(--padding-sm)
+    var(--padding-6xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--color-mediumturquoise);
+}
+.marketingautomationpngParent {
+  position: absolute;
+  top: calc(50% - 285.42px);
+  left: calc(50% - 530px);
+  width: 1060px;
+  height: 571.06px;
+}
+.body {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-darkslategray-200);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-ibm-plex-sans);
+}

@@ -1,0 +1,82 @@
+.child,
+.hipcookspngIcon {
+  position: absolute;
+  width: 251px;
+}
+.child {
+  top: 0.05px;
+  left: 0;
+  background-color: var(--color-white);
+  height: 444px;
+}
+.hipcookspngIcon {
+  top: calc(50% - 214.24px);
+  left: calc(50% - 125.5px);
+  height: 192.33px;
+  object-fit: cover;
+}
+.hipcooks {
+  position: absolute;
+  top: 210.38px;
+  left: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 69.47px;
+  height: 20px;
+}
+.localizingOurContent {
+  margin: 0;
+}
+.localizingOurContentContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.localizingOurContentContainer {
+  position: absolute;
+  top: 250.43px;
+  left: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 204.01px;
+  height: 116px;
+}
+.div2,
+.seeMore {
+  position: absolute;
+  color: var(--color-mediumblue);
+}
+.seeMore {
+  top: 404.47px;
+  left: 21px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div2 {
+  top: 410.47px;
+  left: 94.22px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  font-family: var(--font-font-awesome-5-free);
+  text-align: right;
+}
+.div,
+.div1 {
+  position: absolute;
+  width: 251px;
+}
+.div1 {
+  top: calc(50% - 222.02px);
+  left: calc(50% - 125.5px);
+  height: 428.47px;
+}
+.div {
+  top: 103px;
+  left: 0;
+  height: 444.05px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-ibm-plex-sans);
+}

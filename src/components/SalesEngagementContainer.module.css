@@ -1,0 +1,195 @@
+.focusOnQualified {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.6px;
+  line-height: 28px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 208.9px;
+  height: 18px;
+}
+.anAutomationFirst {
+  margin: 0;
+}
+.anAutomationFirstApproachContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.anAutomationFirstApproachContainer {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  font-size: var(--font-size-17xl);
+  line-height: 48.6px;
+  display: flex;
+  font-family: var(--font-poppins);
+  align-items: center;
+  width: 374.47px;
+  height: 148.19px;
+}
+.salesEngagementAutomationContainer {
+  position: absolute;
+  top: 195.78px;
+  left: 0;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 518.03px;
+  height: 135px;
+}
+.spanelementorDividerSeparat {
+  position: absolute;
+  top: 373.78px;
+  left: 0;
+  border-top: 2px solid var(--color-mediumturquoise);
+  box-sizing: border-box;
+  width: 30px;
+  height: 2px;
+}
+.automatedOneToOneEmail,
+.salesEngagementAutomationContainer2 {
+  position: absolute;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.salesEngagementAutomationContainer2 {
+  top: 401.78px;
+  left: 0;
+  font-weight: 600;
+  width: 401.89px;
+  height: 44px;
+}
+.automatedOneToOneEmail {
+  top: 485.78px;
+  left: 22.5px;
+  width: 208.81px;
+  height: 20px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 1.74%;
+  width: 1.26%;
+  top: 80.01%;
+  right: 98.71%;
+  bottom: 18.25%;
+  left: 0.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.pipelineAutomation {
+  position: absolute;
+  top: 514.78px;
+  left: 22.5px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 144.29px;
+  height: 20px;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 1.74%;
+  width: 1.26%;
+  top: 84.74%;
+  right: 98.71%;
+  bottom: 13.52%;
+  left: 0.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.siteTracking {
+  position: absolute;
+  top: 485.78px;
+  left: 277.3px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 89.61px;
+  height: 20px;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 1.74%;
+  width: 1.26%;
+  top: 80.01%;
+  right: 74.67%;
+  bottom: 18.25%;
+  left: 24.07%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.leadScoring {
+  position: absolute;
+  top: 514.78px;
+  left: 277.3px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 90.56px;
+  height: 20px;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 1.74%;
+  width: 1.26%;
+  top: 84.74%;
+  right: 74.67%;
+  bottom: 13.52%;
+  left: 24.07%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.improveWinRates {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.aelementorButtonLink {
+  position: absolute;
+  top: 560.78px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  border: 2px solid var(--color-mediumturquoise);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) 26.160003662109375px var(--padding-sm)
+    var(--padding-6xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--color-mediumturquoise);
+}
+.emailmarketingpngIcon {
+  position: absolute;
+  top: calc(50% - 306.39px);
+  left: calc(50% + 34px);
+  width: 496px;
+  height: 506.67px;
+  object-fit: cover;
+}
+.focusOnQualifiedLeadsParent {
+  position: absolute;
+  top: calc(50% - 300.98px);
+  left: calc(50% - 530px);
+  width: 1060px;
+  height: 612.78px;
+}
+.body {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-darkslategray-200);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-ibm-plex-sans);
+}

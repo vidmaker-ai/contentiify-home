@@ -1,0 +1,166 @@
+.empowerYourBusiness {
+  margin: 0;
+}
+.empowerYourBusinessContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 81.1px;
+  z-index: 0;
+}
+.frameChild {
+  position: absolute;
+  margin: 0 !important;
+  width: 53.4%;
+  top: 85.5px;
+  right: 30.5%;
+  left: 16.1%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 78px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.empowerYourBusinessWithVirParent {
+  align-self: stretch;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  font-family: var(--font-poppins);
+}
+.theSocialMediaContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 32px;
+}
+.getViral {
+  position: relative;
+  line-height: 32px;
+  font-weight: 500;
+}
+.buttonactButton {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-mediumturquoise);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) 44.51000213623047px var(--padding-5xs)
+    var(--padding-26xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+}
+.tryItFree {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 17.5px;
+}
+.frameContainer {
+  flex: 1;
+  height: 464px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-86xl) 0 0 var(--padding-94xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  z-index: 1;
+}
+.imageIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1019px;
+  object-fit: cover;
+  z-index: 0;
+  margin-left: -162px;
+}
+.frameGroup {
+  align-self: stretch;
+  width: 1920px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.maskGroupIcon {
+  position: absolute;
+  margin: 0 !important;
+  width: 100%;
+  top: 126px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 372px;
+  object-fit: cover;
+  z-index: 0;
+}
+.background,
+.curve {
+  display: flex;
+  z-index: 0;
+}
+.background {
+  align-self: stretch;
+  height: 1px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+.curve {
+  margin: 0 !important;
+  position: absolute;
+  width: 100%;
+  top: 503.97px;
+  right: 0;
+  left: 0;
+  height: 490px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-200);
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  height: 994px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  mix-blend-mode: normal;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-ibm-plex-sans);
+}
+@media screen and (max-width: 960px) {
+  .frameParent {
+    align-self: stretch;
+    width: auto;
+    flex-direction: column;
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .frameParent {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    flex-direction: column;
+  }
+}

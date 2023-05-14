@@ -1,0 +1,194 @@
+.supportingYouAt {
+  margin: 0;
+}
+.supportingYouAtContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.supportingYouAtContainer {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 150.12px;
+  height: 79px;
+}
+.h4elementorHeadingTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160.88px;
+  height: 84px;
+  font-size: var(--font-size-lg);
+}
+.reach {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  letter-spacing: 0.6px;
+  line-height: 18px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 42.93px;
+  height: 15px;
+}
+.createForms,
+.emailNewsletter,
+.emailTemplates,
+.leadGeneration,
+.popUpBuilder {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 104.45px;
+  height: 18px;
+}
+.createForms,
+.emailNewsletter,
+.leadGeneration,
+.popUpBuilder {
+  top: 43px;
+  width: 107.7px;
+}
+.createForms,
+.leadGeneration,
+.popUpBuilder {
+  top: 81px;
+  width: 84.48px;
+}
+.leadGeneration,
+.popUpBuilder {
+  top: 119px;
+  width: 93.93px;
+}
+.leadGeneration {
+  top: 157px;
+  width: 103.48px;
+}
+.ulelementorIconListItems {
+  position: absolute;
+  top: 37.19px;
+  left: 0;
+  width: 216px;
+  height: 180px;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.divelementorWidgetWrap {
+  position: absolute;
+  width: calc(100% - 864px);
+  top: 0;
+  right: 648px;
+  left: 216px;
+  height: 217.19px;
+}
+.ecommerce {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  letter-spacing: 0.6px;
+  line-height: 18px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 79.12px;
+  height: 15px;
+}
+.ecommerceMarketing,
+.ecommercePersonalization,
+.shopify,
+.shoppingCartAbandonment {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 140.75px;
+  height: 18px;
+}
+.ecommercePersonalization,
+.shopify,
+.shoppingCartAbandonment {
+  top: 43px;
+  width: 174.78px;
+}
+.shopify,
+.shoppingCartAbandonment {
+  top: 81px;
+  width: 181.31px;
+}
+.shopify {
+  top: 5px;
+  left: 22.5px;
+  width: 47.42px;
+}
+.svgIcon {
+  top: 7px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+}
+.a,
+.svgIcon,
+.woocommerce {
+  position: absolute;
+}
+.a {
+  width: 100%;
+  top: calc(50% + 24px);
+  right: 0;
+  left: 0;
+  height: 28px;
+}
+.woocommerce {
+  top: 5px;
+  left: 22.5px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 96.53px;
+  height: 18px;
+}
+.a1 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% + 62px);
+  right: 0;
+  left: 0;
+  height: 28px;
+}
+.divelementorWidgetWrap1 {
+  position: absolute;
+  width: calc(100% - 864px);
+  top: 0;
+  right: 0;
+  left: 864px;
+  height: 217.19px;
+}
+.divelementorContainer {
+  position: absolute;
+  top: calc(50% - 108.6px);
+  left: calc(50% - 540px);
+  width: 1080px;
+  height: 217.19px;
+}
+.touachpoint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-aliceblue);
+  width: 1920px;
+  height: 345.19px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-400);
+  font-family: var(--font-ibm-plex-sans);
+}

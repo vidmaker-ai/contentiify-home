@@ -1,0 +1,482 @@
+.customerExperience {
+  margin: 0;
+}
+.customerExperienceAutomationContainer {
+  position: relative;
+  letter-spacing: 0.6px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emailMarketingAutomation,
+.marketingAutomation,
+.salesAutomation,
+.salesEngagement,
+.serviceSupport {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 178.08px;
+  height: 18px;
+}
+.marketingAutomation,
+.salesAutomation,
+.salesEngagement,
+.serviceSupport {
+  top: 43px;
+  width: 139.61px;
+}
+.salesAutomation,
+.salesEngagement,
+.serviceSupport {
+  top: 81px;
+  width: 110.97px;
+}
+.salesEngagement,
+.serviceSupport {
+  top: 119px;
+  width: 116.14px;
+}
+.serviceSupport {
+  top: 157px;
+  width: 112.93px;
+}
+.ulelementorIconListItems {
+  position: absolute;
+  top: 55.19px;
+  left: 0;
+  width: 216px;
+  height: 180px;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.divelementorWidgetWrap {
+  position: absolute;
+  width: calc(100% - 864px);
+  top: 0;
+  right: 864px;
+  left: 0;
+  height: 484.38px;
+}
+.landingPages {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 90.53px;
+  height: 18px;
+}
+.liveChat,
+.smsMarketing,
+.socialMediaMarketing,
+.transactionalEmail,
+.webPersonalization {
+  position: absolute;
+  top: 43px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 57.53px;
+  height: 18px;
+}
+.smsMarketing,
+.socialMediaMarketing,
+.transactionalEmail,
+.webPersonalization {
+  top: 81px;
+  width: 93.72px;
+}
+.socialMediaMarketing,
+.transactionalEmail,
+.webPersonalization {
+  top: 119px;
+  width: 145.33px;
+}
+.transactionalEmail,
+.webPersonalization {
+  top: 157px;
+  width: 128.18px;
+}
+.transactionalEmail {
+  top: 195px;
+  width: 123.39px;
+}
+.ulelementorIconListItems1 {
+  position: absolute;
+  top: 55.19px;
+  left: 0;
+  width: 216px;
+  height: 218px;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.divelementorWidgetWrap1 {
+  position: absolute;
+  width: calc(100% - 864px);
+  top: 0;
+  right: 648px;
+  left: 216px;
+  height: 484.38px;
+}
+.a2,
+.getStarted,
+.liveExpertWorkshop {
+  position: absolute;
+  left: 0;
+  display: flex;
+}
+.a2 {
+  top: 0;
+  flex-direction: row;
+  padding: 0 0.1999969482421875px 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.getStarted,
+.liveExpertWorkshop {
+  top: 5px;
+  line-height: 28px;
+  align-items: center;
+  width: 72.23px;
+  height: 18px;
+}
+.liveExpertWorkshop {
+  top: 43px;
+  width: 136.17px;
+}
+.blog,
+.community,
+.events,
+.helpResources,
+.marketingGlossary,
+.productUpdates,
+.strategySession {
+  position: absolute;
+  top: 81px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 128.97px;
+  height: 18px;
+}
+.blog,
+.community,
+.events,
+.helpResources,
+.marketingGlossary,
+.productUpdates {
+  top: 119px;
+  width: 72.5px;
+}
+.blog,
+.events,
+.helpResources,
+.marketingGlossary,
+.productUpdates {
+  top: 157px;
+  width: 42.51px;
+}
+.blog,
+.helpResources,
+.marketingGlossary,
+.productUpdates {
+  top: 195px;
+  width: 98.61px;
+}
+.blog,
+.marketingGlossary,
+.productUpdates {
+  top: 233px;
+  width: 105.36px;
+}
+.blog,
+.marketingGlossary {
+  top: 271px;
+  width: 120.75px;
+}
+.blog {
+  top: 309px;
+  width: 28.39px;
+}
+.ulelementorIconListItems2 {
+  position: absolute;
+  top: 55.19px;
+  left: 0;
+  width: 216px;
+  height: 332px;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.divelementorWidgetWrap2 {
+  position: absolute;
+  width: calc(100% - 864px);
+  top: 0;
+  right: 432px;
+  left: 432px;
+  height: 484.38px;
+}
+.a3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0.4199981689453125px 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.automationRecipes,
+.developerCenter,
+.freeTools,
+.integrationMarketplace {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 151.53px;
+  height: 18px;
+}
+.automationRecipes,
+.developerCenter,
+.freeTools {
+  top: 43px;
+  width: 109.54px;
+}
+.automationRecipes,
+.freeTools {
+  top: 81px;
+  width: 64.9px;
+}
+.automationRecipes {
+  top: 119px;
+  width: 126.64px;
+}
+.ulelementorIconListItems3 {
+  position: absolute;
+  top: 55.19px;
+  left: 0;
+  width: 216px;
+  height: 142px;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.divelementorWidgetWrap4 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 197.19px;
+}
+.becomeAPartner {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  letter-spacing: 0.6px;
+  line-height: 18px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 126.4px;
+  height: 15px;
+}
+.affiliate,
+.agencyReseller,
+.isvDeveloper {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 113.79px;
+  height: 18px;
+}
+.affiliate,
+.isvDeveloper {
+  top: 43px;
+  width: 48.98px;
+}
+.isvDeveloper {
+  top: 81px;
+  width: 102.81px;
+}
+.ulelementorIconListItems4 {
+  position: absolute;
+  top: 69.18px;
+  left: 0;
+  width: 216px;
+  height: 104px;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.divelementorWidgetWrap5 {
+  position: absolute;
+  width: 100%;
+  top: 197.19px;
+  right: 0;
+  left: 0;
+  height: 173.19px;
+}
+.divelementorWidgetWrap3 {
+  position: absolute;
+  width: calc(100% - 864px);
+  top: 0;
+  right: 216px;
+  left: 648px;
+  height: 484.38px;
+}
+.careers,
+.customerStories,
+.faq,
+.howWeCompare,
+.newsroom,
+.whyActivecampaign {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 132.53px;
+  height: 18px;
+}
+.careers,
+.customerStories,
+.faq,
+.howWeCompare,
+.newsroom {
+  top: 43px;
+  width: 112.29px;
+}
+.careers,
+.customerStories,
+.faq,
+.newsroom {
+  top: 81px;
+  width: 108.59px;
+}
+.careers,
+.faq,
+.newsroom {
+  top: 119px;
+  width: 48.78px;
+}
+.faq,
+.newsroom {
+  top: 157px;
+  width: 26.09px;
+}
+.newsroom {
+  top: 195px;
+  width: 68.23px;
+}
+.divelementorWidgetWrap7 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 273.19px;
+}
+.learnMore {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  letter-spacing: 0.6px;
+  line-height: 18px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 81.45px;
+  height: 15px;
+}
+.contactUs,
+.freeTrial,
+.pricing,
+.requestADemo {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 68.65px;
+  height: 18px;
+}
+.freeTrial,
+.pricing,
+.requestADemo {
+  top: 43px;
+  width: 103.26px;
+}
+.freeTrial,
+.pricing {
+  top: 81px;
+  width: 58.79px;
+}
+.pricing {
+  top: 119px;
+  width: 43.08px;
+}
+.ulelementorIconListItems6 {
+  position: absolute;
+  top: 69.18px;
+  left: 0;
+  width: 216px;
+  height: 142px;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.divelementorWidgetWrap8 {
+  position: absolute;
+  width: 100%;
+  top: 273.19px;
+  right: 0;
+  left: 0;
+  height: 211.19px;
+}
+.divelementorWidgetWrap6 {
+  position: absolute;
+  width: calc(100% - 864px);
+  top: 0;
+  right: 0;
+  left: 864px;
+  height: 484.38px;
+}
+.divelementorContainer {
+  position: absolute;
+  top: calc(50% - 226.19px);
+  left: calc(50% - 540px);
+  width: 1080px;
+  height: 484.38px;
+}
+.detailedCate {
+  position: absolute;
+  top: 345.19px;
+  left: 0;
+  background-color: var(--color-ghostwhite);
+  width: 1920px;
+  height: 580.38px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-400);
+  font-family: var(--font-ibm-plex-sans);
+}

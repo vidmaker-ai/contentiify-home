@@ -1,0 +1,111 @@
+.english {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45.79px;
+  height: 18px;
+}
+.spanwpmlLsNative {
+  position: absolute;
+  top: calc(50% - 6.8px);
+  left: calc(50% - 229.36px);
+  border-bottom: 2px solid var(--color-gray-400);
+  box-sizing: border-box;
+  width: 45.59px;
+  height: 24px;
+  font-size: var(--font-size-sm);
+}
+.div,
+.espaol {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  line-height: 28px;
+}
+.espaol {
+  top: 8.39px;
+  left: 19.16px;
+  font-size: var(--font-size-sm);
+  line-height: 16px;
+}
+.liwpmlLsSlotFooter {
+  position: absolute;
+  top: calc(50% - 14.19px);
+  left: calc(50% - 173.77px);
+  width: 79.34px;
+  height: 28.39px;
+}
+.franais {
+  position: absolute;
+  top: 8.39px;
+  left: 19.15px;
+  font-size: var(--font-size-sm);
+  line-height: 16px;
+}
+.liwpmlLsSlotFooter1,
+.liwpmlLsSlotFooter2 {
+  position: absolute;
+  top: calc(50% - 14.19px);
+  left: calc(50% - 94.42px);
+  width: 82.06px;
+  height: 28.39px;
+}
+.liwpmlLsSlotFooter2 {
+  left: calc(50% - 12.36px);
+  width: 77.73px;
+}
+.deutsch {
+  position: absolute;
+  top: 8.39px;
+  left: 18.15px;
+  font-size: var(--font-size-sm);
+  line-height: 16px;
+}
+.liwpmlLsSlotFooter3 {
+  top: calc(50% - 14.19px);
+  left: calc(50% + 65.38px);
+  width: 80.92px;
+}
+.liwpmlLsSlotFooter3,
+.liwpmlLsSlotFooter4,
+.ul {
+  position: absolute;
+  height: 28.39px;
+}
+.liwpmlLsSlotFooter4 {
+  top: calc(50% - 14.19px);
+  left: calc(50% + 146.3px);
+  width: 93.06px;
+}
+.ul {
+  top: calc(50% - 15.19px);
+  left: 8px;
+  width: 1064px;
+}
+.sectionelementorSection {
+  position: absolute;
+  width: calc(100% - 840px);
+  top: 0;
+  right: 420px;
+  left: 420px;
+  border-top: 1px solid var(--color-silver);
+  border-bottom: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  height: 84.39px;
+}
+.language {
+  position: absolute;
+  top: calc(50% + 365.59px);
+  left: calc(50% - 960px);
+  background-color: var(--color-ghostwhite);
+  width: 1920px;
+  height: 84.39px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-400);
+  font-family: var(--font-ibm-plex-sans);
+}

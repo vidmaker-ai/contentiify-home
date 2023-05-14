@@ -1,0 +1,108 @@
+.bodyChild {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 362.5px);
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 745px;
+}
+.div,
+.svgIcon {
+  position: absolute;
+  height: 24px;
+}
+.div {
+  top: 202px;
+  left: 112.97px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+}
+.svgIcon {
+  top: 0;
+  left: 0;
+  width: 24px;
+  overflow: hidden;
+}
+.integratedAnd {
+  margin: 0;
+}
+.integratedAndEmbeddableFormContainer {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.h3elementorFlipBoxLayer {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-44xl) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.makeForms {
+  position: absolute;
+  top: 178px;
+  left: 0;
+  line-height: 24px;
+}
+.divelementorFlipBoxLayer1 {
+  position: absolute;
+  height: calc(100% - 48px);
+  top: 24px;
+  bottom: 24px;
+  left: 24px;
+  width: 202px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-ibm-plex-sans);
+}
+.divelementorFlipBoxLayer {
+  position: absolute;
+  height: calc(100% - 422px);
+  width: calc(100% - 810px);
+  top: 152px;
+  right: 540px;
+  bottom: 270px;
+  left: 270px;
+  background-color: var(--color-mediumturquoise);
+}
+.everythingYouNeedContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.everythingYouNeedContainer {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 337.41px);
+  font-size: var(--font-size-21xl);
+  line-height: 48px;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray-200);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 675.02px;
+  height: 104px;
+}
+.divelementorFlipBoxLayerParent {
+  position: absolute;
+  top: calc(50% - 300.5px);
+  left: calc(50% - 530px);
+  width: 1060px;
+  height: 672px;
+}
+.body {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-darkslategray-200);
+  height: 765px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-font-awesome-5-free);
+}

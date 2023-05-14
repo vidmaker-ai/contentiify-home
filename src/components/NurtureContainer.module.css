@@ -1,0 +1,106 @@
+.pseudo {
+  position: absolute;
+  top: -11px;
+  left: 1px;
+  background-color: var(--color-mediumturquoise);
+  width: 248px;
+  height: 11px;
+}
+.nurture {
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  width: 58.9px;
+  height: 20px;
+}
+.growYourRelationship {
+  margin: 0;
+}
+.growYourRelationshipContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.growYourRelationshipContainer {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 173.04px;
+  height: 58px;
+}
+.p {
+  position: absolute;
+  top: 48px;
+  left: 17px;
+  width: 184px;
+  height: 60px;
+  font-size: var(--font-size-sm);
+}
+.dynamicContent,
+.eventTracking,
+.facebookCustomAudiences,
+.marketingAutomation,
+.messagingText {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  line-height: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 138.59px;
+  height: 18px;
+}
+.dynamicContent,
+.eventTracking,
+.facebookCustomAudiences,
+.messagingText {
+  top: 42px;
+  width: 108.25px;
+}
+.dynamicContent,
+.eventTracking,
+.facebookCustomAudiences {
+  top: 78px;
+  width: 91.68px;
+}
+.dynamicContent,
+.facebookCustomAudiences {
+  top: 114px;
+  width: 107.04px;
+}
+.facebookCustomAudiences {
+  top: 150px;
+  width: 179.31px;
+}
+.ulelementorIconListItems {
+  position: absolute;
+  top: 136px;
+  left: 17px;
+  width: 216px;
+  height: 174px;
+  font-size: var(--font-size-sm-6);
+  color: var(--color-gray-600);
+}
+.divelementorWidgetWrap {
+  position: absolute;
+  width: calc(100% - 810px);
+  top: 93px;
+  right: 540px;
+  left: 270px;
+  background-color: var(--color-white);
+  border-right: 1px solid var(--color-lavender);
+  border-bottom: 1px solid var(--color-lavender);
+  border-left: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  height: 327px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+  font-family: var(--font-ibm-plex-sans);
+}

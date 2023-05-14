@@ -1,0 +1,87 @@
+.nurture {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  letter-spacing: 0.6px;
+  line-height: 18px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 59.93px;
+  height: 15px;
+}
+.conversationalMarketing,
+.facebookAdvertising,
+.leadTrackingSoftware,
+.socialMediaAdvertising,
+.wordpress {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 159.84px;
+  height: 18px;
+}
+.facebookAdvertising,
+.leadTrackingSoftware,
+.socialMediaAdvertising,
+.wordpress {
+  top: 43px;
+  width: 134.9px;
+}
+.leadTrackingSoftware,
+.socialMediaAdvertising,
+.wordpress {
+  top: 81px;
+  width: 153.59px;
+}
+.leadTrackingSoftware,
+.wordpress {
+  top: 119px;
+  width: 146.37px;
+}
+.wordpress {
+  top: 5px;
+  left: 22.5px;
+  width: 67.92px;
+}
+.a,
+.svgIcon {
+  position: absolute;
+  left: 0;
+}
+.svgIcon {
+  top: 7px;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+}
+.a {
+  width: 100%;
+  top: calc(50% + 62px);
+  right: 0;
+  height: 28px;
+}
+.ulelementorIconListItems {
+  position: absolute;
+  top: 37.19px;
+  left: 0;
+  width: 216px;
+  height: 180px;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.divelementorWidgetWrap {
+  position: absolute;
+  width: calc(100% - 864px);
+  top: 0;
+  right: 432px;
+  left: 432px;
+  height: 217.19px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-400);
+  font-family: var(--font-ibm-plex-sans);
+}

@@ -1,0 +1,67 @@
+.div,
+.svgIcon {
+  position: absolute;
+  height: 24px;
+}
+.div {
+  top: 202px;
+  left: 109.7px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+}
+.svgIcon {
+  top: 0;
+  left: 0;
+  width: 24px;
+  overflow: hidden;
+}
+.freeHelpCourses {
+  margin: 0;
+}
+.freeHelpCoursesContainer {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.h3elementorFlipBoxLayer {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-53xl) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.getStarted {
+  position: absolute;
+  top: 178px;
+  left: 0;
+  line-height: 24px;
+}
+.divelementorFlipBoxLayer1 {
+  position: absolute;
+  height: calc(100% - 48px);
+  top: 24px;
+  bottom: 24px;
+  left: 24px;
+  width: 202px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-ibm-plex-sans);
+}
+.divelementorFlipBoxLayer {
+  position: absolute;
+  height: calc(100% - 422px);
+  width: calc(100% - 810px);
+  top: 422px;
+  right: 0;
+  bottom: 0;
+  left: 810px;
+  background-color: var(--color-mediumturquoise);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-font-awesome-5-free);
+}

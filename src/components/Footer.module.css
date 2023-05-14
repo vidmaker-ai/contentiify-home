@@ -1,0 +1,205 @@
+.div,
+.div1,
+.div2,
+.div3 {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  line-height: 26px;
+}
+.div1,
+.div2,
+.div3 {
+  left: 46.5px;
+}
+.div2,
+.div3 {
+  left: 90px;
+}
+.div3 {
+  left: 133.5px;
+}
+.divelementorWidgetContainer,
+.ulelementorIconListItems {
+  position: absolute;
+  top: 0;
+  left: -3px;
+  width: 174px;
+  height: 26px;
+}
+.divelementorWidgetContainer {
+  top: 10px;
+  left: 16px;
+  border-right: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 169px;
+  overflow: hidden;
+}
+.div4 {
+  position: relative;
+  line-height: 26px;
+}
+.ulelementorIconListItems1 {
+  position: absolute;
+  top: 0;
+  left: -3px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-mini-5) 0 var(--padding-10xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl-5);
+}
+.divelementorWidgetContainer1 {
+  position: absolute;
+  top: 10px;
+  left: 197px;
+  border-right: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 82px;
+  height: 26px;
+  overflow: hidden;
+}
+.blueSeal20042Bbb88495326Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 142px;
+  height: 30px;
+  object-fit: cover;
+}
+.divelementorElement {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: 291px;
+  border-right: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 147.8px;
+  height: 30px;
+}
+.legalCenter {
+  position: relative;
+  line-height: 20px;
+}
+.divelementorWidgetContainer2,
+.divelementorWidgetContainer3,
+.divlegalCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divelementorWidgetContainer2 {
+  overflow: hidden;
+}
+.divelementorWidgetContainer3,
+.divlegalCenter {
+  position: absolute;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-ibm-plex-sans);
+}
+.divlegalCenter {
+  top: calc(50% - 13px);
+  left: 450.8px;
+  border-right: 1px solid var(--color-silver);
+  padding: 0 12.5199966430664var (--padding-7xs) var(--padding-7xs) 0;
+}
+.divelementorWidgetContainer3 {
+  top: 10px;
+  left: 554.31px;
+  overflow: hidden;
+}
+.divelementorWidgetWrap {
+  position: absolute;
+  width: calc(100% - 373.78px);
+  top: 0;
+  right: 373.78px;
+  left: 0;
+  height: 46px;
+}
+.div6 {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  line-height: 18px;
+}
+.search {
+  position: relative;
+  font-weight: 500;
+}
+.divplaceholder {
+  position: absolute;
+  top: 14px;
+  left: 43px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 151.4199981689453px 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightslategray);
+  font-family: var(--font-ibm-plex-sans);
+}
+.divactSearchContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs-2);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 270.42px;
+  height: 46px;
+}
+.search1 {
+  position: relative;
+  line-height: 28px;
+}
+.buttonactSearchSubmit {
+  position: absolute;
+  top: 0;
+  left: 274.42px;
+  border-radius: var(--br-9xs-2);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray-400);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs) 18.55999755859375px var(--padding-4xs)
+    var(--padding-mid);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-base);
+  font-family: var(--font-ibm-plex-sans);
+}
+.formactSearchForm {
+  position: absolute;
+  top: 0;
+  left: 706.22px;
+  border-radius: var(--br-9xs);
+  width: 359.98px;
+  height: 46px;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-400);
+  font-family: var(--font-font-awesome-5-free);
+}
+.divelementorContainer {
+  position: absolute;
+  top: calc(50% - 23px);
+  left: calc(50% - 540px);
+  width: 1080px;
+  height: 46px;
+}
+.social {
+  position: absolute;
+  top: 1009.95px;
+  left: calc(50% - 960px);
+  background-color: var(--color-ghostwhite);
+  width: 1920px;
+  height: 110px;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-font-awesome-5-brands);
+}
