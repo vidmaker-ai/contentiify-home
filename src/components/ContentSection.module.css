@@ -7,83 +7,106 @@
 }
 .empowerYourBusinessContainer {
   position: absolute;
+  height: 100%;
+  width: 100%;
   top: 0;
   left: 0;
   line-height: 81.1px;
   display: flex;
   align-items: center;
-  width: 806px;
 }
 .groupChild {
   position: absolute;
-  top: calc(50% + 4px);
-  left: calc(50% - 261.5px);
-  width: 476px;
-  height: 78px;
+  height: 47.74%;
+  width: 59.72%;
+  top: 52.51%;
+  right: 22.52%;
+  bottom: -0.25%;
+  left: 17.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
 .empowerYourBusinessWithVirParent {
   position: absolute;
-  margin: 0 !important;
-  top: 21px;
-  left: 113px;
-  width: 806px;
-  height: 163px;
-  z-index: 0;
+  height: 43.52%;
+  width: 99.74%;
+  top: 0;
+  right: 0;
+  bottom: 56.48%;
+  left: 0.26%;
   font-family: var(--font-poppins);
 }
 .theSocialMediaContainer {
-  align-self: stretch;
-  position: relative;
+  position: absolute;
+  top: 198.6px;
+  left: 0;
   font-size: var(--font-size-xl);
   line-height: 32px;
-  z-index: 1;
+  display: flex;
+  align-items: center;
+  width: 776.5px;
 }
 .getViral {
   position: relative;
   line-height: 32px;
   font-weight: 500;
 }
+.buttonactButton,
+.tryItFree {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
 .buttonactButton {
+  top: 298.1px;
   border-radius: var(--br-8xs);
   background-color: var(--color-mediumturquoise);
   height: 48px;
-  display: flex;
   flex-direction: row;
   padding: var(--padding-5xs) 44.51000213623047px var(--padding-5xs)
     var(--padding-26xl);
   box-sizing: border-box;
-  align-items: center;
   justify-content: flex-start;
-  z-index: 2;
   text-align: center;
   font-size: var(--font-size-base);
   color: var(--color-darkslategray-200);
 }
 .tryItFree {
-  align-self: stretch;
-  position: relative;
+  top: 381.6px;
   font-size: var(--font-size-sm);
   line-height: 17.5px;
-  z-index: 3;
+  width: 776.5px;
 }
-.headings {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  padding: var(--padding-205xl) 0 var(--padding-97xl) var(--padding-95xl);
-  align-items: flex-start;
-  justify-content: flex-start;
+.groupParent {
+  position: absolute;
+  margin: 0 !important;
+  top: 22.4px;
+  left: 111px;
+  width: 799.51px;
+  height: 399.6px;
+  z-index: 0;
+}
+.frameParent,
+.imageIcon {
   position: relative;
-  gap: var(--gap-2xl);
-  z-index: 2;
+  z-index: 1;
 }
 .imageIcon {
-  align-self: stretch;
-  position: relative;
-  max-height: 100%;
   width: 927.82px;
+  height: 1019px;
   object-fit: cover;
-  z-index: 1;
+}
+.frameParent {
+  height: 431px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-935xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-46xl);
 }
 .maskGroupIcon {
   position: absolute;
@@ -143,14 +166,8 @@
   font-family: var(--font-ibm-plex-sans);
 }
 @media screen and (max-width: 960px) {
-  .body,
-  .headings {
-    align-self: stretch;
-  }
-  .headings {
-    flex: unset;
-  }
   .body {
+    align-self: stretch;
     width: auto;
     flex-direction: column;
     padding-bottom: 0;
@@ -158,15 +175,9 @@
   }
 }
 @media screen and (max-width: 420px) {
-  .body,
-  .headings {
-    align-self: stretch;
-  }
-  .headings {
-    flex: unset;
-  }
   .body {
     display: flex;
+    align-self: stretch;
     width: auto;
     flex-direction: column;
   }
