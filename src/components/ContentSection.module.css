@@ -12,21 +12,21 @@
   line-height: 81.1px;
   display: flex;
   align-items: center;
-  width: 928px;
+  width: 806px;
 }
 .groupChild {
   position: absolute;
   top: calc(50% + 4px);
-  left: calc(50% - 298.31px);
-  width: 452.56px;
+  left: calc(50% - 261.5px);
+  width: 476px;
   height: 78px;
 }
 .empowerYourBusinessWithVirParent {
   position: absolute;
   margin: 0 !important;
-  top: 105px;
+  top: 21px;
   left: 113px;
-  width: 928px;
+  width: 806px;
   height: 163px;
   z-index: 0;
   font-family: var(--font-poppins);
@@ -68,14 +68,13 @@
 }
 .headings {
   flex: 1;
-  height: 549px;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-288xl) 0 var(--padding-17xl) var(--padding-94xl);
-  box-sizing: border-box;
+  padding: var(--padding-205xl) 0 var(--padding-97xl) var(--padding-95xl);
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
   position: relative;
+  gap: var(--gap-2xl);
   z-index: 2;
 }
 .imageIcon,
@@ -85,9 +84,10 @@
   object-fit: cover;
 }
 .imageIcon {
+  align-self: stretch;
   flex: 1;
   position: relative;
-  height: 1019px;
+  max-height: 100%;
   z-index: 1;
 }
 .maskGroupIcon {
@@ -100,18 +100,20 @@
   height: 372px;
   z-index: 0;
 }
-.background,
-.curve {
-  display: flex;
-  z-index: 0;
-}
 .background {
   align-self: stretch;
   height: 1px;
+  display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
   position: relative;
+  z-index: 0;
+}
+.body,
+.curve {
+  display: flex;
+  justify-content: flex-start;
 }
 .curve {
   margin: 0 !important;
@@ -123,18 +125,19 @@
   height: 490px;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  z-index: 0;
 }
 .body {
   align-self: stretch;
   background-color: var(--color-darkslategray-200);
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   height: 994px;
-  display: flex;
   flex-direction: row;
+  padding: var(--padding-55xl) var(--padding-63xl) 0 0;
+  box-sizing: border-box;
   align-items: flex-start;
-  justify-content: space-between;
   position: relative;
+  gap: var(--gap-38xl);
   mix-blend-mode: normal;
   text-align: left;
   font-size: var(--font-size-45xl);

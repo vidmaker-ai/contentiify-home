@@ -67,6 +67,8 @@ body {
   /* Gaps */
   --gap-4xl-5: 23.5px;
   --gap-4xl: 23px;
+  --gap-38xl: 57px;
+  --gap-2xl: 21px;
   --gap-8xs: 5px;
   --gap-xl: 20px;
   --gap-lg: 18px;
@@ -100,15 +102,16 @@ body {
   --padding-xs: 12px;
   --padding-base-2: 15.2px;
   --padding-31xl: 50px;
-  --padding-288xl: 307px;
-  --padding-17xl: 36px;
-  --padding-94xl: 113px;
+  --padding-55xl: 74px;
+  --padding-63xl: 82px;
+  --padding-205xl: 224px;
+  --padding-97xl: 116px;
+  --padding-95xl: 114px;
   --padding-5xs: 8px;
   --padding-25xl-5: 44.5px;
   --padding-26xl: 45px;
   --padding-83xl: 102px;
   --padding-160xl: 179px;
-  --padding-95xl: 114px;
   --padding-36xl: 55px;
   --padding-80xl: 99px;
   --padding-10xl: 29px;
