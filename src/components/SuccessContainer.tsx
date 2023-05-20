@@ -67,7 +67,7 @@ const SuccessContainer: FunctionComponent = () => {
           </div>
         </div>
         <ContainerLandingPage
-          landingPageId="/svg10.svg"
+          landingPageId="24x24x4093273496"
           automationId="CRM"
           buildingText="Automate sales"
           propRight="810px"

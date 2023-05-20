@@ -1,33 +1,34 @@
 .empowerYourBusiness {
   margin: 0;
 }
-.empowerYourBusinessContainer {
-  align-self: stretch;
-  position: relative;
-  line-height: 81.1px;
-  z-index: 0;
+.empowerYourBusinessContainer1 {
+  line-break: anywhere;
+  width: 100%;
 }
-.frameChild {
+.empowerYourBusinessContainer {
   position: absolute;
-  margin: 0 !important;
-  width: 53.4%;
-  top: 85.5px;
-  right: 30.5%;
-  left: 16.1%;
-  max-width: 100%;
-  overflow: hidden;
+  top: 0;
+  left: 0;
+  line-height: 81.1px;
+  display: flex;
+  align-items: center;
+  width: 928px;
+}
+.groupChild {
+  position: absolute;
+  top: calc(50% + 4px);
+  left: calc(50% - 298.31px);
+  width: 452.56px;
   height: 78px;
-  flex-shrink: 0;
-  z-index: 1;
 }
 .empowerYourBusinessWithVirParent {
-  align-self: stretch;
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: relative;
+  position: absolute;
+  margin: 0 !important;
+  top: 105px;
+  left: 113px;
+  width: 928px;
+  height: 163px;
+  z-index: 0;
   font-family: var(--font-poppins);
 }
 .theSocialMediaContainer {
@@ -35,6 +36,7 @@
   position: relative;
   font-size: var(--font-size-xl);
   line-height: 32px;
+  z-index: 1;
 }
 .getViral {
   position: relative;
@@ -52,6 +54,7 @@
   box-sizing: border-box;
   align-items: center;
   justify-content: flex-start;
+  z-index: 2;
   text-align: center;
   font-size: var(--font-size-base);
   color: var(--color-darkslategray-200);
@@ -61,36 +64,30 @@
   position: relative;
   font-size: var(--font-size-sm);
   line-height: 17.5px;
+  z-index: 3;
 }
-.frameContainer {
+.headings {
   flex: 1;
-  height: 464px;
+  height: 549px;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-86xl) 0 0 var(--padding-94xl);
+  padding: var(--padding-288xl) 0 var(--padding-17xl) var(--padding-94xl);
   box-sizing: border-box;
   align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-2xl);
-  z-index: 1;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+.imageIcon,
+.maskGroupIcon {
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
 }
 .imageIcon {
   flex: 1;
   position: relative;
-  max-width: 100%;
-  overflow: hidden;
   height: 1019px;
-  object-fit: cover;
-  z-index: 0;
-  margin-left: -162px;
-}
-.frameGroup {
-  align-self: stretch;
-  width: 1920px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   z-index: 1;
 }
 .maskGroupIcon {
@@ -100,10 +97,7 @@
   top: 126px;
   right: 0;
   left: 0;
-  max-width: 100%;
-  overflow: hidden;
   height: 372px;
-  object-fit: cover;
   z-index: 0;
 }
 .background,
@@ -131,7 +125,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.frameParent {
+.body {
   align-self: stretch;
   background-color: var(--color-darkslategray-200);
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
@@ -148,7 +142,12 @@
   font-family: var(--font-ibm-plex-sans);
 }
 @media screen and (max-width: 960px) {
-  .frameParent {
+  .headings,
+  .imageIcon {
+    flex: unset;
+    align-self: stretch;
+  }
+  .body {
     align-self: stretch;
     width: auto;
     flex-direction: column;
@@ -157,7 +156,12 @@
   }
 }
 @media screen and (max-width: 420px) {
-  .frameParent {
+  .headings,
+  .imageIcon {
+    flex: unset;
+    align-self: stretch;
+  }
+  .body {
     display: flex;
     align-self: stretch;
     width: auto;
