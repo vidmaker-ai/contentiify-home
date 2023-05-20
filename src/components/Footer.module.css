@@ -193,10 +193,11 @@
 }
 .social {
   position: absolute;
-  top: 1009.95px;
-  left: calc(50% - 960px);
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-color: var(--color-ghostwhite);
-  width: 1920px;
   height: 110px;
   text-align: left;
   font-size: var(--font-size-7xl);

@@ -99,10 +99,11 @@
 }
 .language {
   position: absolute;
-  top: calc(50% + 365.59px);
-  left: calc(50% - 960px);
+  width: 100%;
+  top: 925.56px;
+  right: 0;
+  left: 0;
   background-color: var(--color-ghostwhite);
-  width: 1920px;
   height: 84.39px;
   text-align: center;
   font-size: var(--font-size-lg);

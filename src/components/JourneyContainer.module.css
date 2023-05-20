@@ -131,6 +131,7 @@
   align-self: stretch;
   position: relative;
   height: 593px;
+  margin-top: -2px;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-gray-400);

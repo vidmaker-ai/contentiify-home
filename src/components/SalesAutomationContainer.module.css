@@ -177,7 +177,7 @@
 }
 .crmParent {
   position: absolute;
-  top: calc(50% - 230.55px);
+  top: calc(50% - 231.07px);
   left: calc(50% - 530px);
   width: 1060px;
   height: 508.19px;
@@ -187,6 +187,7 @@
   flex: 1;
   position: relative;
   background: linear-gradient(#0c2b36, #0c2b36), #fdfdfd;
+  margin-top: -2px;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-gray-100);

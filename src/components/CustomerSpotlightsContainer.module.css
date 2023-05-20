@@ -116,6 +116,17 @@
   position: relative;
   width: 1028px;
   height: 623.49px;
+  z-index: 0;
+}
+.testimonial {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  height: 721px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
   text-align: center;
   font-size: var(--font-size-base);
   color: var(--color-gray-600);

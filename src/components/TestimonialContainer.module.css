@@ -80,7 +80,8 @@
   align-self: stretch;
   position: relative;
   background-color: var(--color-gainsboro);
-  height: 444px;
+  height: 463px;
+  margin-top: -2px;
   text-align: center;
   font-size: var(--font-size-25xl);
   color: var(--color-darkslategray-100);

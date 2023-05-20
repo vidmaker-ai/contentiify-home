@@ -178,7 +178,7 @@
 }
 .focusOnQualifiedLeadsParent {
   position: absolute;
-  top: calc(50% - 301.17px);
+  top: calc(50% - 301.69px);
   left: calc(50% - 530px);
   width: 1060px;
   height: 612.78px;
@@ -188,6 +188,7 @@
   flex: 1;
   position: relative;
   background-color: var(--color-darkslategray-200);
+  margin-top: -2px;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-gray-100);

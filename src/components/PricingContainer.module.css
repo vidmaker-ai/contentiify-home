@@ -470,10 +470,11 @@
 }
 .detailedCate {
   position: absolute;
+  width: 100%;
   top: 345.19px;
+  right: 0;
   left: 0;
   background-color: var(--color-ghostwhite);
-  width: 1920px;
   height: 580.38px;
   text-align: left;
   font-size: var(--font-size-xs);

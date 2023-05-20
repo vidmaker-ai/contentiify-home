@@ -1,10 +1,10 @@
 .bodyChild {
   position: absolute;
-  height: 97.39%;
+  height: 98.82%;
   width: 100%;
-  top: 2.61%;
+  top: 2.67%;
   right: 0;
-  bottom: 0;
+  bottom: -1.5%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
@@ -103,6 +103,7 @@
   position: relative;
   background-color: var(--color-darkslategray-200);
   height: 765px;
+  margin-top: -2px;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-white);

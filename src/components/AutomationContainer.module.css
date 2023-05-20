@@ -206,16 +206,17 @@
 }
 .marketingautomationpngParent {
   position: absolute;
-  top: calc(50% - 285.61px);
+  top: calc(50% - 285.75px);
   left: calc(50% - 530px);
   width: 1060px;
   height: 571.06px;
 }
 .body {
   align-self: stretch;
-  flex: 1;
   position: relative;
   background-color: var(--color-darkslategray-200);
+  height: 904px;
+  margin-top: -2px;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-gray-100);

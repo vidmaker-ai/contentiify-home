@@ -163,21 +163,17 @@
   line-height: 24px;
   font-weight: 600;
 }
-.aelementorButtonLink,
-.personalizedEmailMarketingParent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
 .aelementorButtonLink {
   border-radius: var(--br-10xs);
   border: 2px solid var(--color-gray-100);
   box-sizing: border-box;
-  width: 220.14px;
+  width: 221px;
   height: 52px;
-  padding: var(--padding-sm) 25.139999389648438px var(--padding-sm)
-    var(--padding-7xl);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-sm) 0;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: var(--color-mediumturquoise);
 }
@@ -185,6 +181,10 @@
   position: absolute;
   top: calc(50% - 240.52px);
   left: calc(50% - 530px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-4xl);
 }
 .emailmarketingpngParent {
@@ -198,31 +198,30 @@
   position: absolute;
   margin: 0 !important;
   width: 100%;
-  top: -0.5px;
+  top: 0;
   right: 0;
   left: 0;
   height: 1px;
   z-index: 1;
 }
-.body,
-.bodyChild {
-  align-self: stretch;
-  position: relative;
-}
 .bodyChild {
   flex: 1;
+  position: relative;
   max-width: 100%;
   overflow: hidden;
-  max-height: 100%;
+  height: 740px;
   z-index: 0;
 }
 .body {
+  align-self: stretch;
   background-color: var(--color-whitesmoke-200);
-  height: 715px;
+  height: 722px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  margin-top: -2px;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-gray-100);
