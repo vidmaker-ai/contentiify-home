@@ -1,12 +1,14 @@
 .bodyChild {
   position: absolute;
+  height: 97.39%;
   width: 100%;
-  top: calc(50% - 362.5px);
+  top: 2.61%;
   right: 0;
+  bottom: 0;
   left: 0;
   max-width: 100%;
   overflow: hidden;
-  height: 745px;
+  max-height: 100%;
 }
 .div,
 .svgIcon {

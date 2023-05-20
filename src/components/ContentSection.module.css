@@ -7,101 +7,113 @@
 }
 .empowerYourBusinessContainer {
   position: absolute;
-  height: 100%;
   width: 100%;
-  top: 0;
+  top: calc(50% - 87px);
   left: 0;
   line-height: 81.1px;
   display: flex;
   align-items: center;
+  height: 173.89px;
 }
 .groupChild {
   position: absolute;
-  height: 47.74%;
-  width: 59.72%;
-  top: 52.51%;
-  right: 22.52%;
-  bottom: -0.25%;
-  left: 17.75%;
+  width: calc(100% - 345.75px);
+  top: calc(50% + 5.5px);
+  right: 197.32px;
+  left: 148.44px;
   max-width: 100%;
   overflow: hidden;
-  max-height: 100%;
+  height: 83px;
 }
 .empowerYourBusinessWithVirParent {
   position: absolute;
-  height: 43.52%;
-  width: 99.74%;
-  top: 0;
+  margin: 0 !important;
+  width: calc(100% - 2.06px);
+  top: calc(50% - 199.5px);
   right: 0;
-  bottom: 56.48%;
-  left: 0.26%;
+  left: 2.06px;
+  height: 174px;
+  z-index: 0;
   font-family: var(--font-poppins);
 }
 .theSocialMediaContainer {
-  position: absolute;
-  top: 198.6px;
-  left: 0;
+  position: relative;
   font-size: var(--font-size-xl);
   line-height: 32px;
   display: flex;
   align-items: center;
   width: 776.5px;
+  z-index: 1;
 }
 .getViral {
   position: relative;
   line-height: 32px;
   font-weight: 500;
 }
-.buttonactButton,
-.tryItFree {
-  position: absolute;
-  left: 0;
-  display: flex;
-  align-items: center;
-}
 .buttonactButton {
-  top: 298.1px;
   border-radius: var(--br-8xs);
   background-color: var(--color-mediumturquoise);
   height: 48px;
+  display: flex;
   flex-direction: row;
   padding: var(--padding-5xs) 44.51000213623047px var(--padding-5xs)
     var(--padding-26xl);
   box-sizing: border-box;
+  align-items: center;
   justify-content: flex-start;
+  z-index: 2;
   text-align: center;
   font-size: var(--font-size-base);
   color: var(--color-darkslategray-200);
 }
+.groupParent,
 .tryItFree {
-  top: 381.6px;
+  display: flex;
+  position: relative;
+}
+.tryItFree {
   font-size: var(--font-size-sm);
   line-height: 17.5px;
+  align-items: center;
   width: 776.5px;
+  z-index: 3;
 }
 .groupParent {
+  width: 828px;
+  flex-direction: column;
+  padding: var(--padding-178xl) 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+}
+.imageCrop1Icon {
+  align-self: stretch;
   position: relative;
-  width: 799.51px;
-  height: 399.6px;
+  max-height: 100%;
+  width: 822px;
+  object-fit: cover;
+}
+.frameParent,
+.imageIcon {
+  align-self: stretch;
+  flex: 1;
 }
 .imageIcon {
-  flex: 1;
   position: relative;
   max-width: 100%;
   overflow: hidden;
-  height: 1078px;
+  max-height: 100%;
   object-fit: cover;
-  margin-left: -85px;
+  display: none;
 }
 .frameParent {
-  width: 1920px;
-  height: 962px;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-60xl) var(--padding-49xl) 0 var(--padding-120xl);
-  box-sizing: border-box;
+  padding: var(--padding-9xl) 0 0 var(--padding-94xl);
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: var(--gap-32xl);
   z-index: 1;
 }
 .body,
@@ -113,12 +125,11 @@
   margin: 0 !important;
   width: 100%;
   right: 0;
-  bottom: 0;
+  bottom: -0.5px;
   left: 0;
   max-width: 100%;
   overflow: hidden;
   height: 476px;
-  flex-shrink: 0;
   object-fit: cover;
   z-index: 0;
 }
@@ -126,13 +137,13 @@
   align-self: stretch;
   background-color: var(--color-darkslategray-200);
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
-  height: 994px;
+  height: 881px;
   display: flex;
-  flex-direction: column;
-  padding: var(--padding-6xl) 0 0;
+  flex-direction: row;
+  padding: var(--padding-81xl) 0 0;
   box-sizing: border-box;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
   position: relative;
   text-align: left;
   font-size: var(--font-size-45xl);
@@ -140,19 +151,18 @@
   font-family: var(--font-ibm-plex-sans);
 }
 @media screen and (max-width: 960px) {
-  .body {
-    align-self: stretch;
-    width: auto;
-    flex-direction: column;
-    padding-bottom: 0;
-    box-sizing: border-box;
+  .empowerYourBusinessWithVirParent {
+    width: 830px;
+    flex: 1;
   }
-}
-@media screen and (max-width: 420px) {
-  .body {
-    display: flex;
+  .frameParent {
+    flex: unset;
     align-self: stretch;
-    width: auto;
+  }
+  .body {
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 0;
   }
 }

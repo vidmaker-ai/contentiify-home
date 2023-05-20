@@ -41,12 +41,12 @@ const SuccessContainer: FunctionComponent = () => {
           propLeft1="128.34px"
         />
         <ContainerLandingPage
-          landingPageId="/svg7.svg"
+          landingPageId="24x24x3069058693"
           automationId="Landing pages"
           buildingText="Start building"
         />
         <ContainerLandingPage
-          landingPageId="/svg8.svg"
+          landingPageId="24x24x242052795"
           automationId="Pre-built automations"
           buildingText="Target contacts"
           propRight="270px"

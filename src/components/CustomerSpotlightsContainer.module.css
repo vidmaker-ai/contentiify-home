@@ -113,17 +113,9 @@
   height: 24px;
 }
 .customerSpotlightsParent {
-  position: absolute;
-  top: calc(50% - 311.72px);
-  left: calc(50% - 518px);
+  position: relative;
   width: 1028px;
   height: 623.49px;
-}
-.body {
-  align-self: stretch;
-  flex: 1;
-  position: relative;
-  background-color: var(--color-whitesmoke-100);
   text-align: center;
   font-size: var(--font-size-base);
   color: var(--color-gray-600);

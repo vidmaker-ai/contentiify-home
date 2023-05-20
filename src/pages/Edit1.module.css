@@ -61,7 +61,7 @@
 .body {
   align-self: stretch;
   position: relative;
-  background-color: var(--color-whitesmoke-100);
+  background-color: #f5f6f7;
   height: 352px;
 }
 .noCreditCard,

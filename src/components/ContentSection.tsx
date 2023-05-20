@@ -35,6 +35,11 @@ const ContentSection: FunctionComponent = () => {
             Try it free. No credit card required. Instant setup.
           </div>
         </div>
+        <img
+          className={styles.imageCrop1Icon}
+          alt=""
+          src="/image-crop-1@2x.png"
+        />
         <img className={styles.imageIcon} alt="" src="/image@2x.png" />
       </div>
       <img className={styles.bodyChild} alt="" src="/frame-732@2x.png" />

@@ -122,7 +122,7 @@
 }
 .stage {
   position: absolute;
-  top: calc(50% - 264.63px);
+  top: calc(50% - 264.13px);
   left: calc(50% - 530px);
   width: 1060px;
   height: 420px;
@@ -130,7 +130,7 @@
 .body {
   align-self: stretch;
   position: relative;
-  height: 550px;
+  height: 593px;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-gray-400);

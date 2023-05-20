@@ -6,22 +6,18 @@ const Header: FunctionComponent = () => {
   return (
     <header className={styles.top} id="header">
       <div className={styles.sectionelementorSection}>
-        <div className={styles.accmounce}>
-          <i className={styles.heyThereFreeContainer}>
-            <span className={styles.heyThereFreeContainer1}>
-              {`Hey there! Free trials are available for Standard and Essentials plans. `}
-              <a
-                className={styles.startForFreeToday}
-                href="https://app.contentiify.com/login"
-                target="_blank"
-              >
-                <span className={styles.startForFree}>
-                  Start for free today.
-                </span>
-              </a>
-            </span>
-          </i>
-        </div>
+        <i className={styles.heyThereFreeContainer}>
+          <span className={styles.heyThereFreeContainer1}>
+            {`Hey there! Free trials are available for Standard and Essentials plans. `}
+            <a
+              className={styles.startForFreeToday}
+              href="https://app.contentiify.com/login"
+              target="_blank"
+            >
+              <span className={styles.startForFree}>Start for free today.</span>
+            </a>
+          </span>
+        </i>
       </div>
       <div className={styles.cate}>
         <img className={styles.contentiifyIcon} alt="" src="/contentiify.svg" />

@@ -9,7 +9,7 @@
   right: 0;
   max-width: 100%;
   overflow: hidden;
-  height: 710.93px;
+  height: 881px;
   object-fit: cover;
 }
 .bodyChild {
@@ -350,7 +350,7 @@
 }
 .the1ContentGenerationPlatParent {
   position: absolute;
-  top: calc(50% - 276.67px);
+  top: calc(50% - 276.86px);
   left: calc(50% - 540px);
   width: 1464px;
   height: 504.58px;

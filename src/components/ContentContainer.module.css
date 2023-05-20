@@ -197,9 +197,10 @@
 .bodyInner {
   position: absolute;
   margin: 0 !important;
+  width: 100%;
   top: -0.5px;
-  left: calc(50% - 960px);
-  width: 1920px;
+  right: 0;
+  left: 0;
   height: 1px;
   z-index: 1;
 }
