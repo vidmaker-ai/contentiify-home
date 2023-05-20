@@ -87,32 +87,31 @@
   justify-content: flex-start;
   gap: var(--gap-17xl);
 }
-.imageCrop1Icon {
+.imageCrop1Icon,
+.imageIcon {
   align-self: stretch;
   position: relative;
   max-height: 100%;
-  width: 822px;
   object-fit: cover;
 }
-.frameParent,
-.imageIcon {
-  align-self: stretch;
-  flex: 1;
+.imageCrop1Icon {
+  width: 822px;
 }
 .imageIcon {
-  position: relative;
+  flex: 1;
   max-width: 100%;
   overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
   display: none;
 }
 .frameParent {
+  flex: 1;
+  height: 781px;
   display: flex;
   flex-direction: row;
   padding: var(--padding-9xl) 0 0 var(--padding-94xl);
+  box-sizing: border-box;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: var(--gap-32xl);
   z-index: 1;
 }
@@ -143,7 +142,7 @@
   padding: var(--padding-81xl) 0 0;
   box-sizing: border-box;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   position: relative;
   text-align: left;
   font-size: var(--font-size-45xl);
@@ -155,14 +154,33 @@
     width: 830px;
     flex: 1;
   }
-  .frameParent {
+  .imageCrop1Icon {
+    display: none;
+  }
+  .imageIcon {
     flex: unset;
     align-self: stretch;
   }
-  .body {
+  .body,
+  .frameParent {
+    align-self: stretch;
     flex-direction: column;
     align-items: flex-start;
+  }
+  .frameParent {
+    flex: unset;
+    height: auto;
+    gap: var(--gap-0);
     justify-content: flex-start;
+    padding-left: var(--padding-81xl);
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+  .body {
+    width: auto;
+    flex: 1;
+    gap: var(--gap-3xs);
+    justify-content: space-between;
     border-radius: 0;
   }
 }

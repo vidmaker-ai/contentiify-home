@@ -4,7 +4,7 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 import styles from "./Header.module.css";
 const Header: FunctionComponent = () => {
   return (
-    <header className={styles.top} id="header">
+    <div className={styles.top}>
       <div className={styles.sectionelementorSection}>
         <i className={styles.heyThereFreeContainer}>
           <span className={styles.heyThereFreeContainer1}>
@@ -67,7 +67,7 @@ const Header: FunctionComponent = () => {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

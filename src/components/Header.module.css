@@ -219,8 +219,16 @@
   .sectionelementorSection {
     display: none;
     width: auto;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    flex-direction: column;
+  }
+  .loginParent {
+    display: none;
+  }
+  .cate {
+    gap: var(--gap-59xl);
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
   }
   .top {
     display: flex;
