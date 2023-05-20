@@ -134,7 +134,7 @@
 .body,
 .curve {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
 }
 .curve {
   margin: 0 !important;
@@ -144,8 +144,8 @@
   right: 0;
   left: 0;
   height: 490px;
-  flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   z-index: 0;
 }
 .body {
@@ -153,12 +153,11 @@
   background-color: var(--color-darkslategray-200);
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   height: 994px;
-  flex-direction: row;
-  padding: var(--padding-55xl) var(--padding-63xl) 0 0;
+  padding: 0 var(--padding-63xl) var(--padding-445xl) 0;
   box-sizing: border-box;
   align-items: flex-start;
+  justify-content: space-between;
   position: relative;
-  gap: var(--gap-38xl);
   mix-blend-mode: normal;
   text-align: left;
   font-size: var(--font-size-45xl);
