@@ -37,15 +37,7 @@ const ContentSection: FunctionComponent = () => {
         </div>
         <img className={styles.imageIcon} alt="" src="/image@2x.png" />
       </div>
-      <div className={styles.curve}>
-        <div className={styles.background}>
-          <img
-            className={styles.maskGroupIcon}
-            alt=""
-            src="/mask-group@2x.png"
-          />
-        </div>
-      </div>
+      <img className={styles.bodyChild} alt="" src="/frame-732@2x.png" />
     </div>
   );
 };

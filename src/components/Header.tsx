@@ -12,7 +12,7 @@ const Header: FunctionComponent = () => {
               {`Hey there! Free trials are available for Standard and Essentials plans. `}
               <a
                 className={styles.startForFreeToday}
-                href="https://mailchimp.com/pricing/marketing/"
+                href="https://app.contentiify.com/login"
                 target="_blank"
               >
                 <span className={styles.startForFree}>

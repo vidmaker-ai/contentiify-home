@@ -4,7 +4,7 @@ import styles from "./JourneyContainer.module.css";
 const JourneyContainer: FunctionComponent = () => {
   return (
     <div className={styles.body}>
-      <img className={styles.maskGroupIcon} alt="" src="/mask-group2@2x.png" />
+      <img className={styles.maskGroupIcon} alt="" src="/mask-group1@2x.png" />
       <div className={styles.stage}>
         <b className={styles.builtForEach}>
           Built for each stage of the customer journey

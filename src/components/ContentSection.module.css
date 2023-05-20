@@ -80,72 +80,46 @@
   width: 776.5px;
 }
 .groupParent {
-  position: absolute;
-  margin: 0 !important;
-  top: 22.4px;
-  left: 111px;
+  position: relative;
   width: 799.51px;
   height: 399.6px;
-  z-index: 0;
 }
-.frameParent,
 .imageIcon {
+  flex: 1;
   position: relative;
-  z-index: 1;
-}
-.imageIcon {
-  width: 927.82px;
-  height: 1019px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1078px;
   object-fit: cover;
+  margin-left: -85px;
 }
 .frameParent {
-  height: 431px;
+  width: 1920px;
+  height: 962px;
   display: flex;
-  flex-direction: column;
-  padding: 0 0 0 var(--padding-935xl);
+  flex-direction: row;
+  padding: var(--padding-60xl) var(--padding-49xl) 0 var(--padding-120xl);
   box-sizing: border-box;
   align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-46xl);
+  justify-content: center;
+  z-index: 1;
 }
-.maskGroupIcon {
+.body,
+.bodyChild {
+  mix-blend-mode: normal;
+}
+.bodyChild {
   position: absolute;
   margin: 0 !important;
   width: 100%;
-  top: 126px;
   right: 0;
+  bottom: 0;
   left: 0;
   max-width: 100%;
   overflow: hidden;
-  height: 372px;
+  height: 476px;
+  flex-shrink: 0;
   object-fit: cover;
-  z-index: 0;
-}
-.background {
-  align-self: stretch;
-  height: 1px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: center;
-  position: relative;
-  z-index: 0;
-}
-.body,
-.curve {
-  display: flex;
-  flex-direction: column;
-}
-.curve {
-  margin: 0 !important;
-  position: absolute;
-  width: 100%;
-  top: 503.97px;
-  right: 0;
-  left: 0;
-  height: 490px;
-  align-items: center;
-  justify-content: flex-start;
   z-index: 0;
 }
 .body {
@@ -153,12 +127,13 @@
   background-color: var(--color-darkslategray-200);
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   height: 994px;
-  padding: 0 var(--padding-63xl) var(--padding-445xl) 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-6xl) 0 0;
   box-sizing: border-box;
   align-items: flex-start;
   justify-content: space-between;
   position: relative;
-  mix-blend-mode: normal;
   text-align: left;
   font-size: var(--font-size-45xl);
   color: var(--color-gray-100);

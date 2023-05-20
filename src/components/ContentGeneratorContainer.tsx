@@ -3,7 +3,7 @@ import styles from "./ContentGeneratorContainer.module.css";
 const ContentGeneratorContainer: FunctionComponent = () => {
   return (
     <div className={styles.body}>
-      <img className={styles.maskGroupIcon} alt="" src="/mask-group1@2x.png" />
+      <img className={styles.maskGroupIcon} alt="" src="/mask-group@2x.png" />
       <div className={styles.bodyChild} />
       <div className={styles.the1ContentGenerationPlatParent}>
         <b className={styles.the1Content}>The #1 Content Generation Platform</b>

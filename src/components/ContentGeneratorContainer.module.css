@@ -1,20 +1,18 @@
+.bodyChild,
 .maskGroupIcon {
-  position: absolute;
-  height: 99.38%;
-  width: 100%;
-  top: 0.61%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-.bodyChild {
   position: absolute;
   top: 0;
   left: 0;
+}
+.maskGroupIcon {
+  width: 100%;
+  right: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 710.93px;
+  object-fit: cover;
+}
+.bodyChild {
   background-color: var(--color-mediumturquoise);
   width: 1920px;
   height: 557px;

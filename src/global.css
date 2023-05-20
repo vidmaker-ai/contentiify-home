@@ -67,7 +67,6 @@ body {
   /* Gaps */
   --gap-4xl-5: 23.5px;
   --gap-4xl: 23px;
-  --gap-46xl: 65px;
   --gap-8xs: 5px;
   --gap-xl: 20px;
   --gap-lg: 18px;
@@ -101,9 +100,9 @@ body {
   --padding-xs: 12px;
   --padding-base-2: 15.2px;
   --padding-31xl: 50px;
-  --padding-63xl: 82px;
-  --padding-445xl: 464px;
-  --padding-935xl: 954px;
+  --padding-60xl: 79px;
+  --padding-49xl: 68px;
+  --padding-120xl: 139px;
   --padding-5xs: 8px;
   --padding-25xl-5: 44.5px;
   --padding-26xl: 45px;
