@@ -2,9 +2,9 @@
   position: absolute;
   margin: 0 !important;
   bottom: 0;
-  left: calc(50% - 2256px);
-  width: 4509px;
-  height: 818.05px;
+  left: calc(50% - 2613px);
+  width: 5223px;
+  height: 890.05px;
   z-index: 0;
 }
 .div,
@@ -262,7 +262,7 @@
 .body {
   align-self: stretch;
   background-color: var(--color-darkslategray-200);
-  height: 818px;
+  height: 879px;
   display: flex;
   flex-direction: row;
   padding: var(--padding-64xl) 0 0;

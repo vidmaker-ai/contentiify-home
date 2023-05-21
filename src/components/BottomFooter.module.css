@@ -46,17 +46,26 @@
   font-size: var(--font-size-sm);
   line-height: 16px;
 }
-.liwpmlLsSlotFooter1,
-.liwpmlLsSlotFooter2 {
+.liwpmlLsSlotFooter1 {
   position: absolute;
   top: calc(50% - 14.19px);
   left: calc(50% - 94.42px);
   width: 82.06px;
   height: 28.39px;
 }
+.italiani {
+  position: absolute;
+  top: 8.39px;
+  left: 21.16px;
+  font-size: var(--font-size-sm);
+  line-height: 16px;
+}
 .liwpmlLsSlotFooter2 {
+  position: absolute;
+  top: calc(50% - 14.19px);
   left: calc(50% - 12.36px);
   width: 77.73px;
+  height: 28.39px;
 }
 .deutsch {
   position: absolute;

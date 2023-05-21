@@ -18,7 +18,7 @@ const BottomFooter: FunctionComponent = () => {
           </div>
           <div className={styles.liwpmlLsSlotFooter2}>
             <div className={styles.div}>{`. `}</div>
-            <div className={styles.espaol}>Italiano</div>
+            <div className={styles.italiani}>Italiani</div>
           </div>
           <div className={styles.liwpmlLsSlotFooter3}>
             <div className={styles.div}>{`. `}</div>

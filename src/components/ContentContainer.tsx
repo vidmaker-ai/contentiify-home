@@ -63,9 +63,7 @@ const ContentContainer: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.object}>
-        <img className={styles.objectChild} alt="" src="/vector-13.svg" />
-      </div>
+      <img className={styles.bodyChild} alt="" src="/vector-13.svg" />
     </div>
   );
 };

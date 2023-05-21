@@ -195,29 +195,24 @@
   height: 524.47px;
   z-index: 1;
 }
-.object,
-.objectChild {
-  position: absolute;
-  height: 702px;
+.body,
+.bodyChild {
+  align-self: stretch;
 }
-.objectChild {
-  width: 63.58%;
-  right: 18.21%;
-  bottom: 0.67px;
-  left: 18.21%;
+.bodyChild {
+  position: absolute;
+  margin: 0 !important;
+  width: 272.19%;
+  right: -86.09%;
+  bottom: 1.02px;
+  left: -86.09%;
   max-width: 100%;
   overflow: hidden;
-}
-.object {
-  margin: 0 !important;
-  bottom: 0.02px;
-  left: calc(50% - 3100px);
-  width: 6200px;
+  max-height: 100%;
   z-index: 0;
 }
 .body {
-  align-self: stretch;
-  height: 703px;
+  height: 735px;
   display: flex;
   flex-direction: row;
   padding: var(--padding-81xl) 0 0;
