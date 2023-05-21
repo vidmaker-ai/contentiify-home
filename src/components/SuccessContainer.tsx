@@ -3,7 +3,8 @@ import styles from "./SuccessContainer.module.css";
 const SuccessContainer: FunctionComponent = () => {
   return (
     <div className={styles.body}>
-      <div className={styles.divelementorFlipBoxLayerParent}>
+      <img className={styles.bodyChild} alt="" src="/frame-735.svg" />
+      <div className={styles.content3}>
         <div className={styles.divelementorFlipBoxLayer}>
           <div className={styles.div}></div>
           <div className={styles.divelementorFlipBoxLayer1}>
@@ -104,7 +105,6 @@ const SuccessContainer: FunctionComponent = () => {
           </span>
         </div>
       </div>
-      <img className={styles.bodyChild} alt="" src="/vector-14.svg" />
     </div>
   );
 };

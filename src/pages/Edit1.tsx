@@ -17,7 +17,7 @@ import CustomerSupportContainer from "../components/CustomerSupportContainer";
 import styles from "./Edit1.module.css";
 const Edit1: FunctionComponent = () => {
   return (
-    <div className={styles.edit1}>
+    <div className={styles.contentifyDraft20230521}>
       <Header />
       <ContentSection />
       <ContentGeneratorContainer />
@@ -83,7 +83,9 @@ const Edit1: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <img className={styles.bodyChild} alt="" src="/vector-13.svg" />
+        <div className={styles.object}>
+          <img className={styles.objectChild} alt="" src="/vector-13.svg" />
+        </div>
       </div>
       <AutomationContainer />
       <SalesAutomationContainer />

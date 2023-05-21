@@ -88,6 +88,7 @@ body {
   --padding-mini-5: 14.5px;
   --padding-10xs: 3px;
   --padding-base: 16px;
+  --padding-64xl: 83px;
   --padding-44xl: 63px;
   --padding-2xl: 21px;
   --padding-70xl: 89px;
@@ -100,10 +101,10 @@ body {
   --padding-7xl: 26px;
   --padding-6xl-1: 25.1px;
   --padding-7xl-1: 26.1px;
+  --padding-81xl: 100px;
   --padding-xs: 12px;
   --padding-base-2: 15.2px;
   --padding-31xl: 50px;
-  --padding-81xl: 100px;
   --padding-9xl: 28px;
   --padding-94xl: 113px;
   --padding-178xl: 197px;

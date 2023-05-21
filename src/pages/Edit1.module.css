@@ -190,30 +190,35 @@
   gap: 23px;
 }
 .content {
-  position: absolute;
-  margin: 0 !important;
-  top: 175.99px;
-  left: calc(50% - 530px);
+  position: relative;
   width: 1060px;
   height: 524.47px;
   z-index: 1;
 }
-.body,
-.bodyChild {
-  align-self: stretch;
-  position: relative;
+.object,
+.objectChild {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 1498px);
+  width: 3020px;
+  height: 702px;
 }
-.bodyChild {
-  max-height: 100%;
-  width: 2432px;
+.object {
+  margin: 0 !important;
+  bottom: 0.35px;
+  left: calc(50% - 1510px);
   z-index: 0;
 }
 .body {
-  height: 767px;
+  align-self: stretch;
+  height: 703px;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  padding: var(--padding-81xl) 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
   justify-content: center;
+  position: relative;
   margin-top: -5px;
 }
 .teamUpWithContainer,
@@ -366,26 +371,24 @@
   width: 1080px;
   height: 93px;
 }
-.body2 {
+.body2,
+.footer {
   align-self: stretch;
+  position: relative;
+  margin-top: -5px;
+}
+.body2 {
   background-color: var(--color-darkslategray-200);
   height: 216px;
-  margin-top: -5px;
   font-size: var(--font-size-21xl);
   color: var(--color-white);
   font-family: var(--font-poppins);
 }
-.body2,
-.edit1,
 .footer {
-  position: relative;
-}
-.footer {
-  align-self: stretch;
   height: 1119.95px;
-  margin-top: -5px;
 }
-.edit1 {
+.contentifyDraft20230521 {
+  position: relative;
   background-color: #f1f3f3;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   width: 100%;
