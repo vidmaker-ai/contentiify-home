@@ -185,9 +185,9 @@
 }
 .body {
   align-self: stretch;
-  flex: 1;
   position: relative;
   background: linear-gradient(#0c2b36, #0c2b36), #0c2b36;
+  height: 689.35px;
   margin-top: -5px;
   text-align: left;
   font-size: var(--font-size-base);

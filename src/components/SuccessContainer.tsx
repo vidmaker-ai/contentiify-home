@@ -3,7 +3,6 @@ import styles from "./SuccessContainer.module.css";
 const SuccessContainer: FunctionComponent = () => {
   return (
     <div className={styles.body}>
-      <img className={styles.bodyChild} alt="" src="/frame-735.svg" />
       <div className={styles.content3}>
         <div className={styles.divelementorFlipBoxLayer}>
           <div className={styles.div}></div>
@@ -105,6 +104,7 @@ const SuccessContainer: FunctionComponent = () => {
           </span>
         </div>
       </div>
+      <img className={styles.bodyChild} alt="" src="/frame-735.svg" />
     </div>
   );
 };

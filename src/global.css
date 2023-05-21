@@ -54,6 +54,8 @@ body {
   --color-mediumblue: #004cff;
   --color-darkslategray-100: #003343;
   --color-darkslategray-200: #0c2b36;
+  --color-orange: #ffbe17;
+  --color-orange-100: #ffbd16;
   --color-mediumturquoise: #5acdbb;
   --color-lavender: #eaf0ff;
   --color-mediumaquamarine: #19cca3;
@@ -61,8 +63,6 @@ body {
   --color-black: #000;
   --color-slategray: #598796;
   --color-lightgray: #ced3e0;
-  --color-orange: #ffbe17;
-  --color-orange-100: #ffbd16;
 
   /* Gaps */
   --gap-4xl-5: 23.5px;

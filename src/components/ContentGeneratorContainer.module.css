@@ -357,8 +357,8 @@
 }
 .body {
   align-self: stretch;
-  flex: 1;
   position: relative;
+  height: 689.35px;
   margin-top: -5px;
   text-align: left;
   font-size: var(--font-size-10xl-6);
