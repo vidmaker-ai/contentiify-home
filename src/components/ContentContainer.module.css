@@ -202,10 +202,10 @@
 .bodyChild {
   position: absolute;
   margin: 0 !important;
-  width: 272.19%;
-  right: -86.09%;
+  width: 100%;
+  right: 0;
   bottom: 1.02px;
-  left: -86.09%;
+  left: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
