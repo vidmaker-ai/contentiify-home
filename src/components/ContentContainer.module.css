@@ -1,15 +1,13 @@
 .bodyChild {
   position: absolute;
   margin: 0 !important;
-  height: 100%;
-  width: 100%;
-  top: -0.35px;
-  right: 0;
-  bottom: 0.35px;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
+  height: calc(100% - 1.47px);
+  top: 0.65px;
+  bottom: 0.82px;
+  left: calc(50% - 960px);
   max-height: 100%;
+  width: 1920px;
+  display: none;
   z-index: 0;
 }
 .emailmarketingpngIcon {
@@ -214,10 +212,11 @@
 }
 .body {
   align-self: stretch;
-  height: 735px;
+  background-color: var(--color-darkslategray-200);
+  height: 686.47px;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-84xl) 0 0 var(--padding-11xs);
+  padding: var(--padding-84xl) 0 var(--padding-40xl) var(--padding-11xs);
   box-sizing: border-box;
   align-items: flex-start;
   justify-content: center;
