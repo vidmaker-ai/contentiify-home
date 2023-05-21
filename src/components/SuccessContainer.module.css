@@ -1,9 +1,9 @@
 .bodyChild {
   position: absolute;
   margin: 0 !important;
-  bottom: 0;
-  left: calc(50% - 2771px);
-  width: 5539px;
+  bottom: 0.05px;
+  left: calc(50% - 6359px);
+  width: 12718.88px;
   height: 890.05px;
   z-index: 0;
 }
