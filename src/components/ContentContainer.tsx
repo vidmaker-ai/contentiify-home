@@ -3,6 +3,7 @@ import styles from "./ContentContainer.module.css";
 const ContentContainer: FunctionComponent = () => {
   return (
     <div className={styles.body}>
+      <img className={styles.bodyChild} alt="" src="/frame-736.svg" />
       <div className={styles.content}>
         <img
           className={styles.emailmarketingpngIcon}
@@ -63,7 +64,6 @@ const ContentContainer: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <img className={styles.bodyChild} alt="" src="/vector-13.svg" />
     </div>
   );
 };

@@ -1,3 +1,12 @@
+.bodyChild {
+  position: absolute;
+  margin: 0 !important;
+  bottom: 2.02px;
+  left: calc(50% - 2771px);
+  width: 5542px;
+  height: 750px;
+  z-index: 0;
+}
 .emailmarketingpngIcon {
   position: absolute;
   top: 0;
@@ -189,37 +198,24 @@
   justify-content: flex-start;
   gap: var(--gap-4xl);
 }
+.body,
 .content {
   position: relative;
+}
+.content {
   width: 1060px;
   height: 524.47px;
   z-index: 1;
 }
-.body,
-.bodyChild {
-  align-self: stretch;
-}
-.bodyChild {
-  position: absolute;
-  margin: 0 !important;
-  width: 100%;
-  right: 0;
-  bottom: 1.02px;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  z-index: 0;
-}
 .body {
+  align-self: stretch;
   height: 735px;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-81xl) 0 0;
+  padding: var(--padding-84xl) 0 0 var(--padding-11xs);
   box-sizing: border-box;
   align-items: flex-start;
   justify-content: center;
-  position: relative;
   margin-top: -5px;
   text-align: left;
   font-size: var(--font-size-base);
