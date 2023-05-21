@@ -1,10 +1,13 @@
 .bodyChild {
   position: absolute;
   margin: 0 !important;
-  bottom: 2.02px;
-  left: calc(50% - 2771px);
-  width: 5542px;
-  height: 750px;
+  width: 100%;
+  right: 0;
+  bottom: 0.35px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 735px;
   z-index: 0;
 }
 .emailmarketingpngIcon {

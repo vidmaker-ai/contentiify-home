@@ -2,9 +2,10 @@
   position: absolute;
   margin: 0 !important;
   bottom: 0.05px;
-  left: calc(50% - 6359px);
-  width: 12718.88px;
-  height: 890.05px;
+  left: calc(50% - 960px);
+  width: 1920px;
+  height: 890px;
+  display: none;
   z-index: 0;
 }
 .div,
@@ -261,13 +262,13 @@
 }
 .body {
   align-self: stretch;
-  background-color: var(--color-darkslategray-200);
-  height: 879px;
+  background-color: var(--color-whitesmoke-100);
+  height: 821px;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-64xl) 0 0;
+  padding: var(--padding-xl) 0 0;
   box-sizing: border-box;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   margin-top: -5px;
   text-align: left;
