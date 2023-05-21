@@ -1,9 +1,220 @@
-.teamUpWith {
+.emailmarketingpngIcon {
+  position: absolute;
+  top: 0;
+  left: calc(50% + 34px);
+  width: 496px;
+  height: 524.47px;
+  object-fit: cover;
+}
+.personalizedEmailMarketing {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.6px;
+  line-height: 28px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 255.54px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.sendExactlyWhat {
   margin: 0;
 }
-.teamUpWithContainer1 {
+.sendExactlyWhatContainer1 {
   line-break: anywhere;
   width: 100%;
+}
+.craftEmailNewslettersContainer,
+.sendExactlyWhatContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.sendExactlyWhatContainer {
+  font-size: var(--font-size-17xl);
+  line-height: 48.6px;
+  font-family: var(--font-poppins);
+  width: 433.54px;
+  height: 99.6px;
+}
+.craftEmailNewslettersContainer {
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  width: 517.31px;
+  height: 79px;
+}
+.spanelementorDividerSeparat {
+  position: relative;
+  border-top: 2px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 30px;
+  height: 2px;
+}
+.readTheReport {
+  color: var(--color-mediumturquoise);
+}
+.contactListSizesContainer,
+.emailMarketing {
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.contactListSizesContainer {
+  position: relative;
+  font-weight: 600;
+  width: 376.56px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.emailMarketing {
+  position: absolute;
+  top: 0;
+  left: 22.16px;
+  width: 116.65px;
+  height: 20px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 20.46%;
+  width: 3.48%;
+  top: 14.96%;
+  right: 96.52%;
+  bottom: 64.58%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.dynamicContent {
+  position: absolute;
+  top: 29px;
+  left: 22.16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 121.39px;
+  height: 20px;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 20.46%;
+  width: 3.48%;
+  top: 70.72%;
+  right: 96.52%;
+  bottom: 8.82%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.segmentation {
+  position: absolute;
+  top: 0;
+  left: 209.35px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 100.4px;
+  height: 20px;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 20.46%;
+  width: 3.48%;
+  top: 14.96%;
+  right: 47.64%;
+  bottom: 64.58%;
+  left: 48.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.successfulDeliverability {
+  position: absolute;
+  top: 29px;
+  left: 209.35px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 173.62px;
+  height: 20px;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 20.46%;
+  width: 3.48%;
+  top: 70.72%;
+  right: 47.64%;
+  bottom: 8.82%;
+  left: 48.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.emailMarketingParent {
+  position: relative;
+  width: 382.97px;
+  height: 49px;
+}
+.personalizeYourEmail {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.aelementorButtonLink {
+  border-radius: var(--br-10xs);
+  border: 2px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 221px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-sm) 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-mediumturquoise);
+}
+.personalizedEmailMarketingParent {
+  position: absolute;
+  top: 13.27px;
+  left: calc(50% - 530px);
+  width: 517.31px;
+  height: 498.52px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 23px;
+}
+.content {
+  position: absolute;
+  margin: 0 !important;
+  top: 175.99px;
+  left: calc(50% - 530px);
+  width: 1060px;
+  height: 524.47px;
+  z-index: 1;
+}
+.body,
+.bodyChild {
+  align-self: stretch;
+  position: relative;
+}
+.bodyChild {
+  max-height: 100%;
+  width: 2432px;
+  z-index: 0;
+}
+.body {
+  height: 767px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: -5px;
 }
 .teamUpWithContainer,
 .with870IntegrationsContainer {
@@ -58,12 +269,14 @@
   width: 1016.38px;
   height: 281.48px;
 }
-.body {
+.body1 {
   align-self: stretch;
   position: relative;
   background-color: var(--color-whitesmoke-100);
   height: 352px;
-  margin-top: -2px;
+  margin-top: -5px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray-200);
 }
 .noCreditCard,
 .tryItNow {
@@ -153,16 +366,16 @@
   width: 1080px;
   height: 93px;
 }
-.body1 {
+.body2 {
   align-self: stretch;
   background-color: var(--color-darkslategray-200);
   height: 216px;
-  margin-top: -2px;
+  margin-top: -5px;
   font-size: var(--font-size-21xl);
   color: var(--color-white);
   font-family: var(--font-poppins);
 }
-.body1,
+.body2,
 .edit1,
 .footer {
   position: relative;
@@ -170,9 +383,10 @@
 .footer {
   align-self: stretch;
   height: 1119.95px;
-  margin-top: -2px;
+  margin-top: -5px;
 }
 .edit1 {
+  background-color: #f1f3f3;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   width: 100%;
   height: 9564px;
@@ -181,7 +395,12 @@
   align-items: center;
   justify-content: center;
   text-align: left;
-  font-size: var(--font-size-13xl);
-  color: var(--color-darkslategray-200);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
   font-family: var(--font-ibm-plex-sans);
+}
+@media screen and (max-width: 1200px) {
+  .body {
+    flex: 1;
+  }
 }

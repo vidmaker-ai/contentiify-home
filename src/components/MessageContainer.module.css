@@ -178,7 +178,7 @@
 }
 .websitemessagingpngParent {
   position: absolute;
-  top: calc(50% - 245.88px);
+  top: calc(50% - 245.34px);
   left: calc(50% - 530px);
   width: 1058.45px;
   height: 516.19px;
@@ -188,7 +188,7 @@
   flex: 1;
   position: relative;
   background: linear-gradient(#0c2b36, #0c2b36), #0c2b36;
-  margin-top: -2px;
+  margin-top: -5px;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-gray-100);

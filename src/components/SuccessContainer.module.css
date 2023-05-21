@@ -1,15 +1,3 @@
-.bodyChild {
-  position: absolute;
-  height: 98.82%;
-  width: 100%;
-  top: 2.67%;
-  right: 0;
-  bottom: -1.5%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
 .div,
 .svgIcon {
   position: absolute;
@@ -17,7 +5,7 @@
 }
 .div {
   top: 202px;
-  left: 112.97px;
+  left: 109.7px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -29,10 +17,10 @@
   width: 24px;
   overflow: hidden;
 }
-.integratedAnd {
+.freeHelpCourses {
   margin: 0;
 }
-.integratedAndEmbeddableFormContainer {
+.freeHelpCoursesContainer {
   position: relative;
   line-height: 24px;
   font-weight: 500;
@@ -43,11 +31,11 @@
   left: 0;
   display: flex;
   flex-direction: row;
-  padding: 0 var(--padding-44xl) 0 0;
+  padding: 0 var(--padding-53xl) 0 0;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.makeForms {
+.getStarted {
   position: absolute;
   top: 178px;
   left: 0;
@@ -65,13 +53,175 @@
 }
 .divelementorFlipBoxLayer {
   position: absolute;
-  height: calc(100% - 422px);
-  width: calc(100% - 810px);
-  top: 152px;
-  right: 540px;
-  bottom: 270px;
-  left: 270px;
+  top: calc(50% + 86px);
+  left: calc(50% + 280px);
   background-color: var(--color-mediumturquoise);
+  width: 250px;
+  height: 250px;
+}
+.div1 {
+  position: absolute;
+  top: 202px;
+  left: 126.2px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+  height: 24px;
+}
+.h3elementorFlipBoxLayer1 {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-32xl) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divelementorFlipBoxLayer2 {
+  position: absolute;
+  top: calc(50% + 86px);
+  left: calc(50% + 10px);
+  background-color: var(--color-mediumturquoise);
+  width: 250px;
+  height: 250px;
+}
+.div2 {
+  position: absolute;
+  top: 202px;
+  left: 112.97px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+  height: 24px;
+}
+.h3elementorFlipBoxLayer2 {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-70xl) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divelementorFlipBoxLayer4 {
+  position: absolute;
+  top: calc(50% + 86px);
+  left: calc(50% - 260px);
+  background-color: var(--color-mediumturquoise);
+  width: 250px;
+  height: 250px;
+}
+.div3 {
+  position: absolute;
+  top: 202px;
+  left: 128.34px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+  height: 24px;
+}
+.h3elementorFlipBoxLayer3 {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-2xl) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divelementorFlipBoxLayer6 {
+  position: absolute;
+  top: calc(50% + 86px);
+  left: calc(50% - 530px);
+  background-color: var(--color-mediumturquoise);
+  width: 250px;
+  height: 250px;
+}
+.div4,
+.landingPages {
+  position: absolute;
+  line-height: 24px;
+}
+.div4 {
+  top: 202px;
+  left: 125.33px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+  height: 24px;
+}
+.landingPages {
+  top: 48px;
+  left: 0;
+  font-weight: 500;
+}
+.divelementorFlipBoxLayer8 {
+  position: absolute;
+  top: calc(50% - 184px);
+  left: calc(50% + 280px);
+  background-color: var(--color-mediumturquoise);
+  width: 250px;
+  height: 250px;
+}
+.div5 {
+  position: absolute;
+  top: 202px;
+  left: 139.23px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+  height: 24px;
+}
+.divelementorFlipBoxLayer10 {
+  position: absolute;
+  top: calc(50% - 184px);
+  left: calc(50% + 10px);
+  background-color: var(--color-mediumturquoise);
+  width: 250px;
+  height: 250px;
+}
+.h3elementorFlipBoxLayer4 {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-44xl) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divelementorFlipBoxLayer12 {
+  position: absolute;
+  top: calc(50% - 184px);
+  left: calc(50% - 260px);
+  background-color: var(--color-mediumturquoise);
+  width: 250px;
+  height: 250px;
+}
+.div7 {
+  position: absolute;
+  top: 202px;
+  left: 140.75px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 8.95px;
+  height: 24px;
+}
+.divelementorFlipBoxLayer14 {
+  position: absolute;
+  top: calc(50% - 184px);
+  left: calc(50% - 530px);
+  background-color: var(--color-mediumturquoise);
+  width: 250px;
+  height: 250px;
 }
 .everythingYouNeedContainer1 {
   line-break: anywhere;
@@ -79,7 +229,7 @@
 }
 .everythingYouNeedContainer {
   position: absolute;
-  top: 0;
+  top: calc(50% - 336px);
   left: calc(50% - 337.41px);
   font-size: var(--font-size-21xl);
   line-height: 48px;
@@ -93,17 +243,31 @@
 }
 .divelementorFlipBoxLayerParent {
   position: absolute;
-  top: calc(50% - 300.5px);
+  margin: 0 !important;
+  top: calc(50% - 352.05px);
   left: calc(50% - 530px);
   width: 1060px;
   height: 672px;
+  z-index: 1;
 }
-.body {
+.body,
+.bodyChild {
   align-self: stretch;
   position: relative;
+}
+.bodyChild {
+  max-height: 100%;
+  width: 2402px;
+  z-index: 0;
+}
+.body {
   background-color: var(--color-darkslategray-200);
-  height: 765px;
-  margin-top: -2px;
+  height: 818px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -5px;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-white);

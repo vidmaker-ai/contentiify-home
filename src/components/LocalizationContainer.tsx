@@ -35,7 +35,7 @@ const LocalizationContainer: FunctionComponent<LocalizationContainerType> = ({
   propWidth1,
   propTop2,
 }) => {
-  const div2Style: CSS.Properties = useMemo(() => {
+  const divStyle: CSS.Properties = useMemo(() => {
     return {
       left: propLeft,
     };
@@ -62,7 +62,7 @@ const LocalizationContainer: FunctionComponent<LocalizationContainerType> = ({
   }, [propWidth1, propTop2]);
 
   return (
-    <div className={styles.div} style={div2Style}>
+    <div className={styles.div} style={divStyle}>
       <div className={styles.child} />
       <div className={styles.div1}>
         <img
