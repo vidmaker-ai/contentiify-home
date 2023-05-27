@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/contentiify-home/static/css/main.a303c401.css",
+    "main.js": "/contentiify-home/static/js/main.3857d438.js",
+    "static/js/787.47c2a2f0.chunk.js": "/contentiify-home/static/js/787.47c2a2f0.chunk.js",
+    "index.html": "/contentiify-home/index.html",
+    "main.a303c401.css.map": "/contentiify-home/static/css/main.a303c401.css.map",
+    "main.3857d438.js.map": "/contentiify-home/static/js/main.3857d438.js.map",
+    "787.47c2a2f0.chunk.js.map": "/contentiify-home/static/js/787.47c2a2f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a303c401.css",
+    "static/js/main.3857d438.js"
+  ]
+}
