@@ -1,6 +1,5 @@
 import { FunctionComponent } from "react";
 import { Button } from "@chakra-ui/react";
-import { ArrowForwardIcon } from "@chakra-ui/icons";
 import styles from "./Header.module.css";
 const Header: FunctionComponent = () => {
   return (
@@ -20,22 +19,28 @@ const Header: FunctionComponent = () => {
         </i>
       </div>
       <div className={styles.cate}>
-        <img className={styles.contentiifyIcon} alt="" src="/contentiify.svg" />
+        <div className={styles.contentiifyWrapper}>
+          <img
+            className={styles.contentiifyIcon}
+            alt=""
+            src="/contentiify.svg"
+          />
+        </div>
         <div className={styles.menu}>
           <div className={styles.catgory}>
             <div className={styles.products}>
-              <b className={styles.requestDemo}>Products</b>
-              <div className={styles.i} />
+              <div className={styles.features}>Features</div>
+              <img className={styles.icon} alt="" src="/.svg" />
             </div>
             <div className={styles.platform}>
-              <b className={styles.requestDemo}>Platform</b>
-              <div className={styles.i} />
+              <div className={styles.features}>Resources</div>
+              <img className={styles.icon} alt="" src="/1.svg" />
             </div>
             <div className={styles.pricing}>
-              <b className={styles.requestDemo}>Pricing</b>
+              <div className={styles.features}>Pricing</div>
             </div>
             <div className={styles.pricing}>
-              <b className={styles.requestDemo}>Request demo</b>
+              <div className={styles.features}>Request demo</div>
             </div>
           </div>
         </div>
@@ -44,28 +49,26 @@ const Header: FunctionComponent = () => {
             <div className={styles.vectorParent}>
               <img className={styles.vectorIcon} alt="" src="/vector.svg" />
               <div className={styles.english}>English</div>
-              <div className={styles.div}></div>
+              <img className={styles.icon2} alt="" src="/2.svg" />
             </div>
-            <div className={styles.contact}>Contact</div>
-            <div className={styles.contact}>Login</div>
+            <div className={styles.login1}>Login</div>
           </div>
-          <div className={styles.formactFreeTrialSignup}>
-            <input
-              className={styles.inputacInput}
-              type="email"
-              placeholder="Email Address"
-            />
+          <div className={styles.buttonactButtonWrapper}>
             <Button
+              className={styles.buttonactButton}
               variant="solid"
               w="129px"
-              colorScheme="tealvinh"
-              size="md"
-              rightIcon={<ArrowForwardIcon />}
+              colorScheme="tealvinh2"
             >
               Try it free
             </Button>
           </div>
         </div>
+        <img
+          className={styles.vectorStrokeIcon}
+          alt=""
+          src="/vector-stroke.svg"
+        />
       </div>
     </div>
   );

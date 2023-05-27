@@ -45,26 +45,8 @@
   width: 776.5px;
   z-index: 1;
 }
-.getViral {
-  position: relative;
-  line-height: 32px;
-  font-weight: 500;
-}
 .buttonactButton {
-  border-radius: var(--br-8xs);
-  background-color: var(--color-mediumturquoise);
-  height: 48px;
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-5xs) 44.51000213623047px var(--padding-5xs)
-    var(--padding-26xl);
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: flex-start;
   z-index: 2;
-  text-align: center;
-  font-size: var(--font-size-base);
-  color: var(--color-darkslategray-200);
 }
 .groupParent,
 .tryItFree {

@@ -184,3 +184,8 @@
   color: var(--color-darkslategray-200);
   font-family: var(--font-ibm-plex-sans);
 }
+@media screen and (max-width: 1604px) {
+  .contentifyDraft20230521 {
+    display: flex;
+  }
+}

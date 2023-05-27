@@ -1,4 +1,6 @@
 import { FunctionComponent } from "react";
+import { Button } from "@chakra-ui/react";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 import styles from "./ContentSection.module.css";
 const ContentSection: FunctionComponent = () => {
   return (
@@ -28,9 +30,14 @@ const ContentSection: FunctionComponent = () => {
               </p>
             </span>
           </div>
-          <div className={styles.buttonactButton}>
-            <div className={styles.getViral}>Get viral</div>
-          </div>
+          <Button
+            className={styles.buttonactButton}
+            variant="solid"
+            colorScheme="tealvinh2"
+            rightIcon={<ArrowForwardIcon />}
+          >
+            Get viral
+          </Button>
           <div className={styles.tryItFree}>
             Try it free. No credit card required. Instant setup.
           </div>
