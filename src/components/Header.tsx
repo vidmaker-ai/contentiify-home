@@ -6,45 +6,45 @@ const Header: FunctionComponent = () => {
     <div className={styles.top}>
       <div className={styles.sectionelementorSection}>
         <i className={styles.heyThereFreeContainer}>
-          <span className={styles.heyThereFreeContainer1}>
-            {`Hey there! Free trials are available for Standard and Essentials plans. `}
-            <a
-              className={styles.startForFreeToday}
-              href="https://app.contentiify.com/login"
-              target="_blank"
-            >
-              <span className={styles.startForFree}>Start for free today.</span>
-            </a>
-          </span>
+          {`Hey there! Free trials are available for Standard and Essentials plans. `}
+          <a
+            className={styles.startForFreeToday}
+            href="https://app.contentiify.com/login"
+            target="_blank"
+          >
+            <span className={styles.startForFree}>Start for free today.</span>
+          </a>
         </i>
       </div>
-      <div className={styles.cate}>
-        <div className={styles.contentiifyWrapper}>
-          <img
-            className={styles.contentiifyIcon}
-            alt=""
-            src="/contentiify.svg"
-          />
-        </div>
-        <div className={styles.menu}>
-          <div className={styles.catgory}>
-            <div className={styles.products}>
-              <div className={styles.features}>Features</div>
-              <img className={styles.icon} alt="" src="/.svg" />
-            </div>
-            <div className={styles.platform}>
-              <div className={styles.features}>Resources</div>
-              <img className={styles.icon} alt="" src="/1.svg" />
-            </div>
-            <div className={styles.pricing}>
-              <div className={styles.features}>Pricing</div>
-            </div>
-            <div className={styles.pricing}>
-              <div className={styles.features}>Request demo</div>
+      <div className={styles.cateWrapper}>
+        <div className={styles.cate}>
+          <div className={styles.cateInner}>
+            <div className={styles.contentiifyParent}>
+              <img
+                className={styles.contentiifyIcon}
+                alt=""
+                src="/contentiify.svg"
+              />
+              <div className={styles.catgoryWrapper}>
+                <div className={styles.catgory}>
+                  <div className={styles.products}>
+                    <div className={styles.features}>Features</div>
+                    <img className={styles.icon} alt="" src="/.svg" />
+                  </div>
+                  <div className={styles.platform}>
+                    <div className={styles.features}>Resources</div>
+                    <img className={styles.icon} alt="" src="/1.svg" />
+                  </div>
+                  <div className={styles.pricing}>
+                    <div className={styles.features}>Pricing</div>
+                  </div>
+                  <div className={styles.pricing}>
+                    <div className={styles.features}>Request demo</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div className={styles.loginParent}>
           <div className={styles.login}>
             <div className={styles.vectorParent}>
               <img className={styles.vectorIcon} alt="" src="/vector.svg" />
@@ -63,12 +63,12 @@ const Header: FunctionComponent = () => {
               Try it free
             </Button>
           </div>
+          <img
+            className={styles.vectorStrokeIcon}
+            alt=""
+            src="/vector-stroke.svg"
+          />
         </div>
-        <img
-          className={styles.vectorStrokeIcon}
-          alt=""
-          src="/vector-stroke.svg"
-        />
       </div>
     </div>
   );
