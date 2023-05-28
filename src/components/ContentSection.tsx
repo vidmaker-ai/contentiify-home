@@ -6,7 +6,13 @@ const ContentSection: FunctionComponent = () => {
   return (
     <div className={styles.body}>
       <div className={styles.bodyInner}>
-        <div className={styles.frameParent}>
+        <div className={styles.imageParent}>
+          <img className={styles.imageIcon} alt="" src="/image@2x.png" />
+          <img
+            className={styles.imageCrop1Icon}
+            alt=""
+            src="/image-crop-1@2x.png"
+          />
           <div className={styles.groupWrapper}>
             <div className={styles.groupParent}>
               <div className={styles.empowerYourBusinessWithVirParent}>
@@ -50,12 +56,6 @@ const ContentSection: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <img className={styles.imageIcon} alt="" src="/image@2x.png" />
-          <img
-            className={styles.imageCrop1Icon}
-            alt=""
-            src="/image-crop-1@2x.png"
-          />
         </div>
       </div>
       <img className={styles.bodyChild} alt="" src="/frame-732@2x.png" />
