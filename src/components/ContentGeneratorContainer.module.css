@@ -1,256 +1,18 @@
-.bodyChild,
-.maskGroupIcon {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.maskGroupIcon {
-  width: 100%;
-  right: 0;
-  max-width: 100%;
-  overflow: hidden;
-  height: 881px;
-  object-fit: cover;
-}
-.bodyChild {
-  background-color: var(--color-mediumturquoise);
-  width: 1920px;
-  height: 557px;
-  display: none;
-}
 .the1Content {
   position: absolute;
-  top: 0;
-  left: 117px;
-  font-size: var(--font-size-25xl);
+  width: calc(100% - 1074px);
+  top: 66.58px;
+  left: 537px;
   line-height: 52px;
   display: flex;
-  color: var(--color-gray-300);
-  text-align: center;
   align-items: center;
   justify-content: center;
-  width: 846px;
-  height: 61px;
+  height: 111px;
 }
-.agency,
-.ecommerce,
-.marketing,
-.sales {
-  position: absolute;
-  top: 253.63px;
-  left: 0;
-  line-height: 40px;
-  display: flex;
-  align-items: center;
-  width: 81.98px;
-  height: 41px;
-}
-.agency,
-.ecommerce,
-.marketing {
-  top: 317.63px;
-  width: 182.68px;
-}
-.agency,
-.marketing {
-  top: 381.63px;
-  width: 116.9px;
-}
-.marketing {
-  top: 189.63px;
-  width: 157.43px;
-}
-.sectionelementorSection {
-  position: absolute;
-  width: calc(100% - 1201.61px);
-  top: calc(50% - 65.16px);
-  right: 1201.61px;
-  left: 0;
-  border-bottom: 1px solid var(--color-slategray);
-  box-sizing: border-box;
-  height: 56px;
-}
-.divelementorWidgetContainer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 262.39px;
-  height: 47px;
-  overflow: hidden;
-}
-.sectionelementorSection1,
-.sectionelementorSection2,
-.sectionelementorSection3 {
-  position: absolute;
-  width: calc(100% - 1201.61px);
-  top: calc(50% - 1.16px);
-  right: 1201.61px;
-  left: 0;
-  border-bottom: 1px solid var(--color-slategray);
-  box-sizing: border-box;
-  height: 56px;
-}
-.sectionelementorSection2,
-.sectionelementorSection3 {
-  top: calc(50% + 62.84px);
-}
-.sectionelementorSection3 {
-  top: calc(50% + 126.84px);
-}
-.divytpCuedThumbnailOverlayIcon {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  max-height: 100%;
-}
-.divytpCuedThumbnailOverlayIcon,
-.divytpGradientTopIcon,
-.svgIcon {
-  position: absolute;
-  overflow: hidden;
-}
-.divytpGradientTopIcon {
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  max-width: 100%;
-  height: 99px;
-  object-fit: cover;
-}
-.svgIcon {
-  top: 337px;
-  left: 548px;
-  width: 110px;
-  height: 26px;
-  opacity: 0.9;
-}
-.marketingAndSales {
-  position: relative;
-  line-height: 23.4px;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-}
-.aytpTitleLink,
-.divytpTitleText {
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  padding: 0 var(--padding-xs) 0 0;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.divytpTitleText {
-  flex: 1;
-  padding: var(--padding-2xl) 0 15.189998626708984px var(--padding-31xl);
-}
-.divytpTitle,
-.svgIcon1 {
-  position: absolute;
-  overflow: hidden;
-}
-.divytpTitle {
-  top: 0;
-  right: 100px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.svgIcon1 {
-  top: 6px;
-  left: 22px;
-  width: 36px;
-  height: 36px;
-}
-.div1 {
-  position: relative;
-  line-height: 18.2px;
-  font-weight: 500;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-}
-.div,
-.divytpCopylinkTitle {
-  position: absolute;
-  overflow: hidden;
-}
-.divytpCopylinkTitle {
-  top: 41px;
-  left: 0;
-  display: flex;
-  flex-direction: row;
-  padding: 0 var(--padding-10xs) 0.1900005340576172px var(--padding-xs);
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.div {
-  top: 0;
-  left: 560px;
-  width: 80px;
-  height: 60.19px;
-  opacity: 0.9;
-  text-align: center;
-  font-size: var(--font-size-sm);
-}
-.activecampaignIcon {
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  border-radius: var(--br-xl);
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-}
-.divytpTitleChannel {
-  position: absolute;
-  top: 7px;
-  left: -5px;
-  border-radius: var(--br-6xl);
-  width: 50px;
-  height: 50px;
-  overflow: hidden;
-}
-.divytpChromeTop {
-  position: absolute;
-  height: calc(100% - 318.81px);
-  width: calc(100% - 24px);
-  top: 0;
-  right: 12px;
-  bottom: 318.81px;
-  left: 12px;
-}
-.iframe,
-.youtube {
-  position: absolute;
-  overflow: hidden;
-}
-.youtube {
-  height: calc(100% + 0.11px);
-  width: calc(100% + 0.41px);
-  top: 0;
-  right: -0.41px;
-  bottom: -0.11px;
-  left: 0;
-  background-color: var(--color-black);
-}
-.iframe {
-  height: calc(100% - 125.69px);
-  width: calc(100% - 790.41px);
-  top: 125.69px;
-  right: 384.02px;
-  bottom: 0;
-  left: 406.39px;
-  font-size: var(--font-size-lg);
-  color: var(--color-whitesmoke-300);
-  font-family: var(--font-roboto);
-}
-.thanksForChatting {
+.haveAnySpecific {
   margin: 0;
 }
-.thanksForChattingContainer {
+.haveAnySpecificContainer {
   position: relative;
   line-height: 20px;
 }
@@ -268,31 +30,44 @@
 }
 .chatMessageFromActivecampai {
   position: absolute;
-  top: calc(50% + 25.71px);
-  left: 1148px;
+  height: calc(100% - 19px);
+  top: 9px;
+  bottom: 10px;
+  left: 26px;
   border-radius: var(--br-9xs);
   background-color: var(--color-white);
   box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.16);
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-500);
-  font-family: var(--font-open-sans);
+  width: 217px;
 }
 .closeDriftWidgetMessengerP {
   position: absolute;
-  top: 271px;
-  right: 312px;
+  height: calc(100% - 43px);
+  top: -8px;
+  bottom: 51px;
+  left: -10px;
   border-radius: var(--br-3xs);
+  max-height: 100%;
   width: 40px;
-  height: 40px;
 }
-.divdriftWidgetAvatarIcon {
+.image4Icon {
+  position: absolute;
+  top: 0.23px;
+  left: 0;
+  width: 58px;
+  height: 56px;
+  object-fit: cover;
+}
+.divdriftWidgetAvatar {
   top: 0;
   left: 0;
   width: 56px;
   height: 56px;
-  object-fit: cover;
+  background-image: url(/public/divdriftwidgetavatar@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
-.divdriftWidgetAvatarIcon,
+.divdriftWidgetAvatar,
 .divdriftWidgetControllerIc,
 .divdriftWidgetRecipientAva {
   position: absolute;
@@ -315,7 +90,7 @@
   left: 0;
   background-color: var(--color-mediumblue);
 }
-.div2 {
+.div {
   position: absolute;
   top: 0;
   left: 5.56px;
@@ -336,32 +111,101 @@
 }
 .openChatWithActivecampaign {
   position: absolute;
-  top: 306px;
-  left: 1408px;
+  height: calc(100% - 27px);
+  top: 27px;
+  bottom: 0;
+  left: 286px;
   border-radius: var(--br-9xl);
   background-color: var(--color-gray-800);
   box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.16);
   width: 56px;
-  height: 56px;
   overflow: hidden;
   font-size: var(--font-size-xs);
   color: var(--color-white);
-  font-family: var(--font-open-sans);
 }
-.the1ContentGenerationPlatParent {
+.chatMessageFromActivecampaiParent {
   position: absolute;
-  top: calc(50% - 276.68px);
-  left: calc(50% - 540px);
-  width: 1464px;
-  height: 504.58px;
+  height: calc(100% - 336px);
+  top: 185.33px;
+  bottom: 150.67px;
+  left: 1167px;
+  width: 342px;
+}
+.contentify251 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 754.5px);
+  width: 1150px;
+  height: 419px;
+  object-fit: cover;
+}
+.groupChild,
+.spy100cContents {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.groupChild {
+  top: 24.83px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-mediumvioletred);
+  border-right: 1px solid var(--color-mediumvioletred);
+  border-bottom: 5px solid var(--color-mediumvioletred);
+  border-left: 1px solid var(--color-mediumvioletred);
+  box-sizing: border-box;
+  width: 207px;
+  height: 59.27px;
+  transform: rotate(-6.89deg);
+}
+.spy100cContents {
+  top: 40px;
+  left: 12.66px;
+  transform: rotate(-6.53deg);
+}
+.groupWrapper,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 212.61px;
+  height: 83.67px;
+}
+.groupWrapper {
+  top: 251px;
+  left: 745px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-mediumvioletred);
+  font-family: var(--font-roboto);
+}
+.bodyInner,
+.groupParent {
+  position: absolute;
+  width: 1509px;
+}
+.groupParent {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.bodyInner {
+  bottom: 66.77px;
+  left: calc(50% - 577px);
+  height: 419px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-500);
+  font-family: var(--font-open-sans);
 }
 .body {
   align-self: stretch;
   position: relative;
+  background-color: var(--color-whitesmoke-200);
   height: 689.35px;
-  margin-top: -5px;
-  text-align: left;
-  font-size: var(--font-size-10xl-6);
-  color: var(--color-gray-600);
+  text-align: center;
+  font-size: var(--font-size-25xl);
+  color: var(--color-gray-300);
   font-family: var(--font-poppins);
 }

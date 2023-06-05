@@ -27,7 +27,7 @@
   height: 44px;
   align-items: flex-start;
   text-align: center;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xl);
   color: inherit;
   font-family: var(--font-ibm-plex-sans);
 }

@@ -1,7 +1,6 @@
 import { FunctionComponent } from "react";
 import { Button } from "@chakra-ui/react";
 import Header from "../components/Header";
-import ContentSection from "../components/ContentSection";
 import ContentGeneratorContainer from "../components/ContentGeneratorContainer";
 import JourneyContainer from "../components/JourneyContainer";
 import ContentContainer from "../components/ContentContainer";
@@ -34,11 +33,11 @@ const Edit1: FunctionComponent = () => {
                 <div className={styles.catgory}>
                   <div className={styles.products}>
                     <div className={styles.features}>Features</div>
-                    <img className={styles.icon} alt="" src="/1.svg" />
+                    <img className={styles.icon} alt="" src="/.svg" />
                   </div>
                   <div className={styles.platform}>
                     <div className={styles.features}>Resources</div>
-                    <img className={styles.icon} alt="" src="/11.svg" />
+                    <img className={styles.icon} alt="" src="/1.svg" />
                   </div>
                   <div className={styles.pricing}>
                     <div className={styles.features}>Pricing</div>
@@ -75,8 +74,91 @@ const Edit1: FunctionComponent = () => {
           />
         </div>
       </div>
-      <ContentSection />
+      <div className={styles.body}>
+        <div className={styles.frameGroup}>
+          <div className={styles.groupParent}>
+            <div className={styles.empowerYourBusinessWithVirParent}>
+              <b className={styles.empowerYourBusinessContainer}>
+                <span className={styles.empowerYourBusinessContainer1}>
+                  <p className={styles.empowerYourBusiness}>
+                    Empower your business
+                  </p>
+                  <p className={styles.empowerYourBusiness}>
+                    with viral contents
+                  </p>
+                </span>
+              </b>
+              <img className={styles.groupChild} alt="" src="/vector-12.svg" />
+            </div>
+            <div className={styles.theSocialMediaContainer}>
+              <span className={styles.empowerYourBusinessContainer1}>
+                <p
+                  className={styles.empowerYourBusiness}
+                >{`The social media content, marketing campaign management, and even spying `}</p>
+                <p className={styles.empowerYourBusiness}>
+                  your competitors to get insights with low-cost.
+                </p>
+              </span>
+            </div>
+            <div className={styles.buttonactButton1}>
+              <div className={styles.getViral}>Get viral</div>
+            </div>
+            <div className={styles.tryItFree}>
+              Try it free. No credit card required. Instant setup.
+            </div>
+          </div>
+          <img
+            className={styles.imageCrop1Icon}
+            alt=""
+            src="/image-crop-1@2x.png"
+          />
+          <img className={styles.imageIcon} alt="" src="/image@2x.png" />
+        </div>
+        <img className={styles.bodyChild} alt="" src="/frame-732@2x.png" />
+      </div>
       <ContentGeneratorContainer />
+      <div className={styles.body1}>
+        <div className={styles.bodyInner}>
+          <div className={styles.contentify11Parent}>
+            <img
+              className={styles.contentify11}
+              alt=""
+              src="/contentify--1-1@2x.png"
+            />
+            <div className={styles.rectangleParent}>
+              <div className={styles.groupItem} />
+              <b className={styles.audienceAnalyticsForContainer}>
+                <span className={styles.empowerYourBusinessContainer1}>
+                  <p className={styles.empowerYourBusiness}>
+                    Audience analytics
+                  </p>
+                  <p className={styles.empowerYourBusiness}> for any post!</p>
+                </span>
+              </b>
+            </div>
+          </div>
+        </div>
+        <b
+          className={styles.spyYourCompetitor}
+        >{`Spy your competitor ‘s audience for insights & A/B testing`}</b>
+      </div>
+      <div className={styles.body2}>
+        <div className={styles.contentify21Wrapper}>
+          <img
+            className={styles.contentify21}
+            alt=""
+            src="/contentify--2-1@2x.png"
+          />
+        </div>
+        <b className={styles.tailorContentsBasedContainer}>
+          <span className={styles.empowerYourBusinessContainer1}>
+            <span>{`Tailor contents based on `}</span>
+            <span className={styles.hotTopic}>HOT TOPIC</span>
+            <span className={styles.span}>{` `}</span>
+            <span>for Organic traffics</span>
+          </span>
+        </b>
+      </div>
       <JourneyContainer />
       <ContentContainer />
       <AutomationContainer />
@@ -84,26 +166,28 @@ const Edit1: FunctionComponent = () => {
       <MessageContainer />
       <SalesEngagementContainer />
       <SuccessContainer />
-      <div className={styles.body}>
+      <div className={styles.body3}>
         <div className={styles.teamUpWithYourFavoriteAppParent}>
           <b className={styles.teamUpWithContainer}>
-            <span className={styles.teamUpWithContainer1}>
-              <p className={styles.teamUpWith}>Team up with your</p>
-              <p className={styles.teamUpWith}>favorite apps</p>
+            <span className={styles.empowerYourBusinessContainer1}>
+              <p className={styles.empowerYourBusiness}>Team up with your</p>
+              <p className={styles.empowerYourBusiness}>favorite apps</p>
             </span>
           </b>
           <div className={styles.with870IntegrationsContainer}>
-            <span className={styles.teamUpWithContainer1}>
-              <p className={styles.teamUpWith}>
+            <span className={styles.empowerYourBusinessContainer1}>
+              <p className={styles.empowerYourBusiness}>
                 With 870+ integrations like Shopify,
               </p>
-              <p className={styles.teamUpWith}>
+              <p className={styles.empowerYourBusiness}>
                 WordPress, and Zapier in our app
               </p>
-              <p className={styles.teamUpWith}>
+              <p className={styles.empowerYourBusiness}>
                 marketplace, you’ll have all the marketing
               </p>
-              <p className={styles.teamUpWith}>tools you need to succeed.</p>
+              <p className={styles.empowerYourBusiness}>
+                tools you need to succeed.
+              </p>
             </span>
           </div>
           <div className={styles.viewAllApps}>View all apps</div>
@@ -116,8 +200,8 @@ const Edit1: FunctionComponent = () => {
         </div>
       </div>
       <CustomerSpotlightsContainer />
-      <div className={styles.body1}>
-        <div className={styles.frameGroup}>
+      <div className={styles.body4}>
+        <div className={styles.frameContainer}>
           <div className={styles.tryItNowForFreeParent}>
             <div className={styles.tryItNow}>Try it now, for free</div>
             <div className={styles.noCreditCard}>
@@ -130,7 +214,7 @@ const Edit1: FunctionComponent = () => {
                 <div className={styles.emailAddress}>Email Address</div>
               </div>
             </div>
-            <div className={styles.buttonactButton1}>
+            <div className={styles.buttonactButton2}>
               <div className={styles.startYourFree}>Start your free trial</div>
             </div>
           </div>

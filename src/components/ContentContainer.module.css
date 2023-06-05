@@ -212,6 +212,7 @@
 }
 .body {
   align-self: stretch;
+  border-radius: var(--br-29xl) var(--br-29xl) 0 0;
   background-color: var(--color-darkslategray-200);
   height: 686.47px;
   display: flex;
@@ -220,7 +221,6 @@
   box-sizing: border-box;
   align-items: flex-start;
   justify-content: center;
-  margin-top: -5px;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-gray-100);

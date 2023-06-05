@@ -241,21 +241,16 @@
   width: 675.02px;
   height: 104px;
 }
+.bodyChild,
 .content3 {
   position: relative;
   width: 1060px;
   height: 672px;
-  z-index: 0;
 }
 .bodyChild {
-  position: absolute;
-  margin: 0 !important;
-  bottom: 0.05px;
-  left: calc(50% - 960px);
   width: 1920px;
   height: 821px;
   display: none;
-  z-index: 1;
 }
 .body {
   align-self: stretch;
@@ -267,8 +262,6 @@
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  position: relative;
-  margin-top: -5px;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-white);

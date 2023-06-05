@@ -81,7 +81,6 @@
   position: relative;
   background-color: var(--color-gainsboro);
   height: 463px;
-  margin-top: -5px;
   text-align: center;
   font-size: var(--font-size-25xl);
   color: var(--color-darkslategray-100);
