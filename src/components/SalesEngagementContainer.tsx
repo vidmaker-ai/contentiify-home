@@ -41,20 +41,20 @@ const SalesEngagementContainer: FunctionComponent = () => {
         <div className={styles.automatedOneToOneEmail}>
           Automated one-to-one email
         </div>
-        <img className={styles.vectorIcon} alt="" src="/vector8.svg" />
+        <img className={styles.vectorIcon} alt="" src="/vector81.svg" />
         <div className={styles.pipelineAutomation}>Pipeline automation</div>
-        <img className={styles.vectorIcon1} alt="" src="/vector8.svg" />
+        <img className={styles.vectorIcon1} alt="" src="/vector81.svg" />
         <div className={styles.siteTracking}>Site tracking</div>
-        <img className={styles.vectorIcon2} alt="" src="/vector9.svg" />
+        <img className={styles.vectorIcon2} alt="" src="/vector91.svg" />
         <div className={styles.leadScoring}>Lead scoring</div>
-        <img className={styles.vectorIcon3} alt="" src="/vector9.svg" />
+        <img className={styles.vectorIcon3} alt="" src="/vector91.svg" />
         <div className={styles.aelementorButtonLink}>
           <div className={styles.improveWinRates}>Improve win rates</div>
         </div>
         <img
           className={styles.emailmarketingpngIcon}
           alt=""
-          src="/emailmarketingpng1@2x.png"
+          src="/emailmarketingpng11@2x.png"
         />
       </div>
     </div>

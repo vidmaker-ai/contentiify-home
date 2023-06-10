@@ -27,7 +27,7 @@
   width: 97.05px;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-10xl) 15px;
+  padding: var(--padding-10xl) var(--padding-mini);
   align-items: center;
   justify-content: center;
   gap: var(--gap-6xs);
@@ -59,7 +59,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 28px;
+  gap: var(--gap-9xl);
 }
 .catgoryWrapper,
 .contentiifyParent {
@@ -116,11 +116,11 @@
   width: 227px;
   display: flex;
   flex-direction: row;
-  padding: 0 23px 0 0;
+  padding: 0 var(--padding-4xl) 0 0;
   box-sizing: border-box;
   align-items: center;
   justify-content: flex-end;
-  gap: 20px;
+  gap: var(--gap-xl);
   text-align: center;
 }
 .buttonactButton {
@@ -217,7 +217,8 @@
   height: 48px;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-5xs) 44.51000213623047px var(--padding-5xs) 45px;
+  padding: var(--padding-5xs) 44.51000213623047px var(--padding-5xs)
+    var(--padding-26xl);
   box-sizing: border-box;
   align-items: center;
   justify-content: flex-start;
@@ -594,7 +595,7 @@
 }
 .contentifyDraft20230521 {
   position: relative;
-  background-color: #f1f3f3;
+  background-color: var(--color-whitesmoke-300);
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   width: 100%;
   height: 11030px;
@@ -645,7 +646,7 @@
   .body {
     width: auto;
     flex: 1;
-    gap: 10px;
+    gap: var(--gap-3xs);
     justify-content: space-between;
     border-radius: 0;
   }

@@ -4,6 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import Ver from "./pages/Ver";
 import Edit1 from "./pages/Edit1";
 import { useEffect } from "react";
 
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/contentifydraft20230521":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +50,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Edit1 />} />
+      <Route path="/" element={<Ver />} />
+      <Route path="/contentifydraft20230521" element={<Edit1 />} />
     </Routes>
   );
 }
