@@ -353,12 +353,11 @@
 }
 .the1Content {
   position: absolute;
-  width: calc(100% - 500px);
-  top: 67px;
-  left: 250px;
+  width: calc(100% - 538px);
+  top: 96px;
+  left: 269px;
   line-height: 52px;
   align-items: center;
-  height: 111px;
 }
 .contentify251 {
   position: absolute;
@@ -427,7 +426,7 @@
   background-color: var(--color-whitesmoke-200);
   height: 689px;
   text-align: center;
-  font-size: var(--font-size-25xl);
+  font-size: var(--font-size-19xl);
   color: var(--color-gray-300);
   font-family: var(--font-poppins);
 }
@@ -495,15 +494,14 @@
   justify-content: flex-start;
 }
 .spyYourCompetitor {
-  width: calc(100% - 426px);
-  top: 107.65px;
-  left: 212px;
-  font-size: var(--font-size-25xl);
+  width: calc(100% - 565px);
+  top: 119px;
+  left: 281px;
+  font-size: var(--font-size-19xl);
   line-height: 52px;
   font-family: var(--font-poppins);
   color: var(--color-gray-300);
   justify-content: center;
-  height: 102px;
 }
 .body2 {
   align-self: stretch;
@@ -538,9 +536,9 @@
 }
 .tailorContentsBasedContainer {
   position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
+  width: 80.85%;
+  top: 30.46%;
+  left: 9.52%;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -548,10 +546,10 @@
 .tailorContentsBasedOnHotTWrapper {
   position: absolute;
   width: 72.78%;
-  top: 106.3px;
+  top: 75.65px;
   right: 13.69%;
   left: 13.53%;
-  height: 104px;
+  height: 117px;
 }
 .body3 {
   align-self: stretch;
@@ -559,7 +557,7 @@
   background-color: var(--color-whitesmoke-200);
   height: 689.35px;
   text-align: center;
-  font-size: var(--font-size-25xl);
+  font-size: var(--font-size-19xl);
   color: var(--color-gray-300);
   font-family: var(--font-poppins);
 }
