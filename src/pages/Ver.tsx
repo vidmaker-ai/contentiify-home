@@ -34,7 +34,7 @@ const Ver: FunctionComponent = () => {
                   <div className={styles.catgory}>
                     <div className={styles.products}>
                       <div className={styles.features}>Features</div>
-                      <img className={styles.icon} alt="" src="/.svg" />
+                      <img className={styles.icon} alt="" src="/1.svg" />
                     </div>
                     <div className={styles.platform}>
                       <div className={styles.features}>Resources</div>
@@ -127,9 +127,11 @@ const Ver: FunctionComponent = () => {
           <img className={styles.bodyChild} alt="" src="/frame-732@2x.png" />
         </div>
         <div className={styles.body1}>
-          <b
-            className={styles.the1Content}
-          >{`The #1 Content Intelligence & Content Generator Platform`}</b>
+          <div className={styles.the1ContentIntelligenceWrapper}>
+            <b
+              className={styles.the1Content}
+            >{`The #1 Content Intelligence & Content Generator Platform`}</b>
+          </div>
           <div className={styles.frameDiv}>
             <div className={styles.contentify251Parent}>
               <img
@@ -167,25 +169,31 @@ const Ver: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <b
-            className={styles.spyYourCompetitor}
-          >{`Spy your competitor ‘s audience for insights & A/B testing`}</b>
+          <div className={styles.spyYourCompetitorSAudiencWrapper}>
+            <b
+              className={styles.spyYourCompetitor}
+            >{`Spy your competitor ‘s audience for insights & A/B testing`}</b>
+          </div>
         </div>
         <div className={styles.body3}>
-          <div className={styles.contentify21Wrapper}>
+          <div className={styles.contentify22Wrapper}>
             <img
-              className={styles.contentify21}
+              className={styles.contentify22}
               alt=""
-              src="/contentify--2-1@2x.png"
+              src="/contentify--2-2@2x.png"
             />
           </div>
           <div className={styles.tailorContentsBasedOnHotTWrapper}>
             <b className={styles.tailorContentsBasedContainer}>
               <span className={styles.empowerYourBusinessContainer1}>
-                <span>{`Tailor contents based on `}</span>
-                <span className={styles.hotTopic}>HOT TOPIC</span>
-                <span className={styles.span}>{` `}</span>
-                <span>for Organic traffics</span>
+                <p
+                  className={styles.empowerYourBusiness}
+                >{`Tailor contents based on `}</p>
+                <p className={styles.empowerYourBusiness}>
+                  <span className={styles.hotTopic}>HOT TOPIC</span>
+                  <span className={styles.span}>{` `}</span>
+                  <span>for Organic traffics</span>
+                </p>
               </span>
             </b>
           </div>

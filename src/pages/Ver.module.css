@@ -353,14 +353,21 @@
 }
 .the1Content {
   position: absolute;
-  width: calc(100% - 538px);
-  top: 96px;
-  left: 269px;
+  width: 100%;
+  top: 0;
+  left: 0;
   line-height: 52px;
   align-items: center;
 }
-.contentify251 {
+.contentify251,
+.the1ContentIntelligenceWrapper {
   position: absolute;
+  top: 96px;
+  left: calc(50% - 344.5px);
+  width: 689px;
+  height: 104px;
+}
+.contentify251 {
   top: 0;
   left: calc(50% - 479px);
   width: 958px;
@@ -494,14 +501,21 @@
   justify-content: flex-start;
 }
 .spyYourCompetitor {
-  width: calc(100% - 565px);
-  top: 119px;
-  left: 281px;
-  font-size: var(--font-size-19xl);
+  width: 100%;
+  top: 0;
+  left: 0;
   line-height: 52px;
-  font-family: var(--font-poppins);
-  color: var(--color-gray-300);
   justify-content: center;
+}
+.spyYourCompetitorSAudiencWrapper {
+  position: absolute;
+  top: 119px;
+  left: calc(50% - 332.5px);
+  width: 662px;
+  height: 104px;
+  font-size: var(--font-size-19xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
 }
 .body2 {
   align-self: stretch;
@@ -513,16 +527,16 @@
   color: var(--color-mediumaquamarine);
   font-family: var(--font-roboto);
 }
-.contentify21 {
+.contentify22 {
   position: relative;
-  width: 956px;
-  height: 334px;
+  width: 962px;
+  height: 337px;
   object-fit: cover;
 }
-.contentify21Wrapper {
+.contentify22Wrapper {
   position: absolute;
-  top: calc(50% - 94.38px);
-  left: calc(50% - 478.5px);
+  top: calc(50% - 95.88px);
+  left: calc(50% - 481.5px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -536,20 +550,19 @@
 }
 .tailorContentsBasedContainer {
   position: absolute;
-  width: 80.85%;
-  top: 30.46%;
-  left: 9.52%;
+  top: 0.36px;
+  left: calc(50% - 296px);
   line-height: 52px;
   display: flex;
   align-items: center;
+  width: 591px;
 }
 .tailorContentsBasedOnHotTWrapper {
   position: absolute;
-  width: 72.78%;
-  top: 75.65px;
-  right: 13.69%;
-  left: 13.53%;
-  height: 117px;
+  top: 111.29px;
+  left: calc(50% - 362.5px);
+  width: 722px;
+  height: 104px;
 }
 .body3 {
   align-self: stretch;
