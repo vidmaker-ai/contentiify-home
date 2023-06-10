@@ -34,7 +34,7 @@ const Ver: FunctionComponent = () => {
                   <div className={styles.catgory}>
                     <div className={styles.products}>
                       <div className={styles.features}>Features</div>
-                      <img className={styles.icon} alt="" src="/1.svg" />
+                      <img className={styles.icon} alt="" src="/.svg" />
                     </div>
                     <div className={styles.platform}>
                       <div className={styles.features}>Resources</div>
@@ -80,41 +80,49 @@ const Ver: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.body}>
-          <div className={styles.frameGroup}>
-            <div className={styles.empowerYourBusinessWithVirParent}>
-              <b className={styles.empowerYourBusinessContainer}>
-                <span className={styles.empowerYourBusinessContainer1}>
-                  <p className={styles.empowerYourBusiness}>
-                    Empower your business
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    with viral contents
-                  </p>
-                </span>
-              </b>
-              <img className={styles.frameChild} alt="" src="/vector-12.svg" />
-            </div>
-            <div className={styles.theSocialMediaContentMarkWrapper}>
-              <div className={styles.theSocialMedia}>
-                The social media content, marketing campaign management, and
-                even spying your competitors to get insights with low-cost.
+          <div className={styles.bodyInner}>
+            <div className={styles.frameGroup}>
+              <div className={styles.frameContainer}>
+                <div className={styles.empowerYourBusinessWithVirParent}>
+                  <b className={styles.empowerYourBusinessContainer}>
+                    <span className={styles.empowerYourBusinessContainer1}>
+                      <p className={styles.empowerYourBusiness}>
+                        Empower your business
+                      </p>
+                      <p className={styles.empowerYourBusiness}>
+                        with viral contents
+                      </p>
+                    </span>
+                  </b>
+                  <img
+                    className={styles.frameChild}
+                    alt=""
+                    src="/vector-12.svg"
+                  />
+                </div>
+                <div className={styles.theSocialMediaContentMarkWrapper}>
+                  <div className={styles.theSocialMedia}>
+                    The social media content, marketing campaign management, and
+                    even spying your competitors to get insights with low-cost.
+                  </div>
+                </div>
+                <div className={styles.buttonactButton1}>
+                  <div className={styles.getViral}>Get viral</div>
+                </div>
+                <div className={styles.tryItFreeNoCreditCardReWrapper}>
+                  <div className={styles.tryItFree}>
+                    Try it free. No credit card required. Instant setup.
+                  </div>
+                </div>
+              </div>
+              <div className={styles.imageCrop1Wrapper}>
+                <img
+                  className={styles.imageCrop1Icon}
+                  alt=""
+                  src="/image-crop-1@2x.png"
+                />
               </div>
             </div>
-            <div className={styles.buttonactButton1}>
-              <div className={styles.getViral}>Get viral</div>
-            </div>
-            <div className={styles.tryItFreeNoCreditCardReWrapper}>
-              <div className={styles.tryItFree}>
-                Try it free. No credit card required. Instant setup.
-              </div>
-            </div>
-          </div>
-          <div className={styles.imageCrop1Wrapper}>
-            <img
-              className={styles.imageCrop1Icon}
-              alt=""
-              src="/image-crop-1@2x.png"
-            />
           </div>
           <img className={styles.bodyChild} alt="" src="/frame-732@2x.png" />
         </div>
@@ -122,7 +130,7 @@ const Ver: FunctionComponent = () => {
           <b
             className={styles.the1Content}
           >{`The #1 Content Intelligence & Content Generator Platform`}</b>
-          <div className={styles.bodyInner}>
+          <div className={styles.frameDiv}>
             <div className={styles.contentify251Parent}>
               <img
                 className={styles.contentify251}
@@ -139,7 +147,7 @@ const Ver: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.body2}>
-          <div className={styles.frameDiv}>
+          <div className={styles.bodyInner1}>
             <div className={styles.contentify11Parent}>
               <img
                 className={styles.contentify11}
@@ -926,7 +934,7 @@ const Ver: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.body12}>
-          <div className={styles.frameContainer}>
+          <div className={styles.frameParent1}>
             <div className={styles.tryItNowForFreeParent}>
               <div className={styles.tryItNow}>Try it now, for free</div>
               <div className={styles.noCreditCard}>

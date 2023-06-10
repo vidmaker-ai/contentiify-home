@@ -276,8 +276,11 @@
   height: 18px;
   font-size: var(--font-size-sm);
 }
-.frameGroup {
-  flex: 1;
+.frameContainer {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 613.5px);
+  width: 613.5px;
   height: 380.89px;
   display: flex;
   flex-direction: column;
@@ -286,7 +289,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 22px;
-  z-index: 2;
 }
 .imageCrop1Icon {
   position: absolute;
@@ -299,9 +301,21 @@
   height: 562px;
   object-fit: cover;
 }
+.frameGroup,
 .imageCrop1Wrapper {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 0px);
   width: 613.5px;
+  height: 744px;
+}
+.frameGroup {
+  left: calc(50% - 613.5px);
+  width: 1227px;
+}
+.bodyInner {
+  flex: 1;
+  position: relative;
   height: 744px;
   z-index: 1;
 }
@@ -397,7 +411,7 @@
   width: 958px;
   height: 349px;
 }
-.bodyInner {
+.frameDiv {
   position: absolute;
   bottom: 66.42px;
   left: calc(50% - 576.5px);
@@ -466,13 +480,13 @@
   width: 1152px;
   height: 395px;
 }
-.frameDiv,
+.bodyInner1,
 .spyYourCompetitor {
   position: absolute;
   display: flex;
   align-items: center;
 }
-.frameDiv {
+.bodyInner1 {
   top: calc(50% - 114.03px);
   left: calc(50% - 480.5px);
   width: 960px;
@@ -2502,7 +2516,7 @@
   color: var(--color-lightslategray);
   font-family: var(--font-ibm-plex-sans);
 }
-.frameContainer {
+.frameParent1 {
   position: absolute;
   top: calc(50% - 63.56px);
   left: calc(50% - 539.5px);
@@ -3755,15 +3769,15 @@
   .vectorStrokeIcon {
     display: flex;
   }
-  .frameGroup {
-    flex: unset;
-    align-self: stretch;
-  }
   .imageCrop1Icon {
     display: none;
   }
-  .body {
+  .body,
+  .bodyInner {
+    flex: unset;
     align-self: stretch;
+  }
+  .body {
     width: auto;
     flex: 1;
     flex-direction: column;
