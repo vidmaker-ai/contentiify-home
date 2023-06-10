@@ -37,7 +37,7 @@ const Edit1: FunctionComponent = () => {
                   </div>
                   <div className={styles.platform}>
                     <div className={styles.features}>Resources</div>
-                    <img className={styles.icon} alt="" src="/11.svg" />
+                    <img className={styles.icon} alt="" src="/111.svg" />
                   </div>
                   <div className={styles.pricing}>
                     <div className={styles.features}>Pricing</div>
