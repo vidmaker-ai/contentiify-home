@@ -422,9 +422,9 @@
   font-family: var(--font-roboto);
 }
 .body1 {
+  align-self: stretch;
   position: relative;
   background-color: var(--color-whitesmoke-200);
-  width: 1227px;
   height: 689px;
   text-align: center;
   font-size: var(--font-size-25xl);
