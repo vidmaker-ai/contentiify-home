@@ -204,20 +204,19 @@
   width: 100%;
   top: 0;
   left: 0;
-  line-height: 81.1px;
+  line-height: 81px;
   display: flex;
   align-items: center;
   height: 184.89px;
 }
 .frameChild {
   position: absolute;
-  width: 55.85%;
+  height: calc(100% - 110.89px);
   top: 98.5px;
-  right: 26.68%;
-  left: 17.47%;
-  max-width: 100%;
-  overflow: hidden;
-  height: 74px;
+  bottom: 12.39px;
+  left: calc(50% - 192.24px);
+  max-height: 100%;
+  width: 330.07px;
 }
 .empowerYourBusinessWithVirParent {
   position: relative;
@@ -235,8 +234,8 @@
   align-items: center;
 }
 .theSocialMediaContentMarkWrapper {
-  align-self: stretch;
   position: relative;
+  width: 557.5px;
   height: 64px;
   font-size: var(--font-size-lg);
 }
@@ -258,7 +257,7 @@
   padding: var(--padding-5xs) 44.51000213623047px var(--padding-5xs)
     var(--padding-26xl);
   box-sizing: border-box;
-  justify-content: flex-start;
+  justify-content: center;
   text-align: center;
   font-size: var(--font-size-base);
   color: var(--color-darkslategray-200);
@@ -271,21 +270,15 @@
   line-height: 17.5px;
 }
 .tryItFreeNoCreditCardReWrapper {
-  align-self: stretch;
   position: relative;
+  width: 557.5px;
   height: 18px;
   font-size: var(--font-size-sm);
 }
 .frameContainer {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 613.5px);
-  width: 613.5px;
-  height: 380.89px;
   display: flex;
   flex-direction: column;
-  padding: 0 0 0 56px;
-  box-sizing: border-box;
+  padding: 0 0 0 50px;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 22px;
@@ -298,58 +291,52 @@
   left: 0;
   max-width: 100%;
   overflow: hidden;
-  height: 562px;
+  height: auto;
   object-fit: cover;
 }
-.frameGroup,
 .imageCrop1Wrapper {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 0px);
+  position: relative;
   width: 613.5px;
   height: 744px;
+  margin-left: -31px;
 }
 .frameGroup {
-  left: calc(50% - 613.5px);
-  width: 1227px;
-}
-.bodyInner {
-  flex: 1;
-  position: relative;
-  height: 744px;
+  height: 620px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
   z-index: 1;
 }
 .bodyChild {
-  position: absolute;
-  margin: 0 !important;
-  width: 100%;
-  right: 0;
-  bottom: -0.5px;
-  left: 0;
+  align-self: stretch;
+  position: relative;
   max-width: 100%;
   overflow: hidden;
-  height: 476px;
+  height: 265px;
+  flex-shrink: 0;
   object-fit: cover;
-  mix-blend-mode: normal;
   z-index: 0;
+  margin-top: -344px;
 }
 .body,
 .the1Content {
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 .body {
   align-self: stretch;
   background-color: var(--color-darkslategray-200);
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
-  height: 844px;
-  flex-direction: row;
+  height: 710px;
+  flex-direction: column;
   padding: var(--padding-81xl) 0 0;
   box-sizing: border-box;
-  align-items: flex-start;
-  position: relative;
+  justify-content: flex-end;
   mix-blend-mode: normal;
-  font-size: 46px;
+  font-size: 48px;
 }
 .the1Content {
   position: absolute;
@@ -357,7 +344,7 @@
   top: 0;
   left: 0;
   line-height: 52px;
-  align-items: center;
+  justify-content: center;
 }
 .contentify251,
 .the1ContentIntelligenceWrapper {
@@ -417,7 +404,7 @@
   width: 958px;
   height: 349px;
 }
-.frameDiv {
+.bodyInner {
   position: absolute;
   bottom: 66.42px;
   left: calc(50% - 576.5px);
@@ -486,13 +473,13 @@
   width: 1152px;
   height: 395px;
 }
-.bodyInner1,
+.frameDiv,
 .spyYourCompetitor {
   position: absolute;
   display: flex;
   align-items: center;
 }
-.bodyInner1 {
+.frameDiv {
   top: calc(50% - 114.03px);
   left: calc(50% - 480.5px);
   width: 960px;
@@ -586,9 +573,10 @@
   object-fit: cover;
 }
 .builtForEach {
-  top: 0;
-  left: 171.89px;
-  font-size: var(--font-size-13xl);
+  position: absolute;
+  top: -0.07px;
+  left: 97px;
+  font-size: var(--font-size-19xl);
   line-height: 40px;
   display: flex;
   font-family: var(--font-poppins);
@@ -596,87 +584,85 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 716.4px;
+  width: 866px;
   height: 45px;
 }
-.builtForEach,
-.pseudo,
-.reach {
-  position: absolute;
-}
 .pseudo {
+  position: absolute;
   top: -11px;
   left: 1px;
   background-color: var(--color-mediumblue);
   width: 248px;
   height: 11px;
 }
+.reach,
+.targetToThose {
+  display: flex;
+  align-items: center;
+}
 .reach {
+  position: absolute;
   top: 14px;
   left: 17px;
   line-height: 16px;
-  display: flex;
-  align-items: center;
   width: 46.65px;
   height: 20px;
 }
-.usePreciseTargetingContainer {
+.targetToThose {
   position: relative;
   line-height: 20px;
+  width: 208px;
+  flex-shrink: 0;
 }
+.hashtagAnalytics,
 .span1 {
   position: absolute;
+  display: flex;
+}
+.span1 {
   top: 48px;
   left: 17px;
-  display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   font-size: var(--font-size-sm);
 }
-.deliverability,
-.emailMarketing,
-.emailSegmentation,
-.subscriptionForms,
-.websiteTracking {
+.hashtagAnalytics {
+  top: 57px;
+  left: 1px;
+  line-height: 30px;
+  font-weight: 500;
+  align-items: center;
+  width: 208px;
+}
+.audienceDemographicsAnalytic,
+.socialIntelligenceFacebook {
   position: absolute;
-  top: 6px;
+  top: 98px;
   left: 0;
   line-height: 30px;
   font-weight: 500;
+}
+.socialIntelligenceFacebook {
+  top: 0;
+  line-height: 23px;
   display: flex;
   align-items: center;
-  width: 107.08px;
-  height: 18px;
+  width: 208px;
 }
-.deliverability,
-.emailMarketing,
-.emailSegmentation,
-.subscriptionForms {
-  top: 42px;
-  width: 100.59px;
-}
-.deliverability,
-.emailSegmentation,
-.subscriptionForms {
-  top: 78px;
-  width: 125.33px;
-}
-.deliverability,
-.subscriptionForms {
-  top: 114px;
-  width: 120.97px;
-}
-.deliverability {
-  top: 150px;
-  width: 82.58px;
+.timeSeriesPerformanceAnalyt {
+  position: absolute;
+  top: 139px;
+  left: 0;
+  line-height: 30px;
+  font-weight: 500;
 }
 .ulelementorIconListItems {
   position: absolute;
-  top: 136px;
+  top: 140.93px;
   left: 17px;
   width: 216px;
-  height: 174px;
+  height: 138px;
   font-size: var(--font-size-sm-6);
   color: var(--color-gray-600);
 }
@@ -727,42 +713,40 @@
   height: 60px;
   font-size: var(--font-size-sm);
 }
-.dynamicContent,
-.eventTracking,
-.facebookCustomAudiences,
-.marketingAutomation,
-.messagingText {
+.aiSupportedContents,
+.suggestedMessaging {
   position: absolute;
-  top: 6px;
+  top: 0;
   left: 0;
   line-height: 30px;
   font-weight: 500;
+}
+.suggestedMessaging {
+  top: 36.93px;
+}
+.contentScheduling,
+.performanceMonitoring {
+  position: absolute;
+  top: 73.93px;
+  left: 0;
+  line-height: 23px;
+  font-weight: 500;
   display: flex;
   align-items: center;
-  width: 138.59px;
-  height: 18px;
+  width: 208px;
 }
-.dynamicContent,
-.eventTracking,
-.facebookCustomAudiences,
-.messagingText {
-  top: 42px;
-  width: 108.25px;
+.contentScheduling {
+  top: 126.93px;
+  width: 207px;
 }
-.dynamicContent,
-.eventTracking,
-.facebookCustomAudiences {
-  top: 78px;
-  width: 91.68px;
-}
-.dynamicContent,
-.facebookCustomAudiences {
-  top: 114px;
-  width: 107.04px;
-}
-.facebookCustomAudiences {
-  top: 150px;
-  width: 179.31px;
+.ulelementorIconListItems1 {
+  position: absolute;
+  top: 133px;
+  left: 17px;
+  width: 216px;
+  height: 174px;
+  font-size: var(--font-size-sm-6);
+  color: var(--color-gray-600);
 }
 .divelementorWidgetWrap1 {
   position: absolute;
@@ -777,8 +761,7 @@
   box-sizing: border-box;
   height: 327px;
 }
-.convert,
-.provideIndividualAudienceContainer {
+.convert {
   position: absolute;
   top: 14px;
   left: 17px;
@@ -788,49 +771,32 @@
   width: 59.18px;
   height: 20px;
 }
+.attributionAnalytics,
 .provideIndividualAudienceContainer {
+  position: absolute;
   top: 1px;
   left: 0;
   line-height: 20px;
+  display: flex;
+  align-items: center;
   width: 172.29px;
   height: 58px;
 }
-.attribution,
-.crmSales,
-.landingPages,
-.leadScoring,
-.pipelineAutomation {
-  position: absolute;
-  top: 6px;
-  left: 0;
+.attributionAnalytics {
+  top: 42px;
   line-height: 30px;
   font-weight: 500;
-  display: flex;
-  align-items: center;
-  width: 89.9px;
+  width: 161.47px;
   height: 18px;
 }
-.attribution,
-.crmSales,
-.leadScoring,
-.pipelineAutomation {
-  top: 42px;
-  width: 161.47px;
-}
-.attribution,
-.leadScoring,
-.pipelineAutomation {
-  top: 78px;
-  width: 79.97px;
-}
-.attribution,
-.pipelineAutomation {
-  top: 114px;
-  width: 127.04px;
-}
-.attribution {
-  top: 150px;
-  width: 67.75px;
+.ulelementorIconListItems2 {
+  position: absolute;
+  top: 141.93px;
+  left: 17px;
+  width: 216px;
+  height: 67px;
+  font-size: var(--font-size-sm-6);
+  color: var(--color-gray-600);
 }
 .divelementorWidgetWrap2 {
   position: absolute;
@@ -845,17 +811,18 @@
   box-sizing: border-box;
   height: 327px;
 }
+.grow,
 .pseudo3 {
   position: absolute;
+}
+.pseudo3 {
   top: -11px;
   left: 1px;
   background-color: var(--color-mediumaquamarine);
   width: 248px;
   height: 11px;
 }
-.delightEachCustomerContainer,
 .grow {
-  position: absolute;
   top: 14px;
   left: 17px;
   line-height: 16px;
@@ -865,48 +832,39 @@
   height: 20px;
 }
 .delightEachCustomerContainer {
-  top: 1px;
+  position: absolute;
+  top: 0.93px;
   left: 0;
   line-height: 20px;
-  width: 159.42px;
+  display: inline-block;
+  width: 201px;
   height: 58px;
 }
-.conversations,
-.predictiveContent,
-.predictiveSending,
-.splitTesting,
-.webPersonalization {
+.aiSeeding,
+.leadScoring {
   position: absolute;
-  top: 6px;
   left: 0;
   line-height: 30px;
   font-weight: 500;
+}
+.aiSeeding {
+  top: 6px;
   display: flex;
   align-items: center;
   width: 88.86px;
   height: 18px;
 }
-.predictiveContent,
-.predictiveSending,
-.splitTesting,
-.webPersonalization {
-  top: 42px;
-  width: 76.92px;
+.leadScoring {
+  top: 36px;
 }
-.predictiveContent,
-.predictiveSending,
-.webPersonalization {
-  top: 78px;
-  width: 116.47px;
-}
-.predictiveContent,
-.webPersonalization {
-  top: 114px;
-  width: 115.54px;
-}
-.webPersonalization {
-  top: 150px;
-  width: 127.73px;
+.ulelementorIconListItems3 {
+  position: absolute;
+  top: 136px;
+  left: 17px;
+  width: 216px;
+  height: 174px;
+  font-size: var(--font-size-sm-6);
+  color: var(--color-gray-600);
 }
 .divelementorWidgetWrap3 {
   position: absolute;
@@ -994,7 +952,7 @@
   color: var(--color-mediumturquoise);
 }
 .contactListSizesContainer,
-.emailMarketing1 {
+.emailMarketing {
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -1006,7 +964,7 @@
   height: 44px;
   flex-shrink: 0;
 }
-.emailMarketing1 {
+.emailMarketing {
   position: absolute;
   top: 0;
   left: 22.16px;
@@ -1025,7 +983,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.dynamicContent1 {
+.dynamicContent {
   position: absolute;
   top: 29px;
   left: 22.16px;
@@ -1290,7 +1248,7 @@
   width: 184.93px;
   height: 20px;
 }
-.dynamicContent2,
+.dynamicContent1,
 .lielementorIconListItem2 {
   position: absolute;
   top: 0;
@@ -1298,7 +1256,7 @@
   width: 310.06px;
   height: 26.5px;
 }
-.dynamicContent2 {
+.dynamicContent1 {
   top: 2px;
   left: 22.5px;
   line-height: 24px;
@@ -1784,7 +1742,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.pipelineAutomation1 {
+.pipelineAutomation {
   position: absolute;
   top: 514.78px;
   left: 22.5px;
@@ -2029,15 +1987,23 @@
   width: 250px;
   height: 250px;
 }
-.div4 {
+.div4,
+.landingPages {
   position: absolute;
+  line-height: 24px;
+}
+.div4 {
   top: 202px;
   left: 125.33px;
-  line-height: 24px;
   display: flex;
   align-items: center;
   width: 8.95px;
   height: 24px;
+}
+.landingPages {
+  top: 48px;
+  left: 0;
+  font-weight: 500;
 }
 .divelementorFlipBoxLayer8 {
   position: absolute;
@@ -2047,23 +2013,15 @@
   width: 250px;
   height: 250px;
 }
-.div5,
-.preBuiltAutomations {
-  position: absolute;
-  line-height: 24px;
-}
 .div5 {
+  position: absolute;
   top: 202px;
   left: 139.23px;
+  line-height: 24px;
   display: flex;
   align-items: center;
   width: 8.95px;
   height: 24px;
-}
-.preBuiltAutomations {
-  top: 48px;
-  left: 0;
-  font-weight: 500;
 }
 .divelementorFlipBoxLayer10 {
   position: absolute;
@@ -2705,6 +2663,10 @@
   width: 147.8px;
   height: 30px;
 }
+.legalCenter {
+  position: relative;
+  line-height: 20px;
+}
 .divelementorWidgetContainer3,
 .divelementorWidgetContainer4,
 .divlegalCenter {
@@ -2953,7 +2915,7 @@
   justify-content: flex-start;
 }
 .emailMarketingAutomation,
-.marketingAutomation1,
+.marketingAutomation,
 .salesAutomation,
 .salesEngagement1,
 .serviceSupport {
@@ -2966,7 +2928,7 @@
   width: 178.08px;
   height: 18px;
 }
-.marketingAutomation1,
+.marketingAutomation,
 .salesAutomation,
 .salesEngagement1,
 .serviceSupport {
@@ -3005,7 +2967,7 @@
   left: 0;
   height: 484.38px;
 }
-.landingPages2 {
+.landingPages1 {
   position: absolute;
   top: 5px;
   left: 0;
@@ -3019,7 +2981,7 @@
 .smsMarketing,
 .socialMediaMarketing,
 .transactionalEmail,
-.webPersonalization1 {
+.webPersonalization {
   position: absolute;
   top: 43px;
   left: 0;
@@ -3032,18 +2994,18 @@
 .smsMarketing,
 .socialMediaMarketing,
 .transactionalEmail,
-.webPersonalization1 {
+.webPersonalization {
   top: 81px;
   width: 93.72px;
 }
 .socialMediaMarketing,
 .transactionalEmail,
-.webPersonalization1 {
+.webPersonalization {
   top: 119px;
   width: 145.33px;
 }
 .transactionalEmail,
-.webPersonalization1 {
+.webPersonalization {
   top: 157px;
   width: 128.18px;
 }
@@ -3734,12 +3696,11 @@
   align-items: center;
   justify-content: flex-start;
 }
-.ver1 {
+.ver1Current {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
   height: 11030px;
-  overflow: hidden;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-gray-100);
@@ -3780,15 +3741,16 @@
   .vectorStrokeIcon {
     display: flex;
   }
+  .empowerYourBusinessContainer {
+    font-size: 35px;
+    line-height: 50px;
+    width: 591px;
+  }
   .imageCrop1Icon {
     display: none;
   }
-  .body,
-  .bodyInner {
-    flex: unset;
-    align-self: stretch;
-  }
   .body {
+    align-self: stretch;
     width: auto;
     flex: 1;
     flex-direction: column;
@@ -3813,6 +3775,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .empowerYourBusinessContainer {
+    font-size: var(--font-size-xs);
+    line-height: 2px;
+    text-align: left;
+    width: 591px;
   }
 }
 @media screen and (max-width: 1188px) {

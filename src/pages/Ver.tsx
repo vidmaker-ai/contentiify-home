@@ -3,7 +3,7 @@ import { Button } from "@chakra-ui/react";
 import styles from "./Ver.module.css";
 const Ver: FunctionComponent = () => {
   return (
-    <div className={styles.ver1}>
+    <div className={styles.ver1Current}>
       <div className={styles.contentifyDraft20230521}>
         <div className={styles.top}>
           <div className={styles.sectionelementorSection}>
@@ -80,51 +80,49 @@ const Ver: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.body}>
-          <div className={styles.bodyInner}>
-            <div className={styles.frameGroup}>
-              <div className={styles.frameContainer}>
-                <div className={styles.empowerYourBusinessWithVirParent}>
-                  <b className={styles.empowerYourBusinessContainer}>
-                    <span className={styles.empowerYourBusinessContainer1}>
-                      <p className={styles.empowerYourBusiness}>
-                        Empower your business
-                      </p>
-                      <p className={styles.empowerYourBusiness}>
-                        with viral contents
-                      </p>
-                    </span>
-                  </b>
-                  <img
-                    className={styles.frameChild}
-                    alt=""
-                    src="/vector-12.svg"
-                  />
-                </div>
-                <div className={styles.theSocialMediaContentMarkWrapper}>
-                  <div className={styles.theSocialMedia}>
-                    The social media content, marketing campaign management, and
-                    even spying your competitors to get insights with low-cost.
-                  </div>
-                </div>
-                <div className={styles.buttonactButton1}>
-                  <div className={styles.getViral}>Get viral</div>
-                </div>
-                <div className={styles.tryItFreeNoCreditCardReWrapper}>
-                  <div className={styles.tryItFree}>
-                    Try it free. No credit card required. Instant setup.
-                  </div>
-                </div>
-              </div>
-              <div className={styles.imageCrop1Wrapper}>
+          <div className={styles.frameGroup}>
+            <div className={styles.frameContainer}>
+              <div className={styles.empowerYourBusinessWithVirParent}>
+                <b className={styles.empowerYourBusinessContainer}>
+                  <span className={styles.empowerYourBusinessContainer1}>
+                    <p className={styles.empowerYourBusiness}>
+                      Empower your business
+                    </p>
+                    <p className={styles.empowerYourBusiness}>
+                      with viral contents
+                    </p>
+                  </span>
+                </b>
                 <img
-                  className={styles.imageCrop1Icon}
+                  className={styles.frameChild}
                   alt=""
-                  src="/image-crop-1@2x.png"
+                  src="/vector-12.svg"
                 />
               </div>
+              <div className={styles.theSocialMediaContentMarkWrapper}>
+                <div className={styles.theSocialMedia}>
+                  The social media content, marketing campaign management, and
+                  even spying your competitors to get insights with low-cost.
+                </div>
+              </div>
+              <div className={styles.buttonactButton1}>
+                <div className={styles.getViral}>Get viral</div>
+              </div>
+              <div className={styles.tryItFreeNoCreditCardReWrapper}>
+                <div className={styles.tryItFree}>
+                  Try it free. No credit card required. Instant setup.
+                </div>
+              </div>
+            </div>
+            <div className={styles.imageCrop1Wrapper}>
+              <img
+                className={styles.imageCrop1Icon}
+                alt=""
+                src="/image-crop-1@2x.png"
+              />
             </div>
           </div>
-          <img className={styles.bodyChild} alt="" src="/frame-732@2x.png" />
+          <img className={styles.bodyChild} alt="" src="/frame-1336@2x.png" />
         </div>
         <div className={styles.body1}>
           <div className={styles.the1ContentIntelligenceWrapper}>
@@ -132,7 +130,7 @@ const Ver: FunctionComponent = () => {
               className={styles.the1Content}
             >{`The #1 Content Intelligence & Content Generator Platform`}</b>
           </div>
-          <div className={styles.frameDiv}>
+          <div className={styles.bodyInner}>
             <div className={styles.contentify251Parent}>
               <img
                 className={styles.contentify251}
@@ -149,7 +147,7 @@ const Ver: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.body2}>
-          <div className={styles.bodyInner1}>
+          <div className={styles.frameDiv}>
             <div className={styles.contentify11Parent}>
               <img
                 className={styles.contentify11}
@@ -212,26 +210,22 @@ const Ver: FunctionComponent = () => {
               <div className={styles.pseudo} />
               <b className={styles.reach}>Reach</b>
               <div className={styles.span1}>
-                <div className={styles.usePreciseTargetingContainer}>
-                  <p className={styles.empowerYourBusiness}>
-                    Use precise targeting to find
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    the right prospects and grow
-                  </p>
-                  <p className={styles.empowerYourBusiness}>your audience.</p>
+                <div className={styles.targetToThose}>
+                  Target to those with the same interest discover ideal
+                  prospects and expand your audience.
                 </div>
               </div>
               <div className={styles.ulelementorIconListItems}>
-                <div className={styles.websiteTracking}>Website Tracking</div>
-                <div className={styles.emailMarketing}>Email Marketing</div>
-                <div className={styles.emailSegmentation}>
-                  Email Segmentation
+                <div className={styles.hashtagAnalytics}>Hashtag analytics</div>
+                <div className={styles.audienceDemographicsAnalytic}>
+                  Audience demographics analytics
                 </div>
-                <div className={styles.subscriptionForms}>
-                  Subscription Forms
+                <div className={styles.socialIntelligenceFacebook}>
+                  Social intelligence (Facebook, Tiktok, Instagram, Youtube)
                 </div>
-                <div className={styles.deliverability}>Deliverability</div>
+                <div className={styles.timeSeriesPerformanceAnalyt}>
+                  Time-series performance analytics
+                </div>
               </div>
             </div>
             <div className={styles.divelementorWidgetWrap1}>
@@ -247,21 +241,24 @@ const Ver: FunctionComponent = () => {
                       your audience by providing
                     </p>
                     <p className={styles.empowerYourBusiness}>
-                      tailored guidance.
+                      tailored approaches.
                     </p>
                   </span>
                 </div>
               </div>
-              <div className={styles.ulelementorIconListItems}>
-                <div className={styles.marketingAutomation}>
-                  Marketing Automation
+              <div className={styles.ulelementorIconListItems1}>
+                <div className={styles.aiSupportedContents}>
+                  AI supported contents
                 </div>
-                <div className={styles.messagingText}>{`Messaging & Text`}</div>
-                <div className={styles.eventTracking}>Event Tracking</div>
-                <div className={styles.dynamicContent}>Dynamic Content</div>
-                <div className={styles.facebookCustomAudiences}>
-                  Facebook Custom Audiences
-                </div>
+                <div
+                  className={styles.suggestedMessaging}
+                >{`Suggested messaging & hashtags`}</div>
+                <div
+                  className={styles.performanceMonitoring}
+                >{`Performance monitoring & predicting`}</div>
+                <div
+                  className={styles.contentScheduling}
+                >{`Content scheduling & Campaign management`}</div>
               </div>
             </div>
             <div className={styles.divelementorWidgetWrap2}>
@@ -282,16 +279,13 @@ const Ver: FunctionComponent = () => {
                   </span>
                 </div>
               </div>
-              <div className={styles.ulelementorIconListItems}>
-                <div className={styles.landingPages}>Landing Pages</div>
+              <div className={styles.ulelementorIconListItems2}>
                 <div
-                  className={styles.crmSales}
+                  className={styles.aiSupportedContents}
                 >{`CRM & Sales Automations`}</div>
-                <div className={styles.leadScoring}>Lead Scoring</div>
-                <div className={styles.pipelineAutomation}>
-                  Pipeline Automation
+                <div className={styles.attributionAnalytics}>
+                  Attribution analytics
                 </div>
-                <div className={styles.attribution}>Attribution</div>
               </div>
             </div>
             <div className={styles.divelementorWidgetWrap3}>
@@ -299,31 +293,17 @@ const Ver: FunctionComponent = () => {
               <b className={styles.grow}>Grow</b>
               <div className={styles.p}>
                 <div className={styles.delightEachCustomerContainer}>
-                  <span className={styles.empowerYourBusinessContainer1}>
-                    <p className={styles.empowerYourBusiness}>
-                      Delight each customer by
-                    </p>
-                    <p className={styles.empowerYourBusiness}>
-                      knowing what they want,
-                    </p>
-                    <p className={styles.empowerYourBusiness}>
-                      when they want it.
-                    </p>
-                  </span>
+                  <p className={styles.empowerYourBusiness}>
+                    Delight each customer by
+                  </p>
+                  <p className={styles.empowerYourBusiness}>
+                    add-on marketing services
+                  </p>
                 </div>
               </div>
-              <div className={styles.ulelementorIconListItems}>
-                <div className={styles.conversations}>Conversations</div>
-                <div className={styles.splitTesting}>Split Testing</div>
-                <div className={styles.predictiveSending}>
-                  Predictive Sending
-                </div>
-                <div className={styles.predictiveContent}>
-                  Predictive Content
-                </div>
-                <div className={styles.webPersonalization}>
-                  Web Personalization
-                </div>
+              <div className={styles.ulelementorIconListItems3}>
+                <div className={styles.aiSeeding}>AI seeding</div>
+                <div className={styles.leadScoring}>Lead Scoring</div>
               </div>
             </div>
           </div>
@@ -376,9 +356,9 @@ const Ver: FunctionComponent = () => {
                 </span>
               </div>
               <div className={styles.emailMarketingParent}>
-                <div className={styles.emailMarketing1}>Email marketing</div>
+                <div className={styles.emailMarketing}>Email marketing</div>
                 <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
-                <div className={styles.dynamicContent1}>Dynamic content</div>
+                <div className={styles.dynamicContent}>Dynamic content</div>
                 <img className={styles.vectorIcon2} alt="" src="/vector2.svg" />
                 <div className={styles.segmentation}>Segmentation</div>
                 <img className={styles.vectorIcon3} alt="" src="/vector3.svg" />
@@ -466,7 +446,7 @@ const Ver: FunctionComponent = () => {
                   <img className={styles.svgIcon} alt="" src="/svg.svg" />
                 </div>
                 <div className={styles.lielementorIconListItem3}>
-                  <div className={styles.dynamicContent2}>Dynamic content</div>
+                  <div className={styles.dynamicContent1}>Dynamic content</div>
                   <img className={styles.svgIcon} alt="" src="/svg.svg" />
                 </div>
               </div>
@@ -627,9 +607,7 @@ const Ver: FunctionComponent = () => {
               Automated one-to-one email
             </div>
             <img className={styles.vectorIcon13} alt="" src="/vector8.svg" />
-            <div className={styles.pipelineAutomation1}>
-              Pipeline automation
-            </div>
+            <div className={styles.pipelineAutomation}>Pipeline automation</div>
             <img className={styles.vectorIcon14} alt="" src="/vector8.svg" />
             <div className={styles.siteTracking}>Site tracking</div>
             <img className={styles.vectorIcon15} alt="" src="/vector9.svg" />
@@ -715,7 +693,7 @@ const Ver: FunctionComponent = () => {
               <div className={styles.div4}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
                 <img className={styles.svgIcon4} alt="" src="/svg5.svg" />
-                <div className={styles.preBuiltAutomations}>Landing pages</div>
+                <div className={styles.landingPages}>Landing pages</div>
                 <div className={styles.getStarted}>Start building</div>
               </div>
             </div>
@@ -723,9 +701,7 @@ const Ver: FunctionComponent = () => {
               <div className={styles.div5}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
                 <img className={styles.svgIcon4} alt="" src="/svg6.svg" />
-                <div className={styles.preBuiltAutomations}>
-                  Pre-built automations
-                </div>
+                <div className={styles.landingPages}>Pre-built automations</div>
                 <div className={styles.getStarted}>Target contacts</div>
               </div>
             </div>
@@ -748,7 +724,7 @@ const Ver: FunctionComponent = () => {
               <div className={styles.div7}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
                 <img className={styles.svgIcon4} alt="" src="/svg8.svg" />
-                <div className={styles.preBuiltAutomations}>CRM</div>
+                <div className={styles.landingPages}>CRM</div>
                 <div className={styles.getStarted}>Automate sales</div>
               </div>
             </div>
@@ -1018,15 +994,11 @@ const Ver: FunctionComponent = () => {
                 </div>
                 <div className={styles.divlegalCenter}>
                   <div className={styles.divelementorWidgetContainer3}>
-                    <div className={styles.usePreciseTargetingContainer}>
-                      Legal Center
-                    </div>
+                    <div className={styles.legalCenter}>Legal Center</div>
                   </div>
                 </div>
                 <div className={styles.divelementorWidgetContainer4}>
-                  <div className={styles.usePreciseTargetingContainer}>
-                    Privacy Policy
-                  </div>
+                  <div className={styles.legalCenter}>Privacy Policy</div>
                 </div>
               </div>
               <div className={styles.formactSearchForm}>
@@ -1086,7 +1058,7 @@ const Ver: FunctionComponent = () => {
                   <div className={styles.emailMarketingAutomation}>
                     Email Marketing Automation
                   </div>
-                  <div className={styles.marketingAutomation1}>
+                  <div className={styles.marketingAutomation}>
                     Marketing Automation
                   </div>
                   <div className={styles.salesAutomation}>Sales Automation</div>
@@ -1106,13 +1078,13 @@ const Ver: FunctionComponent = () => {
                   </b>
                 </div>
                 <div className={styles.ulelementorIconListItems9}>
-                  <div className={styles.landingPages2}>Landing Pages</div>
+                  <div className={styles.landingPages1}>Landing Pages</div>
                   <div className={styles.liveChat}>Live Chat</div>
                   <div className={styles.smsMarketing}>SMS Marketing</div>
                   <div className={styles.socialMediaMarketing}>
                     Social Media Marketing
                   </div>
-                  <div className={styles.webPersonalization1}>
+                  <div className={styles.webPersonalization}>
                     Web Personalization
                   </div>
                   <div className={styles.transactionalEmail}>
