@@ -330,7 +330,7 @@
   align-self: stretch;
   background-color: var(--color-darkslategray-200);
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
-  height: 710px;
+  height: 681px;
   flex-direction: column;
   padding: var(--padding-81xl) 0 0;
   box-sizing: border-box;
@@ -650,7 +650,7 @@
   align-items: center;
   width: 208px;
 }
-.timeSeriesPerformanceAnalyt {
+.timeSeriesAnalytics {
   position: absolute;
   top: 139px;
   left: 0;

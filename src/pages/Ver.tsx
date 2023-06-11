@@ -223,8 +223,8 @@ const Ver: FunctionComponent = () => {
                 <div className={styles.socialIntelligenceFacebook}>
                   Social intelligence (Facebook, Tiktok, Instagram, Youtube)
                 </div>
-                <div className={styles.timeSeriesPerformanceAnalyt}>
-                  Time-series performance analytics
+                <div className={styles.timeSeriesAnalytics}>
+                  Time-series analytics
                 </div>
               </div>
             </div>
