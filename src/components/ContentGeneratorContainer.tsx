@@ -46,7 +46,7 @@ const ContentGeneratorContainer: FunctionComponent = () => {
           <img
             className={styles.contentify251}
             alt=""
-            src="/contentify--2-5-11@2x.png"
+            src="/contentify--2-5-111@2x.png"
           />
           <div className={styles.groupWrapper}>
             <div className={styles.rectangleParent}>

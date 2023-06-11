@@ -34,11 +34,11 @@ const Ver1CurrentCopy2: FunctionComponent = () => {
                   <div className={styles.catgory}>
                     <div className={styles.products}>
                       <div className={styles.features}>Features</div>
-                      <img className={styles.icon} alt="" src="/.svg" />
+                      <img className={styles.icon} alt="" src="/1.svg" />
                     </div>
                     <div className={styles.platform}>
                       <div className={styles.features}>Resources</div>
-                      <img className={styles.icon} alt="" src="/1.svg" />
+                      <img className={styles.icon} alt="" src="/11.svg" />
                     </div>
                     <div className={styles.pricing}>
                       <div className={styles.features}>Pricing</div>
@@ -127,14 +127,12 @@ const Ver1CurrentCopy2: FunctionComponent = () => {
         <div className={styles.body1}>
           <div className={styles.the1ContentIntelligenceParent}>
             <b className={styles.the1ContentContainer}>
-              <span className={styles.empowerYourBusinessContainer1}>
-                <span>The</span>
-                <span className={styles.contentIntelligence}>
-                  {" "}
-                  #1 Content Intelligence
-                </span>
-                <span>{` & Content Generator Platform`}</span>
+              <span>The</span>
+              <span className={styles.contentIntelligence}>
+                {" "}
+                #1 Content Intelligence
               </span>
+              <span>{` & Content Generator Platform`}</span>
             </b>
             <div className={styles.contentify251Parent}>
               <img
@@ -152,7 +150,7 @@ const Ver1CurrentCopy2: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.body2}>
-          <div className={styles.frameDiv}>
+          <div className={styles.groupParent}>
             <div className={styles.spyYourCompetitorSAudiencWrapper}>
               <b className={styles.spyYourCompetitorContainer}>
                 <span className={styles.empowerYourBusinessContainer1}>
@@ -190,21 +188,17 @@ const Ver1CurrentCopy2: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.body3}>
-          <div className={styles.frameParent1}>
+          <div className={styles.the1ContentIntelligenceParent}>
             <div className={styles.tailorContentsBasedOnHotTWrapper}>
               <b className={styles.tailorContentsBasedContainer}>
-                <span className={styles.empowerYourBusinessContainer1}>
-                  <p
-                    className={styles.empowerYourBusiness}
-                  >{`Tailor contents based on `}</p>
-                  <p className={styles.empowerYourBusiness}>
-                    <span className={styles.contentIntelligence}>
-                      Hot topic
-                    </span>
-                    <span className={styles.span1}>{` `}</span>
-                    <span>for Organic traffics</span>
-                  </p>
-                </span>
+                <p
+                  className={styles.empowerYourBusiness}
+                >{`Tailor contents based on `}</p>
+                <p className={styles.empowerYourBusiness}>
+                  <span className={styles.contentIntelligence}>Hot topic</span>
+                  <span className={styles.span1}>{` `}</span>
+                  <span>for Organic traffics</span>
+                </p>
               </b>
             </div>
             <div className={styles.contentify22Parent}>
@@ -225,7 +219,7 @@ const Ver1CurrentCopy2: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.body4}>
-          <div className={styles.frameParent2}>
+          <div className={styles.the1ContentIntelligenceParent}>
             <div className={styles.tailorContentsBasedOnHotTWrapper}>
               <b className={styles.scheduleYourContentsContainer}>
                 <span>Schedule</span>
@@ -683,120 +677,125 @@ const Ver1CurrentCopy2: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.body11}>
-          <div className={styles.content3}>
-            <div className={styles.divelementorFlipBoxLayer}>
-              <div className={styles.div}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg1.svg" />
-                <div className={styles.h3elementorFlipBoxLayer}>
-                  <div className={styles.freeHelpCoursesContainer}>
-                    <p className={styles.empowerYourBusiness}>
-                      Free help courses
-                    </p>
-                    <p className={styles.empowerYourBusiness}>and support</p>
+          <div className={styles.content3Wrapper}>
+            <div className={styles.content3}>
+              <div className={styles.divelementorFlipBoxLayer}>
+                <div className={styles.div}></div>
+                <div className={styles.divelementorFlipBoxLayer1}>
+                  <img className={styles.svgIcon4} alt="" src="/svg1.svg" />
+                  <div className={styles.h3elementorFlipBoxLayer}>
+                    <div className={styles.freeHelpCoursesContainer}>
+                      <p className={styles.empowerYourBusiness}>
+                        Free help courses
+                      </p>
+                      <p className={styles.empowerYourBusiness}>and support</p>
+                    </div>
                   </div>
+                  <div className={styles.getStarted}>Get started</div>
                 </div>
-                <div className={styles.getStarted}>Get started</div>
               </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer2}>
-              <div className={styles.div1}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg2.svg" />
-                <div className={styles.h3elementorFlipBoxLayer1}>
-                  <div className={styles.freeHelpCoursesContainer}>
-                    <p className={styles.empowerYourBusiness}>
-                      Advanced marketing
-                    </p>
-                    <p className={styles.empowerYourBusiness}>
-                      and sales reporting
-                    </p>
+              <div className={styles.divelementorFlipBoxLayer2}>
+                <div className={styles.div1}></div>
+                <div className={styles.divelementorFlipBoxLayer1}>
+                  <img className={styles.svgIcon4} alt="" src="/svg2.svg" />
+                  <div className={styles.h3elementorFlipBoxLayer1}>
+                    <div className={styles.freeHelpCoursesContainer}>
+                      <p className={styles.empowerYourBusiness}>
+                        Advanced marketing
+                      </p>
+                      <p className={styles.empowerYourBusiness}>
+                        and sales reporting
+                      </p>
+                    </div>
                   </div>
+                  <div className={styles.getStarted}>Check results</div>
                 </div>
-                <div className={styles.getStarted}>Check results</div>
               </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer4}>
-              <div className={styles.div2}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg3.svg" />
-                <div className={styles.h3elementorFlipBoxLayer2}>
-                  <div className={styles.freeHelpCoursesContainer}>
-                    <p className={styles.empowerYourBusiness}>
-                      Excellent email
-                    </p>
-                    <p className={styles.empowerYourBusiness}>deliverability</p>
+              <div className={styles.divelementorFlipBoxLayer4}>
+                <div className={styles.div2}></div>
+                <div className={styles.divelementorFlipBoxLayer1}>
+                  <img className={styles.svgIcon4} alt="" src="/svg3.svg" />
+                  <div className={styles.h3elementorFlipBoxLayer2}>
+                    <div className={styles.freeHelpCoursesContainer}>
+                      <p className={styles.empowerYourBusiness}>
+                        Excellent email
+                      </p>
+                      <p className={styles.empowerYourBusiness}>
+                        deliverability
+                      </p>
+                    </div>
                   </div>
+                  <div className={styles.getStarted}>Send better</div>
                 </div>
-                <div className={styles.getStarted}>Send better</div>
               </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer6}>
-              <div className={styles.div3}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg4.svg" />
-                <div className={styles.h3elementorFlipBoxLayer3}>
-                  <div className={styles.freeHelpCoursesContainer}>
-                    <p className={styles.empowerYourBusiness}>
-                      Gmail and Outlook inbox
-                    </p>
-                    <p className={styles.empowerYourBusiness}>extensions</p>
+              <div className={styles.divelementorFlipBoxLayer6}>
+                <div className={styles.div3}></div>
+                <div className={styles.divelementorFlipBoxLayer1}>
+                  <img className={styles.svgIcon4} alt="" src="/svg4.svg" />
+                  <div className={styles.h3elementorFlipBoxLayer3}>
+                    <div className={styles.freeHelpCoursesContainer}>
+                      <p className={styles.empowerYourBusiness}>
+                        Gmail and Outlook inbox
+                      </p>
+                      <p className={styles.empowerYourBusiness}>extensions</p>
+                    </div>
                   </div>
+                  <div className={styles.getStarted}>Manage inbox</div>
                 </div>
-                <div className={styles.getStarted}>Manage inbox</div>
               </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer8}>
-              <div className={styles.div4}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg5.svg" />
-                <div className={styles.landingPages}>Landing pages</div>
-                <div className={styles.getStarted}>Start building</div>
+              <div className={styles.divelementorFlipBoxLayer8}>
+                <div className={styles.div4}></div>
+                <div className={styles.divelementorFlipBoxLayer1}>
+                  <img className={styles.svgIcon4} alt="" src="/svg5.svg" />
+                  <div className={styles.landingPages}>Landing pages</div>
+                  <div className={styles.getStarted}>Start building</div>
+                </div>
               </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer10}>
-              <div className={styles.div5}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg6.svg" />
-                <div className={styles.landingPages}>Pre-built automations</div>
-                <div className={styles.getStarted}>Target contacts</div>
-              </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer12}>
-              <div className={styles.div2}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg7.svg" />
-                <div className={styles.h3elementorFlipBoxLayer4}>
-                  <div className={styles.freeHelpCoursesContainer}>
-                    <p className={styles.empowerYourBusiness}>Integrated and</p>
-                    <p className={styles.empowerYourBusiness}>
-                      embeddable forms
-                    </p>
+              <div className={styles.divelementorFlipBoxLayer10}>
+                <div className={styles.div5}></div>
+                <div className={styles.divelementorFlipBoxLayer1}>
+                  <img className={styles.svgIcon4} alt="" src="/svg6.svg" />
+                  <div className={styles.landingPages}>
+                    Pre-built automations
                   </div>
+                  <div className={styles.getStarted}>Target contacts</div>
                 </div>
-                <div className={styles.getStarted}>Make forms</div>
               </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer14}>
-              <div className={styles.div7}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg8.svg" />
-                <div className={styles.landingPages}>CRM</div>
-                <div className={styles.getStarted}>Automate sales</div>
+              <div className={styles.divelementorFlipBoxLayer12}>
+                <div className={styles.div2}></div>
+                <div className={styles.divelementorFlipBoxLayer1}>
+                  <img className={styles.svgIcon4} alt="" src="/svg7.svg" />
+                  <div className={styles.h3elementorFlipBoxLayer4}>
+                    <div className={styles.freeHelpCoursesContainer}>
+                      <p className={styles.empowerYourBusiness}>
+                        Integrated and
+                      </p>
+                      <p className={styles.empowerYourBusiness}>
+                        embeddable forms
+                      </p>
+                    </div>
+                  </div>
+                  <div className={styles.getStarted}>Make forms</div>
+                </div>
               </div>
-            </div>
-            <div className={styles.everythingYouNeedContainer}>
-              <span className={styles.empowerYourBusinessContainer1}>
+              <div className={styles.divelementorFlipBoxLayer14}>
+                <div className={styles.div7}></div>
+                <div className={styles.divelementorFlipBoxLayer1}>
+                  <img className={styles.svgIcon4} alt="" src="/svg8.svg" />
+                  <div className={styles.landingPages}>CRM</div>
+                  <div className={styles.getStarted}>Automate sales</div>
+                </div>
+              </div>
+              <b className={styles.everythingYouNeedContainer}>
                 <p className={styles.empowerYourBusiness}>
                   Everything you need to make the
                 </p>
                 <p className={styles.empowerYourBusiness}>
                   path to success shorter
                 </p>
-              </span>
+              </b>
             </div>
           </div>
-          <img className={styles.bodyInner} alt="" src="/frame-735.svg" />
         </div>
         <div className={styles.body12}>
           <div className={styles.teamUpWithYourFavoriteAppParent}>
@@ -975,7 +974,7 @@ const Ver1CurrentCopy2: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.body13}>
-          <div className={styles.frameParent3}>
+          <div className={styles.frameParent2}>
             <div className={styles.tryItNowForFreeParent}>
               <div className={styles.tryItNow}>Try it now, for free</div>
               <div className={styles.noCreditCard}>

@@ -34,11 +34,11 @@ const Ver: FunctionComponent = () => {
                   <div className={styles.catgory}>
                     <div className={styles.products}>
                       <div className={styles.features}>Features</div>
-                      <img className={styles.icon} alt="" src="/11.svg" />
+                      <img className={styles.icon} alt="" src="/111.svg" />
                     </div>
                     <div className={styles.platform}>
                       <div className={styles.features}>Resources</div>
-                      <img className={styles.icon} alt="" src="/111.svg" />
+                      <img className={styles.icon} alt="" src="/1111.svg" />
                     </div>
                     <div className={styles.pricing}>
                       <div className={styles.features}>Pricing</div>
@@ -135,7 +135,7 @@ const Ver: FunctionComponent = () => {
               <img
                 className={styles.contentify251}
                 alt=""
-                src="/contentify--2-5-1@2x.png"
+                src="/contentify--2-5-11@2x.png"
               />
               <div className={styles.groupWrapper}>
                 <div className={styles.rectangleParent}>
@@ -152,7 +152,7 @@ const Ver: FunctionComponent = () => {
               <img
                 className={styles.contentify11}
                 alt=""
-                src="/contentify--1-11@2x.png"
+                src="/contentify--1-111@2x.png"
               />
               <div className={styles.rectangleGroup}>
                 <div className={styles.groupItem} />
@@ -178,7 +178,7 @@ const Ver: FunctionComponent = () => {
             <img
               className={styles.contentify22}
               alt=""
-              src="/contentify--2-21@2x.png"
+              src="/contentify--2-211@2x.png"
             />
           </div>
           <div className={styles.tailorContentsBasedOnHotTWrapper}>
@@ -786,7 +786,7 @@ const Ver: FunctionComponent = () => {
             <img
               className={styles.appsGroup768x366pngIcon}
               alt=""
-              src="/appsgroup768x366png1@2x.png"
+              src="/appsgroup768x366png11@2x.png"
             />
           </div>
         </div>

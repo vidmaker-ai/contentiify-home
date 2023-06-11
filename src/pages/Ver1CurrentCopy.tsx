@@ -34,11 +34,11 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                   <div className={styles.catgory}>
                     <div className={styles.products}>
                       <div className={styles.features}>Features</div>
-                      <img className={styles.icon} alt="" src="/.svg" />
+                      <img className={styles.icon} alt="" src="/1.svg" />
                     </div>
                     <div className={styles.platform}>
                       <div className={styles.features}>Resources</div>
-                      <img className={styles.icon} alt="" src="/1.svg" />
+                      <img className={styles.icon} alt="" src="/11.svg" />
                     </div>
                     <div className={styles.pricing}>
                       <div className={styles.features}>Pricing</div>
@@ -262,7 +262,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
               <img
                 className={styles.contentify251}
                 alt=""
-                src="/contentify--2-5-1@2x.png"
+                src="/contentify--2-5-11@2x.png"
               />
               <div className={styles.groupWrapper}>
                 <div className={styles.rectangleParent}>
@@ -291,7 +291,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.contentify11}
                   alt=""
-                  src="/contentify--1-1@2x.png"
+                  src="/contentify--1-11@2x.png"
                 />
                 <div className={styles.rectangleGroup}>
                   <div className={styles.groupItem} />
@@ -333,7 +333,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
               <img
                 className={styles.contentify22}
                 alt=""
-                src="/contentify--2-2@2x.png"
+                src="/contentify--2-21@2x.png"
               />
               <div className={styles.groupFrame}>
                 <div className={styles.rectangleContainer}>
@@ -359,7 +359,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
               <img
                 className={styles.contentify42}
                 alt=""
-                src="/contentify--4-2@2x.png"
+                src="/contentify--4-21@2x.png"
               />
               <div className={styles.groupDiv}>
                 <div className={styles.rectangleDiv} />
@@ -830,7 +830,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <img
               className={styles.appsGroup768x366pngIcon}
               alt=""
-              src="/appsgroup768x366png@2x.png"
+              src="/appsgroup768x366png1@2x.png"
             />
           </div>
         </div>

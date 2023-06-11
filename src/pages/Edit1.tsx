@@ -37,7 +37,7 @@ const Edit1: FunctionComponent = () => {
                   </div>
                   <div className={styles.platform}>
                     <div className={styles.features}>Resources</div>
-                    <img className={styles.icon} alt="" src="/1111.svg" />
+                    <img className={styles.icon} alt="" src="/11111.svg" />
                   </div>
                   <div className={styles.pricing}>
                     <div className={styles.features}>Pricing</div>
@@ -127,7 +127,7 @@ const Edit1: FunctionComponent = () => {
             <img
               className={styles.contentify11}
               alt=""
-              src="/contentify--1-111@2x.png"
+              src="/contentify--1-1111@2x.png"
             />
             <div className={styles.rectangleParent}>
               <div className={styles.groupItem} />
@@ -199,7 +199,7 @@ const Edit1: FunctionComponent = () => {
           <img
             className={styles.appsGroup768x366pngIcon}
             alt=""
-            src="/appsgroup768x366png11@2x.png"
+            src="/appsgroup768x366png111@2x.png"
           />
         </div>
       </div>
