@@ -426,16 +426,16 @@
 }
 .spyYourCompetitorContainer {
   position: absolute;
-  top: calc(50% - 52px);
-  left: calc(50% - 330.5px);
+  top: 0;
+  left: calc(50% - 334.5px);
   line-height: 52px;
   display: flex;
   align-items: center;
-  width: 661px;
+  width: 669px;
 }
 .spyYourCompetitorSAudiencWrapper {
   position: relative;
-  width: 661px;
+  width: 669px;
   height: 104px;
 }
 .contentify11 {
@@ -491,6 +491,13 @@
   height: 327px;
   z-index: 0;
 }
+.body2,
+.groupContainer,
+.groupParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .groupContainer {
   width: 960px;
   height: 333px;
@@ -501,21 +508,16 @@
   font-family: var(--font-roboto);
 }
 .body2,
-.groupContainer,
 .groupParent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 .groupParent {
-  justify-content: flex-start;
   gap: 55px;
 }
 .body2 {
   align-self: stretch;
   background-color: var(--color-whitesmoke-400);
   padding: 68px 133px;
-  justify-content: center;
   text-align: center;
   font-size: var(--font-size-19xl);
   color: var(--color-mediumturquoise);
