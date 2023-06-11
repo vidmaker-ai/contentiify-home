@@ -49,13 +49,13 @@ const ContentContainer: FunctionComponent = () => {
             <div className={styles.emailMarketing}>Email marketing</div>
             <img className={styles.vectorIcon} alt="" src="/vector111.svg" />
             <div className={styles.dynamicContent}>Dynamic content</div>
-            <img className={styles.vectorIcon1} alt="" src="/vector211.svg" />
+            <img className={styles.vectorIcon1} alt="" src="/vector2111.svg" />
             <div className={styles.segmentation}>Segmentation</div>
             <img className={styles.vectorIcon2} alt="" src="/vector311.svg" />
             <div className={styles.successfulDeliverability}>
               Successful deliverability
             </div>
-            <img className={styles.vectorIcon3} alt="" src="/vector411.svg" />
+            <img className={styles.vectorIcon3} alt="" src="/vector4111.svg" />
           </div>
           <div className={styles.aelementorButtonLink}>
             <div className={styles.personalizeYourEmail}>

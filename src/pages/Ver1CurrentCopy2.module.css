@@ -398,45 +398,44 @@
   color: var(--color-mediumvioletred);
   font-family: var(--font-roboto);
 }
-.body1,
 .the1ContentIntelligenceParent {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.the1ContentIntelligenceParent {
   justify-content: flex-start;
   gap: var(--gap-17xl);
+}
+.body1,
+.forInsights {
+  color: var(--color-gray-900);
 }
 .body1 {
   align-self: stretch;
   background-color: var(--color-whitesmoke-400);
+  height: 763px;
+  display: flex;
+  flex-direction: column;
   padding: 77px 134px;
+  box-sizing: border-box;
+  align-items: center;
   justify-content: center;
   text-align: center;
   font-size: var(--font-size-19xl);
-  color: var(--color-gray-900);
   font-family: var(--font-poppins);
 }
-.span {
-  color: var(--color-mediumvioletred);
-}
 .forInsights {
-  color: var(--color-gray-900);
+  margin: 0;
 }
 .spyYourCompetitorContainer {
   position: absolute;
   top: 0;
-  left: calc(50% - 334.5px);
+  left: calc(50% - 316.5px);
   line-height: 52px;
-  display: flex;
-  align-items: center;
-  width: 669px;
 }
 .spyYourCompetitorSAudiencWrapper {
   position: relative;
-  width: 669px;
-  height: 104px;
+  width: 1122px;
+  height: 116px;
 }
 .contentify11 {
   position: absolute;
@@ -492,8 +491,8 @@
   z-index: 0;
 }
 .body2,
-.groupContainer,
-.groupParent {
+.frameDiv,
+.groupContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -508,22 +507,24 @@
   font-family: var(--font-roboto);
 }
 .body2,
-.groupParent {
+.frameDiv {
   justify-content: center;
 }
-.groupParent {
-  gap: 55px;
+.frameDiv {
+  gap: var(--gap-17xl);
 }
 .body2 {
   align-self: stretch;
   background-color: var(--color-whitesmoke-400);
+  height: 763px;
   padding: 68px 133px;
+  box-sizing: border-box;
   text-align: center;
   font-size: var(--font-size-19xl);
   color: var(--color-mediumturquoise);
   font-family: var(--font-poppins);
 }
-.span1 {
+.span {
   color: var(--color-mediumblue);
 }
 .tailorContentsBasedContainer {
@@ -604,21 +605,31 @@
 .body3 {
   align-self: stretch;
   background-color: var(--color-whitesmoke-400);
+  height: 763px;
   padding: 71px 132px;
+  box-sizing: border-box;
   justify-content: center;
   text-align: center;
   font-size: var(--font-size-19xl);
-  color: var(--color-gray-900);
   font-family: var(--font-poppins);
+}
+.body3,
+.yourContents {
+  color: var(--color-gray-900);
 }
 .scheduleYourContentsContainer {
   position: absolute;
-  top: 26.36px;
+  top: 0;
   left: calc(50% - 299px);
   line-height: 52px;
 }
-.contentify42 {
+.contentify42,
+.scheduleYourContentsAheadWrapper {
   position: relative;
+  width: 722px;
+  height: 52px;
+}
+.contentify42 {
   width: 956px;
   height: 333px;
   object-fit: cover;
@@ -681,7 +692,7 @@
 .body4 {
   align-self: stretch;
   background-color: var(--color-whitesmoke-400);
-  height: 651px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   padding: 62px 135px;
@@ -730,11 +741,11 @@
   flex-shrink: 0;
 }
 .hashtagAnalytics,
-.span2 {
+.span1 {
   position: absolute;
   display: flex;
 }
-.span2 {
+.span1 {
   top: 48px;
   left: 17px;
   flex-direction: row;
@@ -965,7 +976,7 @@
 }
 .aiPoweredForSeamlessMarketParent {
   height: 454px;
-  gap: 47px;
+  gap: 60px;
 }
 .aiPoweredForSeamlessMarketParent,
 .body5,
@@ -2582,7 +2593,7 @@
   color: var(--color-lightslategray);
   font-family: var(--font-ibm-plex-sans);
 }
-.frameParent2 {
+.frameParent3 {
   position: absolute;
   top: calc(50% - 63.56px);
   left: calc(50% - 539.5px);

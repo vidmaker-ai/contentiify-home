@@ -419,13 +419,21 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <div className={styles.emailMarketing}>Email marketing</div>
                 <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
                 <div className={styles.dynamicContent}>Dynamic content</div>
-                <img className={styles.vectorIcon2} alt="" src="/vector2.svg" />
+                <img
+                  className={styles.vectorIcon2}
+                  alt=""
+                  src="/vector21.svg"
+                />
                 <div className={styles.segmentation}>Segmentation</div>
                 <img className={styles.vectorIcon3} alt="" src="/vector3.svg" />
                 <div className={styles.successfulDeliverability}>
                   Successful deliverability
                 </div>
-                <img className={styles.vectorIcon4} alt="" src="/vector4.svg" />
+                <img
+                  className={styles.vectorIcon4}
+                  alt=""
+                  src="/vector41.svg"
+                />
               </div>
               <div className={styles.aelementorButtonLink}>
                 <div className={styles.personalizeYourEmail}>
@@ -489,13 +497,13 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                   <div className={styles.contactManagement}>
                     Contact management
                   </div>
-                  <img className={styles.svgIcon} alt="" src="/svg.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg13.svg" />
                 </div>
                 <div className={styles.lielementorIconListItem1}>
                   <div className={styles.advancedReporting}>
                     Advanced reporting
                   </div>
-                  <img className={styles.svgIcon} alt="" src="/svg.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg13.svg" />
                 </div>
               </div>
               <div className={styles.ulelementorIconListItems5}>
@@ -503,11 +511,11 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                   <div className={styles.automatedLeadNurturing}>
                     Automated lead nurturing
                   </div>
-                  <img className={styles.svgIcon} alt="" src="/svg.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg13.svg" />
                 </div>
                 <div className={styles.lielementorIconListItem3}>
                   <div className={styles.dynamicContent1}>Dynamic content</div>
-                  <img className={styles.svgIcon} alt="" src="/svg.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg13.svg" />
                 </div>
               </div>
             </div>
@@ -705,7 +713,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer2}>
               <div className={styles.div1}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg2.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg21.svg" />
                 <div className={styles.h3elementorFlipBoxLayer1}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -722,7 +730,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer4}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg3.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg31.svg" />
                 <div className={styles.h3elementorFlipBoxLayer2}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -737,7 +745,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer6}>
               <div className={styles.div3}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg13.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg131.svg" />
                 <div className={styles.h3elementorFlipBoxLayer3}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -760,7 +768,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer10}>
               <div className={styles.div5}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg6.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg61.svg" />
                 <div className={styles.landingPages}>Pre-built automations</div>
                 <div className={styles.getStarted}>Target contacts</div>
               </div>
@@ -768,7 +776,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer12}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg7.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg71.svg" />
                 <div className={styles.h3elementorFlipBoxLayer4}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>Integrated and</p>
@@ -783,7 +791,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer14}>
               <div className={styles.div7}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg8.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg81.svg" />
                 <div className={styles.landingPages}>CRM</div>
                 <div className={styles.getStarted}>Automate sales</div>
               </div>

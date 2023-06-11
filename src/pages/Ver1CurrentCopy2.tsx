@@ -150,16 +150,15 @@ const Ver1CurrentCopy2: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.body2}>
-          <div className={styles.groupParent}>
+          <div className={styles.frameDiv}>
             <div className={styles.spyYourCompetitorSAudiencWrapper}>
               <b className={styles.spyYourCompetitorContainer}>
-                <span className={styles.empowerYourBusinessContainer1}>
-                  <span>Spy your competitor ‘s audience</span>
-                  <span className={styles.span}>{` `}</span>
-                  <span
-                    className={styles.forInsights}
-                  >{`for insights & A/B testing`}</span>
-                </span>
+                <p className={styles.empowerYourBusiness}>
+                  Spy your competitor ‘s audience
+                </p>
+                <p
+                  className={styles.forInsights}
+                >{`for insights & A/B testing`}</p>
               </b>
             </div>
             <div className={styles.groupContainer}>
@@ -196,7 +195,7 @@ const Ver1CurrentCopy2: FunctionComponent = () => {
                 >{`Tailor contents based on `}</p>
                 <p className={styles.empowerYourBusiness}>
                   <span className={styles.contentIntelligence}>Hot topic</span>
-                  <span className={styles.span1}>{` `}</span>
+                  <span className={styles.span}>{` `}</span>
                   <span>for Organic traffics</span>
                 </p>
               </b>
@@ -220,10 +219,10 @@ const Ver1CurrentCopy2: FunctionComponent = () => {
         </div>
         <div className={styles.body4}>
           <div className={styles.the1ContentIntelligenceParent}>
-            <div className={styles.tailorContentsBasedOnHotTWrapper}>
+            <div className={styles.scheduleYourContentsAheadWrapper}>
               <b className={styles.scheduleYourContentsContainer}>
                 <span>Schedule</span>
-                <span className={styles.forInsights}>{` your contents `}</span>
+                <span className={styles.yourContents}>{` your contents `}</span>
                 <span>ahead</span>
               </b>
             </div>
@@ -258,7 +257,7 @@ const Ver1CurrentCopy2: FunctionComponent = () => {
                 <div className={styles.divelementorWidgetWrap}>
                   <div className={styles.pseudo} />
                   <b className={styles.reach}>Reach</b>
-                  <div className={styles.span2}>
+                  <div className={styles.span1}>
                     <div className={styles.targetToThose}>
                       Target to those with the same interest discover ideal
                       prospects and expand your audience.
@@ -974,7 +973,7 @@ const Ver1CurrentCopy2: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.body13}>
-          <div className={styles.frameParent2}>
+          <div className={styles.frameParent3}>
             <div className={styles.tryItNowForFreeParent}>
               <div className={styles.tryItNow}>Try it now, for free</div>
               <div className={styles.noCreditCard}>

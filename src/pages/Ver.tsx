@@ -366,7 +366,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="/vector21.svg"
+                  src="/vector211.svg"
                 />
                 <div className={styles.segmentation}>Segmentation</div>
                 <img
@@ -380,7 +380,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="/vector41.svg"
+                  src="/vector411.svg"
                 />
               </div>
               <div className={styles.aelementorButtonLink}>
@@ -661,7 +661,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer2}>
               <div className={styles.div1}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg21.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg211.svg" />
                 <div className={styles.h3elementorFlipBoxLayer1}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -678,7 +678,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer4}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg31.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg311.svg" />
                 <div className={styles.h3elementorFlipBoxLayer2}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -716,7 +716,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer10}>
               <div className={styles.div5}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg61.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg611.svg" />
                 <div className={styles.landingPages}>Pre-built automations</div>
                 <div className={styles.getStarted}>Target contacts</div>
               </div>
@@ -724,7 +724,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer12}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg71.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg711.svg" />
                 <div className={styles.h3elementorFlipBoxLayer4}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>Integrated and</p>
@@ -739,7 +739,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer14}>
               <div className={styles.div7}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg81.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg811.svg" />
                 <div className={styles.landingPages}>CRM</div>
                 <div className={styles.getStarted}>Automate sales</div>
               </div>
