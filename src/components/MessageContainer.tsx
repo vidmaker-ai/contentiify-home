@@ -7,7 +7,7 @@ const MessageContainer: FunctionComponent = () => {
         <img
           className={styles.websitemessagingpngIcon}
           alt=""
-          src="/websitemessagingpng1@2x.png"
+          src="/websitemessagingpng11@2x.png"
         />
         <b className={styles.messagingLive}>{`messaging & live chat`}</b>
         <b className={styles.messageYourCustomersContainer}>
@@ -44,13 +44,13 @@ const MessageContainer: FunctionComponent = () => {
           </span>
         </div>
         <div className={styles.siteMessaging}>Site messaging</div>
-        <img className={styles.vectorIcon} alt="" src="/vector71.svg" />
+        <img className={styles.vectorIcon} alt="" src="/vector711.svg" />
         <div className={styles.engagementTracking}>Engagement tracking</div>
-        <img className={styles.vectorIcon1} alt="" src="/vector71.svg" />
+        <img className={styles.vectorIcon1} alt="" src="/vector711.svg" />
         <div className={styles.sms}>SMS</div>
-        <img className={styles.vectorIcon2} alt="" src="/vector71.svg" />
+        <img className={styles.vectorIcon2} alt="" src="/vector711.svg" />
         <div className={styles.segmentation}>Segmentation</div>
-        <img className={styles.vectorIcon3} alt="" src="/vector71.svg" />
+        <img className={styles.vectorIcon3} alt="" src="/vector711.svg" />
         <div className={styles.aelementorButtonLink}>
           <div className={styles.messageCustomers}>Message customers</div>
         </div>

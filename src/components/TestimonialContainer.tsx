@@ -8,7 +8,7 @@ const TestimonialContainer: FunctionComponent = () => {
         <img
           className={styles.divelementorContainerIcon}
           alt=""
-          src="/divelementorcontainer1.svg"
+          src="/divelementorcontainer11.svg"
         />
         <div className={styles.divelementorWidgetContainer}>
           <div className={styles.dontJustTakeContainer}>

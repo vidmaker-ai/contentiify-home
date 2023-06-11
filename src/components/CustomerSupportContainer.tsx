@@ -31,7 +31,7 @@ const CustomerSupportContainer: FunctionComponent = () => {
           socialMediaAdvertising="Social Media Advertising"
           leadTrackingSoftware="Lead Tracking Software"
           wordpress="Wordpress"
-          svg="/svg91.svg"
+          svg="/svg911.svg"
         />
         <ContainerWidgetWrap
           nurture={`Convert & Grow`}
@@ -40,7 +40,7 @@ const CustomerSupportContainer: FunctionComponent = () => {
           socialMediaAdvertising="Lead Scoring"
           leadTrackingSoftware="Attribution Software"
           wordpress="Salesforce"
-          svg="/svg101.svg"
+          svg="/svg1011.svg"
           propRight="216px"
           propLeft="648px"
           propWidth="114.29px"
@@ -61,11 +61,11 @@ const CustomerSupportContainer: FunctionComponent = () => {
             </div>
             <div className={styles.a}>
               <div className={styles.shopify}>Shopify</div>
-              <img className={styles.svgIcon} alt="" src="/svg111.svg" />
+              <img className={styles.svgIcon} alt="" src="/svg1111.svg" />
             </div>
             <div className={styles.a1}>
               <div className={styles.woocommerce}>WooCommerce</div>
-              <img className={styles.svgIcon} alt="" src="/svg121.svg" />
+              <img className={styles.svgIcon} alt="" src="/svg1211.svg" />
             </div>
           </div>
         </div>

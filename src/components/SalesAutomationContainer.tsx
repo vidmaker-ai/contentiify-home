@@ -38,17 +38,17 @@ const SalesAutomationContainer: FunctionComponent = () => {
           </span>
         </div>
         <div className={styles.crm1}>CRM</div>
-        <img className={styles.vectorIcon} alt="" src="/vector51.svg" />
+        <img className={styles.vectorIcon} alt="" src="/vector511.svg" />
         <div className={styles.winProbability}>Win probability</div>
-        <img className={styles.vectorIcon1} alt="" src="/vector51.svg" />
+        <img className={styles.vectorIcon1} alt="" src="/vector511.svg" />
         <div className={styles.leadMagnets}>{`Lead magnets & forms`}</div>
-        <img className={styles.vectorIcon2} alt="" src="/vector61.svg" />
+        <img className={styles.vectorIcon2} alt="" src="/vector611.svg" />
         <div className={styles.salesEngagement}>Sales engagement</div>
-        <img className={styles.vectorIcon3} alt="" src="/vector61.svg" />
+        <img className={styles.vectorIcon3} alt="" src="/vector611.svg" />
         <div className={styles.aelementorButtonLink}>
           <div className={styles.sellMore1}>Sell more</div>
         </div>
-        <img className={styles.crmpngIcon} alt="" src="/crmpng1@2x.png" />
+        <img className={styles.crmpngIcon} alt="" src="/crmpng11@2x.png" />
       </div>
     </div>
   );

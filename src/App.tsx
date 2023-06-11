@@ -4,6 +4,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import Ver1CurrentCopy2 from "./pages/Ver1CurrentCopy2";
+import Ver1CurrentCopy from "./pages/Ver1CurrentCopy";
 import Ver from "./pages/Ver";
 import Edit1 from "./pages/Edit1";
 import { useEffect } from "react";
@@ -25,6 +27,14 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/ver1currentcopy":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/ver1current":
         title = "";
         metaDescription = "";
         break;
@@ -50,7 +60,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Ver />} />
+      <Route path="/" element={<Ver1CurrentCopy2 />} />
+      <Route path="/ver1currentcopy" element={<Ver1CurrentCopy />} />
+      <Route path="/ver1current" element={<Ver />} />
       <Route path="/contentifydraft20230521" element={<Edit1 />} />
     </Routes>
   );

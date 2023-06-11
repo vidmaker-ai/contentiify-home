@@ -37,7 +37,7 @@ const Edit1: FunctionComponent = () => {
                   </div>
                   <div className={styles.platform}>
                     <div className={styles.features}>Resources</div>
-                    <img className={styles.icon} alt="" src="/111.svg" />
+                    <img className={styles.icon} alt="" src="/1111.svg" />
                   </div>
                   <div className={styles.pricing}>
                     <div className={styles.features}>Pricing</div>
@@ -51,9 +51,9 @@ const Edit1: FunctionComponent = () => {
           </div>
           <div className={styles.login}>
             <div className={styles.vectorParent}>
-              <img className={styles.vectorIcon} alt="" src="/vector10.svg" />
+              <img className={styles.vectorIcon} alt="" src="/vector101.svg" />
               <div className={styles.english}>English</div>
-              <img className={styles.icon2} alt="" src="/21.svg" />
+              <img className={styles.icon2} alt="" src="/211.svg" />
             </div>
             <div className={styles.login1}>Login</div>
           </div>
@@ -88,7 +88,11 @@ const Edit1: FunctionComponent = () => {
                   </p>
                 </span>
               </b>
-              <img className={styles.groupChild} alt="" src="/vector-121.svg" />
+              <img
+                className={styles.groupChild}
+                alt=""
+                src="/vector-1211.svg"
+              />
             </div>
             <div className={styles.theSocialMediaContainer}>
               <span className={styles.empowerYourBusinessContainer1}>
@@ -123,7 +127,7 @@ const Edit1: FunctionComponent = () => {
             <img
               className={styles.contentify11}
               alt=""
-              src="/contentify--1-11@2x.png"
+              src="/contentify--1-111@2x.png"
             />
             <div className={styles.rectangleParent}>
               <div className={styles.groupItem} />
@@ -195,7 +199,7 @@ const Edit1: FunctionComponent = () => {
           <img
             className={styles.appsGroup768x366pngIcon}
             alt=""
-            src="/appsgroup768x366png1@2x.png"
+            src="/appsgroup768x366png11@2x.png"
           />
         </div>
       </div>

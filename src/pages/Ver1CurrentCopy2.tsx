@@ -1,9 +1,9 @@
 import { FunctionComponent } from "react";
 import { Button } from "@chakra-ui/react";
-import styles from "./Ver.module.css";
-const Ver: FunctionComponent = () => {
+import styles from "./Ver1CurrentCopy2.module.css";
+const Ver1CurrentCopy2: FunctionComponent = () => {
   return (
-    <div className={styles.ver1Current}>
+    <div className={styles.ver1CurrentCopy2}>
       <div className={styles.contentifyDraft20230521}>
         <div className={styles.top}>
           <div className={styles.sectionelementorSection}>
@@ -34,11 +34,11 @@ const Ver: FunctionComponent = () => {
                   <div className={styles.catgory}>
                     <div className={styles.products}>
                       <div className={styles.features}>Features</div>
-                      <img className={styles.icon} alt="" src="/11.svg" />
+                      <img className={styles.icon} alt="" src="/.svg" />
                     </div>
                     <div className={styles.platform}>
                       <div className={styles.features}>Resources</div>
-                      <img className={styles.icon} alt="" src="/111.svg" />
+                      <img className={styles.icon} alt="" src="/1.svg" />
                     </div>
                     <div className={styles.pricing}>
                       <div className={styles.features}>Pricing</div>
@@ -53,10 +53,10 @@ const Ver: FunctionComponent = () => {
                     <img
                       className={styles.vectorIcon}
                       alt=""
-                      src="/vector10.svg"
+                      src="/vector.svg"
                     />
                     <div className={styles.english}>English</div>
-                    <img className={styles.icon2} alt="" src="/21.svg" />
+                    <img className={styles.icon2} alt="" src="/2.svg" />
                   </div>
                   <div className={styles.login1}>Login</div>
                 </div>
@@ -96,7 +96,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.frameChild}
                   alt=""
-                  src="/vector-121.svg"
+                  src="/vector-12.svg"
                 />
               </div>
               <div className={styles.theSocialMediaContentMarkWrapper}>
@@ -125,12 +125,17 @@ const Ver: FunctionComponent = () => {
           <img className={styles.bodyChild} alt="" src="/frame-1336@2x.png" />
         </div>
         <div className={styles.body1}>
-          <div className={styles.the1ContentIntelligenceWrapper}>
-            <b
-              className={styles.the1Content}
-            >{`The #1 Content Intelligence & Content Generator Platform`}</b>
-          </div>
-          <div className={styles.bodyInner}>
+          <div className={styles.the1ContentIntelligenceParent}>
+            <b className={styles.the1ContentContainer}>
+              <span className={styles.empowerYourBusinessContainer1}>
+                <span>The</span>
+                <span className={styles.contentIntelligence}>
+                  {" "}
+                  #1 Content Intelligence
+                </span>
+                <span>{` & Content Generator Platform`}</span>
+              </span>
+            </b>
             <div className={styles.contentify251Parent}>
               <img
                 className={styles.contentify251}
@@ -148,178 +153,230 @@ const Ver: FunctionComponent = () => {
         </div>
         <div className={styles.body2}>
           <div className={styles.frameDiv}>
-            <div className={styles.contentify11Parent}>
-              <img
-                className={styles.contentify11}
-                alt=""
-                src="/contentify--1-11@2x.png"
-              />
-              <div className={styles.rectangleGroup}>
-                <div className={styles.groupItem} />
-                <b className={styles.audienceAnalyticsForContainer}>
-                  <span className={styles.empowerYourBusinessContainer1}>
-                    <p className={styles.empowerYourBusiness}>
-                      Audience analytics
-                    </p>
-                    <p className={styles.empowerYourBusiness}> for any post!</p>
-                  </span>
-                </b>
+            <div className={styles.spyYourCompetitorSAudiencWrapper}>
+              <b className={styles.spyYourCompetitorContainer}>
+                <span className={styles.empowerYourBusinessContainer1}>
+                  <span>Spy your competitor ‘s audience</span>
+                  <span className={styles.span}>{` `}</span>
+                  <span
+                    className={styles.forInsights}
+                  >{`for insights & A/B testing`}</span>
+                </span>
+              </b>
+            </div>
+            <div className={styles.groupContainer}>
+              <div className={styles.contentify11Parent}>
+                <img
+                  className={styles.contentify11}
+                  alt=""
+                  src="/contentify--1-1@2x.png"
+                />
+                <div className={styles.rectangleGroup}>
+                  <div className={styles.groupItem} />
+                  <b className={styles.audienceAnalyticsForContainer}>
+                    <span className={styles.empowerYourBusinessContainer1}>
+                      <p className={styles.empowerYourBusiness}>
+                        Audience analytics
+                      </p>
+                      <p className={styles.empowerYourBusiness}>
+                        {" "}
+                        for any post!
+                      </p>
+                    </span>
+                  </b>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={styles.spyYourCompetitorSAudiencWrapper}>
-            <b
-              className={styles.spyYourCompetitor}
-            >{`Spy your competitor ‘s audience for insights & A/B testing`}</b>
           </div>
         </div>
         <div className={styles.body3}>
-          <div className={styles.contentify22Wrapper}>
-            <img
-              className={styles.contentify22}
-              alt=""
-              src="/contentify--2-21@2x.png"
-            />
-          </div>
-          <div className={styles.tailorContentsBasedOnHotTWrapper}>
-            <b className={styles.tailorContentsBasedContainer}>
-              <span className={styles.empowerYourBusinessContainer1}>
-                <p
-                  className={styles.empowerYourBusiness}
-                >{`Tailor contents based on `}</p>
-                <p className={styles.empowerYourBusiness}>
-                  <span className={styles.hotTopic}>HOT TOPIC</span>
-                  <span className={styles.span}>{` `}</span>
-                  <span>for Organic traffics</span>
-                </p>
-              </span>
-            </b>
+          <div className={styles.frameParent1}>
+            <div className={styles.tailorContentsBasedOnHotTWrapper}>
+              <b className={styles.tailorContentsBasedContainer}>
+                <span className={styles.empowerYourBusinessContainer1}>
+                  <p
+                    className={styles.empowerYourBusiness}
+                  >{`Tailor contents based on `}</p>
+                  <p className={styles.empowerYourBusiness}>
+                    <span className={styles.contentIntelligence}>
+                      Hot topic
+                    </span>
+                    <span className={styles.span1}>{` `}</span>
+                    <span>for Organic traffics</span>
+                  </p>
+                </span>
+              </b>
+            </div>
+            <div className={styles.contentify22Parent}>
+              <img
+                className={styles.contentify22}
+                alt=""
+                src="/contentify--2-2@2x.png"
+              />
+              <div className={styles.groupFrame}>
+                <div className={styles.rectangleContainer}>
+                  <div className={styles.groupInner} />
+                  <b className={styles.autoGenerateVideos}>
+                    Auto generate videos, images, wrtiten contents
+                  </b>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className={styles.body4}>
-          <img
-            className={styles.maskGroupIcon}
-            alt=""
-            src="/mask-group@2x.png"
-          />
-          <div className={styles.stage}>
-            <b className={styles.builtForEach}>
-              Built for each stage of the customer journey
-            </b>
-            <div className={styles.divelementorWidgetWrap}>
-              <div className={styles.pseudo} />
-              <b className={styles.reach}>Reach</b>
-              <div className={styles.span1}>
-                <div className={styles.targetToThose}>
-                  Target to those with the same interest discover ideal
-                  prospects and expand your audience.
-                </div>
-              </div>
-              <div className={styles.ulelementorIconListItems}>
-                <div className={styles.hashtagAnalytics}>Hashtag analytics</div>
-                <div className={styles.audienceDemographicsAnalytic}>
-                  Audience demographics analytics
-                </div>
-                <div className={styles.socialIntelligenceFacebook}>
-                  Social intelligence (Facebook, Tiktok, Instagram, Youtube)
-                </div>
-                <div className={styles.timeSeriesAnalytics}>
-                  Time-series analytics
-                </div>
-              </div>
+          <div className={styles.frameParent2}>
+            <div className={styles.tailorContentsBasedOnHotTWrapper}>
+              <b className={styles.scheduleYourContentsContainer}>
+                <span>Schedule</span>
+                <span className={styles.forInsights}>{` your contents `}</span>
+                <span>ahead</span>
+              </b>
             </div>
-            <div className={styles.divelementorWidgetWrap1}>
-              <div className={styles.pseudo1} />
-              <b className={styles.nurture}>Nurture</b>
-              <div className={styles.p}>
-                <div className={styles.growYourRelationshipContainer}>
-                  <span className={styles.empowerYourBusinessContainer1}>
-                    <p className={styles.empowerYourBusiness}>
-                      Grow your relationship with
-                    </p>
-                    <p className={styles.empowerYourBusiness}>
-                      your audience by providing
-                    </p>
-                    <p className={styles.empowerYourBusiness}>
-                      tailored approaches.
-                    </p>
-                  </span>
-                </div>
-              </div>
-              <div className={styles.ulelementorIconListItems1}>
-                <div className={styles.aiSupportedContents}>
-                  AI supported contents
-                </div>
-                <div
-                  className={styles.suggestedMessaging}
-                >{`Suggested messaging & hashtags`}</div>
-                <div
-                  className={styles.performanceMonitoring}
-                >{`Performance monitoring & predicting`}</div>
-                <div
-                  className={styles.contentScheduling}
-                >{`Content scheduling & Campaign management`}</div>
-              </div>
-            </div>
-            <div className={styles.divelementorWidgetWrap2}>
-              <div className={styles.pseudo} />
-              <b className={styles.convert}>Convert</b>
-              <div className={styles.p}>
-                <div className={styles.provideIndividualAudienceContainer}>
-                  <span className={styles.empowerYourBusinessContainer1}>
-                    <p className={styles.empowerYourBusiness}>
-                      Provide individual audience
-                    </p>
-                    <p className={styles.empowerYourBusiness}>
-                      members with well-timed
-                    </p>
-                    <p className={styles.empowerYourBusiness}>
-                      calls to take the next step.
-                    </p>
-                  </span>
-                </div>
-              </div>
-              <div className={styles.ulelementorIconListItems2}>
-                <div
-                  className={styles.aiSupportedContents}
-                >{`CRM & Sales Automations`}</div>
-                <div className={styles.attributionAnalytics}>
-                  Attribution analytics
-                </div>
-              </div>
-            </div>
-            <div className={styles.divelementorWidgetWrap3}>
-              <div className={styles.pseudo3} />
-              <b className={styles.grow}>Grow</b>
-              <div className={styles.p}>
-                <div className={styles.delightEachCustomerContainer}>
-                  <p className={styles.empowerYourBusiness}>
-                    Delight each customer by
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    add-on marketing services
-                  </p>
-                </div>
-              </div>
-              <div className={styles.ulelementorIconListItems3}>
-                <div className={styles.aiSeeding}>AI seeding</div>
-                <div className={styles.leadScoring}>Lead Scoring</div>
+            <div className={styles.contentify42Parent}>
+              <img
+                className={styles.contentify42}
+                alt=""
+                src="/contentify--4-2@2x.png"
+              />
+              <div className={styles.groupDiv}>
+                <div className={styles.rectangleDiv} />
+                <b
+                  className={styles.getThingsPlanned}
+                >{`Get things planned & tracked`}</b>
               </div>
             </div>
           </div>
         </div>
         <div className={styles.body5}>
-          <img className={styles.bodyItem} alt="" src="/vector-131.svg" />
+          <div className={styles.stage}>
+            <div className={styles.aiPoweredForSeamlessMarketParent}>
+              <b className={styles.aiPoweredForContainer}>
+                <span className={styles.empowerYourBusinessContainer1}>
+                  <span>AI powered</span>
+                  <span className={styles.forSeamlessMarketing}>
+                    {" "}
+                    for seamless Marketing experiences
+                  </span>
+                </span>
+              </b>
+              <div className={styles.divelementorWidgetWrapParent}>
+                <div className={styles.divelementorWidgetWrap}>
+                  <div className={styles.pseudo} />
+                  <b className={styles.reach}>Reach</b>
+                  <div className={styles.span2}>
+                    <div className={styles.targetToThose}>
+                      Target to those with the same interest discover ideal
+                      prospects and expand your audience.
+                    </div>
+                  </div>
+                  <div className={styles.ulelementorIconListItems}>
+                    <div className={styles.hashtagAnalytics}>
+                      Hashtag analytics
+                    </div>
+                    <div className={styles.audienceDemographicsAnalytic}>
+                      Audience demographics analytics
+                    </div>
+                    <div className={styles.socialIntelligenceFacebook}>
+                      Social intelligence (Facebook, Tiktok, Instagram, Youtube)
+                    </div>
+                    <div className={styles.timeSeriesAnalytics}>
+                      Time-series analytics
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.divelementorWidgetWrap}>
+                  <div className={styles.pseudo1} />
+                  <b className={styles.nurture}>Nurture</b>
+                  <div className={styles.p}>
+                    <div className={styles.growYourRelationshipContainer}>
+                      <span className={styles.empowerYourBusinessContainer1}>
+                        <p className={styles.empowerYourBusiness}>
+                          Grow your relationship with
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          your audience by providing
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          tailored approaches.
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                  <div className={styles.ulelementorIconListItems1}>
+                    <div className={styles.aiSupportedContents}>
+                      AI supported contents
+                    </div>
+                    <div
+                      className={styles.suggestedMessaging}
+                    >{`Suggested messaging & hashtags`}</div>
+                    <div
+                      className={styles.performanceMonitoring}
+                    >{`Performance monitoring & predicting`}</div>
+                    <div
+                      className={styles.contentScheduling}
+                    >{`Content scheduling & Campaign management`}</div>
+                  </div>
+                </div>
+                <div className={styles.divelementorWidgetWrap}>
+                  <div className={styles.pseudo} />
+                  <b className={styles.convert}>Convert</b>
+                  <div className={styles.p}>
+                    <div className={styles.provideIndividualAudienceContainer}>
+                      <span className={styles.empowerYourBusinessContainer1}>
+                        <p className={styles.empowerYourBusiness}>
+                          Provide individual audience
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          members with well-timed
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          calls to take the next step.
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                  <div className={styles.ulelementorIconListItems2}>
+                    <div
+                      className={styles.aiSupportedContents}
+                    >{`CRM & Sales Automations`}</div>
+                    <div className={styles.attributionAnalytics}>
+                      Attribution analytics
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.divelementorWidgetWrap}>
+                  <div className={styles.pseudo3} />
+                  <b className={styles.grow}>Grow</b>
+                  <div className={styles.p}>
+                    <div className={styles.delightEachCustomerContainer}>
+                      <p className={styles.empowerYourBusiness}>
+                        Delight each customer by
+                      </p>
+                      <p className={styles.empowerYourBusiness}>
+                        add-on marketing services
+                      </p>
+                    </div>
+                  </div>
+                  <div className={styles.ulelementorIconListItems3}>
+                    <div className={styles.aiSeeding}>AI seeding</div>
+                    <div className={styles.leadScoring}>Lead Scoring</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.body6}>
+          <img className={styles.bodyItem} alt="" src="/vector-13.svg" />
           <div className={styles.content}>
             <img
               className={styles.emailmarketingpngIcon}
               alt=""
-              src="/emailmarketingpng2@2x.png"
+              src="/emailmarketingpng@2x.png"
             />
-            <div className={styles.personalizedEmailMarketingParent}>
-              <b className={styles.personalizedEmailMarketing}>
-                Personalized Email Marketing
-              </b>
+            <div className={styles.socialParent}>
+              <b className={styles.social}>SOCIAL</b>
               <b className={styles.sendExactlyWhatContainer}>
                 <span className={styles.empowerYourBusinessContainer1}>
                   <p className={styles.empowerYourBusiness}>
@@ -349,7 +406,7 @@ const Ver: FunctionComponent = () => {
                   </p>
                   <p className={styles.empowerYourBusiness}>
                     <span>email marketing. </span>
-                    <span className={styles.readTheReport}>
+                    <span className={styles.contentIntelligence}>
                       Read the report
                     </span>
                   </p>
@@ -357,31 +414,15 @@ const Ver: FunctionComponent = () => {
               </div>
               <div className={styles.emailMarketingParent}>
                 <div className={styles.emailMarketing}>Email marketing</div>
-                <img
-                  className={styles.vectorIcon1}
-                  alt=""
-                  src="/vector11.svg"
-                />
+                <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
                 <div className={styles.dynamicContent}>Dynamic content</div>
-                <img
-                  className={styles.vectorIcon2}
-                  alt=""
-                  src="/vector21.svg"
-                />
+                <img className={styles.vectorIcon2} alt="" src="/vector2.svg" />
                 <div className={styles.segmentation}>Segmentation</div>
-                <img
-                  className={styles.vectorIcon3}
-                  alt=""
-                  src="/vector31.svg"
-                />
+                <img className={styles.vectorIcon3} alt="" src="/vector3.svg" />
                 <div className={styles.successfulDeliverability}>
                   Successful deliverability
                 </div>
-                <img
-                  className={styles.vectorIcon4}
-                  alt=""
-                  src="/vector41.svg"
-                />
+                <img className={styles.vectorIcon4} alt="" src="/vector4.svg" />
               </div>
               <div className={styles.aelementorButtonLink}>
                 <div className={styles.personalizeYourEmail}>
@@ -391,12 +432,12 @@ const Ver: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className={styles.body6}>
+        <div className={styles.body7}>
           <div className={styles.marketingautomationpngParent}>
             <img
               className={styles.marketingautomationpngIcon}
               alt=""
-              src="/marketingautomationpng1@2x.png"
+              src="/marketingautomationpng@2x.png"
             />
             <b className={styles.powerfulMarketingAutomation}>
               POWERFUL MARKETING AUTOMATION
@@ -445,13 +486,13 @@ const Ver: FunctionComponent = () => {
                   <div className={styles.contactManagement}>
                     Contact management
                   </div>
-                  <img className={styles.svgIcon} alt="" src="/svg14.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg.svg" />
                 </div>
                 <div className={styles.lielementorIconListItem1}>
                   <div className={styles.advancedReporting}>
                     Advanced reporting
                   </div>
-                  <img className={styles.svgIcon} alt="" src="/svg14.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg.svg" />
                 </div>
               </div>
               <div className={styles.ulelementorIconListItems5}>
@@ -459,11 +500,11 @@ const Ver: FunctionComponent = () => {
                   <div className={styles.automatedLeadNurturing}>
                     Automated lead nurturing
                   </div>
-                  <img className={styles.svgIcon} alt="" src="/svg14.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg.svg" />
                 </div>
                 <div className={styles.lielementorIconListItem3}>
                   <div className={styles.dynamicContent1}>Dynamic content</div>
-                  <img className={styles.svgIcon} alt="" src="/svg14.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg.svg" />
                 </div>
               </div>
             </div>
@@ -472,7 +513,7 @@ const Ver: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className={styles.body7}>
+        <div className={styles.body8}>
           <div className={styles.crmParent}>
             <b className={styles.crm}>CRM</b>
             <b className={styles.salesAutomationHelpsContainer}>
@@ -508,25 +549,25 @@ const Ver: FunctionComponent = () => {
               </span>
             </div>
             <div className={styles.crm1}>CRM</div>
-            <img className={styles.vectorIcon5} alt="" src="/vector51.svg" />
+            <img className={styles.vectorIcon5} alt="" src="/vector5.svg" />
             <div className={styles.winProbability}>Win probability</div>
-            <img className={styles.vectorIcon6} alt="" src="/vector51.svg" />
+            <img className={styles.vectorIcon6} alt="" src="/vector5.svg" />
             <div className={styles.leadMagnets}>{`Lead magnets & forms`}</div>
-            <img className={styles.vectorIcon7} alt="" src="/vector61.svg" />
+            <img className={styles.vectorIcon7} alt="" src="/vector6.svg" />
             <div className={styles.salesEngagement}>Sales engagement</div>
-            <img className={styles.vectorIcon8} alt="" src="/vector61.svg" />
+            <img className={styles.vectorIcon8} alt="" src="/vector6.svg" />
             <div className={styles.aelementorButtonLink2}>
               <div className={styles.personalizeYourEmail}>Sell more</div>
             </div>
-            <img className={styles.crmpngIcon} alt="" src="/crmpng1@2x.png" />
+            <img className={styles.crmpngIcon} alt="" src="/crmpng@2x.png" />
           </div>
         </div>
-        <div className={styles.body8}>
+        <div className={styles.body9}>
           <div className={styles.websitemessagingpngParent}>
             <img
               className={styles.websitemessagingpngIcon}
               alt=""
-              src="/websitemessagingpng1@2x.png"
+              src="/websitemessagingpng@2x.png"
             />
             <b className={styles.messagingLive}>{`messaging & live chat`}</b>
             <b className={styles.messageYourCustomersContainer}>
@@ -566,13 +607,13 @@ const Ver: FunctionComponent = () => {
               </span>
             </div>
             <div className={styles.siteMessaging}>Site messaging</div>
-            <img className={styles.vectorIcon9} alt="" src="/vector71.svg" />
+            <img className={styles.vectorIcon9} alt="" src="/vector7.svg" />
             <div className={styles.engagementTracking}>Engagement tracking</div>
-            <img className={styles.vectorIcon10} alt="" src="/vector71.svg" />
+            <img className={styles.vectorIcon10} alt="" src="/vector7.svg" />
             <div className={styles.sms}>SMS</div>
-            <img className={styles.vectorIcon11} alt="" src="/vector71.svg" />
+            <img className={styles.vectorIcon11} alt="" src="/vector7.svg" />
             <div className={styles.segmentation1}>Segmentation</div>
-            <img className={styles.vectorIcon12} alt="" src="/vector71.svg" />
+            <img className={styles.vectorIcon12} alt="" src="/vector7.svg" />
             <div className={styles.aelementorButtonLink3}>
               <div className={styles.personalizeYourEmail}>
                 Message customers
@@ -580,7 +621,7 @@ const Ver: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className={styles.body9}>
+        <div className={styles.body10}>
           <div className={styles.focusOnQualifiedLeadsParent}>
             <b className={styles.focusOnQualified}>Focus on qualified leads</b>
             <b className={styles.anAutomationFirstApproachContainer}>
@@ -622,13 +663,13 @@ const Ver: FunctionComponent = () => {
             <div className={styles.automatedOneToOneEmail}>
               Automated one-to-one email
             </div>
-            <img className={styles.vectorIcon13} alt="" src="/vector81.svg" />
+            <img className={styles.vectorIcon13} alt="" src="/vector8.svg" />
             <div className={styles.pipelineAutomation}>Pipeline automation</div>
-            <img className={styles.vectorIcon14} alt="" src="/vector81.svg" />
+            <img className={styles.vectorIcon14} alt="" src="/vector8.svg" />
             <div className={styles.siteTracking}>Site tracking</div>
-            <img className={styles.vectorIcon15} alt="" src="/vector91.svg" />
+            <img className={styles.vectorIcon15} alt="" src="/vector9.svg" />
             <div className={styles.leadScoring1}>Lead scoring</div>
-            <img className={styles.vectorIcon16} alt="" src="/vector91.svg" />
+            <img className={styles.vectorIcon16} alt="" src="/vector9.svg" />
             <div className={styles.aelementorButtonLink4}>
               <div className={styles.personalizeYourEmail}>
                 Improve win rates
@@ -637,16 +678,16 @@ const Ver: FunctionComponent = () => {
             <img
               className={styles.emailmarketingpngIcon1}
               alt=""
-              src="/emailmarketingpng11@2x.png"
+              src="/emailmarketingpng1@2x.png"
             />
           </div>
         </div>
-        <div className={styles.body10}>
+        <div className={styles.body11}>
           <div className={styles.content3}>
             <div className={styles.divelementorFlipBoxLayer}>
               <div className={styles.div}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg15.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg1.svg" />
                 <div className={styles.h3elementorFlipBoxLayer}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -661,7 +702,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer2}>
               <div className={styles.div1}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg21.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg2.svg" />
                 <div className={styles.h3elementorFlipBoxLayer1}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -678,7 +719,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer4}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg31.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg3.svg" />
                 <div className={styles.h3elementorFlipBoxLayer2}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -693,7 +734,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer6}>
               <div className={styles.div3}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg41.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg4.svg" />
                 <div className={styles.h3elementorFlipBoxLayer3}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -708,7 +749,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer8}>
               <div className={styles.div4}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg51.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg5.svg" />
                 <div className={styles.landingPages}>Landing pages</div>
                 <div className={styles.getStarted}>Start building</div>
               </div>
@@ -716,7 +757,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer10}>
               <div className={styles.div5}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg61.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg6.svg" />
                 <div className={styles.landingPages}>Pre-built automations</div>
                 <div className={styles.getStarted}>Target contacts</div>
               </div>
@@ -724,7 +765,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer12}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg71.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg7.svg" />
                 <div className={styles.h3elementorFlipBoxLayer4}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>Integrated and</p>
@@ -739,7 +780,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer14}>
               <div className={styles.div7}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg81.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg8.svg" />
                 <div className={styles.landingPages}>CRM</div>
                 <div className={styles.getStarted}>Automate sales</div>
               </div>
@@ -755,9 +796,9 @@ const Ver: FunctionComponent = () => {
               </span>
             </div>
           </div>
-          <img className={styles.frameIcon} alt="" src="/frame-7351.svg" />
+          <img className={styles.bodyInner} alt="" src="/frame-735.svg" />
         </div>
-        <div className={styles.body11}>
+        <div className={styles.body12}>
           <div className={styles.teamUpWithYourFavoriteAppParent}>
             <b className={styles.teamUpWithContainer}>
               <span className={styles.empowerYourBusinessContainer1}>
@@ -786,7 +827,7 @@ const Ver: FunctionComponent = () => {
             <img
               className={styles.appsGroup768x366pngIcon}
               alt=""
-              src="/appsgroup768x366png1@2x.png"
+              src="/appsgroup768x366png@2x.png"
             />
           </div>
         </div>
@@ -799,7 +840,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.hipcookspngIcon}
                   alt=""
-                  src="/hipcookspng1@2x.png"
+                  src="/hipcookspng@2x.png"
                 />
                 <b className={styles.hipcooks}>Hipcooks</b>
                 <div className={styles.localizingOurContentContainer}>
@@ -831,7 +872,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.msi768x589pngIcon}
                   alt=""
-                  src="/msi768x589png1@2x.png"
+                  src="/msi768x589png@2x.png"
                 />
                 <b className={styles.museumOfScienceContainer}>
                   <span className={styles.empowerYourBusinessContainer1}>
@@ -867,7 +908,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.msi768x589pngIcon}
                   alt=""
-                  src="/morrowaudio768x589png1@2x.png"
+                  src="/morrowaudio768x589png@2x.png"
                 />
                 <b className={styles.marrowAudio}>Marrow Audio</b>
                 <div className={styles.evenThoughImContainer}>
@@ -899,7 +940,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.beefy768x589pngIcon}
                   alt=""
-                  src="/beefy768x589png1@2x.png"
+                  src="/beefy768x589png@2x.png"
                 />
                 <b className={styles.beefyMarketing}>Beefy Marketing</b>
                 <div className={styles.activecampaignHadTheContainer}>
@@ -933,8 +974,8 @@ const Ver: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className={styles.body12}>
-          <div className={styles.frameParent1}>
+        <div className={styles.body13}>
+          <div className={styles.frameParent3}>
             <div className={styles.tryItNowForFreeParent}>
               <div className={styles.tryItNow}>Try it now, for free</div>
               <div className={styles.noCreditCard}>
@@ -961,7 +1002,7 @@ const Ver: FunctionComponent = () => {
             <img
               className={styles.divelementorContainerIcon}
               alt=""
-              src="/divelementorcontainer2.svg"
+              src="/divelementorcontainer.svg"
             />
             <div className={styles.divelementorWidgetContainer}>
               <div className={styles.dontJustTakeContainer}>
@@ -984,7 +1025,7 @@ const Ver: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.footer}>
-          <div className={styles.social}>
+          <div className={styles.social1}>
             <div className={styles.divelementorContainer1}>
               <div className={styles.divelementorWidgetWrap5}>
                 <div className={styles.divelementorWidgetContainer1}>
@@ -1005,7 +1046,7 @@ const Ver: FunctionComponent = () => {
                   <img
                     className={styles.blueSeal20042Bbb88495326Icon}
                     alt=""
-                    src="/blueseal20042bbb88495326png1@2x.png"
+                    src="/blueseal20042bbb88495326png@2x.png"
                   />
                 </div>
                 <div className={styles.divlegalCenter}>
@@ -1244,7 +1285,7 @@ const Ver: FunctionComponent = () => {
                   </div>
                   <div className={styles.a6}>
                     <div className={styles.wordpress}>Wordpress</div>
-                    <img className={styles.svgIcon12} alt="" src="/svg91.svg" />
+                    <img className={styles.svgIcon12} alt="" src="/svg9.svg" />
                   </div>
                 </div>
               </div>
@@ -1259,11 +1300,7 @@ const Ver: FunctionComponent = () => {
                   </div>
                   <div className={styles.a6}>
                     <div className={styles.salesforce}>Salesforce</div>
-                    <img
-                      className={styles.svgIcon12}
-                      alt=""
-                      src="/svg101.svg"
-                    />
+                    <img className={styles.svgIcon12} alt="" src="/svg10.svg" />
                   </div>
                 </div>
               </div>
@@ -1281,19 +1318,11 @@ const Ver: FunctionComponent = () => {
                   </div>
                   <div className={styles.a8}>
                     <div className={styles.shopify}>Shopify</div>
-                    <img
-                      className={styles.svgIcon12}
-                      alt=""
-                      src="/svg111.svg"
-                    />
+                    <img className={styles.svgIcon12} alt="" src="/svg11.svg" />
                   </div>
                   <div className={styles.a6}>
                     <div className={styles.woocommerce}>WooCommerce</div>
-                    <img
-                      className={styles.svgIcon12}
-                      alt=""
-                      src="/svg121.svg"
-                    />
+                    <img className={styles.svgIcon12} alt="" src="/svg12.svg" />
                   </div>
                 </div>
               </div>
@@ -1305,4 +1334,4 @@ const Ver: FunctionComponent = () => {
   );
 };
 
-export default Ver;
+export default Ver1CurrentCopy2;
