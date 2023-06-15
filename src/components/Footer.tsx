@@ -23,7 +23,7 @@ const Footer: FunctionComponent = () => {
             <img
               className={styles.blueSeal20042Bbb88495326Icon}
               alt=""
-              src="/blueseal20042bbb88495326png11@2x.png"
+              src="/blueseal20042bbb88495326png111@2x.png"
             />
           </div>
           <div className={styles.divlegalCenter}>

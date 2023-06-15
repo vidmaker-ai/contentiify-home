@@ -28,17 +28,17 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.contentiifyIcon}
                   alt=""
-                  src="/contentiify.svg"
+                  src="/contentiify1.svg"
                 />
                 <div className={styles.catgoryWrapper}>
                   <div className={styles.catgory}>
                     <div className={styles.products}>
                       <div className={styles.features}>Features</div>
-                      <img className={styles.icon} alt="" src="/111.svg" />
+                      <img className={styles.icon} alt="" src="/1111.svg" />
                     </div>
                     <div className={styles.platform}>
                       <div className={styles.features}>Resources</div>
-                      <img className={styles.icon} alt="" src="/1111.svg" />
+                      <img className={styles.icon} alt="" src="/11111.svg" />
                     </div>
                     <div className={styles.pricing}>
                       <div className={styles.features}>Pricing</div>
@@ -56,7 +56,7 @@ const Ver: FunctionComponent = () => {
                       src="/vector10.svg"
                     />
                     <div className={styles.english}>English</div>
-                    <img className={styles.icon2} alt="" src="/21.svg" />
+                    <img className={styles.icon2} alt="" src="/211.svg" />
                   </div>
                   <div className={styles.login1}>Login</div>
                 </div>
@@ -96,7 +96,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.frameChild}
                   alt=""
-                  src="/vector-121.svg"
+                  src="/vector-1211.svg"
                 />
               </div>
               <div className={styles.theSocialMediaContentMarkWrapper}>
@@ -118,11 +118,11 @@ const Ver: FunctionComponent = () => {
               <img
                 className={styles.imageCrop1Icon}
                 alt=""
-                src="/image-crop-1@2x.png"
+                src="/image-crop-11@2x.png"
               />
             </div>
           </div>
-          <img className={styles.bodyChild} alt="" src="/frame-1336@2x.png" />
+          <img className={styles.bodyChild} alt="" src="/frame-13361@2x.png" />
         </div>
         <div className={styles.body1}>
           <div className={styles.the1ContentIntelligenceWrapper}>
@@ -135,7 +135,7 @@ const Ver: FunctionComponent = () => {
               <img
                 className={styles.contentify251}
                 alt=""
-                src="/contentify--2-5-11@2x.png"
+                src="/contentify--2-5-111@2x.png"
               />
               <div className={styles.groupWrapper}>
                 <div className={styles.rectangleParent}>
@@ -152,7 +152,7 @@ const Ver: FunctionComponent = () => {
               <img
                 className={styles.contentify11}
                 alt=""
-                src="/contentify--1-111@2x.png"
+                src="/contentify--1-1111@2x.png"
               />
               <div className={styles.rectangleGroup}>
                 <div className={styles.groupItem} />
@@ -178,7 +178,7 @@ const Ver: FunctionComponent = () => {
             <img
               className={styles.contentify22}
               alt=""
-              src="/contentify--2-211@2x.png"
+              src="/contentify--2-2111@2x.png"
             />
           </div>
           <div className={styles.tailorContentsBasedOnHotTWrapper}>
@@ -360,7 +360,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon1}
                   alt=""
-                  src="/vector11.svg"
+                  src="/vector111.svg"
                 />
                 <div className={styles.dynamicContent}>Dynamic content</div>
                 <img
@@ -661,7 +661,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer2}>
               <div className={styles.div1}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg211.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg2111.svg" />
                 <div className={styles.h3elementorFlipBoxLayer1}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -678,7 +678,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer4}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg311.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg3111.svg" />
                 <div className={styles.h3elementorFlipBoxLayer2}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -693,7 +693,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer6}>
               <div className={styles.div3}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg41.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg411.svg" />
                 <div className={styles.h3elementorFlipBoxLayer3}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -708,7 +708,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer8}>
               <div className={styles.div4}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg51.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg511.svg" />
                 <div className={styles.landingPages}>Landing pages</div>
                 <div className={styles.getStarted}>Start building</div>
               </div>
@@ -716,7 +716,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer10}>
               <div className={styles.div5}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg611.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg6111.svg" />
                 <div className={styles.landingPages}>Pre-built automations</div>
                 <div className={styles.getStarted}>Target contacts</div>
               </div>
@@ -724,7 +724,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer12}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg711.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg7111.svg" />
                 <div className={styles.h3elementorFlipBoxLayer4}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>Integrated and</p>
@@ -739,7 +739,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer14}>
               <div className={styles.div7}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg811.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg8111.svg" />
                 <div className={styles.landingPages}>CRM</div>
                 <div className={styles.getStarted}>Automate sales</div>
               </div>
@@ -786,7 +786,7 @@ const Ver: FunctionComponent = () => {
             <img
               className={styles.appsGroup768x366pngIcon}
               alt=""
-              src="/appsgroup768x366png11@2x.png"
+              src="/appsgroup768x366png111@2x.png"
             />
           </div>
         </div>
@@ -799,7 +799,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.hipcookspngIcon}
                   alt=""
-                  src="/hipcookspng1@2x.png"
+                  src="/hipcookspng11@2x.png"
                 />
                 <b className={styles.hipcooks}>Hipcooks</b>
                 <div className={styles.localizingOurContentContainer}>
@@ -831,7 +831,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.msi768x589pngIcon}
                   alt=""
-                  src="/msi768x589png1@2x.png"
+                  src="/msi768x589png11@2x.png"
                 />
                 <b className={styles.museumOfScienceContainer}>
                   <span className={styles.empowerYourBusinessContainer1}>
@@ -867,7 +867,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.msi768x589pngIcon}
                   alt=""
-                  src="/morrowaudio768x589png1@2x.png"
+                  src="/morrowaudio768x589png11@2x.png"
                 />
                 <b className={styles.marrowAudio}>Marrow Audio</b>
                 <div className={styles.evenThoughImContainer}>
@@ -899,7 +899,7 @@ const Ver: FunctionComponent = () => {
                 <img
                   className={styles.beefy768x589pngIcon}
                   alt=""
-                  src="/beefy768x589png1@2x.png"
+                  src="/beefy768x589png11@2x.png"
                 />
                 <b className={styles.beefyMarketing}>Beefy Marketing</b>
                 <div className={styles.activecampaignHadTheContainer}>
@@ -1005,7 +1005,7 @@ const Ver: FunctionComponent = () => {
                   <img
                     className={styles.blueSeal20042Bbb88495326Icon}
                     alt=""
-                    src="/blueseal20042bbb88495326png1@2x.png"
+                    src="/blueseal20042bbb88495326png11@2x.png"
                   />
                 </div>
                 <div className={styles.divlegalCenter}>
@@ -1244,7 +1244,11 @@ const Ver: FunctionComponent = () => {
                   </div>
                   <div className={styles.a6}>
                     <div className={styles.wordpress}>Wordpress</div>
-                    <img className={styles.svgIcon12} alt="" src="/svg91.svg" />
+                    <img
+                      className={styles.svgIcon12}
+                      alt=""
+                      src="/svg911.svg"
+                    />
                   </div>
                 </div>
               </div>
@@ -1262,7 +1266,7 @@ const Ver: FunctionComponent = () => {
                     <img
                       className={styles.svgIcon12}
                       alt=""
-                      src="/svg101.svg"
+                      src="/svg1011.svg"
                     />
                   </div>
                 </div>
@@ -1284,7 +1288,7 @@ const Ver: FunctionComponent = () => {
                     <img
                       className={styles.svgIcon12}
                       alt=""
-                      src="/svg111.svg"
+                      src="/svg1111.svg"
                     />
                   </div>
                   <div className={styles.a6}>
@@ -1292,7 +1296,7 @@ const Ver: FunctionComponent = () => {
                     <img
                       className={styles.svgIcon12}
                       alt=""
-                      src="/svg121.svg"
+                      src="/svg1211.svg"
                     />
                   </div>
                 </div>

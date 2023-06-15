@@ -7,7 +7,7 @@ const CustomerSpotlightsContainer: FunctionComponent = () => {
       <div className={styles.customerSpotlightsParent}>
         <b className={styles.customerSpotlights}>Customer spotlights</b>
         <LocalizationContainer
-          hipCookspng="/hipcookspng11@2x.png"
+          hipCookspng="/hipcookspng111@2x.png"
           hipcooks="Hipcooks"
         />
         <div className={styles.div}>
@@ -16,7 +16,7 @@ const CustomerSpotlightsContainer: FunctionComponent = () => {
             <img
               className={styles.msi768x589pngIcon}
               alt=""
-              src="/msi768x589png11@2x.png"
+              src="/msi768x589png111@2x.png"
             />
             <b className={styles.museumOfScienceContainer}>
               <span className={styles.museumOfScienceContainer1}>
@@ -43,7 +43,7 @@ const CustomerSpotlightsContainer: FunctionComponent = () => {
           </div>
         </div>
         <LocalizationContainer
-          hipCookspng="/morrowaudio768x589png11@2x.png"
+          hipCookspng="/morrowaudio768x589png111@2x.png"
           hipcooks="Marrow Audio"
           propLeft="518px"
           propTop="calc(50% - 214.25px)"
@@ -53,7 +53,7 @@ const CustomerSpotlightsContainer: FunctionComponent = () => {
           propTop2="250.49px"
         />
         <LocalizationContainer
-          hipCookspng="/beefy768x589png11@2x.png"
+          hipCookspng="/beefy768x589png111@2x.png"
           hipcooks="Beefy Marketing"
           propLeft="777px"
           propTop="calc(50% - 214.24px)"

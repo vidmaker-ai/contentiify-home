@@ -28,17 +28,17 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.contentiifyIcon}
                   alt=""
-                  src="/contentiify.svg"
+                  src="/contentiify1.svg"
                 />
                 <div className={styles.catgoryWrapper}>
                   <div className={styles.catgory}>
                     <div className={styles.products}>
                       <div className={styles.features}>Features</div>
-                      <img className={styles.icon} alt="" src="/1.svg" />
+                      <img className={styles.icon} alt="" src="/11.svg" />
                     </div>
                     <div className={styles.platform}>
                       <div className={styles.features}>Resources</div>
-                      <img className={styles.icon} alt="" src="/11.svg" />
+                      <img className={styles.icon} alt="" src="/111.svg" />
                     </div>
                     <div className={styles.pricing}>
                       <div className={styles.features}>Pricing</div>
@@ -53,10 +53,10 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                     <img
                       className={styles.vectorIcon}
                       alt=""
-                      src="/vector.svg"
+                      src="/vector1.svg"
                     />
                     <div className={styles.english}>English</div>
-                    <img className={styles.icon2} alt="" src="/2.svg" />
+                    <img className={styles.icon2} alt="" src="/21.svg" />
                   </div>
                   <div className={styles.login1}>Login</div>
                 </div>
@@ -96,7 +96,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.frameChild}
                   alt=""
-                  src="/vector-12.svg"
+                  src="/vector-121.svg"
                 />
               </div>
               <div className={styles.theSocialMediaContentMarkWrapper}>
@@ -118,11 +118,11 @@ const Ver1CurrentCopy: FunctionComponent = () => {
               <img
                 className={styles.imageCrop1Icon}
                 alt=""
-                src="/image-crop-1@2x.png"
+                src="/image-crop-11@2x.png"
               />
             </div>
           </div>
-          <img className={styles.bodyChild} alt="" src="/frame-1336@2x.png" />
+          <img className={styles.bodyChild} alt="" src="/frame-13361@2x.png" />
         </div>
         <div className={styles.body1}>
           <div className={styles.stage}>
@@ -262,7 +262,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
               <img
                 className={styles.contentify251}
                 alt=""
-                src="/contentify--2-5-11@2x.png"
+                src="/contentify--2-5-111@2x.png"
               />
               <div className={styles.groupWrapper}>
                 <div className={styles.rectangleParent}>
@@ -291,7 +291,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.contentify11}
                   alt=""
-                  src="/contentify--1-11@2x.png"
+                  src="/contentify--1-111@2x.png"
                 />
                 <div className={styles.rectangleGroup}>
                   <div className={styles.groupItem} />
@@ -333,7 +333,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
               <img
                 className={styles.contentify22}
                 alt=""
-                src="/contentify--2-21@2x.png"
+                src="/contentify--2-211@2x.png"
               />
               <div className={styles.groupFrame}>
                 <div className={styles.rectangleContainer}>
@@ -359,7 +359,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
               <img
                 className={styles.contentify42}
                 alt=""
-                src="/contentify--4-21@2x.png"
+                src="/contentify--4-211@2x.png"
               />
               <div className={styles.groupDiv}>
                 <div className={styles.rectangleDiv} />
@@ -417,7 +417,11 @@ const Ver1CurrentCopy: FunctionComponent = () => {
               </div>
               <div className={styles.emailMarketingParent}>
                 <div className={styles.emailMarketing}>Email marketing</div>
-                <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
+                <img
+                  className={styles.vectorIcon1}
+                  alt=""
+                  src="/vector11.svg"
+                />
                 <div className={styles.dynamicContent}>Dynamic content</div>
                 <img
                   className={styles.vectorIcon2}
@@ -497,13 +501,13 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                   <div className={styles.contactManagement}>
                     Contact management
                   </div>
-                  <img className={styles.svgIcon} alt="" src="/svg13.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg131.svg" />
                 </div>
                 <div className={styles.lielementorIconListItem1}>
                   <div className={styles.advancedReporting}>
                     Advanced reporting
                   </div>
-                  <img className={styles.svgIcon} alt="" src="/svg13.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg131.svg" />
                 </div>
               </div>
               <div className={styles.ulelementorIconListItems5}>
@@ -511,11 +515,11 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                   <div className={styles.automatedLeadNurturing}>
                     Automated lead nurturing
                   </div>
-                  <img className={styles.svgIcon} alt="" src="/svg13.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg131.svg" />
                 </div>
                 <div className={styles.lielementorIconListItem3}>
                   <div className={styles.dynamicContent1}>Dynamic content</div>
-                  <img className={styles.svgIcon} alt="" src="/svg13.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg131.svg" />
                 </div>
               </div>
             </div>
@@ -698,7 +702,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer}>
               <div className={styles.div}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg1.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg13.svg" />
                 <div className={styles.h3elementorFlipBoxLayer}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -713,7 +717,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer2}>
               <div className={styles.div1}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg21.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg211.svg" />
                 <div className={styles.h3elementorFlipBoxLayer1}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -730,7 +734,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer4}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg31.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg311.svg" />
                 <div className={styles.h3elementorFlipBoxLayer2}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -745,7 +749,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer6}>
               <div className={styles.div3}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg131.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg1311.svg" />
                 <div className={styles.h3elementorFlipBoxLayer3}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -760,7 +764,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer8}>
               <div className={styles.div4}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg5.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg51.svg" />
                 <div className={styles.landingPages}>Landing pages</div>
                 <div className={styles.getStarted}>Start building</div>
               </div>
@@ -768,7 +772,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer10}>
               <div className={styles.div5}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg61.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg611.svg" />
                 <div className={styles.landingPages}>Pre-built automations</div>
                 <div className={styles.getStarted}>Target contacts</div>
               </div>
@@ -776,7 +780,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer12}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg71.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg711.svg" />
                 <div className={styles.h3elementorFlipBoxLayer4}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>Integrated and</p>
@@ -791,7 +795,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer14}>
               <div className={styles.div7}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg81.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg811.svg" />
                 <div className={styles.landingPages}>CRM</div>
                 <div className={styles.getStarted}>Automate sales</div>
               </div>
@@ -838,7 +842,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <img
               className={styles.appsGroup768x366pngIcon}
               alt=""
-              src="/appsgroup768x366png1@2x.png"
+              src="/appsgroup768x366png11@2x.png"
             />
           </div>
         </div>
@@ -851,7 +855,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.hipcookspngIcon}
                   alt=""
-                  src="/hipcookspng@2x.png"
+                  src="/hipcookspng1@2x.png"
                 />
                 <b className={styles.hipcooks}>Hipcooks</b>
                 <div className={styles.localizingOurContentContainer}>
@@ -883,7 +887,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.msi768x589pngIcon}
                   alt=""
-                  src="/msi768x589png@2x.png"
+                  src="/msi768x589png1@2x.png"
                 />
                 <b className={styles.museumOfScienceContainer}>
                   <span className={styles.empowerYourBusinessContainer1}>
@@ -919,7 +923,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.msi768x589pngIcon}
                   alt=""
-                  src="/morrowaudio768x589png@2x.png"
+                  src="/morrowaudio768x589png1@2x.png"
                 />
                 <b className={styles.marrowAudio}>Marrow Audio</b>
                 <div className={styles.evenThoughImContainer}>
@@ -951,7 +955,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.beefy768x589pngIcon}
                   alt=""
-                  src="/beefy768x589png@2x.png"
+                  src="/beefy768x589png1@2x.png"
                 />
                 <b className={styles.beefyMarketing}>Beefy Marketing</b>
                 <div className={styles.activecampaignHadTheContainer}>
@@ -1013,7 +1017,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <img
               className={styles.divelementorContainerIcon}
               alt=""
-              src="/divelementorcontainer1.svg"
+              src="/divelementorcontainer11.svg"
             />
             <div className={styles.divelementorWidgetContainer}>
               <div className={styles.dontJustTakeContainer}>
@@ -1057,7 +1061,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                   <img
                     className={styles.blueSeal20042Bbb88495326Icon}
                     alt=""
-                    src="/blueseal20042bbb88495326png@2x.png"
+                    src="/blueseal20042bbb88495326png1@2x.png"
                   />
                 </div>
                 <div className={styles.divlegalCenter}>
@@ -1296,7 +1300,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                   </div>
                   <div className={styles.a6}>
                     <div className={styles.wordpress}>Wordpress</div>
-                    <img className={styles.svgIcon12} alt="" src="/svg9.svg" />
+                    <img className={styles.svgIcon12} alt="" src="/svg91.svg" />
                   </div>
                 </div>
               </div>
@@ -1311,7 +1315,11 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                   </div>
                   <div className={styles.a6}>
                     <div className={styles.salesforce}>Salesforce</div>
-                    <img className={styles.svgIcon12} alt="" src="/svg10.svg" />
+                    <img
+                      className={styles.svgIcon12}
+                      alt=""
+                      src="/svg101.svg"
+                    />
                   </div>
                 </div>
               </div>
@@ -1329,11 +1337,19 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                   </div>
                   <div className={styles.a8}>
                     <div className={styles.shopify}>Shopify</div>
-                    <img className={styles.svgIcon12} alt="" src="/svg11.svg" />
+                    <img
+                      className={styles.svgIcon12}
+                      alt=""
+                      src="/svg111.svg"
+                    />
                   </div>
                   <div className={styles.a6}>
                     <div className={styles.woocommerce}>WooCommerce</div>
-                    <img className={styles.svgIcon12} alt="" src="/svg12.svg" />
+                    <img
+                      className={styles.svgIcon12}
+                      alt=""
+                      src="/svg121.svg"
+                    />
                   </div>
                 </div>
               </div>

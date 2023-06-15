@@ -47,7 +47,7 @@ const ContentContainer: FunctionComponent = () => {
           </div>
           <div className={styles.emailMarketingParent}>
             <div className={styles.emailMarketing}>Email marketing</div>
-            <img className={styles.vectorIcon} alt="" src="/vector111.svg" />
+            <img className={styles.vectorIcon} alt="" src="/vector1111.svg" />
             <div className={styles.dynamicContent}>Dynamic content</div>
             <img className={styles.vectorIcon1} alt="" src="/vector2111.svg" />
             <div className={styles.segmentation}>Segmentation</div>
