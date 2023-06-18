@@ -154,7 +154,7 @@ const ImFucked3: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.bodyAbtesting}>
-        <div className={styles.frameParent1}>
+        <div className={styles.the1ContentIntelligenceParent}>
           <div className={styles.spyYourCompetitorSAudiencWrapper}>
             <b className={styles.spyYourCompetitorContainer}>
               <p className={styles.empowerYourBusiness}>
@@ -586,7 +586,7 @@ const ImFucked3: FunctionComponent = () => {
                           Museum of Science
                         </p>
                         <p className={styles.empowerYourBusiness}>
-                          and Industry
+                          and Industry - 402
                         </p>
                       </span>
                     </b>

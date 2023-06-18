@@ -342,13 +342,15 @@
 .frameContainer {
   position: absolute;
   margin: 0 !important;
+  height: calc(100% - 138px);
   top: 83px;
-  left: calc(50% - 632px);
+  bottom: 55px;
+  left: 62px;
   width: 1264px;
-  height: 543px;
   z-index: 0;
 }
 .bodyInner {
+  width: 1388px;
   height: 681px;
   display: flex;
   flex-direction: column;
@@ -448,18 +450,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .the1ContentIntelligenceParent {
-  justify-content: flex-start;
   gap: var(--gap-17xl);
 }
 .bodyTrending {
   align-self: stretch;
   background-color: var(--color-whitesmoke-400);
-  height: 750px;
+  height: 650px;
   padding: var(--padding-58xl) var(--padding-115xl);
   box-sizing: border-box;
-  justify-content: center;
   color: var(--color-gray-900);
 }
 .forInsights {
@@ -531,7 +532,6 @@
   z-index: 0;
 }
 .bodyAbtesting,
-.frameParent1,
 .groupFrame {
   display: flex;
   flex-direction: column;
@@ -546,19 +546,13 @@
   color: var(--color-mediumaquamarine);
   font-family: var(--font-roboto);
 }
-.bodyAbtesting,
-.frameParent1 {
-  justify-content: center;
-}
-.frameParent1 {
-  gap: var(--gap-17xl);
-}
 .bodyAbtesting {
   align-self: stretch;
   background-color: var(--color-whitesmoke-400);
-  height: 750px;
+  height: 650px;
   padding: var(--padding-49xl) var(--padding-114xl);
   box-sizing: border-box;
+  justify-content: center;
   color: var(--color-mediumturquoise);
 }
 .span {
@@ -623,6 +617,13 @@
   transform-origin: 0 0;
   z-index: 1;
 }
+.bodyHottopic,
+.contentify22Parent,
+.frameParent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .contentify22Parent {
   justify-content: flex-start;
   position: relative;
@@ -632,23 +633,18 @@
   font-family: var(--font-roboto);
 }
 .bodyHottopic,
-.contentify22Parent,
 .frameParent2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 .frameParent2 {
-  justify-content: flex-start;
   gap: var(--gap-17xl);
 }
 .bodyHottopic {
   align-self: stretch;
   background-color: var(--color-whitesmoke-400);
-  height: 750px;
+  height: 650px;
   padding: var(--padding-52xl) var(--padding-113xl);
   box-sizing: border-box;
-  justify-content: center;
 }
 .bodyHottopic,
 .yourContents {
@@ -728,7 +724,7 @@
 .bodySchedule {
   align-self: stretch;
   background-color: var(--color-whitesmoke-400);
-  height: 750px;
+  height: 650px;
   padding: var(--padding-43xl) var(--padding-116xl);
   box-sizing: border-box;
   justify-content: center;
@@ -1042,6 +1038,7 @@
   justify-content: center;
 }
 .stage {
+  width: 1060px;
   height: 478px;
 }
 .body1 {
@@ -1276,9 +1273,13 @@
 .body2,
 .content3Wrapper {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+}
+.content3Wrapper {
+  width: 1060px;
+  height: 643.67px;
+  flex-direction: row;
 }
 .body2 {
   align-self: stretch;
@@ -1287,7 +1288,6 @@
   flex-direction: column;
   padding: 0 0 var(--padding-17xl);
   box-sizing: border-box;
-  justify-content: center;
   text-align: left;
   font-size: var(--font-size-sm);
   font-family: var(--font-font-awesome-5-free);
@@ -2817,10 +2817,6 @@
   .rectangleGroup {
     scale: 0.75;
   }
-  .frameParent1 {
-    gap: var(--gap-17xl);
-    scale: 0.75;
-  }
   .bodyAbtesting {
     height: auto;
     padding-top: 0;
@@ -2997,10 +2993,6 @@
   }
   .groupFrame {
     scale: 0.65;
-  }
-  .frameParent1 {
-    gap: var(--gap-0);
-    scale: 0.55;
   }
   .bodyAbtesting {
     padding-top: 0;
