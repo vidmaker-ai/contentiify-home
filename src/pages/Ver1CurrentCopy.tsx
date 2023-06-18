@@ -96,7 +96,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.frameChild}
                   alt=""
-                  src="/vector-121.svg"
+                  src="/vector-1211.svg"
                 />
               </div>
               <div className={styles.theSocialMediaContentMarkWrapper}>
@@ -118,7 +118,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
               <img
                 className={styles.imageCrop1Icon}
                 alt=""
-                src="/image-crop-11@2x.png"
+                src="/image-crop-111@2x.png"
               />
             </div>
           </div>
@@ -842,7 +842,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <img
               className={styles.appsGroup768x366pngIcon}
               alt=""
-              src="/appsgroup768x366png11@2x.png"
+              src="/appsgroup768x366png111@2x.png"
             />
           </div>
         </div>
@@ -855,7 +855,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.hipcookspngIcon}
                   alt=""
-                  src="/hipcookspng1@2x.png"
+                  src="/hipcookspng11@2x.png"
                 />
                 <b className={styles.hipcooks}>Hipcooks</b>
                 <div className={styles.localizingOurContentContainer}>
@@ -887,7 +887,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.msi768x589pngIcon}
                   alt=""
-                  src="/msi768x589png1@2x.png"
+                  src="/msi768x589png11@2x.png"
                 />
                 <b className={styles.museumOfScienceContainer}>
                   <span className={styles.empowerYourBusinessContainer1}>
@@ -923,7 +923,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.msi768x589pngIcon}
                   alt=""
-                  src="/morrowaudio768x589png1@2x.png"
+                  src="/morrowaudio768x589png11@2x.png"
                 />
                 <b className={styles.marrowAudio}>Marrow Audio</b>
                 <div className={styles.evenThoughImContainer}>
@@ -955,7 +955,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                 <img
                   className={styles.beefy768x589pngIcon}
                   alt=""
-                  src="/beefy768x589png1@2x.png"
+                  src="/beefy768x589png11@2x.png"
                 />
                 <b className={styles.beefyMarketing}>Beefy Marketing</b>
                 <div className={styles.activecampaignHadTheContainer}>
@@ -1061,7 +1061,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                   <img
                     className={styles.blueSeal20042Bbb88495326Icon}
                     alt=""
-                    src="/blueseal20042bbb88495326png1@2x.png"
+                    src="/blueseal20042bbb88495326png11@2x.png"
                   />
                 </div>
                 <div className={styles.divlegalCenter}>

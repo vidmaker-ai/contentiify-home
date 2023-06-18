@@ -1,9 +1,9 @@
 import { FunctionComponent } from "react";
 import { Button } from "@chakra-ui/react";
-import styles from "./ImFucked.module.css";
-const ImFucked: FunctionComponent = () => {
+import styles from "./ImFucked3.module.css";
+const ImFucked3: FunctionComponent = () => {
   return (
-    <div className={styles.imFucked}>
+    <div className={styles.imFucked3}>
       <div className={styles.top}>
         <div className={styles.sectionelementorSection}>
           <i className={styles.heyThereFreeContainer}>
@@ -18,7 +18,7 @@ const ImFucked: FunctionComponent = () => {
           </i>
         </div>
       </div>
-      <div className={styles.imFuckedInner}>
+      <div className={styles.imFucked3Inner}>
         <div className={styles.frameParent}>
           <div className={styles.frameWrapper}>
             <div className={styles.contentiifyParent}>
@@ -27,7 +27,7 @@ const ImFucked: FunctionComponent = () => {
                 alt=""
                 src="/contentiify.svg"
               />
-              <div className={styles.catgoryWrapper}>
+              <div className={styles.logo}>
                 <div className={styles.catgory}>
                   <div className={styles.products}>
                     <div className={styles.features}>Features</div>
@@ -73,50 +73,57 @@ const ImFucked: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.body}>
-        <div className={styles.frameGroup}>
+        <div className={styles.bodyInner}>
           <div className={styles.frameContainer}>
-            <div className={styles.groupWrapper}>
-              <div className={styles.empowerYourBusinessWithVirParent}>
-                <b className={styles.empowerYourBusinessContainer}>
-                  <span className={styles.empowerYourBusinessContainer1}>
-                    <p className={styles.empowerYourBusiness}>
-                      Empower your business
-                    </p>
-                    <p className={styles.empowerYourBusiness}>
-                      with viral contents
-                    </p>
-                  </span>
-                </b>
+            <div className={styles.groupParent}>
+              <div className={styles.groupDiv}>
+                <div className={styles.frameGroup}>
+                  <div className={styles.groupWrapper}>
+                    <div className={styles.empowerYourBusinessWithVirParent}>
+                      <b className={styles.empowerYourBusinessContainer}>
+                        <span className={styles.empowerYourBusinessContainer1}>
+                          <p className={styles.empowerYourBusiness}>
+                            Empower your business
+                          </p>
+                          <p className={styles.empowerYourBusiness}>
+                            with viral contents
+                          </p>
+                        </span>
+                      </b>
+                      <img
+                        className={styles.groupChild}
+                        alt=""
+                        src="/vector-12.svg"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.frameDiv}>
+                    <div className={styles.theSocialMediaContentMarkWrapper}>
+                      <div className={styles.theSocialMedia}>
+                        The social media content, marketing campaign management,
+                        and even spying your competitors to get insights with
+                        low-cost.
+                      </div>
+                    </div>
+                    <div className={styles.buttonactButton1}>
+                      <div className={styles.getViral}>Get viral</div>
+                    </div>
+                    <div className={styles.tryItFreeNoCreditCardReWrapper}>
+                      <div className={styles.tryItFree}>
+                        Try it free. No credit card required. Instant setup.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.imageCrop1Wrapper}>
                 <img
-                  className={styles.groupChild}
+                  className={styles.imageCrop1Icon}
                   alt=""
-                  src="/vector-121.svg"
+                  src="/image-crop-1@2x.png"
                 />
               </div>
             </div>
-            <div className={styles.frameDiv}>
-              <div className={styles.theSocialMediaContentMarkWrapper}>
-                <div className={styles.theSocialMedia}>
-                  The social media content, marketing campaign management, and
-                  even spying your competitors to get insights with low-cost.
-                </div>
-              </div>
-              <div className={styles.buttonactButton1}>
-                <div className={styles.getViral}>Get viral</div>
-              </div>
-              <div className={styles.tryItFreeNoCreditCardReWrapper}>
-                <div className={styles.tryItFree}>
-                  Try it free. No credit card required. Instant setup.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.imageCrop1Wrapper}>
-            <img
-              className={styles.imageCrop1Icon}
-              alt=""
-              src="/image-crop-11@2x.png"
-            />
           </div>
         </div>
         <img className={styles.bodyChild} alt="" src="/frame-1336@2x.png" />
@@ -224,7 +231,7 @@ const ImFucked: FunctionComponent = () => {
               alt=""
               src="/contentify--4-2@2x.png"
             />
-            <div className={styles.groupDiv}>
+            <div className={styles.rectangleParent1}>
               <div className={styles.groupChild1} />
               <b
                 className={styles.getThingsPlanned}
@@ -245,107 +252,111 @@ const ImFucked: FunctionComponent = () => {
                 </span>
               </span>
             </b>
-            <div className={styles.divelementorWidgetWrapParent}>
-              <div className={styles.divelementorWidgetWrap}>
-                <div className={styles.pseudo} />
-                <b className={styles.reach}>Reach</b>
-                <div className={styles.span1}>
-                  <div className={styles.targetToThose}>
-                    Target to those with the same interest discover ideal
-                    prospects and expand your audience.
+            <div className={styles.frameParent4}>
+              <div className={styles.divelementorWidgetWrapParent}>
+                <div className={styles.divelementorWidgetWrap}>
+                  <div className={styles.pseudo} />
+                  <b className={styles.reach}>Reach</b>
+                  <div className={styles.span1}>
+                    <div className={styles.targetToThose}>
+                      Target to those with the same interest discover ideal
+                      prospects and expand your audience.
+                    </div>
+                  </div>
+                  <div className={styles.ulelementorIconListItems}>
+                    <div className={styles.hashtagAnalytics}>
+                      Hashtag analytics
+                    </div>
+                    <div className={styles.audienceDemographicsAnalytic}>
+                      Audience demographics analytics
+                    </div>
+                    <div className={styles.socialIntelligenceFacebook}>
+                      Social intelligence (Facebook, Tiktok, Instagram, Youtube)
+                    </div>
+                    <div className={styles.timeSeriesAnalytics}>
+                      Time-series analytics
+                    </div>
                   </div>
                 </div>
-                <div className={styles.ulelementorIconListItems}>
-                  <div className={styles.hashtagAnalytics}>
-                    Hashtag analytics
+                <div className={styles.divelementorWidgetWrap1}>
+                  <div className={styles.pseudo1} />
+                  <b className={styles.nurture}>Nurture</b>
+                  <div className={styles.p}>
+                    <div className={styles.growYourRelationshipContainer}>
+                      <span className={styles.empowerYourBusinessContainer1}>
+                        <p className={styles.empowerYourBusiness}>
+                          Grow your relationship with
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          your audience by providing
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          tailored approaches.
+                        </p>
+                      </span>
+                    </div>
                   </div>
-                  <div className={styles.audienceDemographicsAnalytic}>
-                    Audience demographics analytics
-                  </div>
-                  <div className={styles.socialIntelligenceFacebook}>
-                    Social intelligence (Facebook, Tiktok, Instagram, Youtube)
-                  </div>
-                  <div className={styles.timeSeriesAnalytics}>
-                    Time-series analytics
-                  </div>
-                </div>
-              </div>
-              <div className={styles.divelementorWidgetWrap}>
-                <div className={styles.pseudo1} />
-                <b className={styles.nurture}>Nurture</b>
-                <div className={styles.p}>
-                  <div className={styles.growYourRelationshipContainer}>
-                    <span className={styles.empowerYourBusinessContainer1}>
-                      <p className={styles.empowerYourBusiness}>
-                        Grow your relationship with
-                      </p>
-                      <p className={styles.empowerYourBusiness}>
-                        your audience by providing
-                      </p>
-                      <p className={styles.empowerYourBusiness}>
-                        tailored approaches.
-                      </p>
-                    </span>
-                  </div>
-                </div>
-                <div className={styles.ulelementorIconListItems1}>
-                  <div className={styles.aiSupportedContents}>
-                    AI supported contents
-                  </div>
-                  <div
-                    className={styles.suggestedMessaging}
-                  >{`Suggested messaging & hashtags`}</div>
-                  <div
-                    className={styles.performanceMonitoring}
-                  >{`Performance monitoring & predicting`}</div>
-                  <div
-                    className={styles.contentScheduling}
-                  >{`Content scheduling & Campaign management`}</div>
-                </div>
-              </div>
-              <div className={styles.divelementorWidgetWrap}>
-                <div className={styles.pseudo} />
-                <b className={styles.convert}>Convert</b>
-                <div className={styles.p}>
-                  <div className={styles.provideIndividualAudienceContainer}>
-                    <span className={styles.empowerYourBusinessContainer1}>
-                      <p className={styles.empowerYourBusiness}>
-                        Provide individual audience
-                      </p>
-                      <p className={styles.empowerYourBusiness}>
-                        members with well-timed
-                      </p>
-                      <p className={styles.empowerYourBusiness}>
-                        calls to take the next step.
-                      </p>
-                    </span>
-                  </div>
-                </div>
-                <div className={styles.ulelementorIconListItems2}>
-                  <div
-                    className={styles.aiSupportedContents}
-                  >{`CRM & Sales Automations`}</div>
-                  <div className={styles.attributionAnalytics}>
-                    Attribution analytics
+                  <div className={styles.ulelementorIconListItems1}>
+                    <div className={styles.aiSupportedContents}>
+                      AI supported contents
+                    </div>
+                    <div
+                      className={styles.suggestedMessaging}
+                    >{`Suggested messaging & hashtags`}</div>
+                    <div
+                      className={styles.performanceMonitoring}
+                    >{`Performance monitoring & predicting`}</div>
+                    <div
+                      className={styles.contentScheduling}
+                    >{`Content scheduling & Campaign management`}</div>
                   </div>
                 </div>
               </div>
-              <div className={styles.divelementorWidgetWrap}>
-                <div className={styles.pseudo3} />
-                <b className={styles.grow}>Grow</b>
-                <div className={styles.p}>
-                  <div className={styles.delightEachCustomerContainer}>
-                    <p className={styles.empowerYourBusiness}>
-                      Delight each customer by
-                    </p>
-                    <p className={styles.empowerYourBusiness}>
-                      add-on marketing services
-                    </p>
+              <div className={styles.divelementorWidgetWrapParent}>
+                <div className={styles.divelementorWidgetWrap}>
+                  <div className={styles.pseudo} />
+                  <b className={styles.convert}>Convert</b>
+                  <div className={styles.p}>
+                    <div className={styles.provideIndividualAudienceContainer}>
+                      <span className={styles.empowerYourBusinessContainer1}>
+                        <p className={styles.empowerYourBusiness}>
+                          Provide individual audience
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          members with well-timed
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          calls to take the next step.
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                  <div className={styles.ulelementorIconListItems2}>
+                    <div
+                      className={styles.aiSupportedContents}
+                    >{`CRM & Sales Automations`}</div>
+                    <div className={styles.attributionAnalytics}>
+                      Attribution analytics
+                    </div>
                   </div>
                 </div>
-                <div className={styles.ulelementorIconListItems3}>
-                  <div className={styles.aiSeeding}>AI seeding</div>
-                  <div className={styles.leadScoring}>Lead Scoring</div>
+                <div className={styles.divelementorWidgetWrap1}>
+                  <div className={styles.pseudo3} />
+                  <b className={styles.grow}>Grow</b>
+                  <div className={styles.p}>
+                    <div className={styles.delightEachCustomerContainer}>
+                      <p className={styles.empowerYourBusiness}>
+                        Delight each customer by
+                      </p>
+                      <p className={styles.empowerYourBusiness}>
+                        add-on marketing services
+                      </p>
+                    </div>
+                  </div>
+                  <div className={styles.ulelementorIconListItems3}>
+                    <div className={styles.aiSeeding}>AI seeding</div>
+                    <div className={styles.leadScoring}>Lead Scoring</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -355,105 +366,127 @@ const ImFucked: FunctionComponent = () => {
       <div className={styles.body2}>
         <div className={styles.content3Wrapper}>
           <div className={styles.content3}>
-            <div className={styles.divelementorFlipBoxLayer}>
-              <div className={styles.div}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon} alt="" src="/svg.svg" />
-                <div className={styles.h3elementorFlipBoxLayer}>
-                  <div className={styles.freeHelpCoursesContainer}>
-                    <p className={styles.empowerYourBusiness}>
-                      Free help courses
-                    </p>
-                    <p className={styles.empowerYourBusiness}>and support</p>
+            <div className={styles.frameParent5}>
+              <div className={styles.divelementorFlipBoxLayerParent}>
+                <div className={styles.divelementorFlipBoxLayer}>
+                  <div className={styles.div}></div>
+                  <div className={styles.divelementorFlipBoxLayer1}>
+                    <img className={styles.svgIcon} alt="" src="/svg2.svg" />
+                    <div className={styles.h3elementorFlipBoxLayer}>
+                      <div
+                        className={styles.excellentEmailDeliverabilityContainer}
+                      >
+                        <p className={styles.empowerYourBusiness}>
+                          Excellent email
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          deliverability
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.sendBetter}>Send better</div>
                   </div>
                 </div>
-                <div className={styles.getStarted}>Get started</div>
-              </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer2}>
-              <div className={styles.div1}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon} alt="" src="/svg1.svg" />
-                <div className={styles.h3elementorFlipBoxLayer1}>
-                  <div className={styles.freeHelpCoursesContainer}>
-                    <p className={styles.empowerYourBusiness}>
-                      Advanced marketing
-                    </p>
-                    <p className={styles.empowerYourBusiness}>
-                      and sales reporting
-                    </p>
+                <div className={styles.divelementorFlipBoxLayer2}>
+                  <div className={styles.div1}></div>
+                  <div className={styles.divelementorFlipBoxLayer1}>
+                    <img className={styles.svgIcon} alt="" src="/svg3.svg" />
+                    <div className={styles.h3elementorFlipBoxLayer1}>
+                      <div
+                        className={styles.excellentEmailDeliverabilityContainer}
+                      >
+                        <p className={styles.empowerYourBusiness}>
+                          Gmail and Outlook inbox
+                        </p>
+                        <p className={styles.empowerYourBusiness}>extensions</p>
+                      </div>
+                    </div>
+                    <div className={styles.sendBetter}>Manage inbox</div>
                   </div>
                 </div>
-                <div className={styles.getStarted}>Check results</div>
-              </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer4}>
-              <div className={styles.div2}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon} alt="" src="/svg2.svg" />
-                <div className={styles.h3elementorFlipBoxLayer2}>
-                  <div className={styles.freeHelpCoursesContainer}>
-                    <p className={styles.empowerYourBusiness}>
-                      Excellent email
-                    </p>
-                    <p className={styles.empowerYourBusiness}>deliverability</p>
+                <div className={styles.divelementorFlipBoxLayer4}>
+                  <div className={styles.div}></div>
+                  <div className={styles.divelementorFlipBoxLayer1}>
+                    <img className={styles.svgIcon} alt="" src="/svg6.svg" />
+                    <div className={styles.h3elementorFlipBoxLayer2}>
+                      <div
+                        className={styles.excellentEmailDeliverabilityContainer}
+                      >
+                        <p className={styles.empowerYourBusiness}>
+                          Integrated and
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          embeddable forms
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.sendBetter}>Make forms</div>
                   </div>
                 </div>
-                <div className={styles.getStarted}>Send better</div>
-              </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer6}>
-              <div className={styles.div3}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon} alt="" src="/svg3.svg" />
-                <div className={styles.h3elementorFlipBoxLayer3}>
-                  <div className={styles.freeHelpCoursesContainer}>
-                    <p className={styles.empowerYourBusiness}>
-                      Gmail and Outlook inbox
-                    </p>
-                    <p className={styles.empowerYourBusiness}>extensions</p>
+                <div className={styles.divelementorFlipBoxLayer6}>
+                  <div className={styles.div3}></div>
+                  <div className={styles.divelementorFlipBoxLayer1}>
+                    <img className={styles.svgIcon} alt="" src="/svg7.svg" />
+                    <div className={styles.crm}>CRM</div>
+                    <div className={styles.sendBetter}>Automate sales</div>
                   </div>
                 </div>
-                <div className={styles.getStarted}>Manage inbox</div>
               </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer8}>
-              <div className={styles.div4}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon} alt="" src="/svg4.svg" />
-                <div className={styles.landingPages}>Landing pages</div>
-                <div className={styles.getStarted}>Start building</div>
-              </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer10}>
-              <div className={styles.div5}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon} alt="" src="/svg5.svg" />
-                <div className={styles.landingPages}>Pre-built automations</div>
-                <div className={styles.getStarted}>Target contacts</div>
-              </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer12}>
-              <div className={styles.div2}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon} alt="" src="/svg6.svg" />
-                <div className={styles.h3elementorFlipBoxLayer4}>
-                  <div className={styles.freeHelpCoursesContainer}>
-                    <p className={styles.empowerYourBusiness}>Integrated and</p>
-                    <p className={styles.empowerYourBusiness}>
-                      embeddable forms
-                    </p>
+              <div className={styles.divelementorFlipBoxLayerParent}>
+                <div className={styles.divelementorFlipBoxLayer}>
+                  <div className={styles.div4}></div>
+                  <div className={styles.divelementorFlipBoxLayer1}>
+                    <img className={styles.svgIcon} alt="" src="/svg.svg" />
+                    <div className={styles.h3elementorFlipBoxLayer3}>
+                      <div
+                        className={styles.excellentEmailDeliverabilityContainer}
+                      >
+                        <p className={styles.empowerYourBusiness}>
+                          Free help courses
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          and support
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.sendBetter}>Get started</div>
                   </div>
                 </div>
-                <div className={styles.getStarted}>Make forms</div>
-              </div>
-            </div>
-            <div className={styles.divelementorFlipBoxLayer14}>
-              <div className={styles.div7}></div>
-              <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon} alt="" src="/svg7.svg" />
-                <div className={styles.landingPages}>CRM</div>
-                <div className={styles.getStarted}>Automate sales</div>
+                <div className={styles.divelementorFlipBoxLayer2}>
+                  <div className={styles.div5}></div>
+                  <div className={styles.divelementorFlipBoxLayer1}>
+                    <img className={styles.svgIcon} alt="" src="/svg1.svg" />
+                    <div className={styles.h3elementorFlipBoxLayer4}>
+                      <div
+                        className={styles.excellentEmailDeliverabilityContainer}
+                      >
+                        <p className={styles.empowerYourBusiness}>
+                          Advanced marketing
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          and sales reporting
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.sendBetter}>Check results</div>
+                  </div>
+                </div>
+                <div className={styles.divelementorFlipBoxLayer4}>
+                  <div className={styles.div6}></div>
+                  <div className={styles.divelementorFlipBoxLayer1}>
+                    <img className={styles.svgIcon} alt="" src="/svg4.svg" />
+                    <div className={styles.crm}>Landing pages</div>
+                    <div className={styles.sendBetter}>Start building</div>
+                  </div>
+                </div>
+                <div className={styles.divelementorFlipBoxLayer6}>
+                  <div className={styles.div7}></div>
+                  <div className={styles.divelementorFlipBoxLayer1}>
+                    <img className={styles.svgIcon} alt="" src="/svg5.svg" />
+                    <div className={styles.crm}>Pre-built automations</div>
+                    <div className={styles.sendBetter}>Target contacts</div>
+                  </div>
+                </div>
               </div>
             </div>
             <b className={styles.everythingYouNeedContainer}>
@@ -468,175 +501,199 @@ const ImFucked: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.body3}>
-        <div className={styles.teamUpWithYourFavoriteAppParent}>
-          <b className={styles.teamUpWithContainer}>
-            <span className={styles.empowerYourBusinessContainer1}>
-              <p className={styles.empowerYourBusiness}>Team up with your</p>
-              <p className={styles.empowerYourBusiness}>favorite apps</p>
-            </span>
-          </b>
-          <div className={styles.with870IntegrationsContainer}>
-            <span className={styles.empowerYourBusinessContainer1}>
-              <p className={styles.empowerYourBusiness}>
-                With 870+ integrations like Shopify,
-              </p>
-              <p className={styles.empowerYourBusiness}>
-                WordPress, and Zapier in our app
-              </p>
-              <p className={styles.empowerYourBusiness}>
-                marketplace, you’ll have all the marketing
-              </p>
-              <p className={styles.empowerYourBusiness}>
-                tools you need to succeed.
-              </p>
-            </span>
+        <div className={styles.frameParent6}>
+          <div className={styles.teamUpWithYourFavoriteAppParent}>
+            <b className={styles.teamUpWithContainer}>
+              <span className={styles.empowerYourBusinessContainer1}>
+                <p className={styles.empowerYourBusiness}>Team up with your</p>
+                <p className={styles.empowerYourBusiness}>favorite apps</p>
+              </span>
+            </b>
+            <div className={styles.with870IntegrationsContainer}>
+              <span className={styles.empowerYourBusinessContainer1}>
+                <p className={styles.empowerYourBusiness}>
+                  With 870+ integrations like Shopify,
+                </p>
+                <p className={styles.empowerYourBusiness}>
+                  WordPress, and Zapier in our app
+                </p>
+                <p className={styles.empowerYourBusiness}>
+                  marketplace, you’ll have all the marketing
+                </p>
+                <p className={styles.empowerYourBusiness}>
+                  tools you need to succeed.
+                </p>
+              </span>
+            </div>
+            <div className={styles.viewAllAppsParent}>
+              <div className={styles.viewAllApps}>View all apps</div>
+              <div className={styles.div8}></div>
+            </div>
           </div>
-          <div className={styles.viewAllApps}>View all apps</div>
-          <div className={styles.div8}></div>
           <img
             className={styles.appsGroup768x366pngIcon}
             alt=""
-            src="/appsgroup768x366png1@2x.png"
+            src="/appsgroup768x366png@2x.png"
           />
         </div>
       </div>
       <div className={styles.testimonial}>
         <div className={styles.customerSpotlightsParent}>
           <b className={styles.customerSpotlights}>Customer spotlights</b>
-          <div className={styles.div9}>
-            <div className={styles.child} />
-            <div className={styles.div10}>
-              <img
-                className={styles.hipcookspngIcon}
-                alt=""
-                src="/hipcookspng1@2x.png"
-              />
-              <b className={styles.hipcooks}>Hipcooks</b>
-              <div className={styles.localizingOurContentContainer}>
-                <span className={styles.empowerYourBusinessContainer1}>
-                  <p className={styles.empowerYourBusiness}>
-                    Localizing our content keeps
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    our customers engaged
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    because we’re able to write
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    about recipes relevant to
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    trends and seasons…
-                  </p>
-                </span>
+          <div className={styles.frameParent7}>
+            <div className={styles.parent}>
+              <div className={styles.div9}>
+                <div className={styles.div10}>
+                  <img
+                    className={styles.hipcookspngIcon}
+                    alt=""
+                    src="/hipcookspng@2x.png"
+                  />
+                  <div className={styles.hipcooksParent}>
+                    <b className={styles.hipcooks}>Hipcooks</b>
+                    <div className={styles.localizingOurContentContainer}>
+                      <span className={styles.empowerYourBusinessContainer1}>
+                        <p className={styles.empowerYourBusiness}>
+                          Localizing our content keeps
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          our customers engaged
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          because we’re able to write
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          about recipes relevant to
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          trends and seasons…
+                        </p>
+                      </span>
+                    </div>
+                    <div className={styles.seeMoreParent}>
+                      <div className={styles.viewAllApps}>See more</div>
+                      <div className={styles.div11}></div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className={styles.seeMore}>See more</div>
-              <div className={styles.div11}></div>
+              <div className={styles.div9}>
+                <div className={styles.div13}>
+                  <img
+                    className={styles.msi768x589pngIcon}
+                    alt=""
+                    src="/msi768x589png@2x.png"
+                  />
+                  <div className={styles.hipcooksParent}>
+                    <b className={styles.museumOfScienceContainer}>
+                      <span className={styles.empowerYourBusinessContainer1}>
+                        <p className={styles.empowerYourBusiness}>
+                          Museum of Science
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          and Industry
+                        </p>
+                      </span>
+                    </b>
+                    <div className={styles.activecampaignLetsUsContainer}>
+                      <span className={styles.empowerYourBusinessContainer1}>
+                        <p className={styles.empowerYourBusiness}>
+                          ActiveCampaign lets us send
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          email campaigns, automate
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          features, and manage
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          contacts by staff group.
+                        </p>
+                      </span>
+                    </div>
+                    <div className={styles.seeMoreParent}>
+                      <div className={styles.viewAllApps}>See more</div>
+                      <div className={styles.div11}></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div className={styles.div12}>
-            <div className={styles.child} />
-            <div className={styles.div13}>
-              <img
-                className={styles.msi768x589pngIcon}
-                alt=""
-                src="/msi768x589png1@2x.png"
-              />
-              <b className={styles.museumOfScienceContainer}>
-                <span className={styles.empowerYourBusinessContainer1}>
-                  <p className={styles.empowerYourBusiness}>
-                    Museum of Science
-                  </p>
-                  <p className={styles.empowerYourBusiness}>and Industry</p>
-                </span>
-              </b>
-              <div className={styles.activecampaignLetsUsContainer}>
-                <span className={styles.empowerYourBusinessContainer1}>
-                  <p className={styles.empowerYourBusiness}>
-                    ActiveCampaign lets us send
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    email campaigns, automate
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    features, and manage
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    contacts by staff group.
-                  </p>
-                </span>
+            <div className={styles.parent}>
+              <div className={styles.div9}>
+                <div className={styles.div13}>
+                  <img
+                    className={styles.msi768x589pngIcon}
+                    alt=""
+                    src="/morrowaudio768x589png@2x.png"
+                  />
+                  <div className={styles.hipcooksParent}>
+                    <b className={styles.marrowAudio}>Marrow Audio</b>
+                    <div className={styles.evenThoughImContainer}>
+                      <span className={styles.empowerYourBusinessContainer1}>
+                        <p className={styles.empowerYourBusiness}>
+                          Even though I’m the CEO,
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          president, and founder of
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          Morrow Audio, because
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          ActiveCampaign is so easy to
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          use – I enjoy doing it!
+                        </p>
+                      </span>
+                    </div>
+                    <div className={styles.seeMoreParent}>
+                      <div className={styles.viewAllApps}>See more</div>
+                      <div className={styles.div11}></div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className={styles.seeMore1}>See more</div>
-              <div className={styles.div14}></div>
-            </div>
-          </div>
-          <div className={styles.div15}>
-            <div className={styles.child} />
-            <div className={styles.div13}>
-              <img
-                className={styles.msi768x589pngIcon}
-                alt=""
-                src="/morrowaudio768x589png1@2x.png"
-              />
-              <b className={styles.marrowAudio}>Marrow Audio</b>
-              <div className={styles.evenThoughImContainer}>
-                <span className={styles.empowerYourBusinessContainer1}>
-                  <p className={styles.empowerYourBusiness}>
-                    Even though I’m the CEO,
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    president, and founder of
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    Morrow Audio, because
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    ActiveCampaign is so easy to
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    use – I enjoy doing it!
-                  </p>
-                </span>
+              <div className={styles.div9}>
+                <div className={styles.div19}>
+                  <img
+                    className={styles.msi768x589pngIcon}
+                    alt=""
+                    src="/beefy768x589png@2x.png"
+                  />
+                  <div className={styles.beefyMarketingParent}>
+                    <b className={styles.beefyMarketing}>Beefy Marketing</b>
+                    <div className={styles.activecampaignHadTheContainer}>
+                      <span className={styles.empowerYourBusinessContainer1}>
+                        <p className={styles.empowerYourBusiness}>
+                          ActiveCampaign had the best
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          automation features that I
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          had seen, and it was highly
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          intuitive… A real perfect mix of
+                        </p>
+                        <p className={styles.empowerYourBusiness}>
+                          human and technology.
+                        </p>
+                      </span>
+                    </div>
+                    <div className={styles.seeMoreParent}>
+                      <div className={styles.viewAllApps}>See more</div>
+                      <div className={styles.div11}></div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className={styles.seeMore1}>See more</div>
-              <div className={styles.div14}></div>
-            </div>
-          </div>
-          <div className={styles.div18}>
-            <div className={styles.child} />
-            <div className={styles.div10}>
-              <img
-                className={styles.beefy768x589pngIcon}
-                alt=""
-                src="/beefy768x589png1@2x.png"
-              />
-              <b className={styles.beefyMarketing}>Beefy Marketing</b>
-              <div className={styles.activecampaignHadTheContainer}>
-                <span className={styles.empowerYourBusinessContainer1}>
-                  <p className={styles.empowerYourBusiness}>
-                    ActiveCampaign had the best
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    automation features that I
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    had seen, and it was highly
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    intuitive… A real perfect mix of
-                  </p>
-                  <p className={styles.empowerYourBusiness}>
-                    human and technology.
-                  </p>
-                </span>
-              </div>
-              <div className={styles.seeMore}>See more</div>
-              <div className={styles.div11}></div>
             </div>
           </div>
           <div className={styles.seemore}>
-            <div className={styles.seeAllCustomer}>
+            <div className={styles.viewAllApps}>
               See all customer case studies
             </div>
             <div className={styles.div21}></div>
@@ -644,7 +701,7 @@ const ImFucked: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.body4}>
-        <div className={styles.frameParent4}>
+        <div className={styles.frameParent8}>
           <div className={styles.tryItNowForFreeParent}>
             <div className={styles.tryItNow}>Try it now, for free</div>
             <div className={styles.noCreditCard}>
@@ -666,11 +723,47 @@ const ImFucked: FunctionComponent = () => {
       <div className={styles.testimonial1}>
         <div className={styles.divelementorWidgetWrap4}>
           <b className={styles.ourCustomersLove}>Our customers love us</b>
-          <img
-            className={styles.divelementorContainerIcon}
-            alt=""
-            src="/divelementorcontainer.svg"
-          />
+          <div className={styles.divelementorContainer}>
+            <div className={styles.g2WinterLeadersvgParent}>
+              <img
+                className={styles.g2WinterLeadersvgIcon}
+                alt=""
+                src="/g2winterleadersvg.svg"
+              />
+              <img
+                className={styles.g2WinterLeadersvgIcon}
+                alt=""
+                src="/g2midmarketwintersvg.svg"
+              />
+              <img
+                className={styles.g2WinterLeadersvgIcon}
+                alt=""
+                src="/g2smallbuisinesswintersvg.svg"
+              />
+              <img
+                className={styles.g2WinterLeadersvgIcon}
+                alt=""
+                src="/g2enterprisewintersvg.svg"
+              />
+            </div>
+            <div className={styles.g2WinterLeadersvgParent}>
+              <img
+                className={styles.g2WinterLeadersvgIcon}
+                alt=""
+                src="/g2relationsmallwintersvg.svg"
+              />
+              <img
+                className={styles.g2WinterLeadersvgIcon}
+                alt=""
+                src="/g2asiapacificwinter1svg.svg"
+              />
+              <img
+                className={styles.g2WinterLeadersvgIcon}
+                alt=""
+                src="/g2roienterprisewintersvg.svg"
+              />
+            </div>
+          </div>
           <div className={styles.dontJustTakeContainer}>
             <span className={styles.empowerYourBusinessContainer1}>
               <p className={styles.empowerYourBusiness}>
@@ -691,7 +784,7 @@ const ImFucked: FunctionComponent = () => {
       </div>
       <div className={styles.footer}>
         <div className={styles.touachpoint}>
-          <div className={styles.divelementorContainer}>
+          <div className={styles.divelementorContainer1}>
             <div className={styles.h4elementorHeadingTitle}>
               <b className={styles.supportingYouAtContainer}>
                 <p className={styles.empowerYourBusiness}>Supporting you at</p>
@@ -770,7 +863,7 @@ const ImFucked: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.detailedCate}>
-          <div className={styles.divelementorContainer1}>
+          <div className={styles.divelementorContainer2}>
             <div className={styles.divelementorWidgetWrap9}>
               <div className={styles.a5}>
                 <b className={styles.customerExperienceAutomationContainer}>
@@ -934,7 +1027,7 @@ const ImFucked: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.social}>
-          <div className={styles.divelementorContainer2}>
+          <div className={styles.divelementorContainer3}>
             <div className={styles.divelementorWidgetWrap18}>
               <div className={styles.divelementorWidgetContainer}>
                 <div className={styles.ulelementorIconListItems15}>
@@ -954,15 +1047,13 @@ const ImFucked: FunctionComponent = () => {
                 <img
                   className={styles.blueSeal20042Bbb88495326Icon}
                   alt=""
-                  src="/blueseal20042bbb88495326png1@2x.png"
+                  src="/blueseal20042bbb88495326png@2x.png"
                 />
               </div>
               <div className={styles.divlegalCenter}>
-                <div className={styles.divelementorWidgetContainer2}>
-                  <div className={styles.legalCenter}>Legal Center</div>
-                </div>
+                <div className={styles.legalCenter}>Legal Center</div>
               </div>
-              <div className={styles.divelementorWidgetContainer3}>
+              <div className={styles.divelementorWidgetContainer2}>
                 <div className={styles.legalCenter}>Privacy Policy</div>
               </div>
             </div>
@@ -984,4 +1075,4 @@ const ImFucked: FunctionComponent = () => {
   );
 };
 
-export default ImFucked;
+export default ImFucked3;

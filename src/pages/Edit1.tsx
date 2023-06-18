@@ -91,7 +91,7 @@ const Edit1: FunctionComponent = () => {
               <img
                 className={styles.groupChild}
                 alt=""
-                src="/vector-12111.svg"
+                src="/vector-121111.svg"
               />
             </div>
             <div className={styles.theSocialMediaContainer}>
@@ -114,7 +114,7 @@ const Edit1: FunctionComponent = () => {
           <img
             className={styles.imageCrop1Icon}
             alt=""
-            src="/image-crop-111@2x.png"
+            src="/image-crop-1111@2x.png"
           />
           <img className={styles.imageIcon} alt="" src="/image1@2x.png" />
         </div>
@@ -199,7 +199,7 @@ const Edit1: FunctionComponent = () => {
           <img
             className={styles.appsGroup768x366pngIcon}
             alt=""
-            src="/appsgroup768x366png1111@2x.png"
+            src="/appsgroup768x366png11111@2x.png"
           />
         </div>
       </div>
