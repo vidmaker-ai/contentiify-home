@@ -47,6 +47,7 @@
   .sectionelementorSection {
     display: none;
     width: auto;
+    align-self: unset;
     height: auto;
     flex-direction: column;
   }
@@ -59,6 +60,7 @@
   .sectionelementorSection {
     display: none;
     width: auto;
+    align-self: unset;
     height: auto;
     flex-direction: column;
     align-items: center;

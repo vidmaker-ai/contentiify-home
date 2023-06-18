@@ -31,11 +31,11 @@ const ImFucked: FunctionComponent = () => {
                 <div className={styles.catgory}>
                   <div className={styles.products}>
                     <div className={styles.features}>Features</div>
-                    <img className={styles.icon} alt="" src="/.svg" />
+                    <img className={styles.icon} alt="" src="/1.svg" />
                   </div>
                   <div className={styles.platform}>
                     <div className={styles.features}>Resources</div>
-                    <img className={styles.icon} alt="" src="/1.svg" />
+                    <img className={styles.icon} alt="" src="/11.svg" />
                   </div>
                   <div className={styles.pricing}>
                     <div className={styles.features}>Pricing</div>

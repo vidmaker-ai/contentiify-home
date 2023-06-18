@@ -34,11 +34,11 @@ const Ver: FunctionComponent = () => {
                   <div className={styles.catgory}>
                     <div className={styles.products}>
                       <div className={styles.features}>Features</div>
-                      <img className={styles.icon} alt="" src="/1111.svg" />
+                      <img className={styles.icon} alt="" src="/11111.svg" />
                     </div>
                     <div className={styles.platform}>
                       <div className={styles.features}>Resources</div>
-                      <img className={styles.icon} alt="" src="/11111.svg" />
+                      <img className={styles.icon} alt="" src="/111111.svg" />
                     </div>
                     <div className={styles.pricing}>
                       <div className={styles.features}>Pricing</div>
