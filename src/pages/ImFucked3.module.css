@@ -184,7 +184,7 @@
   width: 1200px;
   height: 72px;
 }
-.imFucked3Inner {
+.menu {
   align-self: stretch;
   background-color: var(--color-darkslategray-200);
   display: flex;
@@ -343,8 +343,8 @@
   position: absolute;
   margin: 0 !important;
   top: 83px;
-  left: calc(50% - 550px);
-  width: 1100px;
+  left: calc(50% - 632px);
+  width: 1264px;
   height: 543px;
   z-index: 0;
 }
@@ -358,8 +358,7 @@
   z-index: 1;
 }
 .body,
-.bodyChild,
-.bodyInner {
+.bodyChild {
   align-self: stretch;
 }
 .bodyChild {
@@ -2944,18 +2943,25 @@
   .frameGroup {
     scale: 0.85;
   }
+  .imageCrop1Icon {
+    align-content: safe center;
+  }
+  .groupParent,
   .imageCrop1Wrapper {
-    scale: 0.85;
+    align-items: center;
     margin-top: -80;
+  }
+  .imageCrop1Wrapper {
+    flex: 1;
+    scale: 0.85;
+    position: relative;
   }
   .groupParent {
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     padding-left: 0;
     box-sizing: border-box;
     margin-left: 260;
-    margin-top: -80;
   }
   .frameContainer {
     align-content: unsafe center;
@@ -2963,7 +2969,11 @@
   }
   .bodyInner {
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-0);
     scale: 0.75;
+    align-content: safe center;
   }
   .bodyChild {
     align-self: stretch;

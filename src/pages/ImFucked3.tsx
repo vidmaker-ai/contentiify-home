@@ -18,7 +18,7 @@ const ImFucked3: FunctionComponent = () => {
           </i>
         </div>
       </div>
-      <div className={styles.imFucked3Inner}>
+      <div className={styles.menu}>
         <div className={styles.frameParent}>
           <div className={styles.frameWrapper}>
             <div className={styles.contentiifyParent}>
