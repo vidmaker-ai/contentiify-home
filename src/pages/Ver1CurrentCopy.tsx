@@ -501,13 +501,13 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                   <div className={styles.contactManagement}>
                     Contact management
                   </div>
-                  <img className={styles.svgIcon} alt="" src="/svg131.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg1311.svg" />
                 </div>
                 <div className={styles.lielementorIconListItem1}>
                   <div className={styles.advancedReporting}>
                     Advanced reporting
                   </div>
-                  <img className={styles.svgIcon} alt="" src="/svg131.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg1311.svg" />
                 </div>
               </div>
               <div className={styles.ulelementorIconListItems5}>
@@ -515,11 +515,11 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                   <div className={styles.automatedLeadNurturing}>
                     Automated lead nurturing
                   </div>
-                  <img className={styles.svgIcon} alt="" src="/svg131.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg1311.svg" />
                 </div>
                 <div className={styles.lielementorIconListItem3}>
                   <div className={styles.dynamicContent1}>Dynamic content</div>
-                  <img className={styles.svgIcon} alt="" src="/svg131.svg" />
+                  <img className={styles.svgIcon} alt="" src="/svg1311.svg" />
                 </div>
               </div>
             </div>
@@ -702,7 +702,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer}>
               <div className={styles.div}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg13.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg131.svg" />
                 <div className={styles.h3elementorFlipBoxLayer}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -717,7 +717,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer2}>
               <div className={styles.div1}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg211.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg2111.svg" />
                 <div className={styles.h3elementorFlipBoxLayer1}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -734,7 +734,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer4}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg311.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg3111.svg" />
                 <div className={styles.h3elementorFlipBoxLayer2}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -749,7 +749,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer6}>
               <div className={styles.div3}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg1311.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg13111.svg" />
                 <div className={styles.h3elementorFlipBoxLayer3}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -764,7 +764,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer8}>
               <div className={styles.div4}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg51.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg511.svg" />
                 <div className={styles.landingPages}>Landing pages</div>
                 <div className={styles.getStarted}>Start building</div>
               </div>
@@ -772,7 +772,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer10}>
               <div className={styles.div5}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg611.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg6111.svg" />
                 <div className={styles.landingPages}>Pre-built automations</div>
                 <div className={styles.getStarted}>Target contacts</div>
               </div>
@@ -780,7 +780,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer12}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg711.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg7111.svg" />
                 <div className={styles.h3elementorFlipBoxLayer4}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>Integrated and</p>
@@ -1348,7 +1348,7 @@ const Ver1CurrentCopy: FunctionComponent = () => {
                     <img
                       className={styles.svgIcon12}
                       alt=""
-                      src="/svg121.svg"
+                      src="/svg1211.svg"
                     />
                   </div>
                 </div>

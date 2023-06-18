@@ -65,7 +65,7 @@ const CustomerSupportContainer: FunctionComponent = () => {
             </div>
             <div className={styles.a1}>
               <div className={styles.woocommerce}>WooCommerce</div>
-              <img className={styles.svgIcon} alt="" src="/svg12111.svg" />
+              <img className={styles.svgIcon} alt="" src="/svg121111.svg" />
             </div>
           </div>
         </div>

@@ -661,7 +661,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer2}>
               <div className={styles.div1}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg2111.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg21111.svg" />
                 <div className={styles.h3elementorFlipBoxLayer1}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -678,7 +678,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer4}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg3111.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg31111.svg" />
                 <div className={styles.h3elementorFlipBoxLayer2}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -693,7 +693,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer6}>
               <div className={styles.div3}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg411.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg4111.svg" />
                 <div className={styles.h3elementorFlipBoxLayer3}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>
@@ -708,7 +708,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer8}>
               <div className={styles.div4}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg511.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg5111.svg" />
                 <div className={styles.landingPages}>Landing pages</div>
                 <div className={styles.getStarted}>Start building</div>
               </div>
@@ -716,7 +716,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer10}>
               <div className={styles.div5}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg6111.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg61111.svg" />
                 <div className={styles.landingPages}>Pre-built automations</div>
                 <div className={styles.getStarted}>Target contacts</div>
               </div>
@@ -724,7 +724,7 @@ const Ver: FunctionComponent = () => {
             <div className={styles.divelementorFlipBoxLayer12}>
               <div className={styles.div2}></div>
               <div className={styles.divelementorFlipBoxLayer1}>
-                <img className={styles.svgIcon4} alt="" src="/svg7111.svg" />
+                <img className={styles.svgIcon4} alt="" src="/svg71111.svg" />
                 <div className={styles.h3elementorFlipBoxLayer4}>
                   <div className={styles.freeHelpCoursesContainer}>
                     <p className={styles.empowerYourBusiness}>Integrated and</p>
@@ -1296,7 +1296,7 @@ const Ver: FunctionComponent = () => {
                     <img
                       className={styles.svgIcon12}
                       alt=""
-                      src="/svg1211.svg"
+                      src="/svg12111.svg"
                     />
                   </div>
                 </div>

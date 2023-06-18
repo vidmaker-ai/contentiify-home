@@ -93,7 +93,7 @@ const ImFucked3: FunctionComponent = () => {
                       <img
                         className={styles.groupChild}
                         alt=""
-                        src="/vector-12.svg"
+                        src="/vector-121.svg"
                       />
                     </div>
                   </div>
@@ -371,7 +371,7 @@ const ImFucked3: FunctionComponent = () => {
                 <div className={styles.divelementorFlipBoxLayer}>
                   <div className={styles.div}></div>
                   <div className={styles.divelementorFlipBoxLayer1}>
-                    <img className={styles.svgIcon} alt="" src="/svg2.svg" />
+                    <img className={styles.svgIcon} alt="" src="/svg.svg" />
                     <div className={styles.h3elementorFlipBoxLayer}>
                       <div
                         className={styles.excellentEmailDeliverabilityContainer}
@@ -390,7 +390,7 @@ const ImFucked3: FunctionComponent = () => {
                 <div className={styles.divelementorFlipBoxLayer2}>
                   <div className={styles.div1}></div>
                   <div className={styles.divelementorFlipBoxLayer1}>
-                    <img className={styles.svgIcon} alt="" src="/svg3.svg" />
+                    <img className={styles.svgIcon} alt="" src="/svg1.svg" />
                     <div className={styles.h3elementorFlipBoxLayer1}>
                       <div
                         className={styles.excellentEmailDeliverabilityContainer}
@@ -407,7 +407,7 @@ const ImFucked3: FunctionComponent = () => {
                 <div className={styles.divelementorFlipBoxLayer4}>
                   <div className={styles.div}></div>
                   <div className={styles.divelementorFlipBoxLayer1}>
-                    <img className={styles.svgIcon} alt="" src="/svg6.svg" />
+                    <img className={styles.svgIcon} alt="" src="/svg2.svg" />
                     <div className={styles.h3elementorFlipBoxLayer2}>
                       <div
                         className={styles.excellentEmailDeliverabilityContainer}
@@ -426,7 +426,7 @@ const ImFucked3: FunctionComponent = () => {
                 <div className={styles.divelementorFlipBoxLayer6}>
                   <div className={styles.div3}></div>
                   <div className={styles.divelementorFlipBoxLayer1}>
-                    <img className={styles.svgIcon} alt="" src="/svg7.svg" />
+                    <img className={styles.svgIcon} alt="" src="/svg3.svg" />
                     <div className={styles.crm}>CRM</div>
                     <div className={styles.sendBetter}>Automate sales</div>
                   </div>
@@ -436,7 +436,7 @@ const ImFucked3: FunctionComponent = () => {
                 <div className={styles.divelementorFlipBoxLayer}>
                   <div className={styles.div4}></div>
                   <div className={styles.divelementorFlipBoxLayer1}>
-                    <img className={styles.svgIcon} alt="" src="/svg.svg" />
+                    <img className={styles.svgIcon} alt="" src="/svg4.svg" />
                     <div className={styles.h3elementorFlipBoxLayer3}>
                       <div
                         className={styles.excellentEmailDeliverabilityContainer}
@@ -455,7 +455,7 @@ const ImFucked3: FunctionComponent = () => {
                 <div className={styles.divelementorFlipBoxLayer2}>
                   <div className={styles.div5}></div>
                   <div className={styles.divelementorFlipBoxLayer1}>
-                    <img className={styles.svgIcon} alt="" src="/svg1.svg" />
+                    <img className={styles.svgIcon} alt="" src="/svg5.svg" />
                     <div className={styles.h3elementorFlipBoxLayer4}>
                       <div
                         className={styles.excellentEmailDeliverabilityContainer}
@@ -474,7 +474,7 @@ const ImFucked3: FunctionComponent = () => {
                 <div className={styles.divelementorFlipBoxLayer4}>
                   <div className={styles.div6}></div>
                   <div className={styles.divelementorFlipBoxLayer1}>
-                    <img className={styles.svgIcon} alt="" src="/svg4.svg" />
+                    <img className={styles.svgIcon} alt="" src="/svg6.svg" />
                     <div className={styles.crm}>Landing pages</div>
                     <div className={styles.sendBetter}>Start building</div>
                   </div>
@@ -482,20 +482,15 @@ const ImFucked3: FunctionComponent = () => {
                 <div className={styles.divelementorFlipBoxLayer6}>
                   <div className={styles.div7}></div>
                   <div className={styles.divelementorFlipBoxLayer1}>
-                    <img className={styles.svgIcon} alt="" src="/svg5.svg" />
+                    <img className={styles.svgIcon} alt="" src="/svg7.svg" />
                     <div className={styles.crm}>Pre-built automations</div>
                     <div className={styles.sendBetter}>Target contacts</div>
                   </div>
                 </div>
               </div>
             </div>
-            <b className={styles.everythingYouNeedContainer}>
-              <p className={styles.empowerYourBusiness}>
-                Everything you need to make the
-              </p>
-              <p className={styles.empowerYourBusiness}>
-                path to success shorter
-              </p>
+            <b className={styles.everythingYouNeed}>
+              Everything you need to make the path to success shorter
             </b>
           </div>
         </div>

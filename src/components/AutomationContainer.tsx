@@ -54,11 +54,11 @@ const AutomationContainer: FunctionComponent = () => {
           <div className={styles.ulelementorIconListItems}>
             <div className={styles.lielementorIconListItem}>
               <div className={styles.contactManagement}>Contact management</div>
-              <img className={styles.svgIcon} alt="" src="/svg13111.svg" />
+              <img className={styles.svgIcon} alt="" src="/svg131111.svg" />
             </div>
             <div className={styles.lielementorIconListItem1}>
               <div className={styles.advancedReporting}>Advanced reporting</div>
-              <img className={styles.svgIcon} alt="" src="/svg13111.svg" />
+              <img className={styles.svgIcon} alt="" src="/svg131111.svg" />
             </div>
           </div>
           <div className={styles.ulelementorIconListItems1}>
@@ -66,11 +66,11 @@ const AutomationContainer: FunctionComponent = () => {
               <div className={styles.automatedLeadNurturing}>
                 Automated lead nurturing
               </div>
-              <img className={styles.svgIcon} alt="" src="/svg13111.svg" />
+              <img className={styles.svgIcon} alt="" src="/svg131111.svg" />
             </div>
             <div className={styles.lielementorIconListItem3}>
               <div className={styles.dynamicContent}>Dynamic content</div>
-              <img className={styles.svgIcon} alt="" src="/svg13111.svg" />
+              <img className={styles.svgIcon} alt="" src="/svg131111.svg" />
             </div>
           </div>
         </div>
