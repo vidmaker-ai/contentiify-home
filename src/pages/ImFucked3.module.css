@@ -330,11 +330,14 @@
 }
 .groupParent {
   position: absolute;
+  height: calc(100% + 20px);
   top: 0;
-  left: calc(50% - 568.5px);
+  bottom: -20px;
+  left: 63.5px;
   display: flex;
   flex-direction: row;
   padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
   align-items: flex-start;
   justify-content: center;
   gap: 47px;
@@ -2676,13 +2679,6 @@
   align-items: center;
   justify-content: center;
 }
-.footer,
-.imFucked3,
-.social {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .social {
   align-self: stretch;
   background-color: var(--color-ghostwhite);
@@ -2693,11 +2689,15 @@
   font-family: var(--font-font-awesome-5-brands);
 }
 .footer,
-.imFucked3 {
-  justify-content: flex-start;
+.imFucked3,
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .footer {
   align-self: stretch;
+  justify-content: flex-start;
   text-align: left;
   font-size: var(--font-size-xs);
   color: var(--color-gray-400);
@@ -2707,6 +2707,7 @@
   position: relative;
   width: 100%;
   overflow: hidden;
+  justify-content: center;
   height: auto;
   text-align: center;
   font-size: var(--font-size-19xl);
@@ -2937,39 +2938,34 @@
     justify-content: center;
   }
   .frameGroup {
+    gap: 70px;
     scale: 0.85;
+    margin-left: -20;
   }
   .imageCrop1Icon {
     align-content: safe center;
   }
-  .groupParent,
-  .imageCrop1Wrapper {
-    align-items: center;
-    margin-top: -80;
-  }
   .imageCrop1Wrapper {
     flex: 1;
     scale: 0.85;
+    margin-top: -80;
+    align-items: center;
     position: relative;
+  }
+  .bodyInner,
+  .groupParent {
+    padding-left: 0;
+    box-sizing: border-box;
   }
   .groupParent {
     flex-direction: column;
+    gap: 80px;
+    align-items: center;
     justify-content: center;
-    padding-left: 0;
-    box-sizing: border-box;
-    margin-left: 260;
-  }
-  .frameContainer {
-    align-content: unsafe center;
-    margin-top: -80;
+    margin-left: 300;
   }
   .bodyInner {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--gap-0);
     scale: 0.75;
-    align-content: safe center;
   }
   .bodyChild {
     align-self: stretch;
