@@ -4,6 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import ImFucked4 from "./pages/ImFucked4";
 import ImFucked3 from "./pages/ImFucked3";
 import Ver1CurrentCopy2 from "./pages/Ver1CurrentCopy2";
 import Ver1CurrentCopy from "./pages/Ver1CurrentCopy";
@@ -28,6 +29,10 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/im-fucked-3":
         title = "";
         metaDescription = "";
         break;
@@ -65,7 +70,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<ImFucked3 />} />
+      <Route path="/" element={<ImFucked4 />} />
+      <Route path="/im-fucked-3" element={<ImFucked3 />} />
       <Route path="/ver1currentcopy2" element={<Ver1CurrentCopy2 />} />
       <Route path="/ver1currentcopy" element={<Ver1CurrentCopy />} />
       <Route path="/ver1current" element={<Ver />} />

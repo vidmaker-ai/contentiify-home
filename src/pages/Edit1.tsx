@@ -114,7 +114,7 @@ const Edit1: FunctionComponent = () => {
           <img
             className={styles.imageCrop1Icon}
             alt=""
-            src="/image-crop-1111@2x.png"
+            src="/image-crop-11111@2x.png"
           />
           <img className={styles.imageIcon} alt="" src="/image1@2x.png" />
         </div>

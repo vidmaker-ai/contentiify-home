@@ -115,7 +115,7 @@ const ImFucked: FunctionComponent = () => {
             <img
               className={styles.imageCrop1Icon}
               alt=""
-              src="/image-crop-11@2x.png"
+              src="/image-crop-111@2x.png"
             />
           </div>
         </div>

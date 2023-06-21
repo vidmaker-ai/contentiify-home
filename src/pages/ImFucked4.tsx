@@ -1,9 +1,9 @@
 import { FunctionComponent } from "react";
 import { Button } from "@chakra-ui/react";
-import styles from "./ImFucked3.module.css";
-const ImFucked3: FunctionComponent = () => {
+import styles from "./ImFucked4.module.css";
+const ImFucked4: FunctionComponent = () => {
   return (
-    <div className={styles.imFucked3}>
+    <div className={styles.imFucked4}>
       <div className={styles.top}>
         <div className={styles.sectionelementorSection}>
           <i className={styles.heyThereFreeContainer}>
@@ -73,57 +73,52 @@ const ImFucked3: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.body}>
-        <div className={styles.bodyInner}>
-          <div className={styles.frameContainer}>
-            <div className={styles.groupParent}>
-              <div className={styles.groupDiv}>
-                <div className={styles.frameGroup}>
-                  <div className={styles.groupWrapper}>
-                    <div className={styles.empowerYourBusinessWithVirParent}>
-                      <b className={styles.empowerYourBusinessContainer}>
-                        <span className={styles.empowerYourBusinessContainer1}>
-                          <p className={styles.empowerYourBusiness}>
-                            Empower your business
-                          </p>
-                          <p className={styles.empowerYourBusiness}>
-                            with viral contents
-                          </p>
-                        </span>
-                      </b>
-                      <img
-                        className={styles.groupChild}
-                        alt=""
-                        src="/vector-121.svg"
-                      />
-                    </div>
+        <div className={styles.main}>
+          <div className={styles.mainInner}>
+            <div className={styles.frameGroup}>
+              <div className={styles.groupWrapper}>
+                <div className={styles.empowerYourBusinessWithVirParent}>
+                  <b className={styles.empowerYourBusinessContainer}>
+                    <span className={styles.empowerYourBusinessContainer1}>
+                      <p className={styles.empowerYourBusiness}>
+                        Empower your business
+                      </p>
+                      <p className={styles.empowerYourBusiness}>
+                        with viral contents
+                      </p>
+                    </span>
+                  </b>
+                  <img
+                    className={styles.groupChild}
+                    alt=""
+                    src="/vector-12.svg"
+                  />
+                </div>
+              </div>
+              <div className={styles.frameContainer}>
+                <div className={styles.theSocialMediaContentMarkWrapper}>
+                  <div className={styles.theSocialMedia}>
+                    The social media content, marketing campaign management, and
+                    even spying your competitors to get insights with low-cost.
                   </div>
-                  <div className={styles.frameDiv}>
-                    <div className={styles.theSocialMediaContentMarkWrapper}>
-                      <div className={styles.theSocialMedia}>
-                        The social media content, marketing campaign management,
-                        and even spying your competitors to get insights with
-                        low-cost.
-                      </div>
-                    </div>
-                    <div className={styles.buttonactButton1}>
-                      <div className={styles.getViral}>Get viral</div>
-                    </div>
-                    <div className={styles.tryItFreeNoCreditCardReWrapper}>
-                      <div className={styles.tryItFree}>
-                        Try it free. No credit card required. Instant setup.
-                      </div>
-                    </div>
+                </div>
+                <div className={styles.buttonactButton1}>
+                  <div className={styles.getViral}>Get viral</div>
+                </div>
+                <div className={styles.tryItFreeNoCreditCardReWrapper}>
+                  <div className={styles.tryItFree}>
+                    Try it free. No credit card required. Instant setup.
                   </div>
                 </div>
               </div>
-              <div className={styles.imageCrop1Wrapper}>
-                <img
-                  className={styles.imageCrop1Icon}
-                  alt=""
-                  src="/image-crop-11@2x.png"
-                />
-              </div>
             </div>
+          </div>
+          <div className={styles.imageCrop1Wrapper}>
+            <img
+              className={styles.imageCrop1Icon}
+              alt=""
+              src="/image-crop-1@2x.png"
+            />
           </div>
         </div>
         <img className={styles.bodyChild} alt="" src="/frame-1336@2x.png" />
@@ -188,7 +183,7 @@ const ImFucked3: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.bodyHottopic}>
-        <div className={styles.frameParent2}>
+        <div className={styles.frameParent1}>
           <div className={styles.tailorContentsBasedOnHotTWrapper}>
             <b className={styles.tailorContentsBasedContainer}>
               <p
@@ -217,7 +212,7 @@ const ImFucked3: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.bodySchedule}>
-        <div className={styles.frameParent2}>
+        <div className={styles.frameParent1}>
           <div className={styles.scheduleYourContentsAheadWrapper}>
             <b className={styles.scheduleYourContentsContainer}>
               <span>Schedule</span>
@@ -231,7 +226,7 @@ const ImFucked3: FunctionComponent = () => {
               alt=""
               src="/contentify--4-2@2x.png"
             />
-            <div className={styles.rectangleParent1}>
+            <div className={styles.groupDiv}>
               <div className={styles.groupChild1} />
               <b
                 className={styles.getThingsPlanned}
@@ -252,7 +247,7 @@ const ImFucked3: FunctionComponent = () => {
                 </span>
               </span>
             </b>
-            <div className={styles.frameParent4}>
+            <div className={styles.frameParent3}>
               <div className={styles.divelementorWidgetWrapParent}>
                 <div className={styles.divelementorWidgetWrap}>
                   <div className={styles.pseudo} />
@@ -366,7 +361,7 @@ const ImFucked3: FunctionComponent = () => {
       <div className={styles.body2}>
         <div className={styles.content3Wrapper}>
           <div className={styles.content3}>
-            <div className={styles.frameParent5}>
+            <div className={styles.frameParent4}>
               <div className={styles.divelementorFlipBoxLayerParent}>
                 <div className={styles.divelementorFlipBoxLayer}>
                   <div className={styles.div}></div>
@@ -496,7 +491,7 @@ const ImFucked3: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.body3}>
-        <div className={styles.frameParent6}>
+        <div className={styles.frameParent5}>
           <div className={styles.teamUpWithYourFavoriteAppParent}>
             <b className={styles.teamUpWithContainer}>
               <span className={styles.empowerYourBusinessContainer1}>
@@ -535,7 +530,7 @@ const ImFucked3: FunctionComponent = () => {
       <div className={styles.testimonial}>
         <div className={styles.customerSpotlightsParent}>
           <b className={styles.customerSpotlights}>Customer spotlights</b>
-          <div className={styles.frameParent7}>
+          <div className={styles.frameParent6}>
             <div className={styles.parent}>
               <div className={styles.div9}>
                 <div className={styles.div10}>
@@ -696,7 +691,7 @@ const ImFucked3: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.body4}>
-        <div className={styles.frameParent8}>
+        <div className={styles.frameParent7}>
           <div className={styles.tryItNowForFreeParent}>
             <div className={styles.tryItNow}>Try it now, for free</div>
             <div className={styles.noCreditCard}>
@@ -1070,4 +1065,4 @@ const ImFucked3: FunctionComponent = () => {
   );
 };
 
-export default ImFucked3;
+export default ImFucked4;

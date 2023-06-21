@@ -289,7 +289,7 @@
   height: 18px;
   font-size: var(--font-size-sm);
 }
-.frameDiv {
+.frameContainer {
   position: relative;
   width: 557.5px;
   height: 174px;
@@ -298,7 +298,9 @@
 }
 .frameGroup {
   position: absolute;
+  width: 100%;
   top: calc(50% - 183.45px);
+  right: 0;
   left: 0;
   height: 366.89px;
   display: flex;
@@ -307,7 +309,7 @@
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
-.groupDiv {
+.mainInner {
   position: relative;
   width: 591px;
   height: 366.89px;
@@ -328,46 +330,24 @@
   width: 511px;
   height: 543px;
 }
-.groupParent {
-  position: absolute;
-  height: calc(100% + 20px);
-  top: 0;
-  bottom: -20px;
-  left: 63.5px;
+.main {
+  width: 1388px;
+  height: 639px;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-3xs) 0;
+  padding: var(--padding-52xl) 128px 0;
   box-sizing: border-box;
   align-items: flex-start;
-  justify-content: center;
-  gap: 47px;
-}
-.frameContainer {
-  position: absolute;
-  margin: 0 !important;
-  height: calc(100% - 138px);
-  top: 83px;
-  bottom: 55px;
-  left: 62px;
-  width: 1264px;
-  z-index: 0;
-}
-.bodyInner {
-  width: 1388px;
-  height: 681px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  justify-content: space-between;
   z-index: 1;
 }
-.body,
 .bodyChild {
-  align-self: stretch;
-}
-.bodyChild {
-  position: relative;
+  position: absolute;
+  margin: 0 !important;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
   max-width: 100%;
   overflow: hidden;
   height: 265px;
@@ -376,13 +356,15 @@
   z-index: 0;
 }
 .body {
+  align-self: stretch;
   background-color: var(--color-darkslategray-200);
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   height: 639px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  position: relative;
   mix-blend-mode: normal;
   text-align: left;
   font-size: var(--font-size-29xl);
@@ -622,7 +604,7 @@
 }
 .bodyHottopic,
 .contentify22Parent,
-.frameParent2 {
+.frameParent1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -636,10 +618,10 @@
   font-family: var(--font-roboto);
 }
 .bodyHottopic,
-.frameParent2 {
+.frameParent1 {
   justify-content: center;
 }
-.frameParent2 {
+.frameParent1 {
   gap: var(--gap-17xl);
 }
 .bodyHottopic {
@@ -687,7 +669,7 @@
 }
 .getThingsPlanned,
 .groupChild1,
-.rectangleParent1 {
+.groupDiv {
   position: absolute;
   transform-origin: 0 0;
 }
@@ -701,7 +683,7 @@
   height: 63.33px;
   transform: rotate(-5.03deg);
 }
-.rectangleParent1 {
+.groupDiv {
   margin: 0 !important;
   top: 191px;
   left: 515.77px;
@@ -1013,7 +995,7 @@
   font-size: var(--font-size-sm-6);
   color: var(--color-gray-600);
 }
-.frameParent4 {
+.frameParent3 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1237,7 +1219,7 @@
 .div6,
 .div7,
 .everythingYouNeed,
-.frameParent5 {
+.frameParent4 {
   position: absolute;
   display: flex;
   align-items: center;
@@ -1250,10 +1232,10 @@
   height: 24px;
 }
 .everythingYouNeed,
-.frameParent5 {
+.frameParent4 {
   justify-content: center;
 }
-.frameParent5 {
+.frameParent4 {
   top: 123.67px;
   left: 0;
   flex-direction: row;
@@ -1350,13 +1332,13 @@
   height: 278.48px;
   object-fit: cover;
 }
-.frameParent6 {
+.frameParent5 {
   flex-direction: row;
   gap: var(--gap-76xl);
 }
 .body3,
 .customerSpotlights,
-.frameParent6 {
+.frameParent5 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1512,7 +1494,7 @@
 }
 .beefyMarketingParent,
 .div19,
-.frameParent7 {
+.frameParent6 {
   display: flex;
   justify-content: flex-start;
 }
@@ -1524,7 +1506,7 @@
   align-items: center;
   gap: var(--gap-4xl);
 }
-.frameParent7 {
+.frameParent6 {
   flex-direction: row;
   align-items: flex-start;
   gap: var(--gap-5xs);
@@ -1646,13 +1628,13 @@
   color: var(--color-lightslategray);
   font-family: var(--font-ibm-plex-sans);
 }
-.frameParent8 {
+.frameParent7 {
   flex-direction: row;
   justify-content: center;
   gap: var(--gap-156xl);
 }
 .body4,
-.frameParent8,
+.frameParent7,
 .ourCustomersLove {
   display: flex;
   align-items: center;
@@ -2689,7 +2671,7 @@
   font-family: var(--font-font-awesome-5-brands);
 }
 .footer,
-.imFucked3,
+.imFucked4,
 .social {
   display: flex;
   flex-direction: column;
@@ -2703,12 +2685,12 @@
   color: var(--color-gray-400);
   font-family: var(--font-ibm-plex-sans);
 }
-.imFucked3 {
+.imFucked4 {
   position: relative;
   width: 100%;
+  height: auto;
   overflow: hidden;
   justify-content: center;
-  height: auto;
   text-align: center;
   font-size: var(--font-size-19xl);
   color: var(--color-white);
@@ -2728,17 +2710,21 @@
   .login {
     display: none;
   }
-  .frameWrapper {
-    padding-left: var(--padding-smi);
+  .frameWrapper,
+  .main {
     box-sizing: border-box;
   }
-  .bodyInner {
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
+  .frameWrapper {
+    padding-left: var(--padding-smi);
+  }
+  .main {
+    gap: var(--gap-0);
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-top: var(--padding-31xl);
+    padding-right: var(--padding-81xl);
+    scale: 0.9;
   }
   .the1ContentContainer {
     line-height: 52px;
@@ -2780,20 +2766,22 @@
     border-radius: 0;
     scale: 1.33;
   }
-  .frameGroup {
+  .frameGroup,
+  .main {
     gap: var(--gap-0);
-    padding-left: var(--padding-21xl);
     box-sizing: border-box;
+  }
+  .frameGroup {
+    padding-left: var(--padding-21xl);
     max-height: 85%;
     height: auto;
   }
-  .bodyInner {
-    gap: -70px;
-    padding-left: var(--padding-smi);
-    padding-top: 0;
-    box-sizing: border-box;
+  .main {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 var(--padding-81xl) 300px 110px;
     scale: 0.75;
-    margin-top: -50;
   }
   .body {
     align-items: center;
@@ -2824,7 +2812,7 @@
     padding-bottom: 0;
     box-sizing: border-box;
   }
-  .frameParent2,
+  .frameParent1,
   .rectangleContainer {
     scale: 0.75;
   }
@@ -2851,7 +2839,7 @@
   .body2 {
     height: auto;
   }
-  .frameParent6 {
+  .frameParent5 {
     scale: 0.75;
   }
   .body3 {
@@ -2863,7 +2851,7 @@
   .testimonial {
     height: auto;
   }
-  .frameParent8 {
+  .frameParent7 {
     scale: 0.75;
   }
   .body4 {
@@ -2914,7 +2902,7 @@
     scale: 0.75;
   }
   .footer,
-  .imFucked3,
+  .imFucked4,
   .social {
     height: auto;
   }
@@ -2952,20 +2940,15 @@
     align-items: center;
     position: relative;
   }
-  .bodyInner,
-  .groupParent {
-    padding-left: 0;
-    box-sizing: border-box;
-  }
-  .groupParent {
+  .main {
     flex-direction: column;
-    gap: 80px;
+    gap: 100px;
     align-items: center;
     justify-content: center;
-    margin-left: 300;
-  }
-  .bodyInner {
-    scale: 0.75;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 450px;
+    box-sizing: border-box;
   }
   .bodyChild {
     align-self: stretch;
@@ -2999,7 +2982,7 @@
   .contentify22Parent {
     scale: 0.65;
   }
-  .frameParent2 {
+  .frameParent1 {
     gap: var(--gap-0);
     scale: 0.55;
   }
@@ -3020,7 +3003,7 @@
     box-sizing: border-box;
     max-height: 250;
   }
-  .frameParent4 {
+  .frameParent3 {
     flex-direction: column;
   }
   .stage {
@@ -3035,7 +3018,7 @@
     box-sizing: border-box;
     max-height: 60;
   }
-  .frameParent5 {
+  .frameParent4 {
     flex-direction: column;
     margin-left: 265;
   }
@@ -3055,7 +3038,7 @@
   .appsGroup768x366pngIcon {
     scale: 0.75;
   }
-  .frameParent6 {
+  .frameParent5 {
     flex-direction: column;
     gap: var(--gap-0);
     align-items: center;
@@ -3067,7 +3050,7 @@
     padding-bottom: 0;
     box-sizing: border-box;
   }
-  .frameParent7 {
+  .frameParent6 {
     flex-direction: column;
     gap: var(--gap-3xs);
   }
@@ -3087,7 +3070,7 @@
     align-items: center;
     justify-content: flex-start;
   }
-  .frameParent8 {
+  .frameParent7 {
     flex-direction: column;
     gap: var(--gap-31xl);
     scale: 0.65;

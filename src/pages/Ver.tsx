@@ -118,7 +118,7 @@ const Ver: FunctionComponent = () => {
               <img
                 className={styles.imageCrop1Icon}
                 alt=""
-                src="/image-crop-111@2x.png"
+                src="/image-crop-1111@2x.png"
               />
             </div>
           </div>
