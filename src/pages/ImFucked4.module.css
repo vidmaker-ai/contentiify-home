@@ -2926,7 +2926,7 @@
     justify-content: center;
   }
   .frameGroup {
-    gap: 150px;
+    gap: var(--gap-131xl);
     padding-left: var(--padding-31xl);
     box-sizing: border-box;
     scale: 0.85;
@@ -2944,10 +2944,10 @@
   }
   .main {
     flex-direction: column;
-    gap: var(--gap-61xl);
+    gap: var(--gap-131xl);
     align-items: center;
     justify-content: center;
-    padding: 150px 0 400px;
+    padding: var(--padding-31xl) 0 400px;
     box-sizing: border-box;
   }
   .bodyChild {
