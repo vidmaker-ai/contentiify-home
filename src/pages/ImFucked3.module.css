@@ -2959,7 +2959,7 @@
   }
   .groupParent {
     flex-direction: column;
-    gap: 80px;
+    gap: var(--gap-61xl);
     align-items: center;
     justify-content: center;
     margin-left: 300;

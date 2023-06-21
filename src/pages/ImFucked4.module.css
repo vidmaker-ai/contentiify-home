@@ -2944,10 +2944,10 @@
   }
   .main {
     flex-direction: column;
-    gap: 200px;
+    gap: var(--gap-61xl);
     align-items: center;
     justify-content: center;
-    padding: var(--padding-61xl) 0 400px;
+    padding: 150px 0 400px;
     box-sizing: border-box;
   }
   .bodyChild {
