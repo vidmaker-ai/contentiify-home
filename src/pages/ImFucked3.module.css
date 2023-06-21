@@ -2938,7 +2938,7 @@
     justify-content: center;
   }
   .frameGroup {
-    gap: var(--gap-51xl);
+    gap: 70px;
     scale: 0.85;
     margin-left: -20;
   }
