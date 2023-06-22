@@ -2975,19 +2975,21 @@
     scale: 0.55;
   }
   .bodyTrending {
+    height: auto;
     padding-top: 0;
     padding-bottom: 0;
     box-sizing: border-box;
-    max-height: 400;
+    max-height: 200;
   }
   .groupFrame {
     scale: 0.65;
   }
   .bodyAbtesting {
+    height: auto;
     padding-top: 0;
     padding-bottom: 0;
     box-sizing: border-box;
-    max-height: 200;
+    max-height: 300;
   }
   .contentify22Parent {
     scale: 0.65;
@@ -2997,10 +2999,11 @@
     scale: 0.55;
   }
   .bodyHottopic {
+    height: auto;
     padding-top: 0;
     padding-bottom: 0;
     box-sizing: border-box;
-    max-height: 400;
+    max-height: 300;
   }
   .contentify42Parent {
     scale: 0.65;
@@ -3011,7 +3014,7 @@
     padding-top: var(--padding-xl);
     padding-bottom: var(--padding-71xl);
     box-sizing: border-box;
-    max-height: 250;
+    max-height: 300;
   }
   .frameParent3 {
     flex-direction: column;
